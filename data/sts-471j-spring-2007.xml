@@ -1,0 +1,1258 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest xmlns="http://www.imsglobal.org/xsd/imscp_v1p1"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+          xmlns:cwsp="http://www.dspace.org/xmlns/cwspace_imscp"
+          xmlns:ocw="http://ocw.mit.edu/xmlns/ocw_imscp"
+          xmlns:lom="http://ocw.mit.edu/xmlns/LOM"
+          identifier="urn_edu.mit.ocw_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007"
+          version="2013-6-23T0:12:58"
+          cwsp:packageType="Course"
+          xml:base="sts-471j-spring-2007/"
+          xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 http://www.imsglobal.org/xsd/imscp_v1p1.xsd  http://www.adlnet.org/xsd/adlcp_rootv1p2 http://www.adlnet.org/xsd/adlcp_rootv1p2.xsd http://www.dspace.org/xmlns/cwspace_imscp http://www.dspace.org/xsd/cwspace_imscp/version10/cwspace_imscpv10.xsd http://ocw.mit.edu/xmlns/ocw_imscp http://ocw.mit.edu/xsd/ocw_imscp/version10/ocw_imscpv10.xsd http://ocw.mit.edu/xmlns/LOM http://ocw.mit.edu/xsd/LOM/lomv1.0/lomv1.0.xsd">
+   	<metadata>
+   		<schema>IMS Content</schema>
+        <schemaversion>1.1</schemaversion>
+        <cwsp:packageMetadata>
+            <cwsp:sourceSystem>OCW</cwsp:sourceSystem>
+            <cwsp:profile>CWSpace</cwsp:profile>
+            <cwsp:profileVersion>0.1</cwsp:profileVersion>
+        </cwsp:packageMetadata>
+        <lom:general uniqueElementName="general">
+            <lom:title uniqueElementName="title">
+				<lom:string language="en">Engineering Apollo: The Moon Project as a Complex System</lom:string>
+			</lom:title>
+			<lom:identifier>
+				<lom:catalog uniqueElementName="catalog">OCW Master Course Number</lom:catalog>
+		      	<lom:entry uniqueElementName="entry">STS.471J</lom:entry>
+			</lom:identifier>
+			<lom:identifier>
+				<lom:catalog uniqueElementName="catalog">OCW Linked Course Number</lom:catalog>
+		      	<lom:entry uniqueElementName="entry">16.895J</lom:entry>
+			</lom:identifier>
+			<lom:identifier>
+				<lom:catalog uniqueElementName="catalog">OCW Linked Course Number</lom:catalog>
+		      	<lom:entry uniqueElementName="entry">ESD.30J</lom:entry>
+			</lom:identifier>
+        </lom:general>
+        <lom:lifecycle uniqueElementName="lifeCycle">
+            <lom:version uniqueElementName="version">
+				<lom:string language="en">Spring 2007</lom:string>
+			</lom:version>
+            <lom:contribute>
+	            <lom:role>
+	                <lom:source uniqueElementName="source">OCW_LOMv1.0</lom:source>
+	                <lom:value uniqueElementName="value">Author</lom:value>
+	            </lom:role>
+	            <lom:entity>Mindell, David</lom:entity>
+	            <lom:date uniqueElementName="date">
+	                <lom:dateTime uniqueElementName="dateTime">2013-6-23</lom:dateTime>
+	            </lom:date>
+        	</lom:contribute>
+            <lom:contribute>
+	            <lom:role>
+	                <lom:source uniqueElementName="source">OCW_LOMv1.0</lom:source>
+	                <lom:value uniqueElementName="value">Author</lom:value>
+	            </lom:role>
+	            <lom:entity>Young, Laurence R.</lom:entity>
+	            <lom:date uniqueElementName="date">
+	                <lom:dateTime uniqueElementName="dateTime">2013-6-23</lom:dateTime>
+	            </lom:date>
+        	</lom:contribute>
+        </lom:lifecycle>
+        <lom:taxonPath>
+            <lom:source uniqueElementName="source">
+                <lom:string language="en">OCW Course Categories</lom:string>
+            </lom:source>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Engineering</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Aerospace Engineering</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            
+        </lom:taxonPath>
+        <lom:taxonPath>
+            <lom:source uniqueElementName="source">
+                <lom:string language="en">OCW Course Categories</lom:string>
+            </lom:source>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Engineering</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Systems Engineering</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            
+        </lom:taxonPath>        
+        <adlcp:location>contents/index.htm.xml</adlcp:location>
+    </metadata>
+    <organizations default="ocw_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007">
+        <organization identifier="ocw_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007">
+            <title>Engineering Apollo: The Moon Project as a Complex System</title>
+            <item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.CourseHome"
+                  identifierref="r_contents.index.htm"
+                  ocw:sectionTemplateType="CourseHomePage"
+                  ocw:sectionTemplateVersion="2013-6-23">
+				<title>Engineering Apollo: The Moon Project as a Complex System</title>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.sts-471js07.jpg"
+          identifierref="r_contents.sts-471js07.jpg">
+				<title>sts-471js07.jpg</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.sts-471js07-th.jpg"
+          identifierref="r_contents.sts-471js07-th.jpg">
+				<title>sts-471js07-th.jpg</title>
+				</item>
+			</item>
+            <item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.syllabus"
+                  identifierref="r_contents.syllabus.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-23">
+				<title>Syllabus</title>
+			</item>
+            <item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.readings"
+                  identifierref="r_contents.readings.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-23">
+				<title>Readings</title>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.readings.1_4_9_mit_role.pdf"
+          identifierref="r_contents.readings.1_4_9_mit_role.pdf">
+				<title>1_4_9_mit_role.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.readings.soviet_mand_lunr.pdf"
+          identifierref="r_contents.readings.soviet_mand_lunr.pdf">
+				<title>soviet_mand_lunr.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.readings.2_4_9_mit_role.pdf"
+          identifierref="r_contents.readings.2_4_9_mit_role.pdf">
+				<title>2_4_9_mit_role.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.readings.3_5_monograph37.pdf"
+          identifierref="r_contents.readings.3_5_monograph37.pdf">
+				<title>3_5_monograph37.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.readings.4_2_lunr_landing.pdf"
+          identifierref="r_contents.readings.4_2_lunr_landing.pdf">
+				<title>4_2_lunr_landing.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.readings.4_23_bennett.pdf"
+          identifierref="r_contents.readings.4_23_bennett.pdf">
+				<title>4_23_bennett.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.readings.3_7_gerovitch.pdf"
+          identifierref="r_contents.readings.3_7_gerovitch.pdf">
+				<title>3_7_gerovitch.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.readings.dick_launius.pdf"
+          identifierref="r_contents.readings.dick_launius.pdf">
+				<title>dick_launius.pdf</title>
+				</item>
+			</item>
+            <item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.lecture-notes"
+                  identifierref="r_contents.lecture-notes.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-23">
+				<title>Lecture Notes</title>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.lecture-notes.lec22.pdf"
+          identifierref="r_contents.lecture-notes.lec22.pdf">
+				<title>lec22.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.lecture-notes.lec15.pdf"
+          identifierref="r_contents.lecture-notes.lec15.pdf">
+				<title>lec15.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.lecture-notes.lec07.pdf"
+          identifierref="r_contents.lecture-notes.lec07.pdf">
+				<title>lec07.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.lecture-notes.lec08.pdf"
+          identifierref="r_contents.lecture-notes.lec08.pdf">
+				<title>lec08.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.lecture-notes.lec18.pdf"
+          identifierref="r_contents.lecture-notes.lec18.pdf">
+				<title>lec18.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.lecture-notes.lec12.pdf"
+          identifierref="r_contents.lecture-notes.lec12.pdf">
+				<title>lec12.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.lecture-notes.lec14.pdf"
+          identifierref="r_contents.lecture-notes.lec14.pdf">
+				<title>lec14.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.lecture-notes.lec06.pdf"
+          identifierref="r_contents.lecture-notes.lec06.pdf">
+				<title>lec06.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.lecture-notes.lec03.pdf"
+          identifierref="r_contents.lecture-notes.lec03.pdf">
+				<title>lec03.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.lecture-notes.lec05.pdf"
+          identifierref="r_contents.lecture-notes.lec05.pdf">
+				<title>lec05.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.lecture-notes.lec21.pdf"
+          identifierref="r_contents.lecture-notes.lec21.pdf">
+				<title>lec21.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.lecture-notes.lec13.pdf"
+          identifierref="r_contents.lecture-notes.lec13.pdf">
+				<title>lec13.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.lecture-notes.lec19.pdf"
+          identifierref="r_contents.lecture-notes.lec19.pdf">
+				<title>lec19.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.lecture-notes.16nasa_cooke.pdf"
+          identifierref="r_contents.lecture-notes.16nasa_cooke.pdf">
+				<title>16nasa_cooke.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.lecture-notes.22young.pdf"
+          identifierref="r_contents.lecture-notes.22young.pdf">
+				<title>22young.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.lecture-notes.lec24.pdf"
+          identifierref="r_contents.lecture-notes.lec24.pdf">
+				<title>lec24.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.lecture-notes.lec04.pdf"
+          identifierref="r_contents.lecture-notes.lec04.pdf">
+				<title>lec04.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.lecture-notes.lec09.pdf"
+          identifierref="r_contents.lecture-notes.lec09.pdf">
+				<title>lec09.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.lecture-notes.lec26.pdf"
+          identifierref="r_contents.lecture-notes.lec26.pdf">
+				<title>lec26.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.lecture-notes.lec02.pdf"
+          identifierref="r_contents.lecture-notes.lec02.pdf">
+				<title>lec02.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.lecture-notes.lec01.pdf"
+          identifierref="r_contents.lecture-notes.lec01.pdf">
+				<title>lec01.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.lecture-notes.lec11.pdf"
+          identifierref="r_contents.lecture-notes.lec11.pdf">
+				<title>lec11.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.lecture-notes.lec20.pdf"
+          identifierref="r_contents.lecture-notes.lec20.pdf">
+				<title>lec20.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.lecture-notes.lec10.pdf"
+          identifierref="r_contents.lecture-notes.lec10.pdf">
+				<title>lec10.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.lecture-notes.lec17.pdf"
+          identifierref="r_contents.lecture-notes.lec17.pdf">
+				<title>lec17.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.lecture-notes.lec16.pdf"
+          identifierref="r_contents.lecture-notes.lec16.pdf">
+				<title>lec16.pdf</title>
+				</item>
+			</item>
+            <item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.assignments"
+                  identifierref="r_contents.assignments.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-23">
+				<title>Assignments</title>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.assignments.bok_rev_mclinko.pdf"
+          identifierref="r_contents.assignments.bok_rev_mclinko.pdf">
+				<title>bok_rev_mclinko.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.assignments.bok_rev_bachmann.pdf"
+          identifierref="r_contents.assignments.bok_rev_bachmann.pdf">
+				<title>bok_rev_bachmann.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.assignments.bok_rev_brunet.pdf"
+          identifierref="r_contents.assignments.bok_rev_brunet.pdf">
+				<title>bok_rev_brunet.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.assignments.bok_rev_szajnfar.pdf"
+          identifierref="r_contents.assignments.bok_rev_szajnfar.pdf">
+				<title>bok_rev_szajnfar.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.assignments.bok_rep_renkoski.pdf"
+          identifierref="r_contents.assignments.bok_rep_renkoski.pdf">
+				<title>bok_rep_renkoski.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.assignments.bok_rev_graham.pdf"
+          identifierref="r_contents.assignments.bok_rev_graham.pdf">
+				<title>bok_rev_graham.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.assignments.bok_rev_yamamoto.pdf"
+          identifierref="r_contents.assignments.bok_rev_yamamoto.pdf">
+				<title>bok_rev_yamamoto.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.assignments.bok_rev_cunio.pdf"
+          identifierref="r_contents.assignments.bok_rev_cunio.pdf">
+				<title>bok_rev_cunio.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.assignments.bok_rev_deems.pdf"
+          identifierref="r_contents.assignments.bok_rev_deems.pdf">
+				<title>bok_rev_deems.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.assignments.bok_rev_needham.pdf"
+          identifierref="r_contents.assignments.bok_rev_needham.pdf">
+				<title>bok_rev_needham.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.assignments.bok_rev_baker.pdf"
+          identifierref="r_contents.assignments.bok_rev_baker.pdf">
+				<title>bok_rev_baker.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.assignments.bok_rev_fanchian.pdf"
+          identifierref="r_contents.assignments.bok_rev_fanchian.pdf">
+				<title>bok_rev_fanchian.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.assignments.bok_rev_myers.pdf"
+          identifierref="r_contents.assignments.bok_rev_myers.pdf">
+				<title>bok_rev_myers.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.assignments.bok_rev_friedman.pdf"
+          identifierref="r_contents.assignments.bok_rev_friedman.pdf">
+				<title>bok_rev_friedman.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.assignments.bok_rev_brzezins.pdf"
+          identifierref="r_contents.assignments.bok_rev_brzezins.pdf">
+				<title>bok_rev_brzezins.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.assignments.bok_rev_pereira.pdf"
+          identifierref="r_contents.assignments.bok_rev_pereira.pdf">
+				<title>bok_rev_pereira.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.assignments.bok_rev_chin.pdf"
+          identifierref="r_contents.assignments.bok_rev_chin.pdf">
+				<title>bok_rev_chin.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.assignments.bok_rev_gillespi.pdf"
+          identifierref="r_contents.assignments.bok_rev_gillespi.pdf">
+				<title>bok_rev_gillespi.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.assignments.bok_rev_khan.pdf"
+          identifierref="r_contents.assignments.bok_rev_khan.pdf">
+				<title>bok_rev_khan.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.assignments.grayteam.pdf"
+          identifierref="r_contents.assignments.grayteam.pdf">
+				<title>grayteam.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.assignments.bok_rev_cohan.pdf"
+          identifierref="r_contents.assignments.bok_rev_cohan.pdf">
+				<title>bok_rev_cohan.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.assignments.bok_rev_panish.pdf"
+          identifierref="r_contents.assignments.bok_rev_panish.pdf">
+				<title>bok_rev_panish.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.assignments.bok_rev_gay.pdf"
+          identifierref="r_contents.assignments.bok_rev_gay.pdf">
+				<title>bok_rev_gay.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.assignments.crimsonteam.pdf"
+          identifierref="r_contents.assignments.crimsonteam.pdf">
+				<title>crimsonteam.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.assignments.bok_rev_edwards.pdf"
+          identifierref="r_contents.assignments.bok_rev_edwards.pdf">
+				<title>bok_rev_edwards.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.assignments.book_review.pdf"
+          identifierref="r_contents.assignments.book_review.pdf">
+				<title>book_review.pdf</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.assignments.Apollo_Lunar_surface_journals.pdf"
+          identifierref="r_contents.assignments.Apollo_Lunar_surface_journals.pdf">
+				<title>Apollo_Lunar_surface_journals.pdf</title>
+				</item>
+			</item>
+            <item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.related-resources"
+                  identifierref="r_contents.related-resources.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-23">
+				<title>Related Resources</title>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.related-resources.ap15_descent.mpg"
+          identifierref="r_contents.related-resources.ap15_descent.mpg">
+				<title>ap15_descent.mpg</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.related-resources.a17landing.mov"
+          identifierref="r_contents.related-resources.a17landing.mov">
+				<title>a17landing.mov</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.related-resources.a16landing.mov"
+          identifierref="r_contents.related-resources.a16landing.mov">
+				<title>a16landing.mov</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.related-resources.a12a1094125.mp3"
+          identifierref="r_contents.related-resources.a12a1094125.mp3">
+				<title>a12a1094125.mp3</title>
+				</item>
+				<item identifier="i_sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007.related-resources.a14land24fps_DivX.avi"
+          identifierref="r_contents.related-resources.a14land24fps_DivX.avi">
+				<title>a14land24fps_DivX.avi</title>
+				</item>
+			</item>
+            <item identifier="i_terms"
+                  identifierref="r_common.terms.index.htm"
+                  ocw:sectionTemplateType="GlobalSection"
+                  ocw:sectionTemplateVersion="2013-6-23">
+				<title>Legal Notices</title>
+			</item>
+            <item identifier="i_terms"
+                  identifierref="r_common.terms.index.htm"
+                  ocw:sectionTemplateType="GlobalSection"
+                  ocw:sectionTemplateVersion="2013-6-23">
+				<title>Privacy Statement</title>
+			</item>
+            <item identifier="i_terms.trademarks"
+                  identifierref="r_common.terms.trademarks.index.htm"
+                  ocw:sectionTemplateType="GlobalSection"
+                  ocw:sectionTemplateVersion="2013-6-23">
+				<title>Trademark Notices</title>
+			</item>
+        </organization>
+    </organizations>
+    <resources>
+        <resource identifier="r_contents.lecture-notes.lec15.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec15.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec15.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec15.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.readings.4_23_bennett.pdf"
+                  type="other"
+                  href="contents/readings/4_23_bennett.pdf">
+            <metadata>
+                <adlcp:location>contents/readings/4_23_bennett.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/readings/4_23_bennett.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.bok_rev_cohan.pdf"
+                  type="other"
+                  href="contents/assignments/bok_rev_cohan.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/bok_rev_cohan.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/bok_rev_cohan.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec11.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec11.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec11.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec11.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec02.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec02.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec02.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec02.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.grayteam.pdf"
+                  type="other"
+                  href="contents/assignments/grayteam.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/grayteam.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/grayteam.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.readings.1_4_9_mit_role.pdf"
+                  type="other"
+                  href="contents/readings/1_4_9_mit_role.pdf">
+            <metadata>
+                <adlcp:location>contents/readings/1_4_9_mit_role.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/readings/1_4_9_mit_role.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.bok_rev_friedman.pdf"
+                  type="other"
+                  href="contents/assignments/bok_rev_friedman.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/bok_rev_friedman.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/bok_rev_friedman.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.index.htm"
+                  type="webcontent"
+                  href="contents/index.htm">
+            <metadata>
+                <adlcp:location>contents/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/index.htm"/>
+            <dependency identifierref="webrenderrequirements.sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007"/>            
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec24.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec24.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec24.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec24.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.bok_rev_szajnfar.pdf"
+                  type="other"
+                  href="contents/assignments/bok_rev_szajnfar.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/bok_rev_szajnfar.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/bok_rev_szajnfar.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.bok_rev_myers.pdf"
+                  type="other"
+                  href="contents/assignments/bok_rev_myers.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/bok_rev_myers.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/bok_rev_myers.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec19.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec19.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec19.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec19.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec16.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec16.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec16.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec16.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec04.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec04.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec04.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec04.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.index.htm"
+                  type="webcontent"
+                  href="contents/assignments/index.htm">
+            <metadata>
+                <adlcp:location>contents/assignments/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/index.htm"/>
+            <dependency identifierref="webrenderrequirements.sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007"/>            
+        </resource>
+        <resource identifier="r_contents.assignments.Apollo_Lunar_surface_journals.pdf"
+                  type="other"
+                  href="contents/assignments/Apollo_Lunar_surface_journals.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/Apollo_Lunar_surface_journals.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/Apollo_Lunar_surface_journals.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.syllabus.index.htm"
+                  type="webcontent"
+                  href="contents/syllabus/index.htm">
+            <metadata>
+                <adlcp:location>contents/syllabus/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/syllabus/index.htm"/>
+            <dependency identifierref="webrenderrequirements.sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007"/>            
+        </resource>
+        <resource identifier="r_contents.readings.3_5_monograph37.pdf"
+                  type="other"
+                  href="contents/readings/3_5_monograph37.pdf">
+            <metadata>
+                <adlcp:location>contents/readings/3_5_monograph37.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/readings/3_5_monograph37.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec05.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec05.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec05.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec05.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.bok_rev_bachmann.pdf"
+                  type="other"
+                  href="contents/assignments/bok_rev_bachmann.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/bok_rev_bachmann.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/bok_rev_bachmann.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.bok_rev_baker.pdf"
+                  type="other"
+                  href="contents/assignments/bok_rev_baker.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/bok_rev_baker.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/bok_rev_baker.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec22.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec22.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec22.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec22.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.crimsonteam.pdf"
+                  type="other"
+                  href="contents/assignments/crimsonteam.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/crimsonteam.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/crimsonteam.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec26.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec26.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec26.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec26.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.bok_rev_gillespi.pdf"
+                  type="other"
+                  href="contents/assignments/bok_rev_gillespi.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/bok_rev_gillespi.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/bok_rev_gillespi.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.readings.index.htm"
+                  type="webcontent"
+                  href="contents/readings/index.htm">
+            <metadata>
+                <adlcp:location>contents/readings/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/readings/index.htm"/>
+            <dependency identifierref="webrenderrequirements.sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007"/>            
+        </resource>
+        <resource identifier="r_contents.assignments.bok_rev_brunet.pdf"
+                  type="other"
+                  href="contents/assignments/bok_rev_brunet.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/bok_rev_brunet.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/bok_rev_brunet.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.readings.dick_launius.pdf"
+                  type="other"
+                  href="contents/readings/dick_launius.pdf">
+            <metadata>
+                <adlcp:location>contents/readings/dick_launius.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/readings/dick_launius.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.16nasa_cooke.pdf"
+                  type="other"
+                  href="contents/lecture-notes/16nasa_cooke.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/16nasa_cooke.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/16nasa_cooke.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.related-resources.index.htm"
+                  type="webcontent"
+                  href="contents/related-resources/index.htm">
+            <metadata>
+                <adlcp:location>contents/related-resources/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/related-resources/index.htm"/>
+            <dependency identifierref="webrenderrequirements.sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007"/>            
+        </resource>
+        <resource identifier="r_contents.readings.soviet_mand_lunr.pdf"
+                  type="other"
+                  href="contents/readings/soviet_mand_lunr.pdf">
+            <metadata>
+                <adlcp:location>contents/readings/soviet_mand_lunr.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/readings/soviet_mand_lunr.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec17.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec17.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec17.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec17.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.bok_rev_graham.pdf"
+                  type="other"
+                  href="contents/assignments/bok_rev_graham.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/bok_rev_graham.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/bok_rev_graham.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.related-resources.a16landing.mov"
+                  type="other"
+                  href="contents/related-resources/a16landing.mov">
+            <metadata>
+                <adlcp:location>contents/related-resources/a16landing.mov.xml</adlcp:location>
+            </metadata>
+            <file href="contents/related-resources/a16landing.mov"/>
+                        
+        </resource>
+        <resource identifier="r_contents.readings.3_7_gerovitch.pdf"
+                  type="other"
+                  href="contents/readings/3_7_gerovitch.pdf">
+            <metadata>
+                <adlcp:location>contents/readings/3_7_gerovitch.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/readings/3_7_gerovitch.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.bok_rev_fanchian.pdf"
+                  type="other"
+                  href="contents/assignments/bok_rev_fanchian.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/bok_rev_fanchian.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/bok_rev_fanchian.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.bok_rev_brzezins.pdf"
+                  type="other"
+                  href="contents/assignments/bok_rev_brzezins.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/bok_rev_brzezins.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/bok_rev_brzezins.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec09.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec09.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec09.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec09.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.sts-471js07-th.jpg"
+                  type="other"
+                  href="contents/sts-471js07-th.jpg">
+            <metadata>
+                <adlcp:location>contents/sts-471js07-th.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/sts-471js07-th.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.index.htm"
+                  type="webcontent"
+                  href="contents/lecture-notes/index.htm">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/index.htm"/>
+            <dependency identifierref="webrenderrequirements.sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007"/>            
+        </resource>
+        <resource identifier="r_contents.assignments.bok_rep_renkoski.pdf"
+                  type="other"
+                  href="contents/assignments/bok_rep_renkoski.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/bok_rep_renkoski.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/bok_rep_renkoski.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.bok_rev_deems.pdf"
+                  type="other"
+                  href="contents/assignments/bok_rev_deems.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/bok_rev_deems.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/bok_rev_deems.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.bok_rev_khan.pdf"
+                  type="other"
+                  href="contents/assignments/bok_rev_khan.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/bok_rev_khan.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/bok_rev_khan.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec01.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec01.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec01.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec01.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.related-resources.a17landing.mov"
+                  type="other"
+                  href="contents/related-resources/a17landing.mov">
+            <metadata>
+                <adlcp:location>contents/related-resources/a17landing.mov.xml</adlcp:location>
+            </metadata>
+            <file href="contents/related-resources/a17landing.mov"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.22young.pdf"
+                  type="other"
+                  href="contents/lecture-notes/22young.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/22young.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/22young.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec13.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec13.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec13.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec13.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.sts-471js07.jpg"
+                  type="other"
+                  href="contents/sts-471js07.jpg">
+            <metadata>
+                <adlcp:location>contents/sts-471js07.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/sts-471js07.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec07.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec07.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec07.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec07.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.bok_rev_chin.pdf"
+                  type="other"
+                  href="contents/assignments/bok_rev_chin.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/bok_rev_chin.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/bok_rev_chin.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec21.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec21.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec21.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec21.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.bok_rev_yamamoto.pdf"
+                  type="other"
+                  href="contents/assignments/bok_rev_yamamoto.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/bok_rev_yamamoto.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/bok_rev_yamamoto.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec14.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec14.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec14.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec14.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.bok_rev_pereira.pdf"
+                  type="other"
+                  href="contents/assignments/bok_rev_pereira.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/bok_rev_pereira.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/bok_rev_pereira.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec20.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec20.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec20.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec20.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec12.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec12.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec12.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec12.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.readings.4_2_lunr_landing.pdf"
+                  type="other"
+                  href="contents/readings/4_2_lunr_landing.pdf">
+            <metadata>
+                <adlcp:location>contents/readings/4_2_lunr_landing.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/readings/4_2_lunr_landing.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.bok_rev_panish.pdf"
+                  type="other"
+                  href="contents/assignments/bok_rev_panish.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/bok_rev_panish.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/bok_rev_panish.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec18.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec18.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec18.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec18.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.bok_rev_mclinko.pdf"
+                  type="other"
+                  href="contents/assignments/bok_rev_mclinko.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/bok_rev_mclinko.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/bok_rev_mclinko.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.bok_rev_cunio.pdf"
+                  type="other"
+                  href="contents/assignments/bok_rev_cunio.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/bok_rev_cunio.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/bok_rev_cunio.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.bok_rev_needham.pdf"
+                  type="other"
+                  href="contents/assignments/bok_rev_needham.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/bok_rev_needham.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/bok_rev_needham.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.book_review.pdf"
+                  type="other"
+                  href="contents/assignments/book_review.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/book_review.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/book_review.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec08.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec08.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec08.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec08.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.readings.2_4_9_mit_role.pdf"
+                  type="other"
+                  href="contents/readings/2_4_9_mit_role.pdf">
+            <metadata>
+                <adlcp:location>contents/readings/2_4_9_mit_role.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/readings/2_4_9_mit_role.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec10.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec10.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec10.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec10.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.related-resources.ap15_descent.mpg"
+                  type="other"
+                  href="contents/related-resources/ap15_descent.mpg">
+            <metadata>
+                <adlcp:location>contents/related-resources/ap15_descent.mpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/related-resources/ap15_descent.mpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.related-resources.a14land24fps_DivX.avi"
+                  type="other"
+                  href="contents/related-resources/a14land24fps_DivX.avi">
+            <metadata>
+                <adlcp:location>contents/related-resources/a14land24fps_DivX.avi.xml</adlcp:location>
+            </metadata>
+            <file href="contents/related-resources/a14land24fps_DivX.avi"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec06.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec06.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec06.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec06.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.related-resources.a12a1094125.mp3"
+                  type="other"
+                  href="contents/related-resources/a12a1094125.mp3">
+            <metadata>
+                <adlcp:location>contents/related-resources/a12a1094125.mp3.xml</adlcp:location>
+            </metadata>
+            <file href="contents/related-resources/a12a1094125.mp3"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec03.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec03.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec03.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec03.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.bok_rev_edwards.pdf"
+                  type="other"
+                  href="contents/assignments/bok_rev_edwards.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/bok_rev_edwards.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/bok_rev_edwards.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.bok_rev_gay.pdf"
+                  type="other"
+                  href="contents/assignments/bok_rev_gay.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/bok_rev_gay.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/bok_rev_gay.pdf"/>
+                        
+        </resource>        
+        <resource identifier="r_common.search.AdvancedSearch.htm"
+                  type="webcontent"
+                  href="common/search/AdvancedSearch.htm">
+            <file href="common/search/AdvancedSearch.htm"/>
+            <dependency identifierref="webrenderrequirements.sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007"/>            
+        </resource>
+        <resource identifier="r_common.jsp.feedback.htm"
+                  type="webcontent"
+                  href="common/jsp/feedback.htm">
+            <file href="common/jsp/feedback.htm"/>
+            <dependency identifierref="webrenderrequirements.sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007"/>            
+        </resource>
+        <resource identifier="r_common.terms.index.htm"
+                  type="webcontent"
+                  href="common/terms/index.htm">
+            <file href="common/terms/share.png"/>
+            <file href="common/terms/remix.png"/>
+            <file href="common/terms/by.png"/>
+            <file href="common/terms/nc.png"/>
+            <file href="common/terms/sa.png"/>
+            <file href="common/terms/deedheadyellow.png"/>
+            <file href="common/terms/freedomsheader.png"/>
+            <file href="common/terms/limitationsheader.png"/>
+            <file href="common/terms/deedfootyellow.png"/>
+            <dependency identifierref="webrenderrequirements.sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007"/>            
+        </resource>
+        <resource identifier="r_common.terms.trademarks.index.htm"
+                  type="webcontent"
+                  href="common/terms/trademarks/index.htm">
+            <file href="common/terms/trademarks/index.htm"/>
+            <dependency identifierref="webrenderrequirements.sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007"/>            
+        </resource>
+        <resource identifier="webrenderrequirements.sts-471j-engineering-apollo-the-moon-project-as-a-complex-system-spring-2007"
+                  type="webcontent">
+        	<file href="common/styles/base.css"/>
+        	<file href="common/styles/courses.css"/>
+        	<file href="common/styles/courses_new.css"/>
+        	<file href="common/styles/global.css"/>
+        	<file href="common/styles/grid.css"/>
+        	<file href="common/styles/highslide.css"/>
+        	<file href="common/styles/highslide-ie6.css"/>
+        	<file href="common/styles/jquery.bubblepopup.css"/>
+        	<file href="common/styles/jquery.jscrollpane.css"/>
+        	<file href="common/styles/jquery-ui.css"/>
+        	<file href="common/styles/menu.css"/>
+        	<file href="common/styles/scholar2.css"/>
+        	<file href="common/styles/media_tabs.css"/>
+        	<file href="common/scripts/bubble-popup-offline.js"/>
+        	<file href="common/scripts/common-utils-offline.js"/>
+        	<file href="common/scripts/highslide-with-gallery.js"/>
+        	<file href="common/scripts/jquery.bubblepopup.min.js"/>
+        	<file href="common/scripts/jquery.jscrollpane.min.js"/>
+        	<file href="common/scripts/jquery-ui.min.js"/>
+        	<file href="common/scripts/jQuizMe-uncompressed.js"/>
+        	<file href="common/scripts/ocw-offline.js"/>
+        	<file href="common/scripts/expandy.js"/>
+        	<file href="common/images/ocw_mast.png"/>
+        	<file href="common/images/button_subscribe.png"/>
+        	<file href="common/images/icon_fb.png"/>
+        	<file href="common/images/icon_tw.png"/>
+        	<file href="common/images/top-nav_home.png"/>
+        	<file href="common/images/button_search.png"/>
+        	<file href="common/images/bg_top.png"/>
+        	<file href="common/images/bg_social.png"/>
+        	<file href="common/images/bg_mega-courses.png"/>
+        	<file href="common/images/bg_center2.png"/>
+        	<file href="common/images/bg_course-nav_current.png"/>
+        	<file href="common/images/button_donate-now.png"/>
+        	<file href="common/images/logo_mit.png"/>
+        	<file href="common/images/logo_ocwc.gif"/>
+        	<file href="common/images/cc_by-nc-sa.png"/>
+        	<file href="common/images/logo_dow.png"/>
+        	<file href="common/images/logo_lockheed.png"/>
+        	<file href="common/images/logo_mathworks.png"/>
+        	<file href="common/images/logo_abinitio.png"/>
+        	<file href="common/images/bg_bottom.png"/>
+        	<file href="common/images/nav_arrow.png"/>
+        	<file href="common/images/black-arrow.gif"/>
+        	<file href="common/images/trans.gif"/>
+        	<file href="common/images/arrow-bullet.gif"/>
+        	<file href="common/images/apple-touch-icon.png"/>
+        	<file href="common/images/highslide/graphics/zoomin.cur"/>
+        	<file href="common/images/highslide/graphics/zoomout.cur"/>
+        	<file href="common/images/highslide/graphics/controlbar2.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar3.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar4.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar4-hover.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar-black-border.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar-white.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar-white-small.gif"/>
+        	<file href="common/images/highslide/graphics/fullexpand.gif"/>
+        	<file href="common/images/highslide/graphics/icon.gif"/>
+        	<file href="common/images/highslide/graphics/loader.gif"/>
+        	<file href="common/images/highslide/graphics/loader.white.gif"/>
+        	<file href="common/images/highslide/graphics/resize.gif"/>
+        	<file href="common/images/highslide/graphics/close.png"/>
+        	<file href="common/images/highslide/graphics/closeX.png"/>
+        	<file href="common/images/highslide/graphics/controlbar-text-buttons.png"/>
+        	<file href="common/images/highslide/graphics/geckodimmer.png"/>
+        	<file href="common/images/highslide/graphics/scrollarrows.png"/>
+        	<file href="common/images/highslide/graphics/outlines/beveled.png"/>
+        	<file href="common/images/highslide/graphics/outlines/drop-shadow.png"/>
+        	<file href="common/images/highslide/graphics/outlines/glossy-dark.png"/>
+        	<file href="common/images/highslide/graphics/outlines/outer-glow.png"/>
+        	<file href="common/images/highslide/graphics/outlines/rounded-black.png"/>
+        	<file href="common/images/highslide/graphics/outlines/rounded-white.png"/>
+        	<file href="common/images/highslide/graphics/outlines/Outlines.psd"/>
+        	<file href="common/images/button_continue.jpg"/>
+        	<file href="common/images/button_donate.jpg"/>
+        	<file href="common/images/button_start.jpg"/>
+        	<file href="common/images/scholar_bar_chp.png"/>
+        	<file href="common/images/scholar_bar.png"/>
+        	<file href="common/images/logo_pdf.jpg"/>
+        	<file href="common/images/h2_trigger_open_close.gif"/>
+        	<file href="common/images/bookmark.gif"/>
+        	<file href="common/images/check.png"/>
+        	<file href="common/images/lightbulb.png"/>
+        	<file href="common/images/audio_file.gif"/>
+        	<file href="common/images/audio_only_slate.gif"/>
+        	<file href="common/images/video_file.gif"/>
+        	<file href="common/images/back-5.png"/>
+        	<file href="common/images/btn_next_resource.png"/>
+        	<file href="common/images/btn_previous_resource.png"/>
+        	<file href="common/images/close.png"/>
+        	<file href="common/images/inacessible.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/bottom-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/bottom-middle.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/bottom-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/middle-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/middle-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-bottom.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-top.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/top-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/top-middle.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/top-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/bottom-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/bottom-middle.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/bottom-right.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/middle-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/middle-right.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-bottom.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-right.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-top.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/top-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/top-middle.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/top-right.png"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.woff"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.ttf"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.svg"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.eot"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.woff"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.ttf"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.eot"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.svg"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.woff"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.ttf"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.svg"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.eot"/>
+        </resource>        
+  </resources>
+</manifest>

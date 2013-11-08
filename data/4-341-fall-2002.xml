@@ -1,0 +1,1409 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest xmlns="http://www.imsglobal.org/xsd/imscp_v1p1"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+          xmlns:cwsp="http://www.dspace.org/xmlns/cwspace_imscp"
+          xmlns:ocw="http://ocw.mit.edu/xmlns/ocw_imscp"
+          xmlns:lom="http://ocw.mit.edu/xmlns/LOM"
+          identifier="urn_edu.mit.ocw_4-341-introduction-to-photography-fall-2002"
+          version="2013-6-22T9:14:37"
+          cwsp:packageType="Course"
+          xml:base="4-341-fall-2002/"
+          xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 http://www.imsglobal.org/xsd/imscp_v1p1.xsd  http://www.adlnet.org/xsd/adlcp_rootv1p2 http://www.adlnet.org/xsd/adlcp_rootv1p2.xsd http://www.dspace.org/xmlns/cwspace_imscp http://www.dspace.org/xsd/cwspace_imscp/version10/cwspace_imscpv10.xsd http://ocw.mit.edu/xmlns/ocw_imscp http://ocw.mit.edu/xsd/ocw_imscp/version10/ocw_imscpv10.xsd http://ocw.mit.edu/xmlns/LOM http://ocw.mit.edu/xsd/LOM/lomv1.0/lomv1.0.xsd">
+   	<metadata>
+   		<schema>IMS Content</schema>
+        <schemaversion>1.1</schemaversion>
+        <cwsp:packageMetadata>
+            <cwsp:sourceSystem>OCW</cwsp:sourceSystem>
+            <cwsp:profile>CWSpace</cwsp:profile>
+            <cwsp:profileVersion>0.1</cwsp:profileVersion>
+        </cwsp:packageMetadata>
+        <lom:general uniqueElementName="general">
+            <lom:title uniqueElementName="title">
+				<lom:string language="en">Introduction to Photography</lom:string>
+			</lom:title>
+			<lom:identifier>
+				<lom:catalog uniqueElementName="catalog">OCW Master Course Number</lom:catalog>
+		      	<lom:entry uniqueElementName="entry">4.341</lom:entry>
+			</lom:identifier>
+        </lom:general>
+        <lom:lifecycle uniqueElementName="lifeCycle">
+            <lom:version uniqueElementName="version">
+				<lom:string language="en">Fall 2002</lom:string>
+			</lom:version>
+            <lom:contribute>
+	            <lom:role>
+	                <lom:source uniqueElementName="source">OCW_LOMv1.0</lom:source>
+	                <lom:value uniqueElementName="value">Author</lom:value>
+	            </lom:role>
+	            <lom:entity>Leist, Reiner</lom:entity>
+	            <lom:date uniqueElementName="date">
+	                <lom:dateTime uniqueElementName="dateTime">2013-6-22</lom:dateTime>
+	            </lom:date>
+        	</lom:contribute>
+        </lom:lifecycle>
+        <lom:relation uniqueElementName="relation">
+        	<lom:kind uniqueElementName="kind">
+        		<lom:source uniqueElementName="source">OCW_LOMv1.0</lom:source>
+        		<lom:value uniqueElementName="value">hasversion</lom:value>
+        	</lom:kind>
+        	<lom:resource uniqueElementName="resource">
+        		<lom:identifier>
+        			<lom:catalog uniqueElementName="catalog">URI</lom:catalog>
+        			<lom:entry uniqueElementName="entry">http://mit.universia.com.br/curso.jsp?codcurso=45</lom:entry>
+        		</lom:identifier>
+        		<lom:description uniqueElementName="description">
+        			<lom:string language="en"></lom:string>
+        		</lom:description>
+        	</lom:resource>
+        </lom:relation>
+        <lom:relation uniqueElementName="relation">
+        	<lom:kind uniqueElementName="kind">
+        		<lom:source uniqueElementName="source">OCW_LOMv1.0</lom:source>
+        		<lom:value uniqueElementName="value">hasversion</lom:value>
+        	</lom:kind>
+        	<lom:resource uniqueElementName="resource">
+        		<lom:identifier>
+        			<lom:catalog uniqueElementName="catalog">URI</lom:catalog>
+        			<lom:entry uniqueElementName="entry">http://mit.ocw.universia.net/4.341/OcwWeb/Architecture/4-341Introduction-to-PhotographyFall2002/CourseHome/index.htm</lom:entry>
+        		</lom:identifier>
+        		<lom:description uniqueElementName="description">
+        			<lom:string language="en"></lom:string>
+        		</lom:description>
+        	</lom:resource>
+        </lom:relation>
+        <lom:relation uniqueElementName="relation">
+        	<lom:kind uniqueElementName="kind">
+        		<lom:source uniqueElementName="source">OCW_LOMv1.0</lom:source>
+        		<lom:value uniqueElementName="value">hasversion</lom:value>
+        	</lom:kind>
+        	<lom:resource uniqueElementName="resource">
+        		<lom:identifier>
+        			<lom:catalog uniqueElementName="catalog">URI</lom:catalog>
+        			<lom:entry uniqueElementName="entry">http://www.core.org.cn/OcwWeb/Architecture/4-341Introduction-to-PhotographyFall2002/CourseHome/index.htm</lom:entry>
+        		</lom:identifier>
+        		<lom:description uniqueElementName="description">
+        			<lom:string language="en"></lom:string>
+        		</lom:description>
+        	</lom:resource>
+        </lom:relation>
+        <lom:taxonPath>
+            <lom:source uniqueElementName="source">
+                <lom:string language="en">OCW Course Categories</lom:string>
+            </lom:source>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Fine Arts</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Visual Arts</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Photography</lom:string>
+                </lom:entry>
+            </lom:taxon>
+        </lom:taxonPath>        
+        <adlcp:location>contents/index.htm.xml</adlcp:location>
+    </metadata>
+    <organizations default="ocw_4-341-introduction-to-photography-fall-2002">
+        <organization identifier="ocw_4-341-introduction-to-photography-fall-2002">
+            <title>Introduction to Photography</title>
+            <item identifier="i_4-341-introduction-to-photography-fall-2002.CourseHome"
+                  identifierref="r_contents.index.htm"
+                  ocw:sectionTemplateType="CourseHomePage"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Introduction to Photography</title>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.4-341f02.jpg"
+          identifierref="r_contents.4-341f02.jpg">
+				<title>4-341f02.jpg</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.4-341f02-th.jpg"
+          identifierref="r_contents.4-341f02-th.jpg">
+				<title>4-341f02-th.jpg</title>
+				</item>
+			</item>
+            <item identifier="i_4-341-introduction-to-photography-fall-2002.syllabus"
+                  identifierref="r_contents.syllabus.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Syllabus</title>
+			</item>
+            <item identifier="i_4-341-introduction-to-photography-fall-2002.projects"
+                  identifierref="r_contents.projects.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Projects</title>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.shnayderman1.JPG"
+          identifierref="r_contents.projects.shnayderman1.JPG">
+				<title>shnayderman1.JPG</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.carvey4.JPG"
+          identifierref="r_contents.projects.carvey4.JPG">
+				<title>carvey4.JPG</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.carvey13.jpg"
+          identifierref="r_contents.projects.carvey13.jpg">
+				<title>carvey13.jpg</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.noren12.jpg"
+          identifierref="r_contents.projects.noren12.jpg">
+				<title>noren12.jpg</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.halpern15.jpg"
+          identifierref="r_contents.projects.halpern15.jpg">
+				<title>halpern15.jpg</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.lafferty4.JPG"
+          identifierref="r_contents.projects.lafferty4.JPG">
+				<title>lafferty4.JPG</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.tao6.JPG"
+          identifierref="r_contents.projects.tao6.JPG">
+				<title>tao6.JPG</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.carvey7.JPG"
+          identifierref="r_contents.projects.carvey7.JPG">
+				<title>carvey7.JPG</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.carvey1.JPG"
+          identifierref="r_contents.projects.carvey1.JPG">
+				<title>carvey1.JPG</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.carvey5.JPG"
+          identifierref="r_contents.projects.carvey5.JPG">
+				<title>carvey5.JPG</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.tao11.jpg"
+          identifierref="r_contents.projects.tao11.jpg">
+				<title>tao11.jpg</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.lafferty3.JPG"
+          identifierref="r_contents.projects.lafferty3.JPG">
+				<title>lafferty3.JPG</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.lafferty5.JPG"
+          identifierref="r_contents.projects.lafferty5.JPG">
+				<title>lafferty5.JPG</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.lafferty13.jpg"
+          identifierref="r_contents.projects.lafferty13.jpg">
+				<title>lafferty13.jpg</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.tao4.JPG"
+          identifierref="r_contents.projects.tao4.JPG">
+				<title>tao4.JPG</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.shnayderman14.jpg"
+          identifierref="r_contents.projects.shnayderman14.jpg">
+				<title>shnayderman14.jpg</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.noren16.jpg"
+          identifierref="r_contents.projects.noren16.jpg">
+				<title>noren16.jpg</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.noren11.jpg"
+          identifierref="r_contents.projects.noren11.jpg">
+				<title>noren11.jpg</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.lafferty15.jpg"
+          identifierref="r_contents.projects.lafferty15.jpg">
+				<title>lafferty15.jpg</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.lafferty16.jpg"
+          identifierref="r_contents.projects.lafferty16.jpg">
+				<title>lafferty16.jpg</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.shnayderman15.jpg"
+          identifierref="r_contents.projects.shnayderman15.jpg">
+				<title>shnayderman15.jpg</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.tao14.jpg"
+          identifierref="r_contents.projects.tao14.jpg">
+				<title>tao14.jpg</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.noren3.JPG"
+          identifierref="r_contents.projects.noren3.JPG">
+				<title>noren3.JPG</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.halpern13.jpg"
+          identifierref="r_contents.projects.halpern13.jpg">
+				<title>halpern13.jpg</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.carvey11.jpg"
+          identifierref="r_contents.projects.carvey11.jpg">
+				<title>carvey11.jpg</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.carvey16.jpg"
+          identifierref="r_contents.projects.carvey16.jpg">
+				<title>carvey16.jpg</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.halpern16.jpg"
+          identifierref="r_contents.projects.halpern16.jpg">
+				<title>halpern16.jpg</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.lafferty6.JPG"
+          identifierref="r_contents.projects.lafferty6.JPG">
+				<title>lafferty6.JPG</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.tao13.jpg"
+          identifierref="r_contents.projects.tao13.jpg">
+				<title>tao13.jpg</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.lafferty11.jpg"
+          identifierref="r_contents.projects.lafferty11.jpg">
+				<title>lafferty11.jpg</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.halpern14.jpg"
+          identifierref="r_contents.projects.halpern14.jpg">
+				<title>halpern14.jpg</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.tao5.JPG"
+          identifierref="r_contents.projects.tao5.JPG">
+				<title>tao5.JPG</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.tao2.JPG"
+          identifierref="r_contents.projects.tao2.JPG">
+				<title>tao2.JPG</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.carvey3.JPG"
+          identifierref="r_contents.projects.carvey3.JPG">
+				<title>carvey3.JPG</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.noren14.jpg"
+          identifierref="r_contents.projects.noren14.jpg">
+				<title>noren14.jpg</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.shnayderman16.jpg"
+          identifierref="r_contents.projects.shnayderman16.jpg">
+				<title>shnayderman16.jpg</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.lafferty7.JPG"
+          identifierref="r_contents.projects.lafferty7.JPG">
+				<title>lafferty7.JPG</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.noren1.JPG"
+          identifierref="r_contents.projects.noren1.JPG">
+				<title>noren1.JPG</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.lafferty12.jpg"
+          identifierref="r_contents.projects.lafferty12.jpg">
+				<title>lafferty12.jpg</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.shnayderman2.JPG"
+          identifierref="r_contents.projects.shnayderman2.JPG">
+				<title>shnayderman2.JPG</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.halpern3.JPG"
+          identifierref="r_contents.projects.halpern3.JPG">
+				<title>halpern3.JPG</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.shnayderman13.jpg"
+          identifierref="r_contents.projects.shnayderman13.jpg">
+				<title>shnayderman13.jpg</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.lafferty2.JPG"
+          identifierref="r_contents.projects.lafferty2.JPG">
+				<title>lafferty2.JPG</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.shnayderman5.JPG"
+          identifierref="r_contents.projects.shnayderman5.JPG">
+				<title>shnayderman5.JPG</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.noren4.JPG"
+          identifierref="r_contents.projects.noren4.JPG">
+				<title>noren4.JPG</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.halpern11.jpg"
+          identifierref="r_contents.projects.halpern11.jpg">
+				<title>halpern11.jpg</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.carvey15.jpg"
+          identifierref="r_contents.projects.carvey15.jpg">
+				<title>carvey15.jpg</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.shnayderman6.JPG"
+          identifierref="r_contents.projects.shnayderman6.JPG">
+				<title>shnayderman6.JPG</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.halpern5.JPG"
+          identifierref="r_contents.projects.halpern5.JPG">
+				<title>halpern5.JPG</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.halpern17.jpg"
+          identifierref="r_contents.projects.halpern17.jpg">
+				<title>halpern17.jpg</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.tao12.jpg"
+          identifierref="r_contents.projects.tao12.jpg">
+				<title>tao12.jpg</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.carvey17.jpg"
+          identifierref="r_contents.projects.carvey17.jpg">
+				<title>carvey17.jpg</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.noren6.JPG"
+          identifierref="r_contents.projects.noren6.JPG">
+				<title>noren6.JPG</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.halpern2.JPG"
+          identifierref="r_contents.projects.halpern2.JPG">
+				<title>halpern2.JPG</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.noren2.JPG"
+          identifierref="r_contents.projects.noren2.JPG">
+				<title>noren2.JPG</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.carvey6.JPG"
+          identifierref="r_contents.projects.carvey6.JPG">
+				<title>carvey6.JPG</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.lafferty1.JPG"
+          identifierref="r_contents.projects.lafferty1.JPG">
+				<title>lafferty1.JPG</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.halpern7.JPG"
+          identifierref="r_contents.projects.halpern7.JPG">
+				<title>halpern7.JPG</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.shnayderman11.jpg"
+          identifierref="r_contents.projects.shnayderman11.jpg">
+				<title>shnayderman11.jpg</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.lafferty14.jpg"
+          identifierref="r_contents.projects.lafferty14.jpg">
+				<title>lafferty14.jpg</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.halpern4.JPG"
+          identifierref="r_contents.projects.halpern4.JPG">
+				<title>halpern4.JPG</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.noren15.jpg"
+          identifierref="r_contents.projects.noren15.jpg">
+				<title>noren15.jpg</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.shnayderman17.jpg"
+          identifierref="r_contents.projects.shnayderman17.jpg">
+				<title>shnayderman17.jpg</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.carvey14.jpg"
+          identifierref="r_contents.projects.carvey14.jpg">
+				<title>carvey14.jpg</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.noren5.JPG"
+          identifierref="r_contents.projects.noren5.JPG">
+				<title>noren5.JPG</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.shnayderman4.JPG"
+          identifierref="r_contents.projects.shnayderman4.JPG">
+				<title>shnayderman4.JPG</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.tao3.JPG"
+          identifierref="r_contents.projects.tao3.JPG">
+				<title>tao3.JPG</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.carvey2.JPG"
+          identifierref="r_contents.projects.carvey2.JPG">
+				<title>carvey2.JPG</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.tao15.jpg"
+          identifierref="r_contents.projects.tao15.jpg">
+				<title>tao15.jpg</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.tao1.JPG"
+          identifierref="r_contents.projects.tao1.JPG">
+				<title>tao1.JPG</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.shnayderman7.JPG"
+          identifierref="r_contents.projects.shnayderman7.JPG">
+				<title>shnayderman7.JPG</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.halpern12.jpg"
+          identifierref="r_contents.projects.halpern12.jpg">
+				<title>halpern12.jpg</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.carvey12.jpg"
+          identifierref="r_contents.projects.carvey12.jpg">
+				<title>carvey12.jpg</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.shnayderman3.JPG"
+          identifierref="r_contents.projects.shnayderman3.JPG">
+				<title>shnayderman3.JPG</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.shnayderman12.jpg"
+          identifierref="r_contents.projects.shnayderman12.jpg">
+				<title>shnayderman12.jpg</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.halpern1.JPG"
+          identifierref="r_contents.projects.halpern1.JPG">
+				<title>halpern1.JPG</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.lafferty17.jpg"
+          identifierref="r_contents.projects.lafferty17.jpg">
+				<title>lafferty17.jpg</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.tao16.jpg"
+          identifierref="r_contents.projects.tao16.jpg">
+				<title>tao16.jpg</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.noren13.jpg"
+          identifierref="r_contents.projects.noren13.jpg">
+				<title>noren13.jpg</title>
+				</item>
+				<item identifier="i_4-341-introduction-to-photography-fall-2002.projects.halpern6.JPG"
+          identifierref="r_contents.projects.halpern6.JPG">
+				<title>halpern6.JPG</title>
+				</item>
+			</item>
+            <item identifier="i_terms"
+                  identifierref="r_common.terms.index.htm"
+                  ocw:sectionTemplateType="GlobalSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Legal Notices</title>
+			</item>
+            <item identifier="i_terms"
+                  identifierref="r_common.terms.index.htm"
+                  ocw:sectionTemplateType="GlobalSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Privacy Statement</title>
+			</item>
+            <item identifier="i_terms.trademarks"
+                  identifierref="r_common.terms.trademarks.index.htm"
+                  ocw:sectionTemplateType="GlobalSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Trademark Notices</title>
+			</item>
+        </organization>
+    </organizations>
+    <resources>
+        <resource identifier="r_contents.projects.carvey6.JPG"
+                  type="other"
+                  href="contents/projects/carvey6.JPG">
+            <metadata>
+                <adlcp:location>contents/projects/carvey6.JPG.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/carvey6.JPG"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.tao4.JPG"
+                  type="other"
+                  href="contents/projects/tao4.JPG">
+            <metadata>
+                <adlcp:location>contents/projects/tao4.JPG.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/tao4.JPG"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.tao13.jpg"
+                  type="other"
+                  href="contents/projects/tao13.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/tao13.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/tao13.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.halpern4.JPG"
+                  type="other"
+                  href="contents/projects/halpern4.JPG">
+            <metadata>
+                <adlcp:location>contents/projects/halpern4.JPG.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/halpern4.JPG"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.shnayderman4.JPG"
+                  type="other"
+                  href="contents/projects/shnayderman4.JPG">
+            <metadata>
+                <adlcp:location>contents/projects/shnayderman4.JPG.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/shnayderman4.JPG"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.tao16.jpg"
+                  type="other"
+                  href="contents/projects/tao16.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/tao16.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/tao16.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.halpern6.JPG"
+                  type="other"
+                  href="contents/projects/halpern6.JPG">
+            <metadata>
+                <adlcp:location>contents/projects/halpern6.JPG.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/halpern6.JPG"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.lafferty5.JPG"
+                  type="other"
+                  href="contents/projects/lafferty5.JPG">
+            <metadata>
+                <adlcp:location>contents/projects/lafferty5.JPG.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/lafferty5.JPG"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.noren1.JPG"
+                  type="other"
+                  href="contents/projects/noren1.JPG">
+            <metadata>
+                <adlcp:location>contents/projects/noren1.JPG.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/noren1.JPG"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.noren11.jpg"
+                  type="other"
+                  href="contents/projects/noren11.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/noren11.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/noren11.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.shnayderman17.jpg"
+                  type="other"
+                  href="contents/projects/shnayderman17.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/shnayderman17.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/shnayderman17.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.shnayderman15.jpg"
+                  type="other"
+                  href="contents/projects/shnayderman15.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/shnayderman15.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/shnayderman15.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.halpern5.JPG"
+                  type="other"
+                  href="contents/projects/halpern5.JPG">
+            <metadata>
+                <adlcp:location>contents/projects/halpern5.JPG.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/halpern5.JPG"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.lafferty2.JPG"
+                  type="other"
+                  href="contents/projects/lafferty2.JPG">
+            <metadata>
+                <adlcp:location>contents/projects/lafferty2.JPG.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/lafferty2.JPG"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.carvey5.JPG"
+                  type="other"
+                  href="contents/projects/carvey5.JPG">
+            <metadata>
+                <adlcp:location>contents/projects/carvey5.JPG.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/carvey5.JPG"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.shnayderman11.jpg"
+                  type="other"
+                  href="contents/projects/shnayderman11.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/shnayderman11.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/shnayderman11.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.lafferty12.jpg"
+                  type="other"
+                  href="contents/projects/lafferty12.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/lafferty12.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/lafferty12.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.carvey3.JPG"
+                  type="other"
+                  href="contents/projects/carvey3.JPG">
+            <metadata>
+                <adlcp:location>contents/projects/carvey3.JPG.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/carvey3.JPG"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.carvey13.jpg"
+                  type="other"
+                  href="contents/projects/carvey13.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/carvey13.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/carvey13.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.lafferty13.jpg"
+                  type="other"
+                  href="contents/projects/lafferty13.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/lafferty13.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/lafferty13.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.lafferty4.JPG"
+                  type="other"
+                  href="contents/projects/lafferty4.JPG">
+            <metadata>
+                <adlcp:location>contents/projects/lafferty4.JPG.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/lafferty4.JPG"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.noren2.JPG"
+                  type="other"
+                  href="contents/projects/noren2.JPG">
+            <metadata>
+                <adlcp:location>contents/projects/noren2.JPG.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/noren2.JPG"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.tao15.jpg"
+                  type="other"
+                  href="contents/projects/tao15.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/tao15.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/tao15.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.carvey2.JPG"
+                  type="other"
+                  href="contents/projects/carvey2.JPG">
+            <metadata>
+                <adlcp:location>contents/projects/carvey2.JPG.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/carvey2.JPG"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.noren13.jpg"
+                  type="other"
+                  href="contents/projects/noren13.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/noren13.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/noren13.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.shnayderman14.jpg"
+                  type="other"
+                  href="contents/projects/shnayderman14.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/shnayderman14.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/shnayderman14.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.carvey4.JPG"
+                  type="other"
+                  href="contents/projects/carvey4.JPG">
+            <metadata>
+                <adlcp:location>contents/projects/carvey4.JPG.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/carvey4.JPG"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.tao14.jpg"
+                  type="other"
+                  href="contents/projects/tao14.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/tao14.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/tao14.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.carvey14.jpg"
+                  type="other"
+                  href="contents/projects/carvey14.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/carvey14.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/carvey14.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.carvey17.jpg"
+                  type="other"
+                  href="contents/projects/carvey17.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/carvey17.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/carvey17.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.carvey15.jpg"
+                  type="other"
+                  href="contents/projects/carvey15.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/carvey15.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/carvey15.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.tao5.JPG"
+                  type="other"
+                  href="contents/projects/tao5.JPG">
+            <metadata>
+                <adlcp:location>contents/projects/tao5.JPG.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/tao5.JPG"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.shnayderman7.JPG"
+                  type="other"
+                  href="contents/projects/shnayderman7.JPG">
+            <metadata>
+                <adlcp:location>contents/projects/shnayderman7.JPG.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/shnayderman7.JPG"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.lafferty15.jpg"
+                  type="other"
+                  href="contents/projects/lafferty15.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/lafferty15.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/lafferty15.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.halpern16.jpg"
+                  type="other"
+                  href="contents/projects/halpern16.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/halpern16.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/halpern16.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.lafferty14.jpg"
+                  type="other"
+                  href="contents/projects/lafferty14.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/lafferty14.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/lafferty14.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.carvey12.jpg"
+                  type="other"
+                  href="contents/projects/carvey12.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/carvey12.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/carvey12.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.halpern12.jpg"
+                  type="other"
+                  href="contents/projects/halpern12.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/halpern12.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/halpern12.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.tao3.JPG"
+                  type="other"
+                  href="contents/projects/tao3.JPG">
+            <metadata>
+                <adlcp:location>contents/projects/tao3.JPG.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/tao3.JPG"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.lafferty6.JPG"
+                  type="other"
+                  href="contents/projects/lafferty6.JPG">
+            <metadata>
+                <adlcp:location>contents/projects/lafferty6.JPG.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/lafferty6.JPG"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.shnayderman2.JPG"
+                  type="other"
+                  href="contents/projects/shnayderman2.JPG">
+            <metadata>
+                <adlcp:location>contents/projects/shnayderman2.JPG.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/shnayderman2.JPG"/>
+                        
+        </resource>
+        <resource identifier="r_contents.4-341f02.jpg"
+                  type="other" href="contents/4-341f02.jpg">
+            <metadata>
+                <adlcp:location>contents/4-341f02.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/4-341f02.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.noren12.jpg"
+                  type="other"
+                  href="contents/projects/noren12.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/noren12.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/noren12.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.shnayderman5.JPG"
+                  type="other"
+                  href="contents/projects/shnayderman5.JPG">
+            <metadata>
+                <adlcp:location>contents/projects/shnayderman5.JPG.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/shnayderman5.JPG"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.shnayderman1.JPG"
+                  type="other"
+                  href="contents/projects/shnayderman1.JPG">
+            <metadata>
+                <adlcp:location>contents/projects/shnayderman1.JPG.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/shnayderman1.JPG"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.halpern15.jpg"
+                  type="other"
+                  href="contents/projects/halpern15.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/halpern15.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/halpern15.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.lafferty3.JPG"
+                  type="other"
+                  href="contents/projects/lafferty3.JPG">
+            <metadata>
+                <adlcp:location>contents/projects/lafferty3.JPG.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/lafferty3.JPG"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.carvey11.jpg"
+                  type="other"
+                  href="contents/projects/carvey11.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/carvey11.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/carvey11.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.halpern14.jpg"
+                  type="other"
+                  href="contents/projects/halpern14.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/halpern14.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/halpern14.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.lafferty11.jpg"
+                  type="other"
+                  href="contents/projects/lafferty11.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/lafferty11.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/lafferty11.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.halpern17.jpg"
+                  type="other"
+                  href="contents/projects/halpern17.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/halpern17.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/halpern17.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.noren5.JPG"
+                  type="other"
+                  href="contents/projects/noren5.JPG">
+            <metadata>
+                <adlcp:location>contents/projects/noren5.JPG.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/noren5.JPG"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.shnayderman6.JPG"
+                  type="other"
+                  href="contents/projects/shnayderman6.JPG">
+            <metadata>
+                <adlcp:location>contents/projects/shnayderman6.JPG.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/shnayderman6.JPG"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.tao12.jpg"
+                  type="other"
+                  href="contents/projects/tao12.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/tao12.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/tao12.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.noren4.JPG"
+                  type="other"
+                  href="contents/projects/noren4.JPG">
+            <metadata>
+                <adlcp:location>contents/projects/noren4.JPG.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/noren4.JPG"/>
+                        
+        </resource>
+        <resource identifier="r_contents.syllabus.index.htm"
+                  type="webcontent"
+                  href="contents/syllabus/index.htm">
+            <metadata>
+                <adlcp:location>contents/syllabus/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/syllabus/index.htm"/>
+            <dependency identifierref="webrenderrequirements.4-341-introduction-to-photography-fall-2002"/>            
+        </resource>
+        <resource identifier="r_contents.projects.carvey1.JPG"
+                  type="other"
+                  href="contents/projects/carvey1.JPG">
+            <metadata>
+                <adlcp:location>contents/projects/carvey1.JPG.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/carvey1.JPG"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.shnayderman16.jpg"
+                  type="other"
+                  href="contents/projects/shnayderman16.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/shnayderman16.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/shnayderman16.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.lafferty16.jpg"
+                  type="other"
+                  href="contents/projects/lafferty16.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/lafferty16.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/lafferty16.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.tao1.JPG"
+                  type="other"
+                  href="contents/projects/tao1.JPG">
+            <metadata>
+                <adlcp:location>contents/projects/tao1.JPG.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/tao1.JPG"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.carvey7.JPG"
+                  type="other"
+                  href="contents/projects/carvey7.JPG">
+            <metadata>
+                <adlcp:location>contents/projects/carvey7.JPG.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/carvey7.JPG"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.halpern3.JPG"
+                  type="other"
+                  href="contents/projects/halpern3.JPG">
+            <metadata>
+                <adlcp:location>contents/projects/halpern3.JPG.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/halpern3.JPG"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.noren16.jpg"
+                  type="other"
+                  href="contents/projects/noren16.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/noren16.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/noren16.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.lafferty1.JPG"
+                  type="other"
+                  href="contents/projects/lafferty1.JPG">
+            <metadata>
+                <adlcp:location>contents/projects/lafferty1.JPG.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/lafferty1.JPG"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.noren14.jpg"
+                  type="other"
+                  href="contents/projects/noren14.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/noren14.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/noren14.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.noren3.JPG"
+                  type="other"
+                  href="contents/projects/noren3.JPG">
+            <metadata>
+                <adlcp:location>contents/projects/noren3.JPG.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/noren3.JPG"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.halpern2.JPG"
+                  type="other"
+                  href="contents/projects/halpern2.JPG">
+            <metadata>
+                <adlcp:location>contents/projects/halpern2.JPG.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/halpern2.JPG"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.lafferty7.JPG"
+                  type="other"
+                  href="contents/projects/lafferty7.JPG">
+            <metadata>
+                <adlcp:location>contents/projects/lafferty7.JPG.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/lafferty7.JPG"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.noren6.JPG"
+                  type="other"
+                  href="contents/projects/noren6.JPG">
+            <metadata>
+                <adlcp:location>contents/projects/noren6.JPG.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/noren6.JPG"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.tao6.JPG"
+                  type="other"
+                  href="contents/projects/tao6.JPG">
+            <metadata>
+                <adlcp:location>contents/projects/tao6.JPG.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/tao6.JPG"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.tao11.jpg"
+                  type="other"
+                  href="contents/projects/tao11.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/tao11.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/tao11.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.halpern7.JPG"
+                  type="other"
+                  href="contents/projects/halpern7.JPG">
+            <metadata>
+                <adlcp:location>contents/projects/halpern7.JPG.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/halpern7.JPG"/>
+                        
+        </resource>
+        <resource identifier="r_contents.index.htm"
+                  type="webcontent"
+                  href="contents/index.htm">
+            <metadata>
+                <adlcp:location>contents/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/index.htm"/>
+            <dependency identifierref="webrenderrequirements.4-341-introduction-to-photography-fall-2002"/>            
+        </resource>
+        <resource identifier="r_contents.projects.shnayderman3.JPG"
+                  type="other"
+                  href="contents/projects/shnayderman3.JPG">
+            <metadata>
+                <adlcp:location>contents/projects/shnayderman3.JPG.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/shnayderman3.JPG"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.halpern13.jpg"
+                  type="other"
+                  href="contents/projects/halpern13.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/halpern13.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/halpern13.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.index.htm"
+                  type="webcontent"
+                  href="contents/projects/index.htm">
+            <metadata>
+                <adlcp:location>contents/projects/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/index.htm"/>
+            <dependency identifierref="webrenderrequirements.4-341-introduction-to-photography-fall-2002"/>            
+        </resource>
+        <resource identifier="r_contents.projects.shnayderman12.jpg"
+                  type="other"
+                  href="contents/projects/shnayderman12.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/shnayderman12.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/shnayderman12.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.noren15.jpg"
+                  type="other"
+                  href="contents/projects/noren15.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/noren15.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/noren15.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.4-341f02-th.jpg"
+                  type="other"
+                  href="contents/4-341f02-th.jpg">
+            <metadata>
+                <adlcp:location>contents/4-341f02-th.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/4-341f02-th.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.halpern1.JPG"
+                  type="other"
+                  href="contents/projects/halpern1.JPG">
+            <metadata>
+                <adlcp:location>contents/projects/halpern1.JPG.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/halpern1.JPG"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.halpern11.jpg"
+                  type="other"
+                  href="contents/projects/halpern11.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/halpern11.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/halpern11.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.shnayderman13.jpg"
+                  type="other"
+                  href="contents/projects/shnayderman13.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/shnayderman13.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/shnayderman13.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.tao2.JPG"
+                  type="other"
+                  href="contents/projects/tao2.JPG">
+            <metadata>
+                <adlcp:location>contents/projects/tao2.JPG.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/tao2.JPG"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.carvey16.jpg"
+                  type="other"
+                  href="contents/projects/carvey16.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/carvey16.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/carvey16.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.lafferty17.jpg"
+                  type="other"
+                  href="contents/projects/lafferty17.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/lafferty17.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/lafferty17.jpg"/>
+                        
+        </resource>        
+        <resource identifier="r_common.search.AdvancedSearch.htm"
+                  type="webcontent"
+                  href="common/search/AdvancedSearch.htm">
+            <file href="common/search/AdvancedSearch.htm"/>
+            <dependency identifierref="webrenderrequirements.4-341-introduction-to-photography-fall-2002"/>            
+        </resource>
+        <resource identifier="r_common.jsp.feedback.htm"
+                  type="webcontent"
+                  href="common/jsp/feedback.htm">
+            <file href="common/jsp/feedback.htm"/>
+            <dependency identifierref="webrenderrequirements.4-341-introduction-to-photography-fall-2002"/>            
+        </resource>
+        <resource identifier="r_common.terms.index.htm"
+                  type="webcontent"
+                  href="common/terms/index.htm">
+            <file href="common/terms/share.png"/>
+            <file href="common/terms/remix.png"/>
+            <file href="common/terms/by.png"/>
+            <file href="common/terms/nc.png"/>
+            <file href="common/terms/sa.png"/>
+            <file href="common/terms/deedheadyellow.png"/>
+            <file href="common/terms/freedomsheader.png"/>
+            <file href="common/terms/limitationsheader.png"/>
+            <file href="common/terms/deedfootyellow.png"/>
+            <dependency identifierref="webrenderrequirements.4-341-introduction-to-photography-fall-2002"/>            
+        </resource>
+        <resource identifier="r_common.terms.trademarks.index.htm"
+                  type="webcontent"
+                  href="common/terms/trademarks/index.htm">
+            <file href="common/terms/trademarks/index.htm"/>
+            <dependency identifierref="webrenderrequirements.4-341-introduction-to-photography-fall-2002"/>            
+        </resource>
+        <resource identifier="webrenderrequirements.4-341-introduction-to-photography-fall-2002"
+                  type="webcontent">
+        	<file href="common/styles/base.css"/>
+        	<file href="common/styles/courses.css"/>
+        	<file href="common/styles/courses_new.css"/>
+        	<file href="common/styles/global.css"/>
+        	<file href="common/styles/grid.css"/>
+        	<file href="common/styles/highslide.css"/>
+        	<file href="common/styles/highslide-ie6.css"/>
+        	<file href="common/styles/jquery.bubblepopup.css"/>
+        	<file href="common/styles/jquery.jscrollpane.css"/>
+        	<file href="common/styles/jquery-ui.css"/>
+        	<file href="common/styles/menu.css"/>
+        	<file href="common/styles/scholar2.css"/>
+        	<file href="common/styles/media_tabs.css"/>
+        	<file href="common/scripts/bubble-popup-offline.js"/>
+        	<file href="common/scripts/common-utils-offline.js"/>
+        	<file href="common/scripts/highslide-with-gallery.js"/>
+        	<file href="common/scripts/jquery.bubblepopup.min.js"/>
+        	<file href="common/scripts/jquery.jscrollpane.min.js"/>
+        	<file href="common/scripts/jquery-ui.min.js"/>
+        	<file href="common/scripts/jQuizMe-uncompressed.js"/>
+        	<file href="common/scripts/ocw-offline.js"/>
+        	<file href="common/scripts/expandy.js"/>
+        	<file href="common/images/ocw_mast.png"/>
+        	<file href="common/images/button_subscribe.png"/>
+        	<file href="common/images/icon_fb.png"/>
+        	<file href="common/images/icon_tw.png"/>
+        	<file href="common/images/top-nav_home.png"/>
+        	<file href="common/images/button_search.png"/>
+        	<file href="common/images/bg_top.png"/>
+        	<file href="common/images/bg_social.png"/>
+        	<file href="common/images/bg_mega-courses.png"/>
+        	<file href="common/images/bg_center2.png"/>
+        	<file href="common/images/bg_course-nav_current.png"/>
+        	<file href="common/images/button_donate-now.png"/>
+        	<file href="common/images/logo_mit.png"/>
+        	<file href="common/images/logo_ocwc.gif"/>
+        	<file href="common/images/cc_by-nc-sa.png"/>
+        	<file href="common/images/logo_dow.png"/>
+        	<file href="common/images/logo_lockheed.png"/>
+        	<file href="common/images/logo_mathworks.png"/>
+        	<file href="common/images/logo_abinitio.png"/>
+        	<file href="common/images/bg_bottom.png"/>
+        	<file href="common/images/nav_arrow.png"/>
+        	<file href="common/images/black-arrow.gif"/>
+        	<file href="common/images/trans.gif"/>
+        	<file href="common/images/arrow-bullet.gif"/>
+        	<file href="common/images/apple-touch-icon.png"/>
+        	<file href="common/images/highslide/graphics/zoomin.cur"/>
+        	<file href="common/images/highslide/graphics/zoomout.cur"/>
+        	<file href="common/images/highslide/graphics/controlbar2.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar3.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar4.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar4-hover.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar-black-border.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar-white.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar-white-small.gif"/>
+        	<file href="common/images/highslide/graphics/fullexpand.gif"/>
+        	<file href="common/images/highslide/graphics/icon.gif"/>
+        	<file href="common/images/highslide/graphics/loader.gif"/>
+        	<file href="common/images/highslide/graphics/loader.white.gif"/>
+        	<file href="common/images/highslide/graphics/resize.gif"/>
+        	<file href="common/images/highslide/graphics/close.png"/>
+        	<file href="common/images/highslide/graphics/closeX.png"/>
+        	<file href="common/images/highslide/graphics/controlbar-text-buttons.png"/>
+        	<file href="common/images/highslide/graphics/geckodimmer.png"/>
+        	<file href="common/images/highslide/graphics/scrollarrows.png"/>
+        	<file href="common/images/highslide/graphics/outlines/beveled.png"/>
+        	<file href="common/images/highslide/graphics/outlines/drop-shadow.png"/>
+        	<file href="common/images/highslide/graphics/outlines/glossy-dark.png"/>
+        	<file href="common/images/highslide/graphics/outlines/outer-glow.png"/>
+        	<file href="common/images/highslide/graphics/outlines/rounded-black.png"/>
+        	<file href="common/images/highslide/graphics/outlines/rounded-white.png"/>
+        	<file href="common/images/highslide/graphics/outlines/Outlines.psd"/>
+        	<file href="common/images/button_continue.jpg"/>
+        	<file href="common/images/button_donate.jpg"/>
+        	<file href="common/images/button_start.jpg"/>
+        	<file href="common/images/scholar_bar_chp.png"/>
+        	<file href="common/images/scholar_bar.png"/>
+        	<file href="common/images/logo_pdf.jpg"/>
+        	<file href="common/images/h2_trigger_open_close.gif"/>
+        	<file href="common/images/bookmark.gif"/>
+        	<file href="common/images/check.png"/>
+        	<file href="common/images/lightbulb.png"/>
+        	<file href="common/images/audio_file.gif"/>
+        	<file href="common/images/audio_only_slate.gif"/>
+        	<file href="common/images/video_file.gif"/>
+        	<file href="common/images/back-5.png"/>
+        	<file href="common/images/btn_next_resource.png"/>
+        	<file href="common/images/btn_previous_resource.png"/>
+        	<file href="common/images/close.png"/>
+        	<file href="common/images/inacessible.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/bottom-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/bottom-middle.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/bottom-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/middle-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/middle-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-bottom.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-top.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/top-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/top-middle.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/top-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/bottom-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/bottom-middle.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/bottom-right.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/middle-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/middle-right.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-bottom.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-right.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-top.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/top-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/top-middle.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/top-right.png"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.woff"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.ttf"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.svg"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.eot"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.woff"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.ttf"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.eot"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.svg"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.woff"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.ttf"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.svg"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.eot"/>
+        </resource>        
+  </resources>
+</manifest>

@@ -1,0 +1,1037 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest xmlns="http://www.imsglobal.org/xsd/imscp_v1p1"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+          xmlns:cwsp="http://www.dspace.org/xmlns/cwspace_imscp"
+          xmlns:ocw="http://ocw.mit.edu/xmlns/ocw_imscp"
+          xmlns:lom="http://ocw.mit.edu/xmlns/LOM"
+          identifier="urn_edu.mit.ocw_16-346-astrodynamics-fall-2008"
+          version="2013-6-22T19:29:9"
+          cwsp:packageType="Course"
+          xml:base="16-346-fall-2008/"
+          xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 http://www.imsglobal.org/xsd/imscp_v1p1.xsd  http://www.adlnet.org/xsd/adlcp_rootv1p2 http://www.adlnet.org/xsd/adlcp_rootv1p2.xsd http://www.dspace.org/xmlns/cwspace_imscp http://www.dspace.org/xsd/cwspace_imscp/version10/cwspace_imscpv10.xsd http://ocw.mit.edu/xmlns/ocw_imscp http://ocw.mit.edu/xsd/ocw_imscp/version10/ocw_imscpv10.xsd http://ocw.mit.edu/xmlns/LOM http://ocw.mit.edu/xsd/LOM/lomv1.0/lomv1.0.xsd">
+   	<metadata>
+   		<schema>IMS Content</schema>
+        <schemaversion>1.1</schemaversion>
+        <cwsp:packageMetadata>
+            <cwsp:sourceSystem>OCW</cwsp:sourceSystem>
+            <cwsp:profile>CWSpace</cwsp:profile>
+            <cwsp:profileVersion>0.1</cwsp:profileVersion>
+        </cwsp:packageMetadata>
+        <lom:general uniqueElementName="general">
+            <lom:title uniqueElementName="title">
+				<lom:string language="en">Astrodynamics</lom:string>
+			</lom:title>
+			<lom:identifier>
+				<lom:catalog uniqueElementName="catalog">OCW Master Course Number</lom:catalog>
+		      	<lom:entry uniqueElementName="entry">16.346</lom:entry>
+			</lom:identifier>
+        </lom:general>
+        <lom:lifecycle uniqueElementName="lifeCycle">
+            <lom:version uniqueElementName="version">
+				<lom:string language="en">Fall 2008</lom:string>
+			</lom:version>
+            <lom:contribute>
+	            <lom:role>
+	                <lom:source uniqueElementName="source">OCW_LOMv1.0</lom:source>
+	                <lom:value uniqueElementName="value">Author</lom:value>
+	            </lom:role>
+	            <lom:entity>Battin, Richard</lom:entity>
+	            <lom:date uniqueElementName="date">
+	                <lom:dateTime uniqueElementName="dateTime">2013-6-22</lom:dateTime>
+	            </lom:date>
+        	</lom:contribute>
+        </lom:lifecycle>
+        <lom:taxonPath>
+            <lom:source uniqueElementName="source">
+                <lom:string language="en">OCW Course Categories</lom:string>
+            </lom:source>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Engineering</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Aerospace Engineering</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Astrodynamics</lom:string>
+                </lom:entry>
+            </lom:taxon>
+        </lom:taxonPath>
+        <lom:taxonPath>
+            <lom:source uniqueElementName="source">
+                <lom:string language="en">OCW Course Categories</lom:string>
+            </lom:source>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Engineering</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Aerospace Engineering</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Guidance and Control Systems</lom:string>
+                </lom:entry>
+            </lom:taxon>
+        </lom:taxonPath>        
+        <adlcp:location>contents/index.htm.xml</adlcp:location>
+    </metadata>
+    <organizations default="ocw_16-346-astrodynamics-fall-2008">
+        <organization identifier="ocw_16-346-astrodynamics-fall-2008">
+            <title>Astrodynamics</title>
+            <item identifier="i_16-346-astrodynamics-fall-2008.CourseHome"
+                  identifierref="r_contents.index.htm"
+                  ocw:sectionTemplateType="CourseHomePage"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Astrodynamics</title>
+				<item identifier="i_16-346-astrodynamics-fall-2008.16-346f08.jpg"
+          identifierref="r_contents.16-346f08.jpg">
+				<title>Diagram of a Venus and Mars double-reconnaissance trajectory</title>
+				</item>
+				<item identifier="i_16-346-astrodynamics-fall-2008.16-346f08-th.jpg"
+          identifierref="r_contents.16-346f08-th.jpg">
+				<title>Diagram of a Venus and Mars double-reconnaissance trajectory</title>
+				</item>
+			</item>
+            <item identifier="i_16-346-astrodynamics-fall-2008.syllabus"
+                  identifierref="r_contents.syllabus.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Syllabus</title>
+			</item>
+            <item identifier="i_16-346-astrodynamics-fall-2008.lecture-notes"
+                  identifierref="r_contents.lecture-notes.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Lecture Notes</title>
+				<item identifier="i_16-346-astrodynamics-fall-2008.lecture-notes.lec_11.pdf"
+          identifierref="r_contents.lecture-notes.lec_11.pdf">
+				<title>Hyperbolic Orbits</title>
+				</item>
+				<item identifier="i_16-346-astrodynamics-fall-2008.lecture-notes.lec_03.pdf"
+          identifierref="r_contents.lecture-notes.lec_03.pdf">
+				<title>Barker's Equation and Kepler's Equation</title>
+				</item>
+				<item identifier="i_16-346-astrodynamics-fall-2008.lecture-notes.lec_16.pdf"
+          identifierref="r_contents.lecture-notes.lec_16.pdf">
+				<title>Non-singular "Gauss-like" method for the BVP</title>
+				</item>
+				<item identifier="i_16-346-astrodynamics-fall-2008.lecture-notes.lec_26.pdf"
+          identifierref="r_contents.lecture-notes.lec_26.pdf">
+				<title>The Clohessy-Wiltshire Equations of Relative Motion</title>
+				</item>
+				<item identifier="i_16-346-astrodynamics-fall-2008.lecture-notes.lec_33.pdf"
+          identifierref="r_contents.lecture-notes.lec_33.pdf">
+				<title>Runge-Kutta Method of Numerical Integration</title>
+				</item>
+				<item identifier="i_16-346-astrodynamics-fall-2008.lecture-notes.lec_31.pdf"
+          identifierref="r_contents.lecture-notes.lec_31.pdf">
+				<title>The Calculus of Variations and Lunar Landing Guidance</title>
+				</item>
+				<item identifier="i_16-346-astrodynamics-fall-2008.lecture-notes.lec_12.pdf"
+          identifierref="r_contents.lecture-notes.lec_12.pdf">
+				<title>Patched Conics and Planetary Flybys</title>
+				</item>
+				<item identifier="i_16-346-astrodynamics-fall-2008.lecture-notes.lec_15.pdf"
+          identifierref="r_contents.lecture-notes.lec_15.pdf">
+				<title>The Fundamental Ellipse of the BVP</title>
+				</item>
+				<item identifier="i_16-346-astrodynamics-fall-2008.lecture-notes.lec_24.pdf"
+          identifierref="r_contents.lecture-notes.lec_24.pdf">
+				<title>Basic Elements of the Three Body Problem</title>
+				</item>
+				<item identifier="i_16-346-astrodynamics-fall-2008.lecture-notes.lec_01.pdf"
+          identifierref="r_contents.lecture-notes.lec_01.pdf">
+				<title>The Two Body Problem</title>
+				</item>
+				<item identifier="i_16-346-astrodynamics-fall-2008.lecture-notes.lec_14.pdf"
+          identifierref="r_contents.lecture-notes.lec_14.pdf">
+				<title>Hypergeometric Functions and Continued Fractions</title>
+				</item>
+				<item identifier="i_16-346-astrodynamics-fall-2008.lecture-notes.lec_17.pdf"
+          identifierref="r_contents.lecture-notes.lec_17.pdf">
+				<title>The Battin-Vaughan algorithm for the BVP</title>
+				</item>
+				<item identifier="i_16-346-astrodynamics-fall-2008.lecture-notes.lec_23.pdf"
+          identifierref="r_contents.lecture-notes.lec_23.pdf">
+				<title>Estimation of Position and Velocity in Space Navigation</title>
+				</item>
+				<item identifier="i_16-346-astrodynamics-fall-2008.lecture-notes.lec_21.pdf"
+          identifierref="r_contents.lecture-notes.lec_21.pdf">
+				<title>Space Navigation: The Position Fix</title>
+				</item>
+				<item identifier="i_16-346-astrodynamics-fall-2008.lecture-notes.lec_20.pdf"
+          identifierref="r_contents.lecture-notes.lec_20.pdf">
+				<title>Powered Flight Guidance</title>
+				</item>
+				<item identifier="i_16-346-astrodynamics-fall-2008.lecture-notes.lec_19.pdf"
+          identifierref="r_contents.lecture-notes.lec_19.pdf">
+				<title>The State Transition Matrix</title>
+				</item>
+				<item identifier="i_16-346-astrodynamics-fall-2008.lecture-notes.lec_22.pdf"
+          identifierref="r_contents.lecture-notes.lec_22.pdf">
+				<title>The Covariance, Information and Estimator Matrices</title>
+				</item>
+				<item identifier="i_16-346-astrodynamics-fall-2008.lecture-notes.lec_02.pdf"
+          identifierref="r_contents.lecture-notes.lec_02.pdf">
+				<title>The Two Body Problem Continued</title>
+				</item>
+				<item identifier="i_16-346-astrodynamics-fall-2008.lecture-notes.lec_27.pdf"
+          identifierref="r_contents.lecture-notes.lec_27.pdf">
+				<title>Variation of Parameters</title>
+				</item>
+				<item identifier="i_16-346-astrodynamics-fall-2008.lecture-notes.lec_29.pdf"
+          identifierref="r_contents.lecture-notes.lec_29.pdf">
+				<title>The Disturbing Function and Legendre Polynomials</title>
+				</item>
+				<item identifier="i_16-346-astrodynamics-fall-2008.lecture-notes.lec_10.pdf"
+          identifierref="r_contents.lecture-notes.lec_10.pdf">
+				<title>Transformation of the Boundary-Value Problem</title>
+				</item>
+				<item identifier="i_16-346-astrodynamics-fall-2008.lecture-notes.lec_04.pdf"
+          identifierref="r_contents.lecture-notes.lec_04.pdf">
+				<title>The Initial-Value Problem</title>
+				</item>
+				<item identifier="i_16-346-astrodynamics-fall-2008.lecture-notes.lec_28.pdf"
+          identifierref="r_contents.lecture-notes.lec_28.pdf">
+				<title>Effect of Atmospheric Drag on Satellite Orbits</title>
+				</item>
+				<item identifier="i_16-346-astrodynamics-fall-2008.lecture-notes.lec_09.pdf"
+          identifierref="r_contents.lecture-notes.lec_09.pdf">
+				<title>Lambert's Theorem and the Lagrange Time Equation</title>
+				</item>
+				<item identifier="i_16-346-astrodynamics-fall-2008.lecture-notes.lec_25.pdf"
+          identifierref="r_contents.lecture-notes.lec_25.pdf">
+				<title>The Restricted Problem of Three Bodies</title>
+				</item>
+				<item identifier="i_16-346-astrodynamics-fall-2008.lecture-notes.lec_30.pdf"
+          identifierref="r_contents.lecture-notes.lec_30.pdf">
+				<title>Effect of J2 on a satellite orbit of the Earth</title>
+				</item>
+				<item identifier="i_16-346-astrodynamics-fall-2008.lecture-notes.lec_18.pdf"
+          identifierref="r_contents.lecture-notes.lec_18.pdf">
+				<title>Preliminary Orbit Determination Using Taylor Series</title>
+				</item>
+				<item identifier="i_16-346-astrodynamics-fall-2008.lecture-notes.lec_05.pdf"
+          identifierref="r_contents.lecture-notes.lec_05.pdf">
+				<title>Euler Angles</title>
+				</item>
+				<item identifier="i_16-346-astrodynamics-fall-2008.lecture-notes.lec_13.pdf"
+          identifierref="r_contents.lecture-notes.lec_13.pdf">
+				<title>Gauss' Method for the Time-Constrained BVP</title>
+				</item>
+				<item identifier="i_16-346-astrodynamics-fall-2008.lecture-notes.lec_07.pdf"
+          identifierref="r_contents.lecture-notes.lec_07.pdf">
+				<title>Optimum Orbital Transfer</title>
+				</item>
+				<item identifier="i_16-346-astrodynamics-fall-2008.lecture-notes.lec_08.pdf"
+          identifierref="r_contents.lecture-notes.lec_08.pdf">
+				<title>Analytic and Geometric Properties of the BVP</title>
+				</item>
+				<item identifier="i_16-346-astrodynamics-fall-2008.lecture-notes.lec_06.pdf"
+          identifierref="r_contents.lecture-notes.lec_06.pdf">
+				<title>The Orbital Boundary-Value Problem</title>
+				</item>
+				<item identifier="i_16-346-astrodynamics-fall-2008.lecture-notes.lec_32.pdf"
+          identifierref="r_contents.lecture-notes.lec_32.pdf">
+				<title>Powered Flight Guidance to Maximize Final Energy</title>
+				</item>
+			</item>
+            <item identifier="i_16-346-astrodynamics-fall-2008.assignments"
+                  identifierref="r_contents.assignments.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Assignments</title>
+				<item identifier="i_16-346-astrodynamics-fall-2008.assignments.ex_10.pdf"
+          identifierref="r_contents.assignments.ex_10.pdf">
+				<title>Exercises 10</title>
+				</item>
+				<item identifier="i_16-346-astrodynamics-fall-2008.assignments.ex_18.pdf"
+          identifierref="r_contents.assignments.ex_18.pdf">
+				<title>Exercises 18</title>
+				</item>
+				<item identifier="i_16-346-astrodynamics-fall-2008.assignments.ex_26.pdf"
+          identifierref="r_contents.assignments.ex_26.pdf">
+				<title>Exercises 26</title>
+				</item>
+				<item identifier="i_16-346-astrodynamics-fall-2008.assignments.ex_05.pdf"
+          identifierref="r_contents.assignments.ex_05.pdf">
+				<title>Exercises 05</title>
+				</item>
+				<item identifier="i_16-346-astrodynamics-fall-2008.assignments.ex_14.pdf"
+          identifierref="r_contents.assignments.ex_14.pdf">
+				<title>Exercises 14</title>
+				</item>
+				<item identifier="i_16-346-astrodynamics-fall-2008.assignments.ex_08.pdf"
+          identifierref="r_contents.assignments.ex_08.pdf">
+				<title>Exercises 08</title>
+				</item>
+				<item identifier="i_16-346-astrodynamics-fall-2008.assignments.ex_12.pdf"
+          identifierref="r_contents.assignments.ex_12.pdf">
+				<title>Exercises 12</title>
+				</item>
+				<item identifier="i_16-346-astrodynamics-fall-2008.assignments.ex_22.pdf"
+          identifierref="r_contents.assignments.ex_22.pdf">
+				<title>Exercises 22</title>
+				</item>
+				<item identifier="i_16-346-astrodynamics-fall-2008.assignments.ex_09.pdf"
+          identifierref="r_contents.assignments.ex_09.pdf">
+				<title>Exercises 09</title>
+				</item>
+				<item identifier="i_16-346-astrodynamics-fall-2008.assignments.ex_07.pdf"
+          identifierref="r_contents.assignments.ex_07.pdf">
+				<title>Exercises 07</title>
+				</item>
+				<item identifier="i_16-346-astrodynamics-fall-2008.assignments.ex_02.pdf"
+          identifierref="r_contents.assignments.ex_02.pdf">
+				<title>Exercises 02</title>
+				</item>
+				<item identifier="i_16-346-astrodynamics-fall-2008.assignments.ex_03.pdf"
+          identifierref="r_contents.assignments.ex_03.pdf">
+				<title>Exercises 03</title>
+				</item>
+				<item identifier="i_16-346-astrodynamics-fall-2008.assignments.ex_06.pdf"
+          identifierref="r_contents.assignments.ex_06.pdf">
+				<title>Exercises 06</title>
+				</item>
+				<item identifier="i_16-346-astrodynamics-fall-2008.assignments.ex_33.pdf"
+          identifierref="r_contents.assignments.ex_33.pdf">
+				<title>Exercises 33</title>
+				</item>
+				<item identifier="i_16-346-astrodynamics-fall-2008.assignments.ex_01.pdf"
+          identifierref="r_contents.assignments.ex_01.pdf">
+				<title>Exercises 01</title>
+				</item>
+				<item identifier="i_16-346-astrodynamics-fall-2008.assignments.ex_04.pdf"
+          identifierref="r_contents.assignments.ex_04.pdf">
+				<title>Exercises 04</title>
+				</item>
+			</item>
+            <item identifier="i_16-346-astrodynamics-fall-2008.video-lecture"
+                  identifierref="r_contents.video-lecture.index.htm"
+                  ocw:sectionTemplateType="MediaResource"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Video Lecture</title>
+				<item identifier="i_16-346-astrodynamics-fall-2008.video-lecture.MIT16-346F08.pdf"
+          identifierref="r_contents.video-lecture.MIT16-346F08.pdf">
+				<title>A Funny Thing Happened on the Way to the Moon</title>
+				</item>
+				<item identifier="i_16-346-astrodynamics-fall-2008.video-lecture.MIT_16.346F08_A_Funny_Thing_300k_512kb.srt"
+          identifierref="r_contents.video-lecture.MIT_16.346F08_A_Funny_Thing_300k_512kb.srt">
+				<title>MIT_16.346F08_A_Funny_Thing_300k_512kb</title>
+				</item>
+			</item>
+            <item identifier="i_terms"
+                  identifierref="r_common.terms.index.htm"
+                  ocw:sectionTemplateType="GlobalSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Legal Notices</title>
+			</item>
+            <item identifier="i_terms"
+                  identifierref="r_common.terms.index.htm"
+                  ocw:sectionTemplateType="GlobalSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Privacy Statement</title>
+			</item>
+            <item identifier="i_terms.trademarks"
+                  identifierref="r_common.terms.trademarks.index.htm"
+                  ocw:sectionTemplateType="GlobalSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Trademark Notices</title>
+			</item>
+        </organization>
+    </organizations>
+    <resources>
+        <resource identifier="r_contents.lecture-notes.index.htm"
+                  type="webcontent"
+                  href="contents/lecture-notes/index.htm">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/index.htm"/>
+            <dependency identifierref="webrenderrequirements.16-346-astrodynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec_15.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec_15.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec_15.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec_15.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.ex_04.pdf"
+                  type="other"
+                  href="contents/assignments/ex_04.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ex_04.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ex_04.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec_30.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec_30.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec_30.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec_30.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.ex_14.pdf"
+                  type="other"
+                  href="contents/assignments/ex_14.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ex_14.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ex_14.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec_23.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec_23.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec_23.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec_23.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec_04.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec_04.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec_04.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec_04.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec_07.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec_07.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec_07.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec_07.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec_16.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec_16.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec_16.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec_16.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec_25.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec_25.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec_25.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec_25.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec_17.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec_17.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec_17.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec_17.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec_18.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec_18.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec_18.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec_18.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.ex_08.pdf"
+                  type="other"
+                  href="contents/assignments/ex_08.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ex_08.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ex_08.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lecture.MIT16-346F08.pdf"
+                  type="other"
+                  href="contents/video-lecture/MIT16-346F08.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lecture/MIT16-346F08.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lecture/MIT16-346F08.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec_09.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec_09.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec_09.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec_09.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.syllabus.index.htm"
+                  type="webcontent"
+                  href="contents/syllabus/index.htm">
+            <metadata>
+                <adlcp:location>contents/syllabus/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/syllabus/index.htm"/>
+            <dependency identifierref="webrenderrequirements.16-346-astrodynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec_10.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec_10.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec_10.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec_10.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.index.htm"
+                  type="webcontent"
+                  href="contents/assignments/index.htm">
+            <metadata>
+                <adlcp:location>contents/assignments/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/index.htm"/>
+            <dependency identifierref="webrenderrequirements.16-346-astrodynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="r_contents.assignments.ex_06.pdf"
+                  type="other"
+                  href="contents/assignments/ex_06.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ex_06.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ex_06.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.ex_05.pdf"
+                  type="other"
+                  href="contents/assignments/ex_05.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ex_05.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ex_05.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec_28.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec_28.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec_28.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec_28.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lecture.MIT_16.346F08_A_Funny_Thing_300k_512kb.srt"
+                  type="other"
+                  href="contents/video-lecture/MIT_16.346F08_A_Funny_Thing_300k_512kb.srt">
+            <metadata>
+                <adlcp:location>contents/video-lecture/MIT_16.346F08_A_Funny_Thing_300k_512kb.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lecture/MIT_16.346F08_A_Funny_Thing_300k_512kb.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec_13.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec_13.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec_13.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec_13.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec_05.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec_05.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec_05.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec_05.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec_14.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec_14.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec_14.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec_14.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec_27.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec_27.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec_27.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec_27.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec_29.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec_29.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec_29.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec_29.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec_32.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec_32.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec_32.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec_32.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.16-346f08-th.jpg"
+                  type="other"
+                  href="contents/16-346f08-th.jpg">
+            <metadata>
+                <adlcp:location>contents/16-346f08-th.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/16-346f08-th.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec_12.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec_12.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec_12.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec_12.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.ex_33.pdf"
+                  type="other"
+                  href="contents/assignments/ex_33.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ex_33.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ex_33.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.ex_03.pdf"
+                  type="other"
+                  href="contents/assignments/ex_03.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ex_03.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ex_03.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.16-346f08.jpg"
+                  type="other" href="contents/16-346f08.jpg">
+            <metadata>
+                <adlcp:location>contents/16-346f08.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/16-346f08.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.index.htm"
+                  type="webcontent"
+                  href="contents/index.htm">
+            <metadata>
+                <adlcp:location>contents/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/index.htm"/>
+            <dependency identifierref="webrenderrequirements.16-346-astrodynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="r_contents.assignments.ex_26.pdf"
+                  type="other"
+                  href="contents/assignments/ex_26.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ex_26.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ex_26.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec_31.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec_31.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec_31.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec_31.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.ex_18.pdf"
+                  type="other"
+                  href="contents/assignments/ex_18.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ex_18.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ex_18.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.ex_12.pdf"
+                  type="other"
+                  href="contents/assignments/ex_12.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ex_12.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ex_12.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec_02.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec_02.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec_02.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec_02.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec_21.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec_21.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec_21.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec_21.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec_11.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec_11.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec_11.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec_11.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.ex_09.pdf"
+                  type="other"
+                  href="contents/assignments/ex_09.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ex_09.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ex_09.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec_33.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec_33.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec_33.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec_33.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.ex_02.pdf"
+                  type="other"
+                  href="contents/assignments/ex_02.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ex_02.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ex_02.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.ex_22.pdf"
+                  type="other"
+                  href="contents/assignments/ex_22.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ex_22.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ex_22.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec_01.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec_01.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec_01.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec_01.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec_03.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec_03.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec_03.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec_03.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec_20.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec_20.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec_20.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec_20.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.ex_01.pdf"
+                  type="other"
+                  href="contents/assignments/ex_01.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ex_01.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ex_01.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lecture.index.htm"
+                  type="webcontent"
+                  href="contents/video-lecture/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lecture/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lecture/index.htm"/>
+            <dependency identifierref="webrenderrequirements.16-346-astrodynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec_08.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec_08.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec_08.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec_08.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.ex_07.pdf"
+                  type="other"
+                  href="contents/assignments/ex_07.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ex_07.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ex_07.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec_24.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec_24.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec_24.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec_24.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec_22.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec_22.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec_22.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec_22.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec_26.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec_26.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec_26.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec_26.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec_19.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec_19.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec_19.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec_19.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec_06.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec_06.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec_06.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec_06.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.ex_10.pdf"
+                  type="other"
+                  href="contents/assignments/ex_10.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ex_10.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ex_10.pdf"/>
+                        
+        </resource>        
+        <resource identifier="r_common.search.AdvancedSearch.htm"
+                  type="webcontent"
+                  href="common/search/AdvancedSearch.htm">
+            <file href="common/search/AdvancedSearch.htm"/>
+            <dependency identifierref="webrenderrequirements.16-346-astrodynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="r_common.jsp.feedback.htm"
+                  type="webcontent"
+                  href="common/jsp/feedback.htm">
+            <file href="common/jsp/feedback.htm"/>
+            <dependency identifierref="webrenderrequirements.16-346-astrodynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="r_common.terms.index.htm"
+                  type="webcontent"
+                  href="common/terms/index.htm">
+            <file href="common/terms/share.png"/>
+            <file href="common/terms/remix.png"/>
+            <file href="common/terms/by.png"/>
+            <file href="common/terms/nc.png"/>
+            <file href="common/terms/sa.png"/>
+            <file href="common/terms/deedheadyellow.png"/>
+            <file href="common/terms/freedomsheader.png"/>
+            <file href="common/terms/limitationsheader.png"/>
+            <file href="common/terms/deedfootyellow.png"/>
+            <dependency identifierref="webrenderrequirements.16-346-astrodynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="r_common.terms.trademarks.index.htm"
+                  type="webcontent"
+                  href="common/terms/trademarks/index.htm">
+            <file href="common/terms/trademarks/index.htm"/>
+            <dependency identifierref="webrenderrequirements.16-346-astrodynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="webrenderrequirements.16-346-astrodynamics-fall-2008"
+                  type="webcontent">
+        	<file href="common/styles/base.css"/>
+        	<file href="common/styles/courses.css"/>
+        	<file href="common/styles/courses_new.css"/>
+        	<file href="common/styles/global.css"/>
+        	<file href="common/styles/grid.css"/>
+        	<file href="common/styles/highslide.css"/>
+        	<file href="common/styles/highslide-ie6.css"/>
+        	<file href="common/styles/jquery.bubblepopup.css"/>
+        	<file href="common/styles/jquery.jscrollpane.css"/>
+        	<file href="common/styles/jquery-ui.css"/>
+        	<file href="common/styles/menu.css"/>
+        	<file href="common/styles/scholar2.css"/>
+        	<file href="common/styles/media_tabs.css"/>
+        	<file href="common/scripts/bubble-popup-offline.js"/>
+        	<file href="common/scripts/common-utils-offline.js"/>
+        	<file href="common/scripts/highslide-with-gallery.js"/>
+        	<file href="common/scripts/jquery.bubblepopup.min.js"/>
+        	<file href="common/scripts/jquery.jscrollpane.min.js"/>
+        	<file href="common/scripts/jquery-ui.min.js"/>
+        	<file href="common/scripts/jQuizMe-uncompressed.js"/>
+        	<file href="common/scripts/ocw-offline.js"/>
+        	<file href="common/scripts/expandy.js"/>
+        	<file href="common/images/ocw_mast.png"/>
+        	<file href="common/images/button_subscribe.png"/>
+        	<file href="common/images/icon_fb.png"/>
+        	<file href="common/images/icon_tw.png"/>
+        	<file href="common/images/top-nav_home.png"/>
+        	<file href="common/images/button_search.png"/>
+        	<file href="common/images/bg_top.png"/>
+        	<file href="common/images/bg_social.png"/>
+        	<file href="common/images/bg_mega-courses.png"/>
+        	<file href="common/images/bg_center2.png"/>
+        	<file href="common/images/bg_course-nav_current.png"/>
+        	<file href="common/images/button_donate-now.png"/>
+        	<file href="common/images/logo_mit.png"/>
+        	<file href="common/images/logo_ocwc.gif"/>
+        	<file href="common/images/cc_by-nc-sa.png"/>
+        	<file href="common/images/logo_dow.png"/>
+        	<file href="common/images/logo_lockheed.png"/>
+        	<file href="common/images/logo_mathworks.png"/>
+        	<file href="common/images/logo_abinitio.png"/>
+        	<file href="common/images/bg_bottom.png"/>
+        	<file href="common/images/nav_arrow.png"/>
+        	<file href="common/images/black-arrow.gif"/>
+        	<file href="common/images/trans.gif"/>
+        	<file href="common/images/arrow-bullet.gif"/>
+        	<file href="common/images/apple-touch-icon.png"/>
+        	<file href="common/images/highslide/graphics/zoomin.cur"/>
+        	<file href="common/images/highslide/graphics/zoomout.cur"/>
+        	<file href="common/images/highslide/graphics/controlbar2.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar3.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar4.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar4-hover.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar-black-border.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar-white.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar-white-small.gif"/>
+        	<file href="common/images/highslide/graphics/fullexpand.gif"/>
+        	<file href="common/images/highslide/graphics/icon.gif"/>
+        	<file href="common/images/highslide/graphics/loader.gif"/>
+        	<file href="common/images/highslide/graphics/loader.white.gif"/>
+        	<file href="common/images/highslide/graphics/resize.gif"/>
+        	<file href="common/images/highslide/graphics/close.png"/>
+        	<file href="common/images/highslide/graphics/closeX.png"/>
+        	<file href="common/images/highslide/graphics/controlbar-text-buttons.png"/>
+        	<file href="common/images/highslide/graphics/geckodimmer.png"/>
+        	<file href="common/images/highslide/graphics/scrollarrows.png"/>
+        	<file href="common/images/highslide/graphics/outlines/beveled.png"/>
+        	<file href="common/images/highslide/graphics/outlines/drop-shadow.png"/>
+        	<file href="common/images/highslide/graphics/outlines/glossy-dark.png"/>
+        	<file href="common/images/highslide/graphics/outlines/outer-glow.png"/>
+        	<file href="common/images/highslide/graphics/outlines/rounded-black.png"/>
+        	<file href="common/images/highslide/graphics/outlines/rounded-white.png"/>
+        	<file href="common/images/highslide/graphics/outlines/Outlines.psd"/>
+        	<file href="common/images/button_continue.jpg"/>
+        	<file href="common/images/button_donate.jpg"/>
+        	<file href="common/images/button_start.jpg"/>
+        	<file href="common/images/scholar_bar_chp.png"/>
+        	<file href="common/images/scholar_bar.png"/>
+        	<file href="common/images/logo_pdf.jpg"/>
+        	<file href="common/images/h2_trigger_open_close.gif"/>
+        	<file href="common/images/bookmark.gif"/>
+        	<file href="common/images/check.png"/>
+        	<file href="common/images/lightbulb.png"/>
+        	<file href="common/images/audio_file.gif"/>
+        	<file href="common/images/audio_only_slate.gif"/>
+        	<file href="common/images/video_file.gif"/>
+        	<file href="common/images/back-5.png"/>
+        	<file href="common/images/btn_next_resource.png"/>
+        	<file href="common/images/btn_previous_resource.png"/>
+        	<file href="common/images/close.png"/>
+        	<file href="common/images/inacessible.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/bottom-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/bottom-middle.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/bottom-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/middle-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/middle-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-bottom.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-top.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/top-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/top-middle.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/top-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/bottom-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/bottom-middle.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/bottom-right.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/middle-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/middle-right.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-bottom.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-right.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-top.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/top-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/top-middle.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/top-right.png"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.woff"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.ttf"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.svg"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.eot"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.woff"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.ttf"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.eot"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.svg"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.woff"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.ttf"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.svg"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.eot"/>
+        </resource>        
+  </resources>
+</manifest>

@@ -1,0 +1,2403 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest xmlns="http://www.imsglobal.org/xsd/imscp_v1p1"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+          xmlns:cwsp="http://www.dspace.org/xmlns/cwspace_imscp"
+          xmlns:ocw="http://ocw.mit.edu/xmlns/ocw_imscp"
+          xmlns:lom="http://ocw.mit.edu/xmlns/LOM"
+          identifier="urn_edu.mit.ocw_16-885j-aircraft-systems-engineering-fall-2005"
+          version="2013-6-22T3:14:7"
+          cwsp:packageType="Course"
+          xml:base="16-885j-fall-2005/"
+          xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 http://www.imsglobal.org/xsd/imscp_v1p1.xsd  http://www.adlnet.org/xsd/adlcp_rootv1p2 http://www.adlnet.org/xsd/adlcp_rootv1p2.xsd http://www.dspace.org/xmlns/cwspace_imscp http://www.dspace.org/xsd/cwspace_imscp/version10/cwspace_imscpv10.xsd http://ocw.mit.edu/xmlns/ocw_imscp http://ocw.mit.edu/xsd/ocw_imscp/version10/ocw_imscpv10.xsd http://ocw.mit.edu/xmlns/LOM http://ocw.mit.edu/xsd/LOM/lomv1.0/lomv1.0.xsd">
+   	<metadata>
+   		<schema>IMS Content</schema>
+        <schemaversion>1.1</schemaversion>
+        <cwsp:packageMetadata>
+            <cwsp:sourceSystem>OCW</cwsp:sourceSystem>
+            <cwsp:profile>CWSpace</cwsp:profile>
+            <cwsp:profileVersion>0.1</cwsp:profileVersion>
+        </cwsp:packageMetadata>
+        <lom:general uniqueElementName="general">
+            <lom:title uniqueElementName="title">
+				<lom:string language="en">Aircraft Systems Engineering</lom:string>
+			</lom:title>
+			<lom:identifier>
+				<lom:catalog uniqueElementName="catalog">OCW Master Course Number</lom:catalog>
+		      	<lom:entry uniqueElementName="entry">16.885J</lom:entry>
+			</lom:identifier>
+			<lom:identifier>
+				<lom:catalog uniqueElementName="catalog">OCW Linked Course Number</lom:catalog>
+		      	<lom:entry uniqueElementName="entry">ESD.35J</lom:entry>
+			</lom:identifier>
+        </lom:general>
+        <lom:lifecycle uniqueElementName="lifeCycle">
+            <lom:version uniqueElementName="version">
+				<lom:string language="en">Fall 2005</lom:string>
+			</lom:version>
+            <lom:contribute>
+	            <lom:role>
+	                <lom:source uniqueElementName="source">OCW_LOMv1.0</lom:source>
+	                <lom:value uniqueElementName="value">Author</lom:value>
+	            </lom:role>
+	            <lom:entity>Hoffman, Jeffrey</lom:entity>
+	            <lom:date uniqueElementName="date">
+	                <lom:dateTime uniqueElementName="dateTime">2013-6-22</lom:dateTime>
+	            </lom:date>
+        	</lom:contribute>
+        </lom:lifecycle>
+        <lom:taxonPath>
+            <lom:source uniqueElementName="source">
+                <lom:string language="en">OCW Course Categories</lom:string>
+            </lom:source>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Engineering</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Aerospace Engineering</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            
+        </lom:taxonPath>
+        <lom:taxonPath>
+            <lom:source uniqueElementName="source">
+                <lom:string language="en">OCW Course Categories</lom:string>
+            </lom:source>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Engineering</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Systems Engineering</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            
+        </lom:taxonPath>        
+        <adlcp:location>contents/index.htm.xml</adlcp:location>
+    </metadata>
+    <organizations default="ocw_16-885j-aircraft-systems-engineering-fall-2005">
+        <organization identifier="ocw_16-885j-aircraft-systems-engineering-fall-2005">
+            <title>Aircraft Systems Engineering</title>
+            <item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.CourseHome"
+                  identifierref="r_contents.index.htm"
+                  ocw:sectionTemplateType="CourseHomePage"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Aircraft Systems Engineering</title>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.16-885jf05.jpg"
+          identifierref="r_contents.16-885jf05.jpg">
+				<title>16-885jf05.jpg</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.16-885jf05-th.jpg"
+          identifierref="r_contents.16-885jf05-th.jpg">
+				<title>16-885jf05-th.jpg</title>
+				</item>
+			</item>
+            <item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.syllabus"
+                  identifierref="r_contents.syllabus.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Syllabus</title>
+			</item>
+            <item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.calendar"
+                  identifierref="r_contents.calendar.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Calendar</title>
+			</item>
+            <item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.readings"
+                  identifierref="r_contents.readings.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Readings</title>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.readings.spce_shtl_orbtr.pdf"
+          identifierref="r_contents.readings.spce_shtl_orbtr.pdf">
+				<title>spce_shtl_orbtr.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.readings.costs.pdf"
+          identifierref="r_contents.readings.costs.pdf">
+				<title>costs.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.readings.moser_strl_loads.pdf"
+          identifierref="r_contents.readings.moser_strl_loads.pdf">
+				<title>moser_strl_loads.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.readings.esas_presntn.pdf"
+          identifierref="r_contents.readings.esas_presntn.pdf">
+				<title>esas_presntn.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.readings.sefguide_01_01.pdf"
+          identifierref="r_contents.readings.sefguide_01_01.pdf">
+				<title>sefguide_01_01.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.readings.aldrdg_space_war.pdf"
+          identifierref="r_contents.readings.aldrdg_space_war.pdf">
+				<title>aldrdg_space_war.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.readings.shtl_strct_dynmc.pdf"
+          identifierref="r_contents.readings.shtl_strct_dynmc.pdf">
+				<title>shtl_strct_dynmc.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.readings.orb_str_des_ver.pdf"
+          identifierref="r_contents.readings.orb_str_des_ver.pdf">
+				<title>orb_str_des_ver.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.readings.interfaces_ac.pdf"
+          identifierref="r_contents.readings.interfaces_ac.pdf">
+				<title>interfaces_ac.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.readings.reliability_eng.pdf"
+          identifierref="r_contents.readings.reliability_eng.pdf">
+				<title>reliability_eng.pdf</title>
+				</item>
+			</item>
+            <item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures"
+                  identifierref="r_contents.video-lectures.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Video Lectures</title>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.thompson_bio.pdf"
+          identifierref="r_contents.video-lectures.thompson_bio.pdf">
+				<title>thompson_bio.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.louviere_bio.pdf"
+          identifierref="r_contents.video-lectures.louviere_bio.pdf">
+				<title>louviere_bio.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.moser_bio.pdf"
+          identifierref="r_contents.video-lectures.moser_bio.pdf">
+				<title>moser_bio.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.ried_arthrmdynmc.pdf"
+          identifierref="r_contents.video-lectures.ried_arthrmdynmc.pdf">
+				<title>ried_arthrmdynmc.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.pohl_bio.pdf"
+          identifierref="r_contents.video-lectures.pohl_bio.pdf">
+				<title>pohl_bio.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.cohen_bio.pdf"
+          identifierref="r_contents.video-lectures.cohen_bio.pdf">
+				<title>cohen_bio.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.hoffman_bio.pdf"
+          identifierref="r_contents.video-lectures.hoffman_bio.pdf">
+				<title>hoffman_bio.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.widnall_bio.pdf"
+          identifierref="r_contents.video-lectures.widnall_bio.pdf">
+				<title>widnall_bio.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.louviere_rms.pdf"
+          identifierref="r_contents.video-lectures.louviere_rms.pdf">
+				<title>louviere_rms.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.logsdn_lec_notes.pdf"
+          identifierref="r_contents.video-lectures.logsdn_lec_notes.pdf">
+				<title>logsdn_lec_notes.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.logsdon_bio.pdf"
+          identifierref="r_contents.video-lectures.logsdon_bio.pdf">
+				<title>logsdon_bio.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.hattis_bio.pdf"
+          identifierref="r_contents.video-lectures.hattis_bio.pdf">
+				<title>hattis_bio.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.fullerton_bio.pdf"
+          identifierref="r_contents.video-lectures.fullerton_bio.pdf">
+				<title>fullerton_bio.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.guy_bio.pdf"
+          identifierref="r_contents.video-lectures.guy_bio.pdf">
+				<title>guy_bio.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.sieck_launch_ops.pdf"
+          identifierref="r_contents.video-lectures.sieck_launch_ops.pdf">
+				<title>sieck_launch_ops.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.cohen_orbtr_subs.pdf"
+          identifierref="r_contents.video-lectures.cohen_orbtr_subs.pdf">
+				<title>cohen_orbtr_subs.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.lav_chan_sys_eng.pdf"
+          identifierref="r_contents.video-lectures.lav_chan_sys_eng.pdf">
+				<title>lav_chan_sys_eng.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.cohen_shtl_hist.pdf"
+          identifierref="r_contents.video-lectures.cohen_shtl_hist.pdf">
+				<title>cohen_shtl_hist.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.kraft_bio.pdf"
+          identifierref="r_contents.video-lectures.kraft_bio.pdf">
+				<title>kraft_bio.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.kraft_misn_ctrl.pdf"
+          identifierref="r_contents.video-lectures.kraft_misn_ctrl.pdf">
+				<title>kraft_misn_ctrl.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.sieck_bio.pdf"
+          identifierref="r_contents.video-lectures.sieck_bio.pdf">
+				<title>sieck_bio.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.myers_shtl_orign.pdf"
+          identifierref="r_contents.video-lectures.myers_shtl_orign.pdf">
+				<title>myers_shtl_orign.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.po_om_rc_ap_hy.pdf"
+          identifierref="r_contents.video-lectures.po_om_rc_ap_hy.pdf">
+				<title>po_om_rc_ap_hy.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.redd_bio.pdf"
+          identifierref="r_contents.video-lectures.redd_bio.pdf">
+				<title>redd_bio.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.guy_eclss.pdf"
+          identifierref="r_contents.video-lectures.guy_eclss.pdf">
+				<title>guy_eclss.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.mosr_strctrs_tps.pdf"
+          identifierref="r_contents.video-lectures.mosr_strctrs_tps.pdf">
+				<title>mosr_strctrs_tps.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.lecture-1"
+          identifierref="r_contents.video-lectures.lecture-1.index.htm">
+				<title>Lecture 1: The Origins of the Space Shuttle</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-1.1.jpg"
+          identifierref="r_contents.video-lectures.lecture-1.1.jpg">
+				<title>1.jpg</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-1.ocw-16.885-lec1.srt"
+          identifierref="r_contents.video-lectures.lecture-1.ocw-16.885-lec1.srt">
+				<title>ocw-16.885-lec1.srt</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-1.ocw-16_885-lec1.pdf"
+          identifierref="r_contents.video-lectures.lecture-1.ocw-16_885-lec1.pdf">
+				<title>ocw-16_885-lec1.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.lecture-2"
+          identifierref="r_contents.video-lectures.lecture-2.index.htm">
+				<title>Lecture 2: Space Shuttle History</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-2.2.jpg"
+          identifierref="r_contents.video-lectures.lecture-2.2.jpg">
+				<title>2.jpg</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-2.ocw-16_885-lec2.pdf"
+          identifierref="r_contents.video-lectures.lecture-2.ocw-16_885-lec2.pdf">
+				<title>ocw-16_885-lec2.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-2.ocw-16.885-lec2.srt"
+          identifierref="r_contents.video-lectures.lecture-2.ocw-16.885-lec2.srt">
+				<title>ocw-16.885-lec2.srt</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-2.ocw-16.885-lec2b.srt"
+          identifierref="r_contents.video-lectures.lecture-2.ocw-16.885-lec2b.srt">
+				<title>ocw-16.885-lec2b.srt</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.lecture-3"
+          identifierref="r_contents.video-lectures.lecture-3.index.htm">
+				<title>Lecture 3: Orbiter Sub-System Design</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-3.3.jpg"
+          identifierref="r_contents.video-lectures.lecture-3.3.jpg">
+				<title>3.jpg</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-3.ocw-16.885-lec3.srt"
+          identifierref="r_contents.video-lectures.lecture-3.ocw-16.885-lec3.srt">
+				<title>ocw-16.885-lec3.srt</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-3.ocw-16_885-lec3.pdf"
+          identifierref="r_contents.video-lectures.lecture-3.ocw-16_885-lec3.pdf">
+				<title>ocw-16_885-lec3.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.lecture-4"
+          identifierref="r_contents.video-lectures.lecture-4.index.htm">
+				<title>Lecture 4: The Decision to Build the Shuttle</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-4.4.jpg"
+          identifierref="r_contents.video-lectures.lecture-4.4.jpg">
+				<title>4.jpg</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-4.ocw-16_885-lec4.pdf"
+          identifierref="r_contents.video-lectures.lecture-4.ocw-16_885-lec4.pdf">
+				<title>ocw-16_885-lec4.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-4.ocw-16.885-lec4.srt"
+          identifierref="r_contents.video-lectures.lecture-4.ocw-16.885-lec4.srt">
+				<title>ocw-16.885-lec4.srt</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.lecture-5"
+          identifierref="r_contents.video-lectures.lecture-5.index.htm">
+				<title>Lecture 5: Orbiter Structure + Thermal Protection System</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-5.5.jpg"
+          identifierref="r_contents.video-lectures.lecture-5.5.jpg">
+				<title>5.jpg</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-5.ocw-16.885-lec5.srt"
+          identifierref="r_contents.video-lectures.lecture-5.ocw-16.885-lec5.srt">
+				<title>ocw-16.885-lec5.srt</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-5.ocw-16_885-lec5.pdf"
+          identifierref="r_contents.video-lectures.lecture-5.ocw-16_885-lec5.pdf">
+				<title>ocw-16_885-lec5.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.lecture-6"
+          identifierref="r_contents.video-lectures.lecture-6.index.htm">
+				<title>Lecture 6: Propulsion - Space Shuttle Main Engines</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-6.6.jpg"
+          identifierref="r_contents.video-lectures.lecture-6.6.jpg">
+				<title>6.jpg</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-6.ocw-16.885-lec6.srt"
+          identifierref="r_contents.video-lectures.lecture-6.ocw-16.885-lec6.srt">
+				<title>ocw-16.885-lec6.srt</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-6.ocw-16_885-lec6.pdf"
+          identifierref="r_contents.video-lectures.lecture-6.ocw-16_885-lec6.pdf">
+				<title>ocw-16_885-lec6.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.lecture-7"
+          identifierref="r_contents.video-lectures.lecture-7.index.htm">
+				<title>Lecture 7: Aerodynamics - (From Sub - to Hypersonic and Back)</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-7.7.jpg"
+          identifierref="r_contents.video-lectures.lecture-7.7.jpg">
+				<title>7.jpg</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-7.ocw-16_885-lec7.pdf"
+          identifierref="r_contents.video-lectures.lecture-7.ocw-16_885-lec7.pdf">
+				<title>ocw-16_885-lec7.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-7.ocw-16.885-lec7.srt"
+          identifierref="r_contents.video-lectures.lecture-7.ocw-16.885-lec7.srt">
+				<title>ocw-16.885-lec7.srt</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.lecture-8"
+          identifierref="r_contents.video-lectures.lecture-8.index.htm">
+				<title>Lecture 8: Landing and Mechanical Systems</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-8.8.jpg"
+          identifierref="r_contents.video-lectures.lecture-8.8.jpg">
+				<title>8.jpg</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-8.ocw-16.885-lec8.srt"
+          identifierref="r_contents.video-lectures.lecture-8.ocw-16.885-lec8.srt">
+				<title>ocw-16.885-lec8.srt</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-8.ocw-16_885-lec8.pdf"
+          identifierref="r_contents.video-lectures.lecture-8.ocw-16_885-lec8.pdf">
+				<title>ocw-16_885-lec8.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.lecture-9"
+          identifierref="r_contents.video-lectures.lecture-9.index.htm">
+				<title>Lecture 9: OMS, RCS, Fuel Cells, Auxiliary Power Unit and Hydraulic Systems</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-9.9.jpg"
+          identifierref="r_contents.video-lectures.lecture-9.9.jpg">
+				<title>9.jpg</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-9.ocw-16_885-lec9.pdf"
+          identifierref="r_contents.video-lectures.lecture-9.ocw-16_885-lec9.pdf">
+				<title>ocw-16_885-lec9.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-9.ocw-16.885-lec9.srt"
+          identifierref="r_contents.video-lectures.lecture-9.ocw-16.885-lec9.srt">
+				<title>ocw-16.885-lec9.srt</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.lecture-10"
+          identifierref="r_contents.video-lectures.lecture-10.index.htm">
+				<title>Lecture 10: The DoD and the Space Shuttle</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-10.10.jpg"
+          identifierref="r_contents.video-lectures.lecture-10.10.jpg">
+				<title>10.jpg</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-10.ocw-16.885-lec10.srt"
+          identifierref="r_contents.video-lectures.lecture-10.ocw-16.885-lec10.srt">
+				<title>ocw-16.885-lec10.srt</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-10.ocw-16_885-lec10.pdf"
+          identifierref="r_contents.video-lectures.lecture-10.ocw-16_885-lec10.pdf">
+				<title>ocw-16_885-lec10.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.lecture-11"
+          identifierref="r_contents.video-lectures.lecture-11.index.htm">
+				<title>Lecture 11: Use of Subsystems as a Function of Flight Phase</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-11.11.jpg"
+          identifierref="r_contents.video-lectures.lecture-11.11.jpg">
+				<title>11.jpg</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-11.ocw-16_885-lec11.pdf"
+          identifierref="r_contents.video-lectures.lecture-11.ocw-16_885-lec11.pdf">
+				<title>ocw-16_885-lec11.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-11.ocw-16.885-lec11.srt"
+          identifierref="r_contents.video-lectures.lecture-11.ocw-16.885-lec11.srt">
+				<title>ocw-16.885-lec11.srt</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.lecture-12"
+          identifierref="r_contents.video-lectures.lecture-12.index.htm">
+				<title>Lecture 12: Aerothermodynamics</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-12.12.jpg"
+          identifierref="r_contents.video-lectures.lecture-12.12.jpg">
+				<title>12.jpg</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-12.ocw-16.885-lec12.srt"
+          identifierref="r_contents.video-lectures.lecture-12.ocw-16.885-lec12.srt">
+				<title>ocw-16.885-lec12.srt</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-12.ocw-16_885-lec12.pdf"
+          identifierref="r_contents.video-lectures.lecture-12.ocw-16_885-lec12.pdf">
+				<title>ocw-16_885-lec12.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.lecture-13"
+          identifierref="r_contents.video-lectures.lecture-13.index.htm">
+				<title>Lecture 13: Environmental Control Systems</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-13.13.jpg"
+          identifierref="r_contents.video-lectures.lecture-13.13.jpg">
+				<title>13.jpg</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-13.ocw-16.885-lec13.srt"
+          identifierref="r_contents.video-lectures.lecture-13.ocw-16.885-lec13.srt">
+				<title>ocw-16.885-lec13.srt</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-13.ocw-16_885-lec13.pdf"
+          identifierref="r_contents.video-lectures.lecture-13.ocw-16_885-lec13.pdf">
+				<title>ocw-16_885-lec13.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.lecture-14"
+          identifierref="r_contents.video-lectures.lecture-14.index.htm">
+				<title>Lecture 14: Ground Operations - Launching the Shuttle</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-14.14.jpg"
+          identifierref="r_contents.video-lectures.lecture-14.14.jpg">
+				<title>14.jpg</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-14.ocw-16_885-lec14.pdf"
+          identifierref="r_contents.video-lectures.lecture-14.ocw-16_885-lec14.pdf">
+				<title>ocw-16_885-lec14.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-14.ocw-16.885-lec14.srt"
+          identifierref="r_contents.video-lectures.lecture-14.ocw-16.885-lec14.srt">
+				<title>ocw-16.885-lec14.srt</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.lecture-15"
+          identifierref="r_contents.video-lectures.lecture-15.index.htm">
+				<title>Lecture 15: Space Shuttle Accidents</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-15.15.jpg"
+          identifierref="r_contents.video-lectures.lecture-15.15.jpg">
+				<title>15.jpg</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-15.ocw-16.885-lec15.srt"
+          identifierref="r_contents.video-lectures.lecture-15.ocw-16.885-lec15.srt">
+				<title>ocw-16.885-lec15.srt</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-15.ocw-16_885-lec15.pdf"
+          identifierref="r_contents.video-lectures.lecture-15.ocw-16_885-lec15.pdf">
+				<title>ocw-16_885-lec15.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.lecture-16"
+          identifierref="r_contents.video-lectures.lecture-16.index.htm">
+				<title>Lecture 16: Guidance, Navigation and Control</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-16.16.jpg"
+          identifierref="r_contents.video-lectures.lecture-16.16.jpg">
+				<title>16.jpg</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-16.ocw-16_885-lec16.pdf"
+          identifierref="r_contents.video-lectures.lecture-16.ocw-16_885-lec16.pdf">
+				<title>ocw-16_885-lec16.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-16.ocw-16.885-lec16.srt"
+          identifierref="r_contents.video-lectures.lecture-16.ocw-16.885-lec16.srt">
+				<title>ocw-16.885-lec16.srt</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.lecture-17"
+          identifierref="r_contents.video-lectures.lecture-17.index.htm">
+				<title>Lecture 17: Mission Control 1</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-17.17.jpg"
+          identifierref="r_contents.video-lectures.lecture-17.17.jpg">
+				<title>17.jpg</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-17.ocw-16.885-lec17.srt"
+          identifierref="r_contents.video-lectures.lecture-17.ocw-16.885-lec17.srt">
+				<title>ocw-16.885-lec17.srt</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-17.ocw-16_885-lec17.pdf"
+          identifierref="r_contents.video-lectures.lecture-17.ocw-16_885-lec17.pdf">
+				<title>ocw-16_885-lec17.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.lecture-18"
+          identifierref="r_contents.video-lectures.lecture-18.index.htm">
+				<title>Lecture 18: Mission Control 2</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-18.18.jpg"
+          identifierref="r_contents.video-lectures.lecture-18.18.jpg">
+				<title>18.jpg</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-18.ocw-16_885-lec18.pdf"
+          identifierref="r_contents.video-lectures.lecture-18.ocw-16_885-lec18.pdf">
+				<title>ocw-16_885-lec18.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-18.ocw-16.885-lec18.srt"
+          identifierref="r_contents.video-lectures.lecture-18.ocw-16.885-lec18.srt">
+				<title>ocw-16.885-lec18.srt</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.lecture-19"
+          identifierref="r_contents.video-lectures.lecture-19.index.htm">
+				<title>Lecture 19: Design Process as it Relates to the Shuttle</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-19.19.jpg"
+          identifierref="r_contents.video-lectures.lecture-19.19.jpg">
+				<title>19.jpg</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-19.ocw-16.885-lec19.srt"
+          identifierref="r_contents.video-lectures.lecture-19.ocw-16.885-lec19.srt">
+				<title>ocw-16.885-lec19.srt</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-19.ocw-16_885-lec19.pdf"
+          identifierref="r_contents.video-lectures.lecture-19.ocw-16_885-lec19.pdf">
+				<title>ocw-16_885-lec19.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.lecture-20"
+          identifierref="r_contents.video-lectures.lecture-20.index.htm">
+				<title>Lecture 20: EVA and Robotics on the Shuttle</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-20.20.jpg"
+          identifierref="r_contents.video-lectures.lecture-20.20.jpg">
+				<title>20.jpg</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-20.ocw-16_885-lec20.pdf"
+          identifierref="r_contents.video-lectures.lecture-20.ocw-16_885-lec20.pdf">
+				<title>ocw-16_885-lec20.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-20.ocw-16.885-lec20.srt"
+          identifierref="r_contents.video-lectures.lecture-20.ocw-16.885-lec20.srt">
+				<title>ocw-16.885-lec20.srt</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.lecture-21"
+          identifierref="r_contents.video-lectures.lecture-21.index.htm">
+				<title>Lecture 21: Systems Engineering for Space Shuttle Payloads</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-21.21.jpg"
+          identifierref="r_contents.video-lectures.lecture-21.21.jpg">
+				<title>21.jpg</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-21.ocw-16.885-lec21.srt"
+          identifierref="r_contents.video-lectures.lecture-21.ocw-16.885-lec21.srt">
+				<title>ocw-16.885-lec21.srt</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-21.ocw-16_885-lec21.pdf"
+          identifierref="r_contents.video-lectures.lecture-21.ocw-16_885-lec21.pdf">
+				<title>ocw-16_885-lec21.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.lecture-22"
+          identifierref="r_contents.video-lectures.lecture-22.index.htm">
+				<title>Lecture 22: Test Flying the Space Shuttle</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-22.22.jpg"
+          identifierref="r_contents.video-lectures.lecture-22.22.jpg">
+				<title>22.jpg</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-22.ocw-16_885-lec22.pdf"
+          identifierref="r_contents.video-lectures.lecture-22.ocw-16_885-lec22.pdf">
+				<title>ocw-16_885-lec22.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.video-lectures.video-lectures.lecture-22.ocw-16.885-lec22.srt"
+          identifierref="r_contents.video-lectures.lecture-22.ocw-16.885-lec22.srt">
+				<title>ocw-16.885-lec22.srt</title>
+				</item>
+			</item>
+            <item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.projects"
+                  identifierref="r_contents.projects.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Projects</title>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.projects.gnc.pdf"
+          identifierref="r_contents.projects.gnc.pdf">
+				<title>gnc.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.projects.orbiter_cockpit.pdf"
+          identifierref="r_contents.projects.orbiter_cockpit.pdf">
+				<title>orbiter_cockpit.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.projects.ecls.pdf"
+          identifierref="r_contents.projects.ecls.pdf">
+				<title>ecls.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.projects.psp.pdf"
+          identifierref="r_contents.projects.psp.pdf">
+				<title>psp.pdf</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.projects.tps.pdf"
+          identifierref="r_contents.projects.tps.pdf">
+				<title>tps.pdf</title>
+				</item>
+			</item>
+            <item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.related-resources"
+                  identifierref="r_contents.related-resources.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Related Resources</title>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.related-resources.apollosuit.jpg"
+          identifierref="r_contents.related-resources.apollosuit.jpg">
+				<title>apollosuit.jpg</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.related-resources.thumb_apollosuit.jpg"
+          identifierref="r_contents.related-resources.thumb_apollosuit.jpg">
+				<title>apollosuit.jpg</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.related-resources.mmupack.jpg"
+          identifierref="r_contents.related-resources.mmupack.jpg">
+				<title>mmupack.jpg</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.related-resources.thumb_mmupack.jpg"
+          identifierref="r_contents.related-resources.thumb_mmupack.jpg">
+				<title>mmupack.jpg</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.related-resources.P1010012.jpg"
+          identifierref="r_contents.related-resources.P1010012.jpg">
+				<title>P1010012.jpg</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.related-resources.thumb_P1010012.jpg"
+          identifierref="r_contents.related-resources.thumb_P1010012.jpg">
+				<title>P1010012.jpg</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.related-resources.P1010008.jpg"
+          identifierref="r_contents.related-resources.P1010008.jpg">
+				<title>P1010008.jpg</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.related-resources.thumb_P1010008.jpg"
+          identifierref="r_contents.related-resources.thumb_P1010008.jpg">
+				<title>P1010008.jpg</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.related-resources.P1010022.jpg"
+          identifierref="r_contents.related-resources.P1010022.jpg">
+				<title>P1010022.jpg</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.related-resources.thumb_P1010022.jpg"
+          identifierref="r_contents.related-resources.thumb_P1010022.jpg">
+				<title>P1010022.jpg</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.related-resources.P1010016.jpg"
+          identifierref="r_contents.related-resources.P1010016.jpg">
+				<title>P1010016.jpg</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.related-resources.thumb_P1010016.jpg"
+          identifierref="r_contents.related-resources.thumb_P1010016.jpg">
+				<title>P1010016.jpg</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.related-resources.P1010017.jpg"
+          identifierref="r_contents.related-resources.P1010017.jpg">
+				<title>P1010017.jpg</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.related-resources.thumb_P1010017.jpg"
+          identifierref="r_contents.related-resources.thumb_P1010017.jpg">
+				<title>P1010017.jpg</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.related-resources.P1010018.jpg"
+          identifierref="r_contents.related-resources.P1010018.jpg">
+				<title>P1010018.jpg</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.related-resources.thumb_P1010018.jpg"
+          identifierref="r_contents.related-resources.thumb_P1010018.jpg">
+				<title>P1010018.jpg</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.related-resources.P1010019.jpg"
+          identifierref="r_contents.related-resources.P1010019.jpg">
+				<title>P1010019.jpg</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.related-resources.thumb_P1010019.jpg"
+          identifierref="r_contents.related-resources.thumb_P1010019.jpg">
+				<title>P1010019.jpg</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.related-resources.P1010020.jpg"
+          identifierref="r_contents.related-resources.P1010020.jpg">
+				<title>P1010020.jpg</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.related-resources.thumb_P1010020.jpg"
+          identifierref="r_contents.related-resources.thumb_P1010020.jpg">
+				<title>P1010020.jpg</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.related-resources.P1010021.jpg"
+          identifierref="r_contents.related-resources.P1010021.jpg">
+				<title>P1010021.jpg</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.related-resources.thumb_P1010021.jpg"
+          identifierref="r_contents.related-resources.thumb_P1010021.jpg">
+				<title>P1010021.jpg</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.related-resources.P1010006.jpg"
+          identifierref="r_contents.related-resources.P1010006.jpg">
+				<title>P1010006.jpg</title>
+				</item>
+				<item identifier="i_16-885j-aircraft-systems-engineering-fall-2005.related-resources.thumb_P1010006.jpg"
+          identifierref="r_contents.related-resources.thumb_P1010006.jpg">
+				<title>P1010006.jpg</title>
+				</item>
+			</item>
+            <item identifier="i_terms"
+                  identifierref="r_common.terms.index.htm"
+                  ocw:sectionTemplateType="GlobalSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Legal Notices</title>
+			</item>
+            <item identifier="i_terms"
+                  identifierref="r_common.terms.index.htm"
+                  ocw:sectionTemplateType="GlobalSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Privacy Statement</title>
+			</item>
+            <item identifier="i_terms.trademarks"
+                  identifierref="r_common.terms.trademarks.index.htm"
+                  ocw:sectionTemplateType="GlobalSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Trademark Notices</title>
+			</item>
+        </organization>
+    </organizations>
+    <resources>
+        <resource identifier="r_contents.video-lectures.po_om_rc_ap_hy.pdf"
+                  type="other"
+                  href="contents/video-lectures/po_om_rc_ap_hy.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/po_om_rc_ap_hy.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/po_om_rc_ap_hy.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-7.7.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-7/7.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-7/7.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-7/7.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-17.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-17/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-17/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-17/index.htm"/>
+            <dependency identifierref="webrenderrequirements.16-885j-aircraft-systems-engineering-fall-2005"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.pohl_bio.pdf"
+                  type="other"
+                  href="contents/video-lectures/pohl_bio.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/pohl_bio.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/pohl_bio.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-6.ocw-16_885-lec6.pdf"
+                  type="other"
+                  href="contents/video-lectures/lecture-6/ocw-16_885-lec6.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-6/ocw-16_885-lec6.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-6/ocw-16_885-lec6.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.readings.sefguide_01_01.pdf"
+                  type="other"
+                  href="contents/readings/sefguide_01_01.pdf">
+            <metadata>
+                <adlcp:location>contents/readings/sefguide_01_01.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/readings/sefguide_01_01.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-15.ocw-16.885-lec15.srt"
+                  type="other"
+                  href="contents/video-lectures/lecture-15/ocw-16.885-lec15.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-15/ocw-16.885-lec15.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-15/ocw-16.885-lec15.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-10.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-10/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-10/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-10/index.htm"/>
+            <dependency identifierref="webrenderrequirements.16-885j-aircraft-systems-engineering-fall-2005"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-18.ocw-16_885-lec18.pdf"
+                  type="other"
+                  href="contents/video-lectures/lecture-18/ocw-16_885-lec18.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-18/ocw-16_885-lec18.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-18/ocw-16_885-lec18.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.readings.reliability_eng.pdf"
+                  type="other"
+                  href="contents/readings/reliability_eng.pdf">
+            <metadata>
+                <adlcp:location>contents/readings/reliability_eng.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/readings/reliability_eng.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.index.htm"
+                  type="webcontent"
+                  href="contents/projects/index.htm">
+            <metadata>
+                <adlcp:location>contents/projects/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/index.htm"/>
+            <dependency identifierref="webrenderrequirements.16-885j-aircraft-systems-engineering-fall-2005"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-12.ocw-16.885-lec12.srt"
+                  type="other"
+                  href="contents/video-lectures/lecture-12/ocw-16.885-lec12.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-12/ocw-16.885-lec12.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-12/ocw-16.885-lec12.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-13.ocw-16.885-lec13.srt"
+                  type="other"
+                  href="contents/video-lectures/lecture-13/ocw-16.885-lec13.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-13/ocw-16.885-lec13.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-13/ocw-16.885-lec13.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-17.ocw-16_885-lec17.pdf"
+                  type="other"
+                  href="contents/video-lectures/lecture-17/ocw-16_885-lec17.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-17/ocw-16_885-lec17.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-17/ocw-16_885-lec17.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-19.ocw-16_885-lec19.pdf"
+                  type="other"
+                  href="contents/video-lectures/lecture-19/ocw-16_885-lec19.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-19/ocw-16_885-lec19.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-19/ocw-16_885-lec19.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lav_chan_sys_eng.pdf"
+                  type="other"
+                  href="contents/video-lectures/lav_chan_sys_eng.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lav_chan_sys_eng.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lav_chan_sys_eng.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-5.ocw-16_885-lec5.pdf"
+                  type="other"
+                  href="contents/video-lectures/lecture-5/ocw-16_885-lec5.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-5/ocw-16_885-lec5.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-5/ocw-16_885-lec5.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-1.ocw-16.885-lec1.srt"
+                  type="other"
+                  href="contents/video-lectures/lecture-1/ocw-16.885-lec1.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-1/ocw-16.885-lec1.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-1/ocw-16.885-lec1.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.related-resources.P1010022.jpg"
+                  type="other"
+                  href="contents/related-resources/P1010022.jpg">
+            <metadata>
+                <adlcp:location>contents/related-resources/P1010022.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/related-resources/P1010022.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.related-resources.thumb_P1010022.jpg"
+                  type="other"
+                  href="contents/related-resources/thumb_P1010022.jpg">
+            <metadata>
+                <adlcp:location>contents/related-resources/thumb_P1010022.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/related-resources/thumb_P1010022.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.readings.spce_shtl_orbtr.pdf"
+                  type="other"
+                  href="contents/readings/spce_shtl_orbtr.pdf">
+            <metadata>
+                <adlcp:location>contents/readings/spce_shtl_orbtr.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/readings/spce_shtl_orbtr.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.readings.shtl_strct_dynmc.pdf"
+                  type="other"
+                  href="contents/readings/shtl_strct_dynmc.pdf">
+            <metadata>
+                <adlcp:location>contents/readings/shtl_strct_dynmc.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/readings/shtl_strct_dynmc.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.logsdon_bio.pdf"
+                  type="other"
+                  href="contents/video-lectures/logsdon_bio.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/logsdon_bio.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/logsdon_bio.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-2.ocw-16.885-lec2.srt"
+                  type="other"
+                  href="contents/video-lectures/lecture-2/ocw-16.885-lec2.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-2/ocw-16.885-lec2.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-2/ocw-16.885-lec2.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.cohen_orbtr_subs.pdf"
+                  type="other"
+                  href="contents/video-lectures/cohen_orbtr_subs.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/cohen_orbtr_subs.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/cohen_orbtr_subs.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-17.17.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-17/17.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-17/17.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-17/17.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-7.ocw-16.885-lec7.srt"
+                  type="other"
+                  href="contents/video-lectures/lecture-7/ocw-16.885-lec7.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-7/ocw-16.885-lec7.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-7/ocw-16.885-lec7.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-5.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-5/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-5/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-5/index.htm"/>
+            <dependency identifierref="webrenderrequirements.16-885j-aircraft-systems-engineering-fall-2005"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-4.ocw-16_885-lec4.pdf"
+                  type="other"
+                  href="contents/video-lectures/lecture-4/ocw-16_885-lec4.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-4/ocw-16_885-lec4.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-4/ocw-16_885-lec4.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.kraft_bio.pdf"
+                  type="other"
+                  href="contents/video-lectures/kraft_bio.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/kraft_bio.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/kraft_bio.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/index.htm"/>
+            <dependency identifierref="webrenderrequirements.16-885j-aircraft-systems-engineering-fall-2005"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.logsdn_lec_notes.pdf"
+                  type="other"
+                  href="contents/video-lectures/logsdn_lec_notes.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/logsdn_lec_notes.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/logsdn_lec_notes.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.tps.pdf"
+                  type="other"
+                  href="contents/projects/tps.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/tps.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/tps.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-2.ocw-16.885-lec2b.srt"
+                  type="other"
+                  href="contents/video-lectures/lecture-2/ocw-16.885-lec2b.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-2/ocw-16.885-lec2b.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-2/ocw-16.885-lec2b.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.readings.moser_strl_loads.pdf"
+                  type="other"
+                  href="contents/readings/moser_strl_loads.pdf">
+            <metadata>
+                <adlcp:location>contents/readings/moser_strl_loads.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/readings/moser_strl_loads.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-7.ocw-16_885-lec7.pdf"
+                  type="other"
+                  href="contents/video-lectures/lecture-7/ocw-16_885-lec7.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-7/ocw-16_885-lec7.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-7/ocw-16_885-lec7.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-20.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-20/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-20/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-20/index.htm"/>
+            <dependency identifierref="webrenderrequirements.16-885j-aircraft-systems-engineering-fall-2005"/>            
+        </resource>
+        <resource identifier="r_contents.related-resources.mmupack.jpg"
+                  type="other"
+                  href="contents/related-resources/mmupack.jpg">
+            <metadata>
+                <adlcp:location>contents/related-resources/mmupack.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/related-resources/mmupack.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.related-resources.thumb_mmupack.jpg"
+                  type="other"
+                  href="contents/related-resources/thumb_mmupack.jpg">
+            <metadata>
+                <adlcp:location>contents/related-resources/thumb_mmupack.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/related-resources/thumb_mmupack.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.mosr_strctrs_tps.pdf"
+                  type="other"
+                  href="contents/video-lectures/mosr_strctrs_tps.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/mosr_strctrs_tps.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/mosr_strctrs_tps.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.related-resources.P1010017.jpg"
+                  type="other"
+                  href="contents/related-resources/P1010017.jpg">
+            <metadata>
+                <adlcp:location>contents/related-resources/P1010017.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/related-resources/P1010017.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.related-resources.thumb_P1010017.jpg"
+                  type="other"
+                  href="contents/related-resources/thumb_P1010017.jpg">
+            <metadata>
+                <adlcp:location>contents/related-resources/thumb_P1010017.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/related-resources/thumb_P1010017.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-3.3.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-3/3.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-3/3.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-3/3.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-8.ocw-16.885-lec8.srt"
+                  type="other"
+                  href="contents/video-lectures/lecture-8/ocw-16.885-lec8.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-8/ocw-16.885-lec8.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-8/ocw-16.885-lec8.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-14.14.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-14/14.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-14/14.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-14/14.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.calendar.index.htm"
+                  type="webcontent"
+                  href="contents/calendar/index.htm">
+            <metadata>
+                <adlcp:location>contents/calendar/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/calendar/index.htm"/>
+            <dependency identifierref="webrenderrequirements.16-885j-aircraft-systems-engineering-fall-2005"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-14.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-14/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-14/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-14/index.htm"/>
+            <dependency identifierref="webrenderrequirements.16-885j-aircraft-systems-engineering-fall-2005"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-4.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-4/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-4/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-4/index.htm"/>
+            <dependency identifierref="webrenderrequirements.16-885j-aircraft-systems-engineering-fall-2005"/>            
+        </resource>
+        <resource identifier="r_contents.related-resources.P1010020.jpg"
+                  type="other"
+                  href="contents/related-resources/P1010020.jpg">
+            <metadata>
+                <adlcp:location>contents/related-resources/P1010020.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/related-resources/P1010020.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.related-resources.thumb_P1010020.jpg"
+                  type="other"
+                  href="contents/related-resources/thumb_P1010020.jpg">
+            <metadata>
+                <adlcp:location>contents/related-resources/thumb_P1010020.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/related-resources/thumb_P1010020.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.readings.costs.pdf"
+                  type="other"
+                  href="contents/readings/costs.pdf">
+            <metadata>
+                <adlcp:location>contents/readings/costs.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/readings/costs.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.louviere_bio.pdf"
+                  type="other"
+                  href="contents/video-lectures/louviere_bio.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/louviere_bio.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/louviere_bio.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.widnall_bio.pdf"
+                  type="other"
+                  href="contents/video-lectures/widnall_bio.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/widnall_bio.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/widnall_bio.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-10.ocw-16.885-lec10.srt"
+                  type="other"
+                  href="contents/video-lectures/lecture-10/ocw-16.885-lec10.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-10/ocw-16.885-lec10.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-10/ocw-16.885-lec10.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.orbiter_cockpit.pdf"
+                  type="other"
+                  href="contents/projects/orbiter_cockpit.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/orbiter_cockpit.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/orbiter_cockpit.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.related-resources.apollosuit.jpg"
+                  type="other"
+                  href="contents/related-resources/apollosuit.jpg">
+            <metadata>
+                <adlcp:location>contents/related-resources/apollosuit.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/related-resources/apollosuit.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.related-resources.thumb_apollosuit.jpg"
+                  type="other"
+                  href="contents/related-resources/thumb_apollosuit.jpg">
+            <metadata>
+                <adlcp:location>contents/related-resources/thumb_apollosuit.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/related-resources/thumb_apollosuit.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.guy_bio.pdf"
+                  type="other"
+                  href="contents/video-lectures/guy_bio.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/guy_bio.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/guy_bio.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.related-resources.P1010006.jpg"
+                  type="other"
+                  href="contents/related-resources/P1010006.jpg">
+            <metadata>
+                <adlcp:location>contents/related-resources/P1010006.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/related-resources/P1010006.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.related-resources.thumb_P1010006.jpg"
+                  type="other"
+                  href="contents/related-resources/thumb_P1010006.jpg">
+            <metadata>
+                <adlcp:location>contents/related-resources/thumb_P1010006.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/related-resources/thumb_P1010006.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-22.ocw-16_885-lec22.pdf"
+                  type="other"
+                  href="contents/video-lectures/lecture-22/ocw-16_885-lec22.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-22/ocw-16_885-lec22.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-22/ocw-16_885-lec22.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.readings.orb_str_des_ver.pdf"
+                  type="other"
+                  href="contents/readings/orb_str_des_ver.pdf">
+            <metadata>
+                <adlcp:location>contents/readings/orb_str_des_ver.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/readings/orb_str_des_ver.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-22.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-22/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-22/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-22/index.htm"/>
+            <dependency identifierref="webrenderrequirements.16-885j-aircraft-systems-engineering-fall-2005"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-2.ocw-16_885-lec2.pdf"
+                  type="other"
+                  href="contents/video-lectures/lecture-2/ocw-16_885-lec2.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-2/ocw-16_885-lec2.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-2/ocw-16_885-lec2.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-5.ocw-16.885-lec5.srt"
+                  type="other"
+                  href="contents/video-lectures/lecture-5/ocw-16.885-lec5.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-5/ocw-16.885-lec5.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-5/ocw-16.885-lec5.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-14.ocw-16_885-lec14.pdf"
+                  type="other"
+                  href="contents/video-lectures/lecture-14/ocw-16_885-lec14.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-14/ocw-16_885-lec14.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-14/ocw-16_885-lec14.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.related-resources.P1010008.jpg"
+                  type="other"
+                  href="contents/related-resources/P1010008.jpg">
+            <metadata>
+                <adlcp:location>contents/related-resources/P1010008.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/related-resources/P1010008.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.related-resources.thumb_P1010008.jpg"
+                  type="other"
+                  href="contents/related-resources/thumb_P1010008.jpg">
+            <metadata>
+                <adlcp:location>contents/related-resources/thumb_P1010008.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/related-resources/thumb_P1010008.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-18.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-18/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-18/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-18/index.htm"/>
+            <dependency identifierref="webrenderrequirements.16-885j-aircraft-systems-engineering-fall-2005"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-3.ocw-16.885-lec3.srt"
+                  type="other"
+                  href="contents/video-lectures/lecture-3/ocw-16.885-lec3.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-3/ocw-16.885-lec3.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-3/ocw-16.885-lec3.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-9.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-9/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-9/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-9/index.htm"/>
+            <dependency identifierref="webrenderrequirements.16-885j-aircraft-systems-engineering-fall-2005"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-5.5.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-5/5.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-5/5.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-5/5.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.related-resources.P1010012.jpg"
+                  type="other"
+                  href="contents/related-resources/P1010012.jpg">
+            <metadata>
+                <adlcp:location>contents/related-resources/P1010012.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/related-resources/P1010012.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.related-resources.thumb_P1010012.jpg"
+                  type="other"
+                  href="contents/related-resources/thumb_P1010012.jpg">
+            <metadata>
+                <adlcp:location>contents/related-resources/thumb_P1010012.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/related-resources/thumb_P1010012.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-16.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-16/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-16/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-16/index.htm"/>
+            <dependency identifierref="webrenderrequirements.16-885j-aircraft-systems-engineering-fall-2005"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.thompson_bio.pdf"
+                  type="other"
+                  href="contents/video-lectures/thompson_bio.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/thompson_bio.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/thompson_bio.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-22.ocw-16.885-lec22.srt"
+                  type="other"
+                  href="contents/video-lectures/lecture-22/ocw-16.885-lec22.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-22/ocw-16.885-lec22.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-22/ocw-16.885-lec22.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.cohen_shtl_hist.pdf"
+                  type="other"
+                  href="contents/video-lectures/cohen_shtl_hist.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/cohen_shtl_hist.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/cohen_shtl_hist.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.hoffman_bio.pdf"
+                  type="other"
+                  href="contents/video-lectures/hoffman_bio.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/hoffman_bio.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/hoffman_bio.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.readings.esas_presntn.pdf"
+                  type="other"
+                  href="contents/readings/esas_presntn.pdf">
+            <metadata>
+                <adlcp:location>contents/readings/esas_presntn.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/readings/esas_presntn.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.readings.index.htm"
+                  type="webcontent"
+                  href="contents/readings/index.htm">
+            <metadata>
+                <adlcp:location>contents/readings/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/readings/index.htm"/>
+            <dependency identifierref="webrenderrequirements.16-885j-aircraft-systems-engineering-fall-2005"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.cohen_bio.pdf"
+                  type="other"
+                  href="contents/video-lectures/cohen_bio.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/cohen_bio.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/cohen_bio.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-11.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-11/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-11/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-11/index.htm"/>
+            <dependency identifierref="webrenderrequirements.16-885j-aircraft-systems-engineering-fall-2005"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-3.ocw-16_885-lec3.pdf"
+                  type="other"
+                  href="contents/video-lectures/lecture-3/ocw-16_885-lec3.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-3/ocw-16_885-lec3.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-3/ocw-16_885-lec3.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-16.ocw-16.885-lec16.srt"
+                  type="other"
+                  href="contents/video-lectures/lecture-16/ocw-16.885-lec16.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-16/ocw-16.885-lec16.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-16/ocw-16.885-lec16.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-20.ocw-16_885-lec20.pdf"
+                  type="other"
+                  href="contents/video-lectures/lecture-20/ocw-16_885-lec20.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-20/ocw-16_885-lec20.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-20/ocw-16_885-lec20.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-18.18.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-18/18.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-18/18.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-18/18.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.16-885jf05.jpg"
+                  type="other"
+                  href="contents/16-885jf05.jpg">
+            <metadata>
+                <adlcp:location>contents/16-885jf05.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/16-885jf05.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-21.ocw-16.885-lec21.srt"
+                  type="other"
+                  href="contents/video-lectures/lecture-21/ocw-16.885-lec21.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-21/ocw-16.885-lec21.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-21/ocw-16.885-lec21.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.moser_bio.pdf"
+                  type="other"
+                  href="contents/video-lectures/moser_bio.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/moser_bio.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/moser_bio.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.ecls.pdf"
+                  type="other"
+                  href="contents/projects/ecls.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/ecls.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/ecls.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.gnc.pdf"
+                  type="other"
+                  href="contents/projects/gnc.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/gnc.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/gnc.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.index.htm"
+                  type="webcontent"
+                  href="contents/index.htm">
+            <metadata>
+                <adlcp:location>contents/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/index.htm"/>
+            <dependency identifierref="webrenderrequirements.16-885j-aircraft-systems-engineering-fall-2005"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-8.8.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-8/8.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-8/8.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-8/8.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-19.ocw-16.885-lec19.srt"
+                  type="other"
+                  href="contents/video-lectures/lecture-19/ocw-16.885-lec19.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-19/ocw-16.885-lec19.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-19/ocw-16.885-lec19.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-15.ocw-16_885-lec15.pdf"
+                  type="other"
+                  href="contents/video-lectures/lecture-15/ocw-16_885-lec15.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-15/ocw-16_885-lec15.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-15/ocw-16_885-lec15.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.related-resources.index.htm"
+                  type="webcontent"
+                  href="contents/related-resources/index.htm">
+            <metadata>
+                <adlcp:location>contents/related-resources/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/related-resources/index.htm"/>
+            <dependency identifierref="webrenderrequirements.16-885j-aircraft-systems-engineering-fall-2005"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-20.20.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-20/20.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-20/20.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-20/20.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.readings.interfaces_ac.pdf"
+                  type="other"
+                  href="contents/readings/interfaces_ac.pdf">
+            <metadata>
+                <adlcp:location>contents/readings/interfaces_ac.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/readings/interfaces_ac.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.16-885jf05-th.jpg"
+                  type="other"
+                  href="contents/16-885jf05-th.jpg">
+            <metadata>
+                <adlcp:location>contents/16-885jf05-th.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/16-885jf05-th.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-15.15.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-15/15.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-15/15.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-15/15.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.redd_bio.pdf"
+                  type="other"
+                  href="contents/video-lectures/redd_bio.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/redd_bio.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/redd_bio.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.related-resources.P1010018.jpg"
+                  type="other"
+                  href="contents/related-resources/P1010018.jpg">
+            <metadata>
+                <adlcp:location>contents/related-resources/P1010018.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/related-resources/P1010018.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.related-resources.thumb_P1010018.jpg"
+                  type="other"
+                  href="contents/related-resources/thumb_P1010018.jpg">
+            <metadata>
+                <adlcp:location>contents/related-resources/thumb_P1010018.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/related-resources/thumb_P1010018.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-6.ocw-16.885-lec6.srt"
+                  type="other"
+                  href="contents/video-lectures/lecture-6/ocw-16.885-lec6.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-6/ocw-16.885-lec6.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-6/ocw-16.885-lec6.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-17.ocw-16.885-lec17.srt"
+                  type="other"
+                  href="contents/video-lectures/lecture-17/ocw-16.885-lec17.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-17/ocw-16.885-lec17.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-17/ocw-16.885-lec17.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-7.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-7/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-7/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-7/index.htm"/>
+            <dependency identifierref="webrenderrequirements.16-885j-aircraft-systems-engineering-fall-2005"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-8.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-8/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-8/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-8/index.htm"/>
+            <dependency identifierref="webrenderrequirements.16-885j-aircraft-systems-engineering-fall-2005"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-13.13.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-13/13.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-13/13.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-13/13.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-1.1.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-1/1.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-1/1.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-1/1.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-15.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-15/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-15/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-15/index.htm"/>
+            <dependency identifierref="webrenderrequirements.16-885j-aircraft-systems-engineering-fall-2005"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-21.ocw-16_885-lec21.pdf"
+                  type="other"
+                  href="contents/video-lectures/lecture-21/ocw-16_885-lec21.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-21/ocw-16_885-lec21.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-21/ocw-16_885-lec21.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-4.ocw-16.885-lec4.srt"
+                  type="other"
+                  href="contents/video-lectures/lecture-4/ocw-16.885-lec4.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-4/ocw-16.885-lec4.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-4/ocw-16.885-lec4.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.hattis_bio.pdf"
+                  type="other"
+                  href="contents/video-lectures/hattis_bio.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/hattis_bio.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/hattis_bio.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-12.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-12/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-12/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-12/index.htm"/>
+            <dependency identifierref="webrenderrequirements.16-885j-aircraft-systems-engineering-fall-2005"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-13.ocw-16_885-lec13.pdf"
+                  type="other"
+                  href="contents/video-lectures/lecture-13/ocw-16_885-lec13.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-13/ocw-16_885-lec13.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-13/ocw-16_885-lec13.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-2.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-2/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-2/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-2/index.htm"/>
+            <dependency identifierref="webrenderrequirements.16-885j-aircraft-systems-engineering-fall-2005"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-3.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-3/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-3/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-3/index.htm"/>
+            <dependency identifierref="webrenderrequirements.16-885j-aircraft-systems-engineering-fall-2005"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-18.ocw-16.885-lec18.srt"
+                  type="other"
+                  href="contents/video-lectures/lecture-18/ocw-16.885-lec18.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-18/ocw-16.885-lec18.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-18/ocw-16.885-lec18.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-21.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-21/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-21/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-21/index.htm"/>
+            <dependency identifierref="webrenderrequirements.16-885j-aircraft-systems-engineering-fall-2005"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-6.6.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-6/6.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-6/6.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-6/6.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.kraft_misn_ctrl.pdf"
+                  type="other"
+                  href="contents/video-lectures/kraft_misn_ctrl.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/kraft_misn_ctrl.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/kraft_misn_ctrl.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-22.22.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-22/22.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-22/22.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-22/22.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-10.10.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-10/10.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-10/10.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-10/10.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-9.ocw-16.885-lec9.srt"
+                  type="other"
+                  href="contents/video-lectures/lecture-9/ocw-16.885-lec9.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-9/ocw-16.885-lec9.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-9/ocw-16.885-lec9.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.sieck_launch_ops.pdf"
+                  type="other"
+                  href="contents/video-lectures/sieck_launch_ops.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/sieck_launch_ops.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/sieck_launch_ops.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-11.ocw-16.885-lec11.srt"
+                  type="other"
+                  href="contents/video-lectures/lecture-11/ocw-16.885-lec11.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-11/ocw-16.885-lec11.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-11/ocw-16.885-lec11.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.sieck_bio.pdf"
+                  type="other"
+                  href="contents/video-lectures/sieck_bio.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/sieck_bio.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/sieck_bio.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-11.ocw-16_885-lec11.pdf"
+                  type="other"
+                  href="contents/video-lectures/lecture-11/ocw-16_885-lec11.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-11/ocw-16_885-lec11.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-11/ocw-16_885-lec11.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-12.ocw-16_885-lec12.pdf"
+                  type="other"
+                  href="contents/video-lectures/lecture-12/ocw-16_885-lec12.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-12/ocw-16_885-lec12.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-12/ocw-16_885-lec12.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-21.21.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-21/21.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-21/21.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-21/21.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.psp.pdf"
+                  type="other"
+                  href="contents/projects/psp.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/psp.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/psp.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.syllabus.index.htm"
+                  type="webcontent"
+                  href="contents/syllabus/index.htm">
+            <metadata>
+                <adlcp:location>contents/syllabus/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/syllabus/index.htm"/>
+            <dependency identifierref="webrenderrequirements.16-885j-aircraft-systems-engineering-fall-2005"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.myers_shtl_orign.pdf"
+                  type="other"
+                  href="contents/video-lectures/myers_shtl_orign.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/myers_shtl_orign.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/myers_shtl_orign.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-11.11.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-11/11.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-11/11.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-11/11.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-6.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-6/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-6/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-6/index.htm"/>
+            <dependency identifierref="webrenderrequirements.16-885j-aircraft-systems-engineering-fall-2005"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-2.2.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-2/2.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-2/2.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-2/2.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-9.9.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-9/9.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-9/9.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-9/9.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.related-resources.P1010021.jpg"
+                  type="other"
+                  href="contents/related-resources/P1010021.jpg">
+            <metadata>
+                <adlcp:location>contents/related-resources/P1010021.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/related-resources/P1010021.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.related-resources.thumb_P1010021.jpg"
+                  type="other"
+                  href="contents/related-resources/thumb_P1010021.jpg">
+            <metadata>
+                <adlcp:location>contents/related-resources/thumb_P1010021.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/related-resources/thumb_P1010021.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-19.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-19/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-19/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-19/index.htm"/>
+            <dependency identifierref="webrenderrequirements.16-885j-aircraft-systems-engineering-fall-2005"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-12.12.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-12/12.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-12/12.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-12/12.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-9.ocw-16_885-lec9.pdf"
+                  type="other"
+                  href="contents/video-lectures/lecture-9/ocw-16_885-lec9.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-9/ocw-16_885-lec9.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-9/ocw-16_885-lec9.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-1.ocw-16_885-lec1.pdf"
+                  type="other"
+                  href="contents/video-lectures/lecture-1/ocw-16_885-lec1.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-1/ocw-16_885-lec1.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-1/ocw-16_885-lec1.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-13.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-13/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-13/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-13/index.htm"/>
+            <dependency identifierref="webrenderrequirements.16-885j-aircraft-systems-engineering-fall-2005"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.ried_arthrmdynmc.pdf"
+                  type="other"
+                  href="contents/video-lectures/ried_arthrmdynmc.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/ried_arthrmdynmc.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/ried_arthrmdynmc.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-10.ocw-16_885-lec10.pdf"
+                  type="other"
+                  href="contents/video-lectures/lecture-10/ocw-16_885-lec10.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-10/ocw-16_885-lec10.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-10/ocw-16_885-lec10.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-16.16.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-16/16.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-16/16.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-16/16.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.readings.aldrdg_space_war.pdf"
+                  type="other"
+                  href="contents/readings/aldrdg_space_war.pdf">
+            <metadata>
+                <adlcp:location>contents/readings/aldrdg_space_war.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/readings/aldrdg_space_war.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-8.ocw-16_885-lec8.pdf"
+                  type="other"
+                  href="contents/video-lectures/lecture-8/ocw-16_885-lec8.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-8/ocw-16_885-lec8.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-8/ocw-16_885-lec8.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.guy_eclss.pdf"
+                  type="other"
+                  href="contents/video-lectures/guy_eclss.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/guy_eclss.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/guy_eclss.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-16.ocw-16_885-lec16.pdf"
+                  type="other"
+                  href="contents/video-lectures/lecture-16/ocw-16_885-lec16.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-16/ocw-16_885-lec16.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-16/ocw-16_885-lec16.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.fullerton_bio.pdf"
+                  type="other"
+                  href="contents/video-lectures/fullerton_bio.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/fullerton_bio.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/fullerton_bio.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.louviere_rms.pdf"
+                  type="other"
+                  href="contents/video-lectures/louviere_rms.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/louviere_rms.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/louviere_rms.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.related-resources.P1010016.jpg"
+                  type="other"
+                  href="contents/related-resources/P1010016.jpg">
+            <metadata>
+                <adlcp:location>contents/related-resources/P1010016.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/related-resources/P1010016.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.related-resources.thumb_P1010016.jpg"
+                  type="other"
+                  href="contents/related-resources/thumb_P1010016.jpg">
+            <metadata>
+                <adlcp:location>contents/related-resources/thumb_P1010016.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/related-resources/thumb_P1010016.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-19.19.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-19/19.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-19/19.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-19/19.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-20.ocw-16.885-lec20.srt"
+                  type="other"
+                  href="contents/video-lectures/lecture-20/ocw-16.885-lec20.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-20/ocw-16.885-lec20.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-20/ocw-16.885-lec20.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-1.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-1/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-1/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-1/index.htm"/>
+            <dependency identifierref="webrenderrequirements.16-885j-aircraft-systems-engineering-fall-2005"/>            
+        </resource>
+        <resource identifier="r_contents.related-resources.P1010019.jpg"
+                  type="other"
+                  href="contents/related-resources/P1010019.jpg">
+            <metadata>
+                <adlcp:location>contents/related-resources/P1010019.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/related-resources/P1010019.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.related-resources.thumb_P1010019.jpg"
+                  type="other"
+                  href="contents/related-resources/thumb_P1010019.jpg">
+            <metadata>
+                <adlcp:location>contents/related-resources/thumb_P1010019.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/related-resources/thumb_P1010019.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-14.ocw-16.885-lec14.srt"
+                  type="other"
+                  href="contents/video-lectures/lecture-14/ocw-16.885-lec14.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-14/ocw-16.885-lec14.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-14/ocw-16.885-lec14.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-4.4.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-4/4.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-4/4.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-4/4.jpg"/>
+                        
+        </resource>        
+        <resource identifier="r_common.search.AdvancedSearch.htm"
+                  type="webcontent"
+                  href="common/search/AdvancedSearch.htm">
+            <file href="common/search/AdvancedSearch.htm"/>
+            <dependency identifierref="webrenderrequirements.16-885j-aircraft-systems-engineering-fall-2005"/>            
+        </resource>
+        <resource identifier="r_common.jsp.feedback.htm"
+                  type="webcontent"
+                  href="common/jsp/feedback.htm">
+            <file href="common/jsp/feedback.htm"/>
+            <dependency identifierref="webrenderrequirements.16-885j-aircraft-systems-engineering-fall-2005"/>            
+        </resource>
+        <resource identifier="r_common.terms.index.htm"
+                  type="webcontent"
+                  href="common/terms/index.htm">
+            <file href="common/terms/share.png"/>
+            <file href="common/terms/remix.png"/>
+            <file href="common/terms/by.png"/>
+            <file href="common/terms/nc.png"/>
+            <file href="common/terms/sa.png"/>
+            <file href="common/terms/deedheadyellow.png"/>
+            <file href="common/terms/freedomsheader.png"/>
+            <file href="common/terms/limitationsheader.png"/>
+            <file href="common/terms/deedfootyellow.png"/>
+            <dependency identifierref="webrenderrequirements.16-885j-aircraft-systems-engineering-fall-2005"/>            
+        </resource>
+        <resource identifier="r_common.terms.trademarks.index.htm"
+                  type="webcontent"
+                  href="common/terms/trademarks/index.htm">
+            <file href="common/terms/trademarks/index.htm"/>
+            <dependency identifierref="webrenderrequirements.16-885j-aircraft-systems-engineering-fall-2005"/>            
+        </resource>
+        <resource identifier="webrenderrequirements.16-885j-aircraft-systems-engineering-fall-2005"
+                  type="webcontent">
+        	<file href="common/styles/base.css"/>
+        	<file href="common/styles/courses.css"/>
+        	<file href="common/styles/courses_new.css"/>
+        	<file href="common/styles/global.css"/>
+        	<file href="common/styles/grid.css"/>
+        	<file href="common/styles/highslide.css"/>
+        	<file href="common/styles/highslide-ie6.css"/>
+        	<file href="common/styles/jquery.bubblepopup.css"/>
+        	<file href="common/styles/jquery.jscrollpane.css"/>
+        	<file href="common/styles/jquery-ui.css"/>
+        	<file href="common/styles/menu.css"/>
+        	<file href="common/styles/scholar2.css"/>
+        	<file href="common/styles/media_tabs.css"/>
+        	<file href="common/scripts/bubble-popup-offline.js"/>
+        	<file href="common/scripts/common-utils-offline.js"/>
+        	<file href="common/scripts/highslide-with-gallery.js"/>
+        	<file href="common/scripts/jquery.bubblepopup.min.js"/>
+        	<file href="common/scripts/jquery.jscrollpane.min.js"/>
+        	<file href="common/scripts/jquery-ui.min.js"/>
+        	<file href="common/scripts/jQuizMe-uncompressed.js"/>
+        	<file href="common/scripts/ocw-offline.js"/>
+        	<file href="common/scripts/expandy.js"/>
+        	<file href="common/images/ocw_mast.png"/>
+        	<file href="common/images/button_subscribe.png"/>
+        	<file href="common/images/icon_fb.png"/>
+        	<file href="common/images/icon_tw.png"/>
+        	<file href="common/images/top-nav_home.png"/>
+        	<file href="common/images/button_search.png"/>
+        	<file href="common/images/bg_top.png"/>
+        	<file href="common/images/bg_social.png"/>
+        	<file href="common/images/bg_mega-courses.png"/>
+        	<file href="common/images/bg_center2.png"/>
+        	<file href="common/images/bg_course-nav_current.png"/>
+        	<file href="common/images/button_donate-now.png"/>
+        	<file href="common/images/logo_mit.png"/>
+        	<file href="common/images/logo_ocwc.gif"/>
+        	<file href="common/images/cc_by-nc-sa.png"/>
+        	<file href="common/images/logo_dow.png"/>
+        	<file href="common/images/logo_lockheed.png"/>
+        	<file href="common/images/logo_mathworks.png"/>
+        	<file href="common/images/logo_abinitio.png"/>
+        	<file href="common/images/bg_bottom.png"/>
+        	<file href="common/images/nav_arrow.png"/>
+        	<file href="common/images/black-arrow.gif"/>
+        	<file href="common/images/trans.gif"/>
+        	<file href="common/images/arrow-bullet.gif"/>
+        	<file href="common/images/apple-touch-icon.png"/>
+        	<file href="common/images/highslide/graphics/zoomin.cur"/>
+        	<file href="common/images/highslide/graphics/zoomout.cur"/>
+        	<file href="common/images/highslide/graphics/controlbar2.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar3.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar4.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar4-hover.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar-black-border.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar-white.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar-white-small.gif"/>
+        	<file href="common/images/highslide/graphics/fullexpand.gif"/>
+        	<file href="common/images/highslide/graphics/icon.gif"/>
+        	<file href="common/images/highslide/graphics/loader.gif"/>
+        	<file href="common/images/highslide/graphics/loader.white.gif"/>
+        	<file href="common/images/highslide/graphics/resize.gif"/>
+        	<file href="common/images/highslide/graphics/close.png"/>
+        	<file href="common/images/highslide/graphics/closeX.png"/>
+        	<file href="common/images/highslide/graphics/controlbar-text-buttons.png"/>
+        	<file href="common/images/highslide/graphics/geckodimmer.png"/>
+        	<file href="common/images/highslide/graphics/scrollarrows.png"/>
+        	<file href="common/images/highslide/graphics/outlines/beveled.png"/>
+        	<file href="common/images/highslide/graphics/outlines/drop-shadow.png"/>
+        	<file href="common/images/highslide/graphics/outlines/glossy-dark.png"/>
+        	<file href="common/images/highslide/graphics/outlines/outer-glow.png"/>
+        	<file href="common/images/highslide/graphics/outlines/rounded-black.png"/>
+        	<file href="common/images/highslide/graphics/outlines/rounded-white.png"/>
+        	<file href="common/images/highslide/graphics/outlines/Outlines.psd"/>
+        	<file href="common/images/button_continue.jpg"/>
+        	<file href="common/images/button_donate.jpg"/>
+        	<file href="common/images/button_start.jpg"/>
+        	<file href="common/images/scholar_bar_chp.png"/>
+        	<file href="common/images/scholar_bar.png"/>
+        	<file href="common/images/logo_pdf.jpg"/>
+        	<file href="common/images/h2_trigger_open_close.gif"/>
+        	<file href="common/images/bookmark.gif"/>
+        	<file href="common/images/check.png"/>
+        	<file href="common/images/lightbulb.png"/>
+        	<file href="common/images/audio_file.gif"/>
+        	<file href="common/images/audio_only_slate.gif"/>
+        	<file href="common/images/video_file.gif"/>
+        	<file href="common/images/back-5.png"/>
+        	<file href="common/images/btn_next_resource.png"/>
+        	<file href="common/images/btn_previous_resource.png"/>
+        	<file href="common/images/close.png"/>
+        	<file href="common/images/inacessible.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/bottom-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/bottom-middle.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/bottom-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/middle-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/middle-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-bottom.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-top.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/top-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/top-middle.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/top-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/bottom-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/bottom-middle.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/bottom-right.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/middle-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/middle-right.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-bottom.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-right.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-top.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/top-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/top-middle.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/top-right.png"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.woff"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.ttf"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.svg"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.eot"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.woff"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.ttf"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.eot"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.svg"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.woff"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.ttf"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.svg"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.eot"/>
+        </resource>        
+  </resources>
+</manifest>

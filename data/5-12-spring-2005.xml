@@ -1,0 +1,1057 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest xmlns="http://www.imsglobal.org/xsd/imscp_v1p1"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+          xmlns:cwsp="http://www.dspace.org/xmlns/cwspace_imscp"
+          xmlns:ocw="http://ocw.mit.edu/xmlns/ocw_imscp"
+          xmlns:lom="http://ocw.mit.edu/xmlns/LOM"
+          identifier="urn_edu.mit.ocw_5-12-organic-chemistry-i-spring-2005"
+          version="2013-6-22T14:14:42"
+          cwsp:packageType="Course"
+          xml:base="5-12-spring-2005/"
+          xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 http://www.imsglobal.org/xsd/imscp_v1p1.xsd  http://www.adlnet.org/xsd/adlcp_rootv1p2 http://www.adlnet.org/xsd/adlcp_rootv1p2.xsd http://www.dspace.org/xmlns/cwspace_imscp http://www.dspace.org/xsd/cwspace_imscp/version10/cwspace_imscpv10.xsd http://ocw.mit.edu/xmlns/ocw_imscp http://ocw.mit.edu/xsd/ocw_imscp/version10/ocw_imscpv10.xsd http://ocw.mit.edu/xmlns/LOM http://ocw.mit.edu/xsd/LOM/lomv1.0/lomv1.0.xsd">
+   	<metadata>
+   		<schema>IMS Content</schema>
+        <schemaversion>1.1</schemaversion>
+        <cwsp:packageMetadata>
+            <cwsp:sourceSystem>OCW</cwsp:sourceSystem>
+            <cwsp:profile>CWSpace</cwsp:profile>
+            <cwsp:profileVersion>0.1</cwsp:profileVersion>
+        </cwsp:packageMetadata>
+        <lom:general uniqueElementName="general">
+            <lom:title uniqueElementName="title">
+				<lom:string language="en">Organic Chemistry I</lom:string>
+			</lom:title>
+			<lom:identifier>
+				<lom:catalog uniqueElementName="catalog">OCW Master Course Number</lom:catalog>
+		      	<lom:entry uniqueElementName="entry">5.12</lom:entry>
+			</lom:identifier>
+        </lom:general>
+        <lom:lifecycle uniqueElementName="lifeCycle">
+            <lom:version uniqueElementName="version">
+				<lom:string language="en">Spring 2005</lom:string>
+			</lom:version>
+            <lom:contribute>
+	            <lom:role>
+	                <lom:source uniqueElementName="source">OCW_LOMv1.0</lom:source>
+	                <lom:value uniqueElementName="value">Author</lom:value>
+	            </lom:role>
+	            <lom:entity>Berkowski, Kimberly</lom:entity>
+	            <lom:date uniqueElementName="date">
+	                <lom:dateTime uniqueElementName="dateTime">2013-6-22</lom:dateTime>
+	            </lom:date>
+        	</lom:contribute>
+            <lom:contribute>
+	            <lom:role>
+	                <lom:source uniqueElementName="source">OCW_LOMv1.0</lom:source>
+	                <lom:value uniqueElementName="value">Author</lom:value>
+	            </lom:role>
+	            <lom:entity>O’Connor, Sarah</lom:entity>
+	            <lom:date uniqueElementName="date">
+	                <lom:dateTime uniqueElementName="dateTime">2013-6-22</lom:dateTime>
+	            </lom:date>
+        	</lom:contribute>
+        </lom:lifecycle>
+        <lom:taxonPath>
+            <lom:source uniqueElementName="source">
+                <lom:string language="en">OCW Course Categories</lom:string>
+            </lom:source>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Science</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Chemistry</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Organic Chemistry</lom:string>
+                </lom:entry>
+            </lom:taxon>
+        </lom:taxonPath>        
+        <adlcp:location>contents/index.htm.xml</adlcp:location>
+    </metadata>
+    <organizations default="ocw_5-12-organic-chemistry-i-spring-2005">
+        <organization identifier="ocw_5-12-organic-chemistry-i-spring-2005">
+            <title>Organic Chemistry I</title>
+            <item identifier="i_5-12-organic-chemistry-i-spring-2005.CourseHome"
+                  identifierref="r_contents.index.htm"
+                  ocw:sectionTemplateType="CourseHomePage"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Organic Chemistry I</title>
+				<item identifier="i_5-12-organic-chemistry-i-spring-2005.5-12s05.jpg"
+          identifierref="r_contents.5-12s05.jpg">
+				<title>5-12s05.jpg</title>
+				</item>
+				<item identifier="i_5-12-organic-chemistry-i-spring-2005.5-12s05-th.jpg"
+          identifierref="r_contents.5-12s05-th.jpg">
+				<title>5-12s05-th.jpg</title>
+				</item>
+			</item>
+            <item identifier="i_5-12-organic-chemistry-i-spring-2005.syllabus"
+                  identifierref="r_contents.syllabus.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Syllabus</title>
+			</item>
+            <item identifier="i_5-12-organic-chemistry-i-spring-2005.calendar"
+                  identifierref="r_contents.calendar.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Calendar</title>
+			</item>
+            <item identifier="i_5-12-organic-chemistry-i-spring-2005.readings"
+                  identifierref="r_contents.readings.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Readings</title>
+			</item>
+            <item identifier="i_5-12-organic-chemistry-i-spring-2005.assignments"
+                  identifierref="r_contents.assignments.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Assignments</title>
+				<item identifier="i_5-12-organic-chemistry-i-spring-2005.assignments.pset1_key_s05.pdf"
+          identifierref="r_contents.assignments.pset1_key_s05.pdf">
+				<title>pset1_key_s05.pdf</title>
+				</item>
+				<item identifier="i_5-12-organic-chemistry-i-spring-2005.assignments.ps7key.pdf"
+          identifierref="r_contents.assignments.ps7key.pdf">
+				<title>ps7key.pdf</title>
+				</item>
+				<item identifier="i_5-12-organic-chemistry-i-spring-2005.assignments.pset1_s05.pdf"
+          identifierref="r_contents.assignments.pset1_s05.pdf">
+				<title>pset1_s05.pdf</title>
+				</item>
+				<item identifier="i_5-12-organic-chemistry-i-spring-2005.assignments.pset3_s05.pdf"
+          identifierref="r_contents.assignments.pset3_s05.pdf">
+				<title>pset3_s05.pdf</title>
+				</item>
+				<item identifier="i_5-12-organic-chemistry-i-spring-2005.assignments.pset2_s05.pdf"
+          identifierref="r_contents.assignments.pset2_s05.pdf">
+				<title>pset2_s05.pdf</title>
+				</item>
+				<item identifier="i_5-12-organic-chemistry-i-spring-2005.assignments.ps6keyfinal2.pdf"
+          identifierref="r_contents.assignments.ps6keyfinal2.pdf">
+				<title>ps6keyfinal2.pdf</title>
+				</item>
+				<item identifier="i_5-12-organic-chemistry-i-spring-2005.assignments.ps8key.pdf"
+          identifierref="r_contents.assignments.ps8key.pdf">
+				<title>ps8key.pdf</title>
+				</item>
+				<item identifier="i_5-12-organic-chemistry-i-spring-2005.assignments.pset4_s05_update.pdf"
+          identifierref="r_contents.assignments.pset4_s05_update.pdf">
+				<title>pset4_s05_update.pdf</title>
+				</item>
+				<item identifier="i_5-12-organic-chemistry-i-spring-2005.assignments.ps7.pdf"
+          identifierref="r_contents.assignments.ps7.pdf">
+				<title>ps7.pdf</title>
+				</item>
+				<item identifier="i_5-12-organic-chemistry-i-spring-2005.assignments.pset4_key.pdf"
+          identifierref="r_contents.assignments.pset4_key.pdf">
+				<title>pset4_key.pdf</title>
+				</item>
+				<item identifier="i_5-12-organic-chemistry-i-spring-2005.assignments.pset2_key.pdf"
+          identifierref="r_contents.assignments.pset2_key.pdf">
+				<title>pset2_key.pdf</title>
+				</item>
+				<item identifier="i_5-12-organic-chemistry-i-spring-2005.assignments.ps5.pdf"
+          identifierref="r_contents.assignments.ps5.pdf">
+				<title>ps5.pdf</title>
+				</item>
+				<item identifier="i_5-12-organic-chemistry-i-spring-2005.assignments.ps8.pdf"
+          identifierref="r_contents.assignments.ps8.pdf">
+				<title>ps8.pdf</title>
+				</item>
+				<item identifier="i_5-12-organic-chemistry-i-spring-2005.assignments.ps5key.pdf"
+          identifierref="r_contents.assignments.ps5key.pdf">
+				<title>ps5key.pdf</title>
+				</item>
+				<item identifier="i_5-12-organic-chemistry-i-spring-2005.assignments.pset3_key_s05.pdf"
+          identifierref="r_contents.assignments.pset3_key_s05.pdf">
+				<title>pset3_key_s05.pdf</title>
+				</item>
+				<item identifier="i_5-12-organic-chemistry-i-spring-2005.assignments.ps6.pdf"
+          identifierref="r_contents.assignments.ps6.pdf">
+				<title>ps6.pdf</title>
+				</item>
+			</item>
+            <item identifier="i_5-12-organic-chemistry-i-spring-2005.exams"
+                  identifierref="r_contents.exams.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Exams</title>
+				<item identifier="i_5-12-organic-chemistry-i-spring-2005.exams.Exam2_Practice_a.pdf"
+          identifierref="r_contents.exams.Exam2_Practice_a.pdf">
+				<title>Exam2_Practice_a.pdf</title>
+				</item>
+				<item identifier="i_5-12-organic-chemistry-i-spring-2005.exams.exam3key.pdf"
+          identifierref="r_contents.exams.exam3key.pdf">
+				<title>exam3key.pdf</title>
+				</item>
+				<item identifier="i_5-12-organic-chemistry-i-spring-2005.exams.Exam2_Practice_a_key.pdf"
+          identifierref="r_contents.exams.Exam2_Practice_a_key.pdf">
+				<title>Exam2_Practice_a_key.pdf</title>
+				</item>
+				<item identifier="i_5-12-organic-chemistry-i-spring-2005.exams.exam1_s05.pdf"
+          identifierref="r_contents.exams.exam1_s05.pdf">
+				<title>exam1_s05.pdf</title>
+				</item>
+				<item identifier="i_5-12-organic-chemistry-i-spring-2005.exams.exam2_s05.pdf"
+          identifierref="r_contents.exams.exam2_s05.pdf">
+				<title>exam2_s05.pdf</title>
+				</item>
+				<item identifier="i_5-12-organic-chemistry-i-spring-2005.exams.exam4key.pdf"
+          identifierref="r_contents.exams.exam4key.pdf">
+				<title>exam4key.pdf</title>
+				</item>
+				<item identifier="i_5-12-organic-chemistry-i-spring-2005.exams.exam1_key.pdf"
+          identifierref="r_contents.exams.exam1_key.pdf">
+				<title>exam1_key.pdf</title>
+				</item>
+				<item identifier="i_5-12-organic-chemistry-i-spring-2005.exams.exam4.pdf"
+          identifierref="r_contents.exams.exam4.pdf">
+				<title>exam4.pdf</title>
+				</item>
+				<item identifier="i_5-12-organic-chemistry-i-spring-2005.exams.exam2_key.pdf"
+          identifierref="r_contents.exams.exam2_key.pdf">
+				<title>exam2_key.pdf</title>
+				</item>
+				<item identifier="i_5-12-organic-chemistry-i-spring-2005.exams.exam3cc.pdf"
+          identifierref="r_contents.exams.exam3cc.pdf">
+				<title>exam3cc.pdf</title>
+				</item>
+			</item>
+            <item identifier="i_5-12-organic-chemistry-i-spring-2005.lecture-handouts"
+                  identifierref="r_contents.lecture-handouts.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Lecture Handouts</title>
+				<item identifier="i_5-12-organic-chemistry-i-spring-2005.lecture-handouts.sn2sn1.pdf"
+          identifierref="r_contents.lecture-handouts.sn2sn1.pdf">
+				<title>sn2sn1.pdf</title>
+				</item>
+				<item identifier="i_5-12-organic-chemistry-i-spring-2005.lecture-handouts.carbonylchapters.pdf"
+          identifierref="r_contents.lecture-handouts.carbonylchapters.pdf">
+				<title>carbonylchapters.pdf</title>
+				</item>
+				<item identifier="i_5-12-organic-chemistry-i-spring-2005.lecture-handouts.aromaticity.pdf"
+          identifierref="r_contents.lecture-handouts.aromaticity.pdf">
+				<title>aromaticity.pdf</title>
+				</item>
+				<item identifier="i_5-12-organic-chemistry-i-spring-2005.lecture-handouts.lecture10_s05.pdf"
+          identifierref="r_contents.lecture-handouts.lecture10_s05.pdf">
+				<title>lecture10_s05.pdf</title>
+				</item>
+				<item identifier="i_5-12-organic-chemistry-i-spring-2005.lecture-handouts.lecture16_s05.pdf"
+          identifierref="r_contents.lecture-handouts.lecture16_s05.pdf">
+				<title>lecture16_s05.pdf</title>
+				</item>
+				<item identifier="i_5-12-organic-chemistry-i-spring-2005.lecture-handouts.subelim.pdf"
+          identifierref="r_contents.lecture-handouts.subelim.pdf">
+				<title>subelim.pdf</title>
+				</item>
+				<item identifier="i_5-12-organic-chemistry-i-spring-2005.lecture-handouts.pka.pdf"
+          identifierref="r_contents.lecture-handouts.pka.pdf">
+				<title>pka.pdf</title>
+				</item>
+				<item identifier="i_5-12-organic-chemistry-i-spring-2005.lecture-handouts.lecture03_s05.pdf"
+          identifierref="r_contents.lecture-handouts.lecture03_s05.pdf">
+				<title>lecture03_s05.pdf</title>
+				</item>
+				<item identifier="i_5-12-organic-chemistry-i-spring-2005.lecture-handouts.lecture02_s05.pdf"
+          identifierref="r_contents.lecture-handouts.lecture02_s05.pdf">
+				<title>lecture02_s05.pdf</title>
+				</item>
+				<item identifier="i_5-12-organic-chemistry-i-spring-2005.lecture-handouts.lecture08_s05.pdf"
+          identifierref="r_contents.lecture-handouts.lecture08_s05.pdf">
+				<title>lecture08_s05.pdf</title>
+				</item>
+				<item identifier="i_5-12-organic-chemistry-i-spring-2005.lecture-handouts.friedelcraftsnot.pdf"
+          identifierref="r_contents.lecture-handouts.friedelcraftsnot.pdf">
+				<title>friedelcraftsnot.pdf</title>
+				</item>
+				<item identifier="i_5-12-organic-chemistry-i-spring-2005.lecture-handouts.lecture06_s05.pdf"
+          identifierref="r_contents.lecture-handouts.lecture06_s05.pdf">
+				<title>lecture06_s05.pdf</title>
+				</item>
+				<item identifier="i_5-12-organic-chemistry-i-spring-2005.lecture-handouts.alcohols.pdf"
+          identifierref="r_contents.lecture-handouts.alcohols.pdf">
+				<title>alcohols.pdf</title>
+				</item>
+				<item identifier="i_5-12-organic-chemistry-i-spring-2005.lecture-handouts.organometal.pdf"
+          identifierref="r_contents.lecture-handouts.organometal.pdf">
+				<title>organometal.pdf</title>
+				</item>
+				<item identifier="i_5-12-organic-chemistry-i-spring-2005.lecture-handouts.lecture15_s05.pdf"
+          identifierref="r_contents.lecture-handouts.lecture15_s05.pdf">
+				<title>lecture15_s05.pdf</title>
+				</item>
+				<item identifier="i_5-12-organic-chemistry-i-spring-2005.lecture-handouts.conform_analysis.pdf"
+          identifierref="r_contents.lecture-handouts.conform_analysis.pdf">
+				<title>conform_analysis.pdf</title>
+				</item>
+				<item identifier="i_5-12-organic-chemistry-i-spring-2005.lecture-handouts.lecture02b_s05.pdf"
+          identifierref="r_contents.lecture-handouts.lecture02b_s05.pdf">
+				<title>lecture02b_s05.pdf</title>
+				</item>
+				<item identifier="i_5-12-organic-chemistry-i-spring-2005.lecture-handouts.oxidation.pdf"
+          identifierref="r_contents.lecture-handouts.oxidation.pdf">
+				<title>oxidation.pdf</title>
+				</item>
+				<item identifier="i_5-12-organic-chemistry-i-spring-2005.lecture-handouts.functional_groups.pdf"
+          identifierref="r_contents.lecture-handouts.functional_groups.pdf">
+				<title>functional_groups.pdf</title>
+				</item>
+				<item identifier="i_5-12-organic-chemistry-i-spring-2005.lecture-handouts.carbonyl1.pdf"
+          identifierref="r_contents.lecture-handouts.carbonyl1.pdf">
+				<title>carbonyl1.pdf</title>
+				</item>
+				<item identifier="i_5-12-organic-chemistry-i-spring-2005.lecture-handouts.eas.pdf"
+          identifierref="r_contents.lecture-handouts.eas.pdf">
+				<title>eas.pdf</title>
+				</item>
+				<item identifier="i_5-12-organic-chemistry-i-spring-2005.lecture-handouts.lecture12_s05.pdf"
+          identifierref="r_contents.lecture-handouts.lecture12_s05.pdf">
+				<title>lecture12_s05.pdf</title>
+				</item>
+				<item identifier="i_5-12-organic-chemistry-i-spring-2005.lecture-handouts.specific_pKa.pdf"
+          identifierref="r_contents.lecture-handouts.specific_pKa.pdf">
+				<title>specific_pKa.pdf</title>
+				</item>
+				<item identifier="i_5-12-organic-chemistry-i-spring-2005.lecture-handouts.lecture05_s05.pdf"
+          identifierref="r_contents.lecture-handouts.lecture05_s05.pdf">
+				<title>lecture05_s05.pdf</title>
+				</item>
+				<item identifier="i_5-12-organic-chemistry-i-spring-2005.lecture-handouts.lecture01_s05.pdf"
+          identifierref="r_contents.lecture-handouts.lecture01_s05.pdf">
+				<title>lecture01_s05.pdf</title>
+				</item>
+			</item>
+            <item identifier="i_terms"
+                  identifierref="r_common.terms.index.htm"
+                  ocw:sectionTemplateType="GlobalSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Legal Notices</title>
+			</item>
+            <item identifier="i_terms"
+                  identifierref="r_common.terms.index.htm"
+                  ocw:sectionTemplateType="GlobalSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Privacy Statement</title>
+			</item>
+            <item identifier="i_terms.trademarks"
+                  identifierref="r_common.terms.trademarks.index.htm"
+                  ocw:sectionTemplateType="GlobalSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Trademark Notices</title>
+			</item>
+        </organization>
+    </organizations>
+    <resources>
+        <resource identifier="r_contents.assignments.pset2_key.pdf"
+                  type="other"
+                  href="contents/assignments/pset2_key.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/pset2_key.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/pset2_key.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.exams.exam1_s05.pdf"
+                  type="other"
+                  href="contents/exams/exam1_s05.pdf">
+            <metadata>
+                <adlcp:location>contents/exams/exam1_s05.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/exams/exam1_s05.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.exams.exam4key.pdf"
+                  type="other"
+                  href="contents/exams/exam4key.pdf">
+            <metadata>
+                <adlcp:location>contents/exams/exam4key.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/exams/exam4key.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-handouts.lecture03_s05.pdf"
+                  type="other"
+                  href="contents/lecture-handouts/lecture03_s05.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-handouts/lecture03_s05.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-handouts/lecture03_s05.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-handouts.eas.pdf"
+                  type="other"
+                  href="contents/lecture-handouts/eas.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-handouts/eas.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-handouts/eas.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.ps8.pdf"
+                  type="other"
+                  href="contents/assignments/ps8.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ps8.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ps8.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.readings.index.htm"
+                  type="webcontent"
+                  href="contents/readings/index.htm">
+            <metadata>
+                <adlcp:location>contents/readings/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/readings/index.htm"/>
+            <dependency identifierref="webrenderrequirements.5-12-organic-chemistry-i-spring-2005"/>            
+        </resource>
+        <resource identifier="r_contents.exams.Exam2_Practice_a.pdf"
+                  type="other"
+                  href="contents/exams/Exam2_Practice_a.pdf">
+            <metadata>
+                <adlcp:location>contents/exams/Exam2_Practice_a.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/exams/Exam2_Practice_a.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-handouts.functional_groups.pdf"
+                  type="other"
+                  href="contents/lecture-handouts/functional_groups.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-handouts/functional_groups.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-handouts/functional_groups.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.pset2_s05.pdf"
+                  type="other"
+                  href="contents/assignments/pset2_s05.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/pset2_s05.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/pset2_s05.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-handouts.lecture02_s05.pdf"
+                  type="other"
+                  href="contents/lecture-handouts/lecture02_s05.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-handouts/lecture02_s05.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-handouts/lecture02_s05.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-handouts.organometal.pdf"
+                  type="other"
+                  href="contents/lecture-handouts/organometal.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-handouts/organometal.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-handouts/organometal.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.5-12s05.jpg"
+                  type="other" href="contents/5-12s05.jpg">
+            <metadata>
+                <adlcp:location>contents/5-12s05.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/5-12s05.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.pset1_s05.pdf"
+                  type="other"
+                  href="contents/assignments/pset1_s05.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/pset1_s05.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/pset1_s05.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.index.htm"
+                  type="webcontent"
+                  href="contents/index.htm">
+            <metadata>
+                <adlcp:location>contents/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/index.htm"/>
+            <dependency identifierref="webrenderrequirements.5-12-organic-chemistry-i-spring-2005"/>            
+        </resource>
+        <resource identifier="r_contents.lecture-handouts.conform_analysis.pdf"
+                  type="other"
+                  href="contents/lecture-handouts/conform_analysis.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-handouts/conform_analysis.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-handouts/conform_analysis.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-handouts.oxidation.pdf"
+                  type="other"
+                  href="contents/lecture-handouts/oxidation.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-handouts/oxidation.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-handouts/oxidation.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.ps6.pdf"
+                  type="other"
+                  href="contents/assignments/ps6.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ps6.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ps6.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-handouts.aromaticity.pdf"
+                  type="other"
+                  href="contents/lecture-handouts/aromaticity.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-handouts/aromaticity.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-handouts/aromaticity.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.ps8key.pdf"
+                  type="other"
+                  href="contents/assignments/ps8key.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ps8key.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ps8key.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.exams.Exam2_Practice_a_key.pdf"
+                  type="other"
+                  href="contents/exams/Exam2_Practice_a_key.pdf">
+            <metadata>
+                <adlcp:location>contents/exams/Exam2_Practice_a_key.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/exams/Exam2_Practice_a_key.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-handouts.lecture12_s05.pdf"
+                  type="other"
+                  href="contents/lecture-handouts/lecture12_s05.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-handouts/lecture12_s05.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-handouts/lecture12_s05.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.ps7key.pdf"
+                  type="other"
+                  href="contents/assignments/ps7key.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ps7key.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ps7key.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.ps5key.pdf"
+                  type="other"
+                  href="contents/assignments/ps5key.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ps5key.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ps5key.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.exams.exam4.pdf"
+                  type="other"
+                  href="contents/exams/exam4.pdf">
+            <metadata>
+                <adlcp:location>contents/exams/exam4.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/exams/exam4.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-handouts.lecture10_s05.pdf"
+                  type="other"
+                  href="contents/lecture-handouts/lecture10_s05.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-handouts/lecture10_s05.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-handouts/lecture10_s05.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.index.htm"
+                  type="webcontent"
+                  href="contents/assignments/index.htm">
+            <metadata>
+                <adlcp:location>contents/assignments/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/index.htm"/>
+            <dependency identifierref="webrenderrequirements.5-12-organic-chemistry-i-spring-2005"/>            
+        </resource>
+        <resource identifier="r_contents.exams.index.htm"
+                  type="webcontent"
+                  href="contents/exams/index.htm">
+            <metadata>
+                <adlcp:location>contents/exams/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/exams/index.htm"/>
+            <dependency identifierref="webrenderrequirements.5-12-organic-chemistry-i-spring-2005"/>            
+        </resource>
+        <resource identifier="r_contents.exams.exam3key.pdf"
+                  type="other"
+                  href="contents/exams/exam3key.pdf">
+            <metadata>
+                <adlcp:location>contents/exams/exam3key.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/exams/exam3key.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-handouts.lecture02b_s05.pdf"
+                  type="other"
+                  href="contents/lecture-handouts/lecture02b_s05.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-handouts/lecture02b_s05.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-handouts/lecture02b_s05.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-handouts.lecture08_s05.pdf"
+                  type="other"
+                  href="contents/lecture-handouts/lecture08_s05.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-handouts/lecture08_s05.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-handouts/lecture08_s05.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.pset1_key_s05.pdf"
+                  type="other"
+                  href="contents/assignments/pset1_key_s05.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/pset1_key_s05.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/pset1_key_s05.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-handouts.lecture16_s05.pdf"
+                  type="other"
+                  href="contents/lecture-handouts/lecture16_s05.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-handouts/lecture16_s05.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-handouts/lecture16_s05.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.exams.exam2_key.pdf"
+                  type="other"
+                  href="contents/exams/exam2_key.pdf">
+            <metadata>
+                <adlcp:location>contents/exams/exam2_key.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/exams/exam2_key.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.exams.exam3cc.pdf"
+                  type="other"
+                  href="contents/exams/exam3cc.pdf">
+            <metadata>
+                <adlcp:location>contents/exams/exam3cc.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/exams/exam3cc.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.pset4_s05_update.pdf"
+                  type="other"
+                  href="contents/assignments/pset4_s05_update.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/pset4_s05_update.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/pset4_s05_update.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.ps7.pdf"
+                  type="other"
+                  href="contents/assignments/ps7.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ps7.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ps7.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-handouts.lecture06_s05.pdf"
+                  type="other"
+                  href="contents/lecture-handouts/lecture06_s05.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-handouts/lecture06_s05.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-handouts/lecture06_s05.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.pset4_key.pdf"
+                  type="other"
+                  href="contents/assignments/pset4_key.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/pset4_key.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/pset4_key.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-handouts.lecture01_s05.pdf"
+                  type="other"
+                  href="contents/lecture-handouts/lecture01_s05.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-handouts/lecture01_s05.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-handouts/lecture01_s05.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.ps5.pdf"
+                  type="other"
+                  href="contents/assignments/ps5.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ps5.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ps5.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-handouts.specific_pKa.pdf"
+                  type="other"
+                  href="contents/lecture-handouts/specific_pKa.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-handouts/specific_pKa.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-handouts/specific_pKa.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-handouts.subelim.pdf"
+                  type="other"
+                  href="contents/lecture-handouts/subelim.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-handouts/subelim.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-handouts/subelim.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.ps6keyfinal2.pdf"
+                  type="other"
+                  href="contents/assignments/ps6keyfinal2.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ps6keyfinal2.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ps6keyfinal2.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.pset3_s05.pdf"
+                  type="other"
+                  href="contents/assignments/pset3_s05.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/pset3_s05.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/pset3_s05.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.exams.exam1_key.pdf"
+                  type="other"
+                  href="contents/exams/exam1_key.pdf">
+            <metadata>
+                <adlcp:location>contents/exams/exam1_key.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/exams/exam1_key.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-handouts.alcohols.pdf"
+                  type="other"
+                  href="contents/lecture-handouts/alcohols.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-handouts/alcohols.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-handouts/alcohols.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.5-12s05-th.jpg"
+                  type="other"
+                  href="contents/5-12s05-th.jpg">
+            <metadata>
+                <adlcp:location>contents/5-12s05-th.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/5-12s05-th.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-handouts.index.htm"
+                  type="webcontent"
+                  href="contents/lecture-handouts/index.htm">
+            <metadata>
+                <adlcp:location>contents/lecture-handouts/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-handouts/index.htm"/>
+            <dependency identifierref="webrenderrequirements.5-12-organic-chemistry-i-spring-2005"/>            
+        </resource>
+        <resource identifier="r_contents.lecture-handouts.friedelcraftsnot.pdf"
+                  type="other"
+                  href="contents/lecture-handouts/friedelcraftsnot.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-handouts/friedelcraftsnot.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-handouts/friedelcraftsnot.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.calendar.index.htm"
+                  type="webcontent"
+                  href="contents/calendar/index.htm">
+            <metadata>
+                <adlcp:location>contents/calendar/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/calendar/index.htm"/>
+            <dependency identifierref="webrenderrequirements.5-12-organic-chemistry-i-spring-2005"/>            
+        </resource>
+        <resource identifier="r_contents.syllabus.index.htm"
+                  type="webcontent"
+                  href="contents/syllabus/index.htm">
+            <metadata>
+                <adlcp:location>contents/syllabus/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/syllabus/index.htm"/>
+            <dependency identifierref="webrenderrequirements.5-12-organic-chemistry-i-spring-2005"/>            
+        </resource>
+        <resource identifier="r_contents.lecture-handouts.pka.pdf"
+                  type="other"
+                  href="contents/lecture-handouts/pka.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-handouts/pka.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-handouts/pka.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-handouts.carbonyl1.pdf"
+                  type="other"
+                  href="contents/lecture-handouts/carbonyl1.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-handouts/carbonyl1.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-handouts/carbonyl1.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-handouts.lecture05_s05.pdf"
+                  type="other"
+                  href="contents/lecture-handouts/lecture05_s05.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-handouts/lecture05_s05.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-handouts/lecture05_s05.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.pset3_key_s05.pdf"
+                  type="other"
+                  href="contents/assignments/pset3_key_s05.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/pset3_key_s05.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/pset3_key_s05.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-handouts.carbonylchapters.pdf"
+                  type="other"
+                  href="contents/lecture-handouts/carbonylchapters.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-handouts/carbonylchapters.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-handouts/carbonylchapters.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-handouts.lecture15_s05.pdf"
+                  type="other"
+                  href="contents/lecture-handouts/lecture15_s05.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-handouts/lecture15_s05.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-handouts/lecture15_s05.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-handouts.sn2sn1.pdf"
+                  type="other"
+                  href="contents/lecture-handouts/sn2sn1.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-handouts/sn2sn1.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-handouts/sn2sn1.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.exams.exam2_s05.pdf"
+                  type="other"
+                  href="contents/exams/exam2_s05.pdf">
+            <metadata>
+                <adlcp:location>contents/exams/exam2_s05.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/exams/exam2_s05.pdf"/>
+                        
+        </resource>        
+        <resource identifier="r_common.search.AdvancedSearch.htm"
+                  type="webcontent"
+                  href="common/search/AdvancedSearch.htm">
+            <file href="common/search/AdvancedSearch.htm"/>
+            <dependency identifierref="webrenderrequirements.5-12-organic-chemistry-i-spring-2005"/>            
+        </resource>
+        <resource identifier="r_common.jsp.feedback.htm"
+                  type="webcontent"
+                  href="common/jsp/feedback.htm">
+            <file href="common/jsp/feedback.htm"/>
+            <dependency identifierref="webrenderrequirements.5-12-organic-chemistry-i-spring-2005"/>            
+        </resource>
+        <resource identifier="r_common.terms.index.htm"
+                  type="webcontent"
+                  href="common/terms/index.htm">
+            <file href="common/terms/share.png"/>
+            <file href="common/terms/remix.png"/>
+            <file href="common/terms/by.png"/>
+            <file href="common/terms/nc.png"/>
+            <file href="common/terms/sa.png"/>
+            <file href="common/terms/deedheadyellow.png"/>
+            <file href="common/terms/freedomsheader.png"/>
+            <file href="common/terms/limitationsheader.png"/>
+            <file href="common/terms/deedfootyellow.png"/>
+            <dependency identifierref="webrenderrequirements.5-12-organic-chemistry-i-spring-2005"/>            
+        </resource>
+        <resource identifier="r_common.terms.trademarks.index.htm"
+                  type="webcontent"
+                  href="common/terms/trademarks/index.htm">
+            <file href="common/terms/trademarks/index.htm"/>
+            <dependency identifierref="webrenderrequirements.5-12-organic-chemistry-i-spring-2005"/>            
+        </resource>
+        <resource identifier="webrenderrequirements.5-12-organic-chemistry-i-spring-2005"
+                  type="webcontent">
+        	<file href="common/styles/base.css"/>
+        	<file href="common/styles/courses.css"/>
+        	<file href="common/styles/courses_new.css"/>
+        	<file href="common/styles/global.css"/>
+        	<file href="common/styles/grid.css"/>
+        	<file href="common/styles/highslide.css"/>
+        	<file href="common/styles/highslide-ie6.css"/>
+        	<file href="common/styles/jquery.bubblepopup.css"/>
+        	<file href="common/styles/jquery.jscrollpane.css"/>
+        	<file href="common/styles/jquery-ui.css"/>
+        	<file href="common/styles/menu.css"/>
+        	<file href="common/styles/scholar2.css"/>
+        	<file href="common/styles/media_tabs.css"/>
+        	<file href="common/scripts/bubble-popup-offline.js"/>
+        	<file href="common/scripts/common-utils-offline.js"/>
+        	<file href="common/scripts/highslide-with-gallery.js"/>
+        	<file href="common/scripts/jquery.bubblepopup.min.js"/>
+        	<file href="common/scripts/jquery.jscrollpane.min.js"/>
+        	<file href="common/scripts/jquery-ui.min.js"/>
+        	<file href="common/scripts/jQuizMe-uncompressed.js"/>
+        	<file href="common/scripts/ocw-offline.js"/>
+        	<file href="common/scripts/expandy.js"/>
+        	<file href="common/images/ocw_mast.png"/>
+        	<file href="common/images/button_subscribe.png"/>
+        	<file href="common/images/icon_fb.png"/>
+        	<file href="common/images/icon_tw.png"/>
+        	<file href="common/images/top-nav_home.png"/>
+        	<file href="common/images/button_search.png"/>
+        	<file href="common/images/bg_top.png"/>
+        	<file href="common/images/bg_social.png"/>
+        	<file href="common/images/bg_mega-courses.png"/>
+        	<file href="common/images/bg_center2.png"/>
+        	<file href="common/images/bg_course-nav_current.png"/>
+        	<file href="common/images/button_donate-now.png"/>
+        	<file href="common/images/logo_mit.png"/>
+        	<file href="common/images/logo_ocwc.gif"/>
+        	<file href="common/images/cc_by-nc-sa.png"/>
+        	<file href="common/images/logo_dow.png"/>
+        	<file href="common/images/logo_lockheed.png"/>
+        	<file href="common/images/logo_mathworks.png"/>
+        	<file href="common/images/logo_abinitio.png"/>
+        	<file href="common/images/bg_bottom.png"/>
+        	<file href="common/images/nav_arrow.png"/>
+        	<file href="common/images/black-arrow.gif"/>
+        	<file href="common/images/trans.gif"/>
+        	<file href="common/images/arrow-bullet.gif"/>
+        	<file href="common/images/apple-touch-icon.png"/>
+        	<file href="common/images/highslide/graphics/zoomin.cur"/>
+        	<file href="common/images/highslide/graphics/zoomout.cur"/>
+        	<file href="common/images/highslide/graphics/controlbar2.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar3.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar4.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar4-hover.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar-black-border.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar-white.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar-white-small.gif"/>
+        	<file href="common/images/highslide/graphics/fullexpand.gif"/>
+        	<file href="common/images/highslide/graphics/icon.gif"/>
+        	<file href="common/images/highslide/graphics/loader.gif"/>
+        	<file href="common/images/highslide/graphics/loader.white.gif"/>
+        	<file href="common/images/highslide/graphics/resize.gif"/>
+        	<file href="common/images/highslide/graphics/close.png"/>
+        	<file href="common/images/highslide/graphics/closeX.png"/>
+        	<file href="common/images/highslide/graphics/controlbar-text-buttons.png"/>
+        	<file href="common/images/highslide/graphics/geckodimmer.png"/>
+        	<file href="common/images/highslide/graphics/scrollarrows.png"/>
+        	<file href="common/images/highslide/graphics/outlines/beveled.png"/>
+        	<file href="common/images/highslide/graphics/outlines/drop-shadow.png"/>
+        	<file href="common/images/highslide/graphics/outlines/glossy-dark.png"/>
+        	<file href="common/images/highslide/graphics/outlines/outer-glow.png"/>
+        	<file href="common/images/highslide/graphics/outlines/rounded-black.png"/>
+        	<file href="common/images/highslide/graphics/outlines/rounded-white.png"/>
+        	<file href="common/images/highslide/graphics/outlines/Outlines.psd"/>
+        	<file href="common/images/button_continue.jpg"/>
+        	<file href="common/images/button_donate.jpg"/>
+        	<file href="common/images/button_start.jpg"/>
+        	<file href="common/images/scholar_bar_chp.png"/>
+        	<file href="common/images/scholar_bar.png"/>
+        	<file href="common/images/logo_pdf.jpg"/>
+        	<file href="common/images/h2_trigger_open_close.gif"/>
+        	<file href="common/images/bookmark.gif"/>
+        	<file href="common/images/check.png"/>
+        	<file href="common/images/lightbulb.png"/>
+        	<file href="common/images/audio_file.gif"/>
+        	<file href="common/images/audio_only_slate.gif"/>
+        	<file href="common/images/video_file.gif"/>
+        	<file href="common/images/back-5.png"/>
+        	<file href="common/images/btn_next_resource.png"/>
+        	<file href="common/images/btn_previous_resource.png"/>
+        	<file href="common/images/close.png"/>
+        	<file href="common/images/inacessible.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/bottom-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/bottom-middle.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/bottom-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/middle-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/middle-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-bottom.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-top.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/top-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/top-middle.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/top-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/bottom-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/bottom-middle.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/bottom-right.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/middle-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/middle-right.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-bottom.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-right.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-top.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/top-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/top-middle.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/top-right.png"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.woff"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.ttf"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.svg"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.eot"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.woff"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.ttf"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.eot"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.svg"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.woff"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.ttf"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.svg"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.eot"/>
+        </resource>        
+  </resources>
+</manifest>

@@ -1,0 +1,2856 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest xmlns="http://www.imsglobal.org/xsd/imscp_v1p1"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+          xmlns:cwsp="http://www.dspace.org/xmlns/cwspace_imscp"
+          xmlns:ocw="http://ocw.mit.edu/xmlns/ocw_imscp"
+          xmlns:lom="http://ocw.mit.edu/xmlns/LOM"
+          identifier="urn_edu.mit.ocw_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010"
+          version="2013-6-21T22:2:1"
+          cwsp:packageType="Course"
+          xml:base="20-109-spring-2010/"
+          xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 http://www.imsglobal.org/xsd/imscp_v1p1.xsd  http://www.adlnet.org/xsd/adlcp_rootv1p2 http://www.adlnet.org/xsd/adlcp_rootv1p2.xsd http://www.dspace.org/xmlns/cwspace_imscp http://www.dspace.org/xsd/cwspace_imscp/version10/cwspace_imscpv10.xsd http://ocw.mit.edu/xmlns/ocw_imscp http://ocw.mit.edu/xsd/ocw_imscp/version10/ocw_imscpv10.xsd http://ocw.mit.edu/xmlns/LOM http://ocw.mit.edu/xsd/LOM/lomv1.0/lomv1.0.xsd">
+   	<metadata>
+   		<schema>IMS Content</schema>
+        <schemaversion>1.1</schemaversion>
+        <cwsp:packageMetadata>
+            <cwsp:sourceSystem>OCW</cwsp:sourceSystem>
+            <cwsp:profile>CWSpace</cwsp:profile>
+            <cwsp:profileVersion>0.1</cwsp:profileVersion>
+        </cwsp:packageMetadata>
+        <lom:general uniqueElementName="general">
+            <lom:title uniqueElementName="title">
+				<lom:string language="en">Laboratory Fundamentals in Biological Engineering</lom:string>
+			</lom:title>
+			<lom:identifier>
+				<lom:catalog uniqueElementName="catalog">OCW Master Course Number</lom:catalog>
+		      	<lom:entry uniqueElementName="entry">20.109</lom:entry>
+			</lom:identifier>
+        </lom:general>
+        <lom:lifecycle uniqueElementName="lifeCycle">
+            <lom:version uniqueElementName="version">
+				<lom:string language="en">Spring 2010</lom:string>
+			</lom:version>
+            <lom:contribute>
+	            <lom:role>
+	                <lom:source uniqueElementName="source">OCW_LOMv1.0</lom:source>
+	                <lom:value uniqueElementName="value">Author</lom:value>
+	            </lom:role>
+	            <lom:entity>Stachowiak, Agi</lom:entity>
+	            <lom:date uniqueElementName="date">
+	                <lom:dateTime uniqueElementName="dateTime">2013-6-21</lom:dateTime>
+	            </lom:date>
+        	</lom:contribute>
+            <lom:contribute>
+	            <lom:role>
+	                <lom:source uniqueElementName="source">OCW_LOMv1.0</lom:source>
+	                <lom:value uniqueElementName="value">Author</lom:value>
+	            </lom:role>
+	            <lom:entity>Jasanoff, Alan</lom:entity>
+	            <lom:date uniqueElementName="date">
+	                <lom:dateTime uniqueElementName="dateTime">2013-6-21</lom:dateTime>
+	            </lom:date>
+        	</lom:contribute>
+            <lom:contribute>
+	            <lom:role>
+	                <lom:source uniqueElementName="source">OCW_LOMv1.0</lom:source>
+	                <lom:value uniqueElementName="value">Author</lom:value>
+	            </lom:role>
+	            <lom:entity>Niles, Jacquin</lom:entity>
+	            <lom:date uniqueElementName="date">
+	                <lom:dateTime uniqueElementName="dateTime">2013-6-21</lom:dateTime>
+	            </lom:date>
+        	</lom:contribute>
+            <lom:contribute>
+	            <lom:role>
+	                <lom:source uniqueElementName="source">OCW_LOMv1.0</lom:source>
+	                <lom:value uniqueElementName="value">Author</lom:value>
+	            </lom:role>
+	            <lom:entity>Banuazizi, Atissa</lom:entity>
+	            <lom:date uniqueElementName="date">
+	                <lom:dateTime uniqueElementName="dateTime">2013-6-21</lom:dateTime>
+	            </lom:date>
+        	</lom:contribute>
+            <lom:contribute>
+	            <lom:role>
+	                <lom:source uniqueElementName="source">OCW_LOMv1.0</lom:source>
+	                <lom:value uniqueElementName="value">Author</lom:value>
+	            </lom:role>
+	            <lom:entity>Lerner, Neal</lom:entity>
+	            <lom:date uniqueElementName="date">
+	                <lom:dateTime uniqueElementName="dateTime">2013-6-21</lom:dateTime>
+	            </lom:date>
+        	</lom:contribute>
+            <lom:contribute>
+	            <lom:role>
+	                <lom:source uniqueElementName="source">OCW_LOMv1.0</lom:source>
+	                <lom:value uniqueElementName="value">Author</lom:value>
+	            </lom:role>
+	            <lom:entity>Sutliff, Linda</lom:entity>
+	            <lom:date uniqueElementName="date">
+	                <lom:dateTime uniqueElementName="dateTime">2013-6-21</lom:dateTime>
+	            </lom:date>
+        	</lom:contribute>
+        </lom:lifecycle>
+        <lom:relation uniqueElementName="relation">
+        	<lom:kind uniqueElementName="kind">
+        		<lom:source uniqueElementName="source">OCW_LOMv1.0</lom:source>
+        		<lom:value uniqueElementName="value">isbasedon</lom:value>
+        	</lom:kind>
+        	<lom:resource uniqueElementName="resource">
+        		<lom:identifier>
+        			<lom:catalog uniqueElementName="catalog">URI</lom:catalog>
+        			<lom:entry uniqueElementName="entry">http://hdl.handle.net/1721.1/70522</lom:entry>
+        		</lom:identifier>
+        		<lom:description uniqueElementName="description">
+        			<lom:string language="en">Previous version of the course</lom:string>
+        		</lom:description>
+        	</lom:resource>
+        </lom:relation>
+        <lom:taxonPath>
+            <lom:source uniqueElementName="source">
+                <lom:string language="en">OCW Course Categories</lom:string>
+            </lom:source>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Engineering</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Biological Engineering</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            
+        </lom:taxonPath>
+        <lom:taxonPath>
+            <lom:source uniqueElementName="source">
+                <lom:string language="en">OCW Course Categories</lom:string>
+            </lom:source>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Engineering</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Biological Engineering</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Biomaterials</lom:string>
+                </lom:entry>
+            </lom:taxon>
+        </lom:taxonPath>
+        <lom:taxonPath>
+            <lom:source uniqueElementName="source">
+                <lom:string language="en">OCW Course Categories</lom:string>
+            </lom:source>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Science</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Biology</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Genetics</lom:string>
+                </lom:entry>
+            </lom:taxon>
+        </lom:taxonPath>
+        <lom:taxonPath>
+            <lom:source uniqueElementName="source">
+                <lom:string language="en">OCW Course Categories</lom:string>
+            </lom:source>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Engineering</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Biological Engineering</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Cell and Tissue Engineering</lom:string>
+                </lom:entry>
+            </lom:taxon>
+        </lom:taxonPath>        
+        <adlcp:location>contents/index.htm.xml</adlcp:location>
+    </metadata>
+    <organizations default="ocw_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010">
+        <organization identifier="ocw_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010">
+            <title>Laboratory Fundamentals in Biological Engineering</title>
+            <item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.CourseHome"
+                  identifierref="r_contents.index.htm"
+                  ocw:sectionTemplateType="CourseHomePage"
+                  ocw:sectionTemplateVersion="2013-6-21">
+				<title>Laboratory Fundamentals in Biological Engineering</title>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.20-109s10.JPG"
+          identifierref="r_contents.20-109s10.JPG">
+				<title>20-109s10.JPG</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.20-109s10-th.jpg"
+          identifierref="r_contents.20-109s10-th.jpg">
+				<title>20-109s10-th.jpg</title>
+				</item>
+			</item>
+            <item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.Syllabus"
+                  identifierref="r_contents.Syllabus.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-21">
+				<title>Syllabus</title>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.Syllabus.statement-on-collaboration-and-integrity"
+          identifierref="r_contents.Syllabus.statement-on-collaboration-and-integrity.index.htm">
+				<title>Statement on Collaboration and Integrity</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.Syllabus.openwetware-use-in-20.109"
+          identifierref="r_contents.Syllabus.openwetware-use-in-20.109.index.htm">
+				<title>OpenWetWare Use in 20.109 </title>
+				</item>
+			</item>
+            <item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.lecture-notes"
+                  identifierref="r_contents.lecture-notes.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-21">
+				<title>Lecture Notes</title>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.lecture-notes.supporting-videos-for-module-3-day-1-lecture-introduction-to-cell-biomaterial-engineering"
+          identifierref="r_contents.lecture-notes.supporting-videos-for-module-3-day-1-lecture-introduction-to-cell-biomaterial-engineering.index.htm">
+				<title>Supporting Videos for Module 3, Day 1 Lecture: Introduction to Cell-Biomaterial Engineering</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.lecture-notes.MIT20_109S10_lec_m3d1.pdf"
+          identifierref="r_contents.lecture-notes.MIT20_109S10_lec_m3d1.pdf">
+				<title>MIT20_109S10_lec_m3d1.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.lecture-notes.MIT20_109S10_lec_m3d2.pdf"
+          identifierref="r_contents.lecture-notes.MIT20_109S10_lec_m3d2.pdf">
+				<title>MIT20_109S10_lec_m3d2.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.lecture-notes.MIT20_109S10_lec_m3d3.pdf"
+          identifierref="r_contents.lecture-notes.MIT20_109S10_lec_m3d3.pdf">
+				<title>MIT20_109S10_lec_m3d3.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.lecture-notes.MIT20_109S10_lec_m3d4.pdf"
+          identifierref="r_contents.lecture-notes.MIT20_109S10_lec_m3d4.pdf">
+				<title>MIT20_109S10_lec_m3d4.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.lecture-notes.MIT20_109S10_lec_m3d5.pdf"
+          identifierref="r_contents.lecture-notes.MIT20_109S10_lec_m3d5.pdf">
+				<title>MIT20_109S10_lec_m3d5.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.lecture-notes.MIT20_109S10_lec_m3d6.pdf"
+          identifierref="r_contents.lecture-notes.MIT20_109S10_lec_m3d6.pdf">
+				<title>MIT20_109S10_lec_m3d6.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.lecture-notes.MIT20_109S10_lec_m3d7_w.pdf"
+          identifierref="r_contents.lecture-notes.MIT20_109S10_lec_m3d7_w.pdf">
+				<title>MIT20_109S10_lec_m3d7_w.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.lecture-notes.MIT20_109S10_lec_intro.pdf"
+          identifierref="r_contents.lecture-notes.MIT20_109S10_lec_intro.pdf">
+				<title>MIT20_109S10_lec_intro.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.lecture-notes.MIT20_109S10_lec_m1d2_w1.pdf"
+          identifierref="r_contents.lecture-notes.MIT20_109S10_lec_m1d2_w1.pdf">
+				<title>MIT20_109S10_lec_m1d2_w1.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.lecture-notes.MIT20_109S10_lec_m1d2_w2.pdf"
+          identifierref="r_contents.lecture-notes.MIT20_109S10_lec_m1d2_w2.pdf">
+				<title>MIT20_109S10_lec_m1d2_w2.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.lecture-notes.MIT20_109S10_lec_m1d5_w.pdf"
+          identifierref="r_contents.lecture-notes.MIT20_109S10_lec_m1d5_w.pdf">
+				<title>MIT20_109S10_lec_m1d5_w.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.lecture-notes.MIT20_109S10_lec_m2d1.pdf"
+          identifierref="r_contents.lecture-notes.MIT20_109S10_lec_m2d1.pdf">
+				<title>MIT20_109S10_lec_m2d1.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.lecture-notes.MIT20_109S10_lec_m2d2.pdf"
+          identifierref="r_contents.lecture-notes.MIT20_109S10_lec_m2d2.pdf">
+				<title>MIT20_109S10_lec_m2d2.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.lecture-notes.MIT20_109S10_lec_m2d3.pdf"
+          identifierref="r_contents.lecture-notes.MIT20_109S10_lec_m2d3.pdf">
+				<title>MIT20_109S10_lec_m2d3.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.lecture-notes.MIT20_109S10_lec_m2d4.pdf"
+          identifierref="r_contents.lecture-notes.MIT20_109S10_lec_m2d4.pdf">
+				<title>MIT20_109S10_lec_m2d4.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.lecture-notes.MIT20_109S10_lec_m2d5.pdf"
+          identifierref="r_contents.lecture-notes.MIT20_109S10_lec_m2d5.pdf">
+				<title>MIT20_109S10_lec_m2d5.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.lecture-notes.MIT20_109S10_lec_m2d6.pdf"
+          identifierref="r_contents.lecture-notes.MIT20_109S10_lec_m2d6.pdf">
+				<title>MIT20_109S10_lec_m2d6.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.lecture-notes.MIT20_109S10_lec_m2d7.pdf"
+          identifierref="r_contents.lecture-notes.MIT20_109S10_lec_m2d7.pdf">
+				<title>MIT20_109S10_lec_m2d7.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.lecture-notes.MIT20_109S10_lec_m2d8.pdf"
+          identifierref="r_contents.lecture-notes.MIT20_109S10_lec_m2d8.pdf">
+				<title>MIT20_109S10_lec_m2d8.pdf</title>
+				</item>
+			</item>
+            <item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs"
+                  identifierref="r_contents.labs.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-21">
+				<title>Labs</title>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.general-lab-policies-do2019s-and-don2019ts"
+          identifierref="r_contents.labs.general-lab-policies-do2019s-and-don2019ts.index.htm">
+				<title>General Lab Policies, Do's and Don'ts</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.guidelines-for-working-in-the-tissue-culture-facility"
+          identifierref="r_contents.labs.guidelines-for-working-in-the-tissue-culture-facility.index.htm">
+				<title>Guidelines for Working in the Tissue Culture Facility</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.guidelines-for-maintaining-your-lab-notebook"
+          identifierref="r_contents.labs.guidelines-for-maintaining-your-lab-notebook.index.htm">
+				<title>Guidelines for Maintaining Your Lab Notebook</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.module-1-day-1-amplify-aptamer-encoding-dna"
+          identifierref="r_contents.labs.module-1-day-1-amplify-aptamer-encoding-dna.index.htm">
+				<title>Module 1, Day 1: Amplify Aptamer-Encoding DNA</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-1-day-1-amplify-aptamer-encoding-dna.m1d1_fig1.jpg"
+          identifierref="r_contents.labs.module-1-day-1-amplify-aptamer-encoding-dna.m1d1_fig1.jpg">
+				<title>m1d1_fig1.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-1-day-1-amplify-aptamer-encoding-dna.kary_mullins.jpg"
+          identifierref="r_contents.labs.module-1-day-1-amplify-aptamer-encoding-dna.kary_mullins.jpg">
+				<title>kary_mullins.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs_m2_fig2.jpg"
+          identifierref="r_contents.labs.labs_m2_fig2.jpg">
+				<title>labs_m2_fig2.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs_m2_fig1.jpg"
+          identifierref="r_contents.labs.labs_m2_fig1.jpg">
+				<title>labs_m2_fig1.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.module-1-day-2-purify-aptamer-encoding-dna"
+          identifierref="r_contents.labs.module-1-day-2-purify-aptamer-encoding-dna.index.htm">
+				<title>Module 1, Day 2: Purify Aptamer-Encoding DNA</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-1-day-2-purify-aptamer-encoding-dna.m1d2_fig1.jpg"
+          identifierref="r_contents.labs.module-1-day-2-purify-aptamer-encoding-dna.m1d2_fig1.jpg">
+				<title>m1d2_fig1.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-1-day-2-purify-aptamer-encoding-dna.m1d2_fig2.jpg"
+          identifierref="r_contents.labs.module-1-day-2-purify-aptamer-encoding-dna.m1d2_fig2.jpg">
+				<title>m1d2_fig2.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-1-day-2-purify-aptamer-encoding-dna.m1d2_sample.jpg"
+          identifierref="r_contents.labs.module-1-day-2-purify-aptamer-encoding-dna.m1d2_sample.jpg">
+				<title>m1d2_sample.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.module-1-day-3-prepare-rna-by-ivt"
+          identifierref="r_contents.labs.module-1-day-3-prepare-rna-by-ivt.index.htm">
+				<title>Module 1, Day 3: Prepare RNA by IVT</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-1-day-3-prepare-rna-by-ivt.m1d3_fig1.jpg"
+          identifierref="r_contents.labs.module-1-day-3-prepare-rna-by-ivt.m1d3_fig1.jpg">
+				<title>m1d3_fig1.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.module-1-day-4-purify-rna-and-run-affinity-column"
+          identifierref="r_contents.labs.module-1-day-4-purify-rna-and-run-affinity-column.index.htm">
+				<title>Module 1, Day 4: Purify RNA and Run Affinity Column</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-1-day-4-purify-rna-and-run-affinity-column.m1d4_fig1.jpg"
+          identifierref="r_contents.labs.module-1-day-4-purify-rna-and-run-affinity-column.m1d4_fig1.jpg">
+				<title>m1d4_fig1.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.module-1-day-5-rna-to-dna-by-rt-pcr"
+          identifierref="r_contents.labs.module-1-day-5-rna-to-dna-by-rt-pcr.index.htm">
+				<title>Module 1, Day 5: RNA to DNA by RT-PCR</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-1-day-5-rna-to-dna-by-rt-pcr.m1d5_fig1.jpg"
+          identifierref="r_contents.labs.module-1-day-5-rna-to-dna-by-rt-pcr.m1d5_fig1.jpg">
+				<title>m1d5_fig1.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-1-day-5-rna-to-dna-by-rt-pcr.m1d5_sample.jpg"
+          identifierref="r_contents.labs.module-1-day-5-rna-to-dna-by-rt-pcr.m1d5_sample.jpg">
+				<title>m1d5_sample.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-1-day-5-rna-to-dna-by-rt-pcr.m1d5_fig2.gif"
+          identifierref="r_contents.labs.module-1-day-5-rna-to-dna-by-rt-pcr.m1d5_fig2.gif">
+				<title>m1d1_fig2.gif</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.module-1-day-6-post-selection-ivt-and-journal-club"
+          identifierref="r_contents.labs.module-1-day-6-post-selection-ivt-and-journal-club.index.htm">
+				<title>Module 1, Day 6: Post-selection IVT and Journal Club</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.module-1-day-7-aptamer-binding-assay"
+          identifierref="r_contents.labs.module-1-day-7-aptamer-binding-assay.index.htm">
+				<title>Module 1, Day 7: Aptamer Binding Assay</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-1-day-7-aptamer-binding-assay.MIT20_109S10_syll_self.pdf"
+          identifierref="r_contents.labs.module-1-day-7-aptamer-binding-assay.MIT20_109S10_syll_self.pdf">
+				<title>MIT20_109S10_syll_self.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-1-day-7-aptamer-binding-assay.m1d7_student_data.zip"
+          identifierref="r_contents.labs.module-1-day-7-aptamer-binding-assay.m1d7_student_data.zip">
+				<title>MIT20_109S10_lab_m1d7_data.zip</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-1-day-7-aptamer-binding-assay.module-1-day-7-results"
+          identifierref="r_contents.labs.module-1-day-7-aptamer-binding-assay.module-1-day-7-results.index.htm">
+				<title>Module 1, Day 7: Results</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-1-day-7-aptamer-binding-assay.labs.module-1-day-7-aptamer-binding-assay.module-1-day-7-results.tr_orange_norm.gif"
+          identifierref="r_contents.labs.module-1-day-7-aptamer-binding-assay.module-1-day-7-results.tr_orange_norm.gif">
+				<title>tr_orange_norm.gif</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-1-day-7-aptamer-binding-assay.labs.module-1-day-7-aptamer-binding-assay.module-1-day-7-results.tr_orange_raw.gif"
+          identifierref="r_contents.labs.module-1-day-7-aptamer-binding-assay.module-1-day-7-results.tr_orange_raw.gif">
+				<title>tr_orange_raw.gif</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-1-day-7-aptamer-binding-assay.labs.module-1-day-7-aptamer-binding-assay.module-1-day-7-results.wf_yellow_raw.gif"
+          identifierref="r_contents.labs.module-1-day-7-aptamer-binding-assay.module-1-day-7-results.wf_yellow_raw.gif">
+				<title>wf_yellow_raw.gif</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-1-day-7-aptamer-binding-assay.labs.module-1-day-7-aptamer-binding-assay.module-1-day-7-results.wf_yellow_norm.gif"
+          identifierref="r_contents.labs.module-1-day-7-aptamer-binding-assay.module-1-day-7-results.wf_yellow_norm.gif">
+				<title>wf_yellow_norm.gif</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-1-day-7-aptamer-binding-assay.labs.module-1-day-7-aptamer-binding-assay.module-1-day-7-results.tr_green_raw.gif"
+          identifierref="r_contents.labs.module-1-day-7-aptamer-binding-assay.module-1-day-7-results.tr_green_raw.gif">
+				<title>tr_green_raw.gif</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-1-day-7-aptamer-binding-assay.labs.module-1-day-7-aptamer-binding-assay.module-1-day-7-results.tr_green_norm.gif"
+          identifierref="r_contents.labs.module-1-day-7-aptamer-binding-assay.module-1-day-7-results.tr_green_norm.gif">
+				<title>tr_green_norm.gif</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-1-day-7-aptamer-binding-assay.labs.module-1-day-7-aptamer-binding-assay.module-1-day-7-results.wf_red_normdata.gif"
+          identifierref="r_contents.labs.module-1-day-7-aptamer-binding-assay.module-1-day-7-results.wf_red_normdata.gif">
+				<title>wf_red_normdata.gif</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-1-day-7-aptamer-binding-assay.labs.module-1-day-7-aptamer-binding-assay.module-1-day-7-results.wf_red_normgraph.gif"
+          identifierref="r_contents.labs.module-1-day-7-aptamer-binding-assay.module-1-day-7-results.wf_red_normgraph.gif">
+				<title>wf_red_normgraph.gif</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-1-day-7-aptamer-binding-assay.labs.module-1-day-7-aptamer-binding-assay.module-1-day-7-results.tr_blue_raw.gif"
+          identifierref="r_contents.labs.module-1-day-7-aptamer-binding-assay.module-1-day-7-results.tr_blue_raw.gif">
+				<title>tr_blue_raw.gif</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-1-day-7-aptamer-binding-assay.labs.module-1-day-7-aptamer-binding-assay.module-1-day-7-results.tr_blue_norm.gif"
+          identifierref="r_contents.labs.module-1-day-7-aptamer-binding-assay.module-1-day-7-results.tr_blue_norm.gif">
+				<title>tr_blue_norm.gif</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-1-day-7-aptamer-binding-assay.labs.module-1-day-7-aptamer-binding-assay.module-1-day-7-results.link.gif"
+          identifierref="r_contents.labs.module-1-day-7-aptamer-binding-assay.module-1-day-7-results.link.gif">
+				<title>link.gif</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.module-1-day-8-journal-club-continued"
+          identifierref="r_contents.labs.module-1-day-8-journal-club-continued.index.htm">
+				<title>Module 1, Day 8: Journal Club (Continued)</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.module-2-day-1-start-up-protein-engineering"
+          identifierref="r_contents.labs.module-2-day-1-start-up-protein-engineering.index.htm">
+				<title>Module 2, Day 1: Start-Up Protein Engineering</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-2-day-1-start-up-protein-engineering.m2d1_fig1.jpg"
+          identifierref="r_contents.labs.module-2-day-1-start-up-protein-engineering.m2d1_fig1.jpg">
+				<title>m2d1_fig1.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-2-day-1-start-up-protein-engineering.m2d1_fig2.jpg"
+          identifierref="r_contents.labs.module-2-day-1-start-up-protein-engineering.m2d1_fig2.jpg">
+				<title>m2d1_fig2.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-2-day-1-start-up-protein-engineering.m2d1_fig3.jpg"
+          identifierref="r_contents.labs.module-2-day-1-start-up-protein-engineering.m2d1_fig3.jpg">
+				<title>m2d1_fig3.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-2-day-1-start-up-protein-engineering.module-2-day-1-start-up-protein-engineering-results"
+          identifierref="r_contents.labs.module-2-day-1-start-up-protein-engineering.module-2-day-1-start-up-protein-engineering-results.index.htm">
+				<title>Module 2, Day 1: Start-Up Protein Engineering - Results</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-2-day-1-start-up-protein-engineering.MIT20_109S10_m2d1_watcut.pdf"
+          identifierref="r_contents.labs.module-2-day-1-start-up-protein-engineering.MIT20_109S10_m2d1_watcut.pdf">
+				<title>MIT20_109S10_m2d1_watcut.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-2-day-1-start-up-protein-engineering.MIT20_109S10_m2d1_ipc.pdf"
+          identifierref="r_contents.labs.module-2-day-1-start-up-protein-engineering.MIT20_109S10_m2d1_ipc.pdf">
+				<title>MIT20_109S10_m2d1_ipc.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.module-2-day-2-site-directed-mutagenesis"
+          identifierref="r_contents.labs.module-2-day-2-site-directed-mutagenesis.index.htm">
+				<title>Module 2, Day 2: Site-Directed Mutagenesis</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-2-day-2-site-directed-mutagenesis.m2d2_fig1.jpg"
+          identifierref="r_contents.labs.module-2-day-2-site-directed-mutagenesis.m2d2_fig1.jpg">
+				<title>m2d2_fig1.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-2-day-2-site-directed-mutagenesis.m2d2_fig2a_b.jpg"
+          identifierref="r_contents.labs.module-2-day-2-site-directed-mutagenesis.m2d2_fig2a_b.jpg">
+				<title>m2d2_fig2a_b.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.module-2-day-3-bacterial-amplification-of-dna"
+          identifierref="r_contents.labs.module-2-day-3-bacterial-amplification-of-dna.index.htm">
+				<title>Module 2, Day 3: Bacterial Amplification of DNA</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-2-day-3-bacterial-amplification-of-dna.m2d3_fig2a.jpg"
+          identifierref="r_contents.labs.module-2-day-3-bacterial-amplification-of-dna.m2d3_fig2a.jpg">
+				<title>m2d3_fig2a.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-2-day-3-bacterial-amplification-of-dna.m2d3_fig2b.jpg"
+          identifierref="r_contents.labs.module-2-day-3-bacterial-amplification-of-dna.m2d3_fig2b.jpg">
+				<title>m2d3_fig2b.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-2-day-3-bacterial-amplification-of-dna.m2d3_fig1.jpg"
+          identifierref="r_contents.labs.module-2-day-3-bacterial-amplification-of-dna.m2d3_fig1.jpg">
+				<title>m2d3_fig1.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-2-day-3-bacterial-amplification-of-dna.MIT20_109S10_m2d1_cut12.pdf"
+          identifierref="r_contents.labs.module-2-day-3-bacterial-amplification-of-dna.MIT20_109S10_m2d1_cut12.pdf">
+				<title>MIT20_109S10_m2d1_cut12.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.module-2-day-4-prepare-expression-system"
+          identifierref="r_contents.labs.module-2-day-4-prepare-expression-system.index.htm">
+				<title>Module 2, Day 4: Prepare Expression System</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-2-day-4-prepare-expression-system.m2d4_fig1.jpg"
+          identifierref="r_contents.labs.module-2-day-4-prepare-expression-system.m2d4_fig1.jpg">
+				<title>m2d4_fig1.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-2-day-4-prepare-expression-system.m2d4_fig3.jpg"
+          identifierref="r_contents.labs.module-2-day-4-prepare-expression-system.m2d4_fig3.jpg">
+				<title>m2d4_fig3.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-2-day-4-prepare-expression-system.MIT20_109S10_syl_mdtrm_evl.pdf"
+          identifierref="r_contents.labs.module-2-day-4-prepare-expression-system.MIT20_109S10_syl_mdtrm_evl.pdf">
+				<title>MIT20_109S10_syl_mdtrm_evl.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-2-day-4-prepare-expression-system.MIT20_109S10_m2d4_sequence.doc"
+          identifierref="r_contents.labs.module-2-day-4-prepare-expression-system.MIT20_109S10_m2d4_sequence.doc">
+				<title>MIT20_109S10_m2d4_sequence.doc</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-2-day-4-prepare-expression-system.m2d4_fig2_1.gif"
+          identifierref="r_contents.labs.module-2-day-4-prepare-expression-system.m2d4_fig2_1.gif">
+				<title>m2d4_fig2_1.gif</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.module-2-day-5-induce-protein-and-evaluate-dna"
+          identifierref="r_contents.labs.module-2-day-5-induce-protein-and-evaluate-dna.index.htm">
+				<title>Module 2, Day 5: Induce Protein and Evaluate DNA</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-2-day-5-induce-protein-and-evaluate-dna.m2d5_fig1a.jpg"
+          identifierref="r_contents.labs.module-2-day-5-induce-protein-and-evaluate-dna.m2d5_fig1a.jpg">
+				<title>m2d5_fig1a.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-2-day-5-induce-protein-and-evaluate-dna.m2d5_fig1b.jpg"
+          identifierref="r_contents.labs.module-2-day-5-induce-protein-and-evaluate-dna.m2d5_fig1b.jpg">
+				<title>m2d5_fig1b.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-2-day-5-induce-protein-and-evaluate-dna.m2d5_fig2a.jpg"
+          identifierref="r_contents.labs.module-2-day-5-induce-protein-and-evaluate-dna.m2d5_fig2a.jpg">
+				<title>m2d5_fig2a.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-2-day-5-induce-protein-and-evaluate-dna.m2d5_fig2b.jpg"
+          identifierref="r_contents.labs.module-2-day-5-induce-protein-and-evaluate-dna.m2d5_fig2b.jpg">
+				<title>m2d5_fig2b.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-2-day-5-induce-protein-and-evaluate-dna.m2d5_fig2c.jpg"
+          identifierref="r_contents.labs.module-2-day-5-induce-protein-and-evaluate-dna.m2d5_fig2c.jpg">
+				<title>m2d5_fig2c.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-2-day-5-induce-protein-and-evaluate-dna.MIT20_109S10_m2d1_ipc.doc"
+          identifierref="r_contents.labs.module-2-day-5-induce-protein-and-evaluate-dna.MIT20_109S10_m2d1_ipc.doc">
+				<title>MIT20_109S10_m2d1_ipc.doc</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-2-day-5-induce-protein-and-evaluate-dna.MIT20_109S10_m2d4_sequence.doc"
+          identifierref="r_contents.labs.module-2-day-5-induce-protein-and-evaluate-dna.MIT20_109S10_m2d4_sequence.doc">
+				<title>MIT20_109S10_m2d4_sequence.doc</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-2-day-5-induce-protein-and-evaluate-dna.m2d5_result.jpg"
+          identifierref="r_contents.labs.module-2-day-5-induce-protein-and-evaluate-dna.m2d5_result.jpg">
+				<title>m2d5_result.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-2-day-5-induce-protein-and-evaluate-dna.m2d5_pellets.jpg"
+          identifierref="r_contents.labs.module-2-day-5-induce-protein-and-evaluate-dna.m2d5_pellets.jpg">
+				<title>m2d5_pellets.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.module-2-day-6-characterize-protein-expression"
+          identifierref="r_contents.labs.module-2-day-6-characterize-protein-expression.index.htm">
+				<title>Module 2, Day 6: Characterize Protein Expression</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-2-day-6-characterize-protein-expression.m2d6_fig1.jpg"
+          identifierref="r_contents.labs.module-2-day-6-characterize-protein-expression.m2d6_fig1.jpg">
+				<title>m2d6_fig1.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-2-day-6-characterize-protein-expression.m2d6_fig2a.jpg"
+          identifierref="r_contents.labs.module-2-day-6-characterize-protein-expression.m2d6_fig2a.jpg">
+				<title>m2d6_fig2a.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-2-day-6-characterize-protein-expression.m2d6_fig2b.jpg"
+          identifierref="r_contents.labs.module-2-day-6-characterize-protein-expression.m2d6_fig2b.jpg">
+				<title>m2d6_fig2b.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-2-day-6-characterize-protein-expression.m2d6_result.jpg"
+          identifierref="r_contents.labs.module-2-day-6-characterize-protein-expression.m2d6_result.jpg">
+				<title>m2d6_result.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.module-2-day-7-assay-protein-behavior"
+          identifierref="r_contents.labs.module-2-day-7-assay-protein-behavior.index.htm">
+				<title>Module 2, Day 7: Assay Protein Behavior</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-2-day-7-assay-protein-behavior.m2d7_fig1.jpg"
+          identifierref="r_contents.labs.module-2-day-7-assay-protein-behavior.m2d7_fig1.jpg">
+				<title>m2d7_fig1.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-2-day-7-assay-protein-behavior.m2d7_fig2.jpg"
+          identifierref="r_contents.labs.module-2-day-7-assay-protein-behavior.m2d7_fig2.jpg">
+				<title>m2d7_fig2.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.module-2-day-8-data-analysis"
+          identifierref="r_contents.labs.module-2-day-8-data-analysis.index.htm">
+				<title>Module 2, Day 8: Data Analysis</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-2-day-8-data-analysis.MIT20_109S10_syll_self.pdf"
+          identifierref="r_contents.labs.module-2-day-8-data-analysis.MIT20_109S10_syll_self.pdf">
+				<title>MIT20_109S10_syll_self.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-2-day-8-data-analysis.m2d8_fig1a.jpg"
+          identifierref="r_contents.labs.module-2-day-8-data-analysis.m2d8_fig1a.jpg">
+				<title>m2d8_fig1a.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-2-day-8-data-analysis.m2d8_fig1b.jpg"
+          identifierref="r_contents.labs.module-2-day-8-data-analysis.m2d8_fig1b.jpg">
+				<title>m2d8_fig1b.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-2-day-8-data-analysis.m2d8_prep.zip"
+          identifierref="r_contents.labs.module-2-day-8-data-analysis.m2d8_prep.zip">
+				<title>m2d8_prep.zip</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-2-day-8-data-analysis.m2d8_eq1.jpg"
+          identifierref="r_contents.labs.module-2-day-8-data-analysis.m2d8_eq1.jpg">
+				<title>m2d8_eq1.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-2-day-8-data-analysis.m2d8_eq2.jpg"
+          identifierref="r_contents.labs.module-2-day-8-data-analysis.m2d8_eq2.jpg">
+				<title>m2d8_eq2.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-2-day-8-data-analysis.m2d8_2kd.zip"
+          identifierref="r_contents.labs.module-2-day-8-data-analysis.m2d8_2kd.zip">
+				<title>m2d8_2kd.zip</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-2-day-8-data-analysis.m2d8_data.zip"
+          identifierref="r_contents.labs.module-2-day-8-data-analysis.m2d8_data.zip">
+				<title>m2d8_data.zip</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.module-3-day-1-start-up-biomaterials-engineering"
+          identifierref="r_contents.labs.module-3-day-1-start-up-biomaterials-engineering.index.htm">
+				<title>Module 3, Day 1: Start-Up Biomaterials Engineering</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-3-day-1-start-up-biomaterials-engineering.m3d1_fig1a.jpg"
+          identifierref="r_contents.labs.module-3-day-1-start-up-biomaterials-engineering.m3d1_fig1a.jpg">
+				<title>m3d1_fig1a.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-3-day-1-start-up-biomaterials-engineering.m3d1_fig1b.jpg"
+          identifierref="r_contents.labs.module-3-day-1-start-up-biomaterials-engineering.m3d1_fig1b.jpg">
+				<title>m3d1_fig1b.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-3-day-1-start-up-biomaterials-engineering.m3d1_fig2.jpg"
+          identifierref="r_contents.labs.module-3-day-1-start-up-biomaterials-engineering.m3d1_fig2.jpg">
+				<title>m3d1_fig2.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.module-3-day-2-initiate-cell-culture"
+          identifierref="r_contents.labs.module-3-day-2-initiate-cell-culture.index.htm">
+				<title>Module 3, Day 2: Initiate Cell Culture</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-3-day-2-initiate-cell-culture.m3d2_fig1.jpg"
+          identifierref="r_contents.labs.module-3-day-2-initiate-cell-culture.m3d2_fig1.jpg">
+				<title>m3d2_fig1.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.module-3-day-3-testing-cell-viability"
+          identifierref="r_contents.labs.module-3-day-3-testing-cell-viability.index.htm">
+				<title>Module 3, Day 3: Testing Cell Viability</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-3-day-3-testing-cell-viability.m3d3_fig1.jpg"
+          identifierref="r_contents.labs.module-3-day-3-testing-cell-viability.m3d3_fig1.jpg">
+				<title>m3d3_fig1.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-3-day-3-testing-cell-viability.m3d3_fig2.jpg"
+          identifierref="r_contents.labs.module-3-day-3-testing-cell-viability.m3d3_fig2.jpg">
+				<title>m3d3_fig2.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-3-day-3-testing-cell-viability.m3d3_10x_ld2_new.jpg"
+          identifierref="r_contents.labs.module-3-day-3-testing-cell-viability.m3d3_10x_ld2_new.jpg">
+				<title>m3d3_10x_ld2_new.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-3-day-3-testing-cell-viability.m3d3_40x_ld2_new.jpg"
+          identifierref="r_contents.labs.module-3-day-3-testing-cell-viability.m3d3_40x_ld2_new.jpg">
+				<title>m3d3_40x_ld2_new.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-3-day-3-testing-cell-viability.m3d3_result1_new.jpg"
+          identifierref="r_contents.labs.module-3-day-3-testing-cell-viability.m3d3_result1_new.jpg">
+				<title>m3d3_result1_new.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-3-day-3-testing-cell-viability.m3d3_result2_new.jpg"
+          identifierref="r_contents.labs.module-3-day-3-testing-cell-viability.m3d3_result2_new.jpg">
+				<title>m3d3_result2_new.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.module-3-day-4-preparing-cells-for-analysis"
+          identifierref="r_contents.labs.module-3-day-4-preparing-cells-for-analysis.index.htm">
+				<title>Module 3, Day 4: Preparing Cells for Analysis</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-3-day-4-preparing-cells-for-analysis.m3d4_fig1.jpg"
+          identifierref="r_contents.labs.module-3-day-4-preparing-cells-for-analysis.m3d4_fig1.jpg">
+				<title>m3d4_fig1.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-3-day-4-preparing-cells-for-analysis.m3d4_fig2.jpg"
+          identifierref="r_contents.labs.module-3-day-4-preparing-cells-for-analysis.m3d4_fig2.jpg">
+				<title>m3d4_fig2.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.module-3-day-5-transcript-level-analysis"
+          identifierref="r_contents.labs.module-3-day-5-transcript-level-analysis.index.htm">
+				<title>Module 3, Day 5: Transcript-Level Analysis</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-3-day-5-transcript-level-analysis.m3d5_fig1.jpg"
+          identifierref="r_contents.labs.module-3-day-5-transcript-level-analysis.m3d5_fig1.jpg">
+				<title>m3d5_fig1.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-3-day-5-transcript-level-analysis.m3d5_fig2a.jpg"
+          identifierref="r_contents.labs.module-3-day-5-transcript-level-analysis.m3d5_fig2a.jpg">
+				<title>m3d5_fig2a.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-3-day-5-transcript-level-analysis.m3d5_fig2b.jpg"
+          identifierref="r_contents.labs.module-3-day-5-transcript-level-analysis.m3d5_fig2b.jpg">
+				<title>m3d5_fig2b.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-3-day-5-transcript-level-analysis.MIT20_109S10_m3d5_stats.xls"
+          identifierref="r_contents.labs.module-3-day-5-transcript-level-analysis.MIT20_109S10_m3d5_stats.xls">
+				<title>MIT20_109S10_m3d5_stats.xls</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.module-3-day-6-protein-level-analysis"
+          identifierref="r_contents.labs.module-3-day-6-protein-level-analysis.index.htm">
+				<title>Module 3, Day 6: Protein-Level Analysis</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-3-day-6-protein-level-analysis.m3d6_fig1a.jpg"
+          identifierref="r_contents.labs.module-3-day-6-protein-level-analysis.m3d6_fig1a.jpg">
+				<title>m3d6_fig1a.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-3-day-6-protein-level-analysis.m3d6_fig1b.jpg"
+          identifierref="r_contents.labs.module-3-day-6-protein-level-analysis.m3d6_fig1b.jpg">
+				<title>m3d6_fig1b.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.module-3-day-7-wrap-up-analysis"
+          identifierref="r_contents.labs.module-3-day-7-wrap-up-analysis.index.htm">
+				<title>Module 3, Day 7: Wrap-Up Analysis</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.module-3-day-7-wrap-up-analysis.m3d7_data.zip"
+          identifierref="r_contents.labs.module-3-day-7-wrap-up-analysis.m3d7_data.zip">
+				<title>m3d7_data.zip</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs_m1_fig1.jpg"
+          identifierref="r_contents.labs.labs_m1_fig1.jpg">
+				<title>labs_m1_fig1.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs_m3_fig1.jpg"
+          identifierref="r_contents.labs.labs_m3_fig1.jpg">
+				<title>labs_m3_fig1.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.module-2-ta-notes"
+          identifierref="r_contents.labs.module-2-ta-notes.index.htm">
+				<title>TA Notes for Lab Module 2: Protein Engineering</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.ta-notes-for-lab-module-1"
+          identifierref="r_contents.labs.ta-notes-for-lab-module-1.index.htm">
+				<title>TA notes for Lab Module 1: RNA Engineering</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.20.109-s10-ta-notes-for-module-3"
+          identifierref="r_contents.labs.20.109-s10-ta-notes-for-module-3.index.htm">
+				<title>TA Notes For Module 3: Cell-Biomaterial Engineering</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.20.109-s10-lab-orientation"
+          identifierref="r_contents.labs.20.109-s10-lab-orientation.index.htm">
+				<title>Lab Orientation</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.20.109-s10-lab-orientation.orient_1.jpg"
+          identifierref="r_contents.labs.20.109-s10-lab-orientation.orient_1.jpg">
+				<title>orient_1.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.20.109-s10-lab-orientation.orient_1b.jpg"
+          identifierref="r_contents.labs.20.109-s10-lab-orientation.orient_1b.jpg">
+				<title>orient_1b.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.20.109-s10-lab-orientation.orient_2.jpg"
+          identifierref="r_contents.labs.20.109-s10-lab-orientation.orient_2.jpg">
+				<title>orient_2.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.20.109-s10-lab-orientation.orient_3.jpg"
+          identifierref="r_contents.labs.20.109-s10-lab-orientation.orient_3.jpg">
+				<title>orient_3.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.20.109-s10-lab-orientation.orient_4.jpg"
+          identifierref="r_contents.labs.20.109-s10-lab-orientation.orient_4.jpg">
+				<title>orient_4.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.20.109-s10-lab-orientation.orient_5.jpg"
+          identifierref="r_contents.labs.20.109-s10-lab-orientation.orient_5.jpg">
+				<title>orient_5.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.20.109-s10-lab-orientation.orient_6.jpg"
+          identifierref="r_contents.labs.20.109-s10-lab-orientation.orient_6.jpg">
+				<title>orient_6.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.20.109-s10-lab-orientation.orient_5b.jpg"
+          identifierref="r_contents.labs.20.109-s10-lab-orientation.orient_5b.jpg">
+				<title>orient_5b.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.20.109-s10-lab-orientation.orient_6b.jpg"
+          identifierref="r_contents.labs.20.109-s10-lab-orientation.orient_6b.jpg">
+				<title>orient_6b.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.20.109-s10-lab-orientation.orient_7.jpg"
+          identifierref="r_contents.labs.20.109-s10-lab-orientation.orient_7.jpg">
+				<title>orient_7.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.20.109-s10-lab-orientation.orient_8.jpg"
+          identifierref="r_contents.labs.20.109-s10-lab-orientation.orient_8.jpg">
+				<title>orient_8.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.labs.20.109-s10-lab-orientation.orientation_sampledata.xlsx"
+          identifierref="r_contents.labs.20.109-s10-lab-orientation.orientation_sampledata.xlsx">
+				<title>orientation_sampledata.xlsx</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.MIT20_109S10_labpre_m0d1.pdf"
+          identifierref="r_contents.labs.MIT20_109S10_labpre_m0d1.pdf">
+				<title>MIT20_109S10_labpre_m0d1.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.MIT20_109S10_labpre_m1d1.pdf"
+          identifierref="r_contents.labs.MIT20_109S10_labpre_m1d1.pdf">
+				<title>MIT20_109S10_labpre_m1d1.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.MIT20_109S10_labpre_m1d2.pdf"
+          identifierref="r_contents.labs.MIT20_109S10_labpre_m1d2.pdf">
+				<title>MIT20_109S10_labpre_m1d2.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.MIT20_109S10_labpre_m1d3.pdf"
+          identifierref="r_contents.labs.MIT20_109S10_labpre_m1d3.pdf">
+				<title>MIT20_109S10_labpre_m1d3.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.MIT20_109S10_labpre_m1d4.pdf"
+          identifierref="r_contents.labs.MIT20_109S10_labpre_m1d4.pdf">
+				<title>MIT20_109S10_labpre_m1d4.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.MIT20_109S10_labpre_m1d5.pdf"
+          identifierref="r_contents.labs.MIT20_109S10_labpre_m1d5.pdf">
+				<title>MIT20_109S10_labpre_m1d5.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.MIT20_109S10_labpre_m1d6.pdf"
+          identifierref="r_contents.labs.MIT20_109S10_labpre_m1d6.pdf">
+				<title>MIT20_109S10_labpre_m1d6.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.MIT20_109S10_labpre_m1d7.pdf"
+          identifierref="r_contents.labs.MIT20_109S10_labpre_m1d7.pdf">
+				<title>MIT20_109S10_labpre_m1d7.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.MIT20_109S10_labpre_m2d1.pdf"
+          identifierref="r_contents.labs.MIT20_109S10_labpre_m2d1.pdf">
+				<title>MIT20_109S10_labpre_m2d1.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.MIT20_109S10_labpre_m3d3.pdf"
+          identifierref="r_contents.labs.MIT20_109S10_labpre_m3d3.pdf">
+				<title>MIT20_109S10_labpre_m3d3.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.MIT20_109S10_labpre_m2d4.pdf"
+          identifierref="r_contents.labs.MIT20_109S10_labpre_m2d4.pdf">
+				<title>MIT20_109S10_labpre_m2d4.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.MIT20_109S10_labpre_m3d4.pdf"
+          identifierref="r_contents.labs.MIT20_109S10_labpre_m3d4.pdf">
+				<title>MIT20_109S10_labpre_m3d4.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.MIT20_109S10_labpre_m2d3.pdf"
+          identifierref="r_contents.labs.MIT20_109S10_labpre_m2d3.pdf">
+				<title>MIT20_109S10_labpre_m2d3.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.MIT20_109S10_labpre_m2d2.pdf"
+          identifierref="r_contents.labs.MIT20_109S10_labpre_m2d2.pdf">
+				<title>MIT20_109S10_labpre_m2d2.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.MIT20_109S10_labpre_m3d1.pdf"
+          identifierref="r_contents.labs.MIT20_109S10_labpre_m3d1.pdf">
+				<title>MIT20_109S10_labpre_m3d1.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.MIT20_109S10_labpre_m3d7.pdf"
+          identifierref="r_contents.labs.MIT20_109S10_labpre_m3d7.pdf">
+				<title>MIT20_109S10_labpre_m3d7.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.MIT20_109S10_labpre_m2d6.pdf"
+          identifierref="r_contents.labs.MIT20_109S10_labpre_m2d6.pdf">
+				<title>MIT20_109S10_labpre_m2d6.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.MIT20_109S10_labpre_m2d5.pdf"
+          identifierref="r_contents.labs.MIT20_109S10_labpre_m2d5.pdf">
+				<title>MIT20_109S10_labpre_m2d5.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.labs.MIT20_109S10_labpre_m3d6.pdf"
+          identifierref="r_contents.labs.MIT20_109S10_labpre_m3d6.pdf">
+				<title>MIT20_109S10_labpre_m3d6.pdf</title>
+				</item>
+			</item>
+            <item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.assignments"
+                  identifierref="r_contents.assignments.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-21">
+				<title>Assignments</title>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.assignments.module-1-assignment-rna-engineering-laboratory-report"
+          identifierref="r_contents.assignments.module-1-assignment-rna-engineering-laboratory-report.index.htm">
+				<title>Module 1 Assignment: RNA Engineering Laboratory Report</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.assignments.guidelines-for-writing-up-your-research"
+          identifierref="r_contents.assignments.guidelines-for-writing-up-your-research.index.htm">
+				<title>Guidelines For Writing Up Your Research</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.assignments.module-1-assignment-rna-computational-analysis"
+          identifierref="r_contents.assignments.module-1-assignment-rna-computational-analysis.index.htm">
+				<title>Module 1 Assignment: RNA Computational Analysis</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.assignments.module-1-assignments-journal-club"
+          identifierref="r_contents.assignments.module-1-assignments-journal-club.index.htm">
+				<title>Module 1 Assignments: Journal Club</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.assignments.guidelines-for-oral-presentations"
+          identifierref="r_contents.assignments.guidelines-for-oral-presentations.index.htm">
+				<title>Guidelines for Oral Presentations</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.assignments.module-2-assignment-protein-engineering-research-article"
+          identifierref="r_contents.assignments.module-2-assignment-protein-engineering-research-article.index.htm">
+				<title>Module 2 Assignment: Protein Engineering Research Article</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.assignments.module-3-assignment-oral-presentations"
+          identifierref="r_contents.assignments.module-3-assignment-oral-presentations.index.htm">
+				<title>Module 3 Assignment: Oral Presentations</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.assignments.module-3-assignment-cell-biomaterial-engineering-report"
+          identifierref="r_contents.assignments.module-3-assignment-cell-biomaterial-engineering-report.index.htm">
+				<title>Module 3 Assignment: Cell-Biomaterial Engineering Report</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.assignments.MIT20_109S10_m1_orl_rubric.pdf"
+          identifierref="r_contents.assignments.MIT20_109S10_m1_orl_rubric.pdf">
+				<title>MIT20_109S10_m1_orl_rubric.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.assignments.MIT20_109S10_m3_orl_rubric.pdf"
+          identifierref="r_contents.assignments.MIT20_109S10_m3_orl_rubric.pdf">
+				<title>MIT20_109S10_m3_orl_rubric.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.assignments.MIT20_109S10_syll_self.pdf"
+          identifierref="r_contents.assignments.MIT20_109S10_syll_self.pdf">
+				<title>MIT20_109S10_syll_self.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.assignments.MIT20_109S10_m1_anly_data.rtf"
+          identifierref="r_contents.assignments.MIT20_109S10_m1_anly_data.rtf">
+				<title>MIT20_109S10_m1_anly_data.rtf</title>
+				</item>
+			</item>
+            <item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-spring-2010.related-resources"
+                  identifierref="r_contents.related-resources.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-21">
+				<title>Related Resources</title>
+			</item>
+            <item identifier="i_terms"
+                  identifierref="r_common.terms.index.htm"
+                  ocw:sectionTemplateType="GlobalSection"
+                  ocw:sectionTemplateVersion="2013-6-21">
+				<title>Legal Notices</title>
+			</item>
+            <item identifier="i_terms"
+                  identifierref="r_common.terms.index.htm"
+                  ocw:sectionTemplateType="GlobalSection"
+                  ocw:sectionTemplateVersion="2013-6-21">
+				<title>Privacy Statement</title>
+			</item>
+            <item identifier="i_terms.trademarks"
+                  identifierref="r_common.terms.trademarks.index.htm"
+                  ocw:sectionTemplateType="GlobalSection"
+                  ocw:sectionTemplateVersion="2013-6-21">
+				<title>Trademark Notices</title>
+			</item>
+        </organization>
+    </organizations>
+    <resources>
+        <resource identifier="r_contents.labs.20.109-s10-lab-orientation.orient_5b.jpg"
+                  type="other"
+                  href="contents/labs/20.109-s10-lab-orientation/orient_5b.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/20.109-s10-lab-orientation/orient_5b.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/20.109-s10-lab-orientation/orient_5b.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-3-day-4-preparing-cells-for-analysis.index.htm"
+                  type="webcontent"
+                  href="contents/labs/module-3-day-4-preparing-cells-for-analysis/index.htm">
+            <metadata>
+                <adlcp:location>contents/labs/module-3-day-4-preparing-cells-for-analysis/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-3-day-4-preparing-cells-for-analysis/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-spring-2010"/>            
+        </resource>
+        <resource identifier="r_contents.Syllabus.index.htm"
+                  type="webcontent"
+                  href="contents/Syllabus/index.htm">
+            <metadata>
+                <adlcp:location>contents/Syllabus/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/Syllabus/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-spring-2010"/>            
+        </resource>
+        <resource identifier="r_contents.lecture-notes.MIT20_109S10_lec_m2d5.pdf"
+                  type="other"
+                  href="contents/lecture-notes/MIT20_109S10_lec_m2d5.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/MIT20_109S10_lec_m2d5.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/MIT20_109S10_lec_m2d5.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.MIT20_109S10_lec_m1d2_w2.pdf"
+                  type="other"
+                  href="contents/lecture-notes/MIT20_109S10_lec_m1d2_w2.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/MIT20_109S10_lec_m1d2_w2.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/MIT20_109S10_lec_m1d2_w2.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-2-day-3-bacterial-amplification-of-dna.m2d3_fig2a.jpg"
+                  type="other"
+                  href="contents/labs/module-2-day-3-bacterial-amplification-of-dna/m2d3_fig2a.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/module-2-day-3-bacterial-amplification-of-dna/m2d3_fig2a.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-2-day-3-bacterial-amplification-of-dna/m2d3_fig2a.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-2-day-6-characterize-protein-expression.m2d6_fig2a.jpg"
+                  type="other"
+                  href="contents/labs/module-2-day-6-characterize-protein-expression/m2d6_fig2a.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/module-2-day-6-characterize-protein-expression/m2d6_fig2a.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-2-day-6-characterize-protein-expression/m2d6_fig2a.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.index.htm"
+                  type="webcontent"
+                  href="contents/assignments/index.htm">
+            <metadata>
+                <adlcp:location>contents/assignments/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-spring-2010"/>            
+        </resource>
+        <resource identifier="r_contents.labs.module-2-day-1-start-up-protein-engineering.m2d1_fig2.jpg"
+                  type="other"
+                  href="contents/labs/module-2-day-1-start-up-protein-engineering/m2d1_fig2.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/module-2-day-1-start-up-protein-engineering/m2d1_fig2.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-2-day-1-start-up-protein-engineering/m2d1_fig2.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.MIT20_109S10_labpre_m2d1.pdf"
+                  type="other"
+                  href="contents/labs/MIT20_109S10_labpre_m2d1.pdf">
+            <metadata>
+                <adlcp:location>contents/labs/MIT20_109S10_labpre_m2d1.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/MIT20_109S10_labpre_m2d1.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.MIT20_109S10_labpre_m2d6.pdf"
+                  type="other"
+                  href="contents/labs/MIT20_109S10_labpre_m2d6.pdf">
+            <metadata>
+                <adlcp:location>contents/labs/MIT20_109S10_labpre_m2d6.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/MIT20_109S10_labpre_m2d6.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-2-day-2-site-directed-mutagenesis.m2d2_fig1.jpg"
+                  type="other"
+                  href="contents/labs/module-2-day-2-site-directed-mutagenesis/m2d2_fig1.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/module-2-day-2-site-directed-mutagenesis/m2d2_fig1.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-2-day-2-site-directed-mutagenesis/m2d2_fig1.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-3-day-5-transcript-level-analysis.m3d5_fig2a.jpg"
+                  type="other"
+                  href="contents/labs/module-3-day-5-transcript-level-analysis/m3d5_fig2a.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/module-3-day-5-transcript-level-analysis/m3d5_fig2a.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-3-day-5-transcript-level-analysis/m3d5_fig2a.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-2-day-1-start-up-protein-engineering.index.htm"
+                  type="webcontent"
+                  href="contents/labs/module-2-day-1-start-up-protein-engineering/index.htm">
+            <metadata>
+                <adlcp:location>contents/labs/module-2-day-1-start-up-protein-engineering/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-2-day-1-start-up-protein-engineering/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-spring-2010"/>            
+        </resource>
+        <resource identifier="r_contents.related-resources.index.htm"
+                  type="webcontent"
+                  href="contents/related-resources/index.htm">
+            <metadata>
+                <adlcp:location>contents/related-resources/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/related-resources/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-spring-2010"/>            
+        </resource>
+        <resource identifier="r_contents.lecture-notes.MIT20_109S10_lec_m3d2.pdf"
+                  type="other"
+                  href="contents/lecture-notes/MIT20_109S10_lec_m3d2.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/MIT20_109S10_lec_m3d2.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/MIT20_109S10_lec_m3d2.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.20.109-s10-lab-orientation.orient_7.jpg"
+                  type="other"
+                  href="contents/labs/20.109-s10-lab-orientation/orient_7.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/20.109-s10-lab-orientation/orient_7.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/20.109-s10-lab-orientation/orient_7.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-3-day-3-testing-cell-viability.m3d3_40x_ld2_new.jpg"
+                  type="other"
+                  href="contents/labs/module-3-day-3-testing-cell-viability/m3d3_40x_ld2_new.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/module-3-day-3-testing-cell-viability/m3d3_40x_ld2_new.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-3-day-3-testing-cell-viability/m3d3_40x_ld2_new.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-1-day-5-rna-to-dna-by-rt-pcr.index.htm"
+                  type="webcontent"
+                  href="contents/labs/module-1-day-5-rna-to-dna-by-rt-pcr/index.htm">
+            <metadata>
+                <adlcp:location>contents/labs/module-1-day-5-rna-to-dna-by-rt-pcr/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-1-day-5-rna-to-dna-by-rt-pcr/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-spring-2010"/>            
+        </resource>
+        <resource identifier="r_contents.lecture-notes.MIT20_109S10_lec_intro.pdf"
+                  type="other"
+                  href="contents/lecture-notes/MIT20_109S10_lec_intro.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/MIT20_109S10_lec_intro.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/MIT20_109S10_lec_intro.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-2-day-1-start-up-protein-engineering.MIT20_109S10_m2d1_ipc.pdf"
+                  type="other"
+                  href="contents/labs/module-2-day-1-start-up-protein-engineering/MIT20_109S10_m2d1_ipc.pdf">
+            <metadata>
+                <adlcp:location>contents/labs/module-2-day-1-start-up-protein-engineering/MIT20_109S10_m2d1_ipc.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-2-day-1-start-up-protein-engineering/MIT20_109S10_m2d1_ipc.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-2-day-5-induce-protein-and-evaluate-dna.MIT20_109S10_m2d1_ipc.doc"
+                  type="other"
+                  href="contents/labs/module-2-day-5-induce-protein-and-evaluate-dna/MIT20_109S10_m2d1_ipc.doc">
+            <metadata>
+                <adlcp:location>contents/labs/module-2-day-5-induce-protein-and-evaluate-dna/MIT20_109S10_m2d1_ipc.doc.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-2-day-5-induce-protein-and-evaluate-dna/MIT20_109S10_m2d1_ipc.doc"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-2-day-1-start-up-protein-engineering.m2d1_fig1.jpg"
+                  type="other"
+                  href="contents/labs/module-2-day-1-start-up-protein-engineering/m2d1_fig1.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/module-2-day-1-start-up-protein-engineering/m2d1_fig1.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-2-day-1-start-up-protein-engineering/m2d1_fig1.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-2-day-6-characterize-protein-expression.m2d6_fig1.jpg"
+                  type="other"
+                  href="contents/labs/module-2-day-6-characterize-protein-expression/m2d6_fig1.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/module-2-day-6-characterize-protein-expression/m2d6_fig1.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-2-day-6-characterize-protein-expression/m2d6_fig1.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-1-day-8-journal-club-continued.index.htm"
+                  type="webcontent"
+                  href="contents/labs/module-1-day-8-journal-club-continued/index.htm">
+            <metadata>
+                <adlcp:location>contents/labs/module-1-day-8-journal-club-continued/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-1-day-8-journal-club-continued/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-spring-2010"/>            
+        </resource>
+        <resource identifier="r_contents.labs.module-1-day-7-aptamer-binding-assay.module-1-day-7-results.index.htm"
+                  type="webcontent"
+                  href="contents/labs/module-1-day-7-aptamer-binding-assay/module-1-day-7-results/index.htm">
+            <metadata>
+                <adlcp:location>contents/labs/module-1-day-7-aptamer-binding-assay/module-1-day-7-results/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-1-day-7-aptamer-binding-assay/module-1-day-7-results/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-spring-2010"/>            
+        </resource>
+        <resource identifier="r_contents.labs.module-1-day-2-purify-aptamer-encoding-dna.m1d2_fig2.jpg"
+                  type="other"
+                  href="contents/labs/module-1-day-2-purify-aptamer-encoding-dna/m1d2_fig2.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/module-1-day-2-purify-aptamer-encoding-dna/m1d2_fig2.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-1-day-2-purify-aptamer-encoding-dna/m1d2_fig2.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.MIT20_109S10_m3_orl_rubric.pdf"
+                  type="other"
+                  href="contents/assignments/MIT20_109S10_m3_orl_rubric.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/MIT20_109S10_m3_orl_rubric.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/MIT20_109S10_m3_orl_rubric.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-2-day-3-bacterial-amplification-of-dna.index.htm"
+                  type="webcontent"
+                  href="contents/labs/module-2-day-3-bacterial-amplification-of-dna/index.htm">
+            <metadata>
+                <adlcp:location>contents/labs/module-2-day-3-bacterial-amplification-of-dna/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-2-day-3-bacterial-amplification-of-dna/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-spring-2010"/>            
+        </resource>
+        <resource identifier="r_contents.labs.module-2-day-2-site-directed-mutagenesis.m2d2_fig2a_b.jpg"
+                  type="other"
+                  href="contents/labs/module-2-day-2-site-directed-mutagenesis/m2d2_fig2a_b.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/module-2-day-2-site-directed-mutagenesis/m2d2_fig2a_b.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-2-day-2-site-directed-mutagenesis/m2d2_fig2a_b.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-2-day-6-characterize-protein-expression.m2d6_fig2b.jpg"
+                  type="other"
+                  href="contents/labs/module-2-day-6-characterize-protein-expression/m2d6_fig2b.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/module-2-day-6-characterize-protein-expression/m2d6_fig2b.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-2-day-6-characterize-protein-expression/m2d6_fig2b.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.Syllabus.statement-on-collaboration-and-integrity.index.htm"
+                  type="webcontent"
+                  href="contents/Syllabus/statement-on-collaboration-and-integrity/index.htm">
+            <metadata>
+                <adlcp:location>contents/Syllabus/statement-on-collaboration-and-integrity/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/Syllabus/statement-on-collaboration-and-integrity/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-spring-2010"/>            
+        </resource>
+        <resource identifier="r_contents.labs.module-1-day-7-aptamer-binding-assay.m1d7_student_data.zip"
+                  type="other"
+                  href="contents/labs/module-1-day-7-aptamer-binding-assay/m1d7_student_data.zip">
+            <metadata>
+                <adlcp:location>contents/labs/module-1-day-7-aptamer-binding-assay/m1d7_student_data.zip.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-1-day-7-aptamer-binding-assay/m1d7_student_data.zip"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.MIT20_109S10_lec_m3d1.pdf"
+                  type="other"
+                  href="contents/lecture-notes/MIT20_109S10_lec_m3d1.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/MIT20_109S10_lec_m3d1.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/MIT20_109S10_lec_m3d1.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-1-day-7-aptamer-binding-assay.module-1-day-7-results.wf_yellow_norm.gif"
+                  type="other"
+                  href="contents/labs/module-1-day-7-aptamer-binding-assay/module-1-day-7-results/wf_yellow_norm.gif">
+            <metadata>
+                <adlcp:location>contents/labs/module-1-day-7-aptamer-binding-assay/module-1-day-7-results/wf_yellow_norm.gif.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-1-day-7-aptamer-binding-assay/module-1-day-7-results/wf_yellow_norm.gif"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.MIT20_109S10_labpre_m2d4.pdf"
+                  type="other"
+                  href="contents/labs/MIT20_109S10_labpre_m2d4.pdf">
+            <metadata>
+                <adlcp:location>contents/labs/MIT20_109S10_labpre_m2d4.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/MIT20_109S10_labpre_m2d4.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-2-day-5-induce-protein-and-evaluate-dna.m2d5_pellets.jpg"
+                  type="other"
+                  href="contents/labs/module-2-day-5-induce-protein-and-evaluate-dna/m2d5_pellets.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/module-2-day-5-induce-protein-and-evaluate-dna/m2d5_pellets.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-2-day-5-induce-protein-and-evaluate-dna/m2d5_pellets.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.MIT20_109S10_labpre_m3d1.pdf"
+                  type="other"
+                  href="contents/labs/MIT20_109S10_labpre_m3d1.pdf">
+            <metadata>
+                <adlcp:location>contents/labs/MIT20_109S10_labpre_m3d1.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/MIT20_109S10_labpre_m3d1.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.MIT20_109S10_labpre_m3d3.pdf"
+                  type="other"
+                  href="contents/labs/MIT20_109S10_labpre_m3d3.pdf">
+            <metadata>
+                <adlcp:location>contents/labs/MIT20_109S10_labpre_m3d3.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/MIT20_109S10_labpre_m3d3.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-1-day-1-amplify-aptamer-encoding-dna.index.htm"
+                  type="webcontent"
+                  href="contents/labs/module-1-day-1-amplify-aptamer-encoding-dna/index.htm">
+            <metadata>
+                <adlcp:location>contents/labs/module-1-day-1-amplify-aptamer-encoding-dna/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-1-day-1-amplify-aptamer-encoding-dna/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-spring-2010"/>            
+        </resource>
+        <resource identifier="r_contents.labs.module-2-day-5-induce-protein-and-evaluate-dna.MIT20_109S10_m2d4_sequence.doc"
+                  type="other"
+                  href="contents/labs/module-2-day-5-induce-protein-and-evaluate-dna/MIT20_109S10_m2d4_sequence.doc">
+            <metadata>
+                <adlcp:location>contents/labs/module-2-day-5-induce-protein-and-evaluate-dna/MIT20_109S10_m2d4_sequence.doc.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-2-day-5-induce-protein-and-evaluate-dna/MIT20_109S10_m2d4_sequence.doc"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-1-day-7-aptamer-binding-assay.module-1-day-7-results.tr_orange_raw.gif"
+                  type="other"
+                  href="contents/labs/module-1-day-7-aptamer-binding-assay/module-1-day-7-results/tr_orange_raw.gif">
+            <metadata>
+                <adlcp:location>contents/labs/module-1-day-7-aptamer-binding-assay/module-1-day-7-results/tr_orange_raw.gif.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-1-day-7-aptamer-binding-assay/module-1-day-7-results/tr_orange_raw.gif"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-1-day-7-aptamer-binding-assay.module-1-day-7-results.link.gif"
+                  type="other"
+                  href="contents/labs/module-1-day-7-aptamer-binding-assay/module-1-day-7-results/link.gif">
+            <metadata>
+                <adlcp:location>contents/labs/module-1-day-7-aptamer-binding-assay/module-1-day-7-results/link.gif.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-1-day-7-aptamer-binding-assay/module-1-day-7-results/link.gif"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.general-lab-policies-do2019s-and-don2019ts.index.htm"
+                  type="webcontent"
+                  href="contents/labs/general-lab-policies-do2019s-and-don2019ts/index.htm">
+            <metadata>
+                <adlcp:location>contents/labs/general-lab-policies-do2019s-and-don2019ts/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/general-lab-policies-do2019s-and-don2019ts/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-spring-2010"/>            
+        </resource>
+        <resource identifier="r_contents.labs.module-2-day-8-data-analysis.m2d8_fig1a.jpg"
+                  type="other"
+                  href="contents/labs/module-2-day-8-data-analysis/m2d8_fig1a.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/module-2-day-8-data-analysis/m2d8_fig1a.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-2-day-8-data-analysis/m2d8_fig1a.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.guidelines-for-working-in-the-tissue-culture-facility.index.htm"
+                  type="webcontent"
+                  href="contents/labs/guidelines-for-working-in-the-tissue-culture-facility/index.htm">
+            <metadata>
+                <adlcp:location>contents/labs/guidelines-for-working-in-the-tissue-culture-facility/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/guidelines-for-working-in-the-tissue-culture-facility/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-spring-2010"/>            
+        </resource>
+        <resource identifier="r_contents.labs.labs_m2_fig2.jpg"
+                  type="other"
+                  href="contents/labs/labs_m2_fig2.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/labs_m2_fig2.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/labs_m2_fig2.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-1-day-3-prepare-rna-by-ivt.index.htm"
+                  type="webcontent"
+                  href="contents/labs/module-1-day-3-prepare-rna-by-ivt/index.htm">
+            <metadata>
+                <adlcp:location>contents/labs/module-1-day-3-prepare-rna-by-ivt/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-1-day-3-prepare-rna-by-ivt/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-spring-2010"/>            
+        </resource>
+        <resource identifier="r_contents.labs.20.109-s10-lab-orientation.orient_6b.jpg"
+                  type="other"
+                  href="contents/labs/20.109-s10-lab-orientation/orient_6b.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/20.109-s10-lab-orientation/orient_6b.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/20.109-s10-lab-orientation/orient_6b.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.20.109-s10-lab-orientation.index.htm"
+                  type="webcontent"
+                  href="contents/labs/20.109-s10-lab-orientation/index.htm">
+            <metadata>
+                <adlcp:location>contents/labs/20.109-s10-lab-orientation/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/20.109-s10-lab-orientation/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-spring-2010"/>            
+        </resource>
+        <resource identifier="r_contents.labs.module-2-day-8-data-analysis.m2d8_eq1.jpg"
+                  type="other"
+                  href="contents/labs/module-2-day-8-data-analysis/m2d8_eq1.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/module-2-day-8-data-analysis/m2d8_eq1.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-2-day-8-data-analysis/m2d8_eq1.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-2-day-1-start-up-protein-engineering.m2d1_fig3.jpg"
+                  type="other"
+                  href="contents/labs/module-2-day-1-start-up-protein-engineering/m2d1_fig3.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/module-2-day-1-start-up-protein-engineering/m2d1_fig3.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-2-day-1-start-up-protein-engineering/m2d1_fig3.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.20.109-s10-lab-orientation.orient_2.jpg"
+                  type="other"
+                  href="contents/labs/20.109-s10-lab-orientation/orient_2.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/20.109-s10-lab-orientation/orient_2.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/20.109-s10-lab-orientation/orient_2.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.labs_m2_fig1.jpg"
+                  type="other"
+                  href="contents/labs/labs_m2_fig1.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/labs_m2_fig1.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/labs_m2_fig1.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-1-day-2-purify-aptamer-encoding-dna.index.htm"
+                  type="webcontent"
+                  href="contents/labs/module-1-day-2-purify-aptamer-encoding-dna/index.htm">
+            <metadata>
+                <adlcp:location>contents/labs/module-1-day-2-purify-aptamer-encoding-dna/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-1-day-2-purify-aptamer-encoding-dna/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-spring-2010"/>            
+        </resource>
+        <resource identifier="r_contents.labs.module-1-day-7-aptamer-binding-assay.module-1-day-7-results.wf_yellow_raw.gif"
+                  type="other"
+                  href="contents/labs/module-1-day-7-aptamer-binding-assay/module-1-day-7-results/wf_yellow_raw.gif">
+            <metadata>
+                <adlcp:location>contents/labs/module-1-day-7-aptamer-binding-assay/module-1-day-7-results/wf_yellow_raw.gif.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-1-day-7-aptamer-binding-assay/module-1-day-7-results/wf_yellow_raw.gif"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.module-2-assignment-protein-engineering-research-article.index.htm"
+                  type="webcontent"
+                  href="contents/assignments/module-2-assignment-protein-engineering-research-article/index.htm">
+            <metadata>
+                <adlcp:location>contents/assignments/module-2-assignment-protein-engineering-research-article/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/module-2-assignment-protein-engineering-research-article/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-spring-2010"/>            
+        </resource>
+        <resource identifier="r_contents.labs.MIT20_109S10_labpre_m1d2.pdf"
+                  type="other"
+                  href="contents/labs/MIT20_109S10_labpre_m1d2.pdf">
+            <metadata>
+                <adlcp:location>contents/labs/MIT20_109S10_labpre_m1d2.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/MIT20_109S10_labpre_m1d2.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-2-day-4-prepare-expression-system.m2d4_fig1.jpg"
+                  type="other"
+                  href="contents/labs/module-2-day-4-prepare-expression-system/m2d4_fig1.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/module-2-day-4-prepare-expression-system/m2d4_fig1.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-2-day-4-prepare-expression-system/m2d4_fig1.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-2-ta-notes.index.htm"
+                  type="webcontent"
+                  href="contents/labs/module-2-ta-notes/index.htm">
+            <metadata>
+                <adlcp:location>contents/labs/module-2-ta-notes/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-2-ta-notes/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-spring-2010"/>            
+        </resource>
+        <resource identifier="r_contents.lecture-notes.MIT20_109S10_lec_m3d4.pdf"
+                  type="other"
+                  href="contents/lecture-notes/MIT20_109S10_lec_m3d4.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/MIT20_109S10_lec_m3d4.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/MIT20_109S10_lec_m3d4.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-3-day-5-transcript-level-analysis.MIT20_109S10_m3d5_stats.xls"
+                  type="other"
+                  href="contents/labs/module-3-day-5-transcript-level-analysis/MIT20_109S10_m3d5_stats.xls">
+            <metadata>
+                <adlcp:location>contents/labs/module-3-day-5-transcript-level-analysis/MIT20_109S10_m3d5_stats.xls.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-3-day-5-transcript-level-analysis/MIT20_109S10_m3d5_stats.xls"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.20.109-s10-lab-orientation.orient_8.jpg"
+                  type="other"
+                  href="contents/labs/20.109-s10-lab-orientation/orient_8.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/20.109-s10-lab-orientation/orient_8.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/20.109-s10-lab-orientation/orient_8.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.MIT20_109S10_lec_m2d7.pdf"
+                  type="other"
+                  href="contents/lecture-notes/MIT20_109S10_lec_m2d7.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/MIT20_109S10_lec_m2d7.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/MIT20_109S10_lec_m2d7.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-2-day-5-induce-protein-and-evaluate-dna.m2d5_fig1a.jpg"
+                  type="other"
+                  href="contents/labs/module-2-day-5-induce-protein-and-evaluate-dna/m2d5_fig1a.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/module-2-day-5-induce-protein-and-evaluate-dna/m2d5_fig1a.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-2-day-5-induce-protein-and-evaluate-dna/m2d5_fig1a.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-1-day-7-aptamer-binding-assay.index.htm"
+                  type="webcontent"
+                  href="contents/labs/module-1-day-7-aptamer-binding-assay/index.htm">
+            <metadata>
+                <adlcp:location>contents/labs/module-1-day-7-aptamer-binding-assay/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-1-day-7-aptamer-binding-assay/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-spring-2010"/>            
+        </resource>
+        <resource identifier="r_contents.labs.module-1-day-3-prepare-rna-by-ivt.m1d3_fig1.jpg"
+                  type="other"
+                  href="contents/labs/module-1-day-3-prepare-rna-by-ivt/m1d3_fig1.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/module-1-day-3-prepare-rna-by-ivt/m1d3_fig1.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-1-day-3-prepare-rna-by-ivt/m1d3_fig1.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-1-day-5-rna-to-dna-by-rt-pcr.m1d5_fig2.gif"
+                  type="other"
+                  href="contents/labs/module-1-day-5-rna-to-dna-by-rt-pcr/m1d5_fig2.gif">
+            <metadata>
+                <adlcp:location>contents/labs/module-1-day-5-rna-to-dna-by-rt-pcr/m1d5_fig2.gif.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-1-day-5-rna-to-dna-by-rt-pcr/m1d5_fig2.gif"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-1-day-7-aptamer-binding-assay.module-1-day-7-results.tr_blue_raw.gif"
+                  type="other"
+                  href="contents/labs/module-1-day-7-aptamer-binding-assay/module-1-day-7-results/tr_blue_raw.gif">
+            <metadata>
+                <adlcp:location>contents/labs/module-1-day-7-aptamer-binding-assay/module-1-day-7-results/tr_blue_raw.gif.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-1-day-7-aptamer-binding-assay/module-1-day-7-results/tr_blue_raw.gif"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.MIT20_109S10_lec_m1d2_w1.pdf"
+                  type="other"
+                  href="contents/lecture-notes/MIT20_109S10_lec_m1d2_w1.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/MIT20_109S10_lec_m1d2_w1.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/MIT20_109S10_lec_m1d2_w1.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-3-day-7-wrap-up-analysis.m3d7_data.zip"
+                  type="other"
+                  href="contents/labs/module-3-day-7-wrap-up-analysis/m3d7_data.zip">
+            <metadata>
+                <adlcp:location>contents/labs/module-3-day-7-wrap-up-analysis/m3d7_data.zip.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-3-day-7-wrap-up-analysis/m3d7_data.zip"/>
+                        
+        </resource>
+        <resource identifier="r_contents.index.htm"
+                  type="webcontent"
+                  href="contents/index.htm">
+            <metadata>
+                <adlcp:location>contents/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-spring-2010"/>            
+        </resource>
+        <resource identifier="r_contents.labs.20.109-s10-lab-orientation.orientation_sampledata.xlsx"
+                  type="other"
+                  href="contents/labs/20.109-s10-lab-orientation/orientation_sampledata.xlsx">
+            <metadata>
+                <adlcp:location>contents/labs/20.109-s10-lab-orientation/orientation_sampledata.xlsx.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/20.109-s10-lab-orientation/orientation_sampledata.xlsx"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-2-day-7-assay-protein-behavior.index.htm"
+                  type="webcontent"
+                  href="contents/labs/module-2-day-7-assay-protein-behavior/index.htm">
+            <metadata>
+                <adlcp:location>contents/labs/module-2-day-7-assay-protein-behavior/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-2-day-7-assay-protein-behavior/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-spring-2010"/>            
+        </resource>
+        <resource identifier="r_contents.labs.module-2-day-3-bacterial-amplification-of-dna.MIT20_109S10_m2d1_cut12.pdf"
+                  type="other"
+                  href="contents/labs/module-2-day-3-bacterial-amplification-of-dna/MIT20_109S10_m2d1_cut12.pdf">
+            <metadata>
+                <adlcp:location>contents/labs/module-2-day-3-bacterial-amplification-of-dna/MIT20_109S10_m2d1_cut12.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-2-day-3-bacterial-amplification-of-dna/MIT20_109S10_m2d1_cut12.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.guidelines-for-oral-presentations.index.htm"
+                  type="webcontent"
+                  href="contents/assignments/guidelines-for-oral-presentations/index.htm">
+            <metadata>
+                <adlcp:location>contents/assignments/guidelines-for-oral-presentations/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/guidelines-for-oral-presentations/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-spring-2010"/>            
+        </resource>
+        <resource identifier="r_contents.labs.module-2-day-1-start-up-protein-engineering.module-2-day-1-start-up-protein-engineering-results.index.htm"
+                  type="webcontent"
+                  href="contents/labs/module-2-day-1-start-up-protein-engineering/module-2-day-1-start-up-protein-engineering-results/index.htm">
+            <metadata>
+                <adlcp:location>contents/labs/module-2-day-1-start-up-protein-engineering/module-2-day-1-start-up-protein-engineering-results/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-2-day-1-start-up-protein-engineering/module-2-day-1-start-up-protein-engineering-results/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-spring-2010"/>            
+        </resource>
+        <resource identifier="r_contents.20-109s10-th.jpg"
+                  type="other"
+                  href="contents/20-109s10-th.jpg">
+            <metadata>
+                <adlcp:location>contents/20-109s10-th.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/20-109s10-th.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-2-day-3-bacterial-amplification-of-dna.m2d3_fig2b.jpg"
+                  type="other"
+                  href="contents/labs/module-2-day-3-bacterial-amplification-of-dna/m2d3_fig2b.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/module-2-day-3-bacterial-amplification-of-dna/m2d3_fig2b.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-2-day-3-bacterial-amplification-of-dna/m2d3_fig2b.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-2-day-8-data-analysis.index.htm"
+                  type="webcontent"
+                  href="contents/labs/module-2-day-8-data-analysis/index.htm">
+            <metadata>
+                <adlcp:location>contents/labs/module-2-day-8-data-analysis/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-2-day-8-data-analysis/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-spring-2010"/>            
+        </resource>
+        <resource identifier="r_contents.labs.module-1-day-7-aptamer-binding-assay.module-1-day-7-results.tr_blue_norm.gif"
+                  type="other"
+                  href="contents/labs/module-1-day-7-aptamer-binding-assay/module-1-day-7-results/tr_blue_norm.gif">
+            <metadata>
+                <adlcp:location>contents/labs/module-1-day-7-aptamer-binding-assay/module-1-day-7-results/tr_blue_norm.gif.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-1-day-7-aptamer-binding-assay/module-1-day-7-results/tr_blue_norm.gif"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-3-day-3-testing-cell-viability.m3d3_result2_new.jpg"
+                  type="other"
+                  href="contents/labs/module-3-day-3-testing-cell-viability/m3d3_result2_new.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/module-3-day-3-testing-cell-viability/m3d3_result2_new.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-3-day-3-testing-cell-viability/m3d3_result2_new.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-3-day-3-testing-cell-viability.m3d3_fig2.jpg"
+                  type="other"
+                  href="contents/labs/module-3-day-3-testing-cell-viability/m3d3_fig2.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/module-3-day-3-testing-cell-viability/m3d3_fig2.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-3-day-3-testing-cell-viability/m3d3_fig2.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-2-day-4-prepare-expression-system.index.htm"
+                  type="webcontent"
+                  href="contents/labs/module-2-day-4-prepare-expression-system/index.htm">
+            <metadata>
+                <adlcp:location>contents/labs/module-2-day-4-prepare-expression-system/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-2-day-4-prepare-expression-system/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-spring-2010"/>            
+        </resource>
+        <resource identifier="r_contents.labs.module-3-day-3-testing-cell-viability.m3d3_10x_ld2_new.jpg"
+                  type="other"
+                  href="contents/labs/module-3-day-3-testing-cell-viability/m3d3_10x_ld2_new.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/module-3-day-3-testing-cell-viability/m3d3_10x_ld2_new.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-3-day-3-testing-cell-viability/m3d3_10x_ld2_new.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-3-day-1-start-up-biomaterials-engineering.m3d1_fig1a.jpg"
+                  type="other"
+                  href="contents/labs/module-3-day-1-start-up-biomaterials-engineering/m3d1_fig1a.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/module-3-day-1-start-up-biomaterials-engineering/m3d1_fig1a.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-3-day-1-start-up-biomaterials-engineering/m3d1_fig1a.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.20.109-s10-lab-orientation.orient_3.jpg"
+                  type="other"
+                  href="contents/labs/20.109-s10-lab-orientation/orient_3.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/20.109-s10-lab-orientation/orient_3.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/20.109-s10-lab-orientation/orient_3.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-1-day-1-amplify-aptamer-encoding-dna.kary_mullins.jpg"
+                  type="other"
+                  href="contents/labs/module-1-day-1-amplify-aptamer-encoding-dna/kary_mullins.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/module-1-day-1-amplify-aptamer-encoding-dna/kary_mullins.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-1-day-1-amplify-aptamer-encoding-dna/kary_mullins.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.MIT20_109S10_labpre_m2d2.pdf"
+                  type="other"
+                  href="contents/labs/MIT20_109S10_labpre_m2d2.pdf">
+            <metadata>
+                <adlcp:location>contents/labs/MIT20_109S10_labpre_m2d2.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/MIT20_109S10_labpre_m2d2.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-3-day-6-protein-level-analysis.index.htm"
+                  type="webcontent"
+                  href="contents/labs/module-3-day-6-protein-level-analysis/index.htm">
+            <metadata>
+                <adlcp:location>contents/labs/module-3-day-6-protein-level-analysis/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-3-day-6-protein-level-analysis/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-spring-2010"/>            
+        </resource>
+        <resource identifier="r_contents.labs.module-3-day-2-initiate-cell-culture.m3d2_fig1.jpg"
+                  type="other"
+                  href="contents/labs/module-3-day-2-initiate-cell-culture/m3d2_fig1.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/module-3-day-2-initiate-cell-culture/m3d2_fig1.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-3-day-2-initiate-cell-culture/m3d2_fig1.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-2-day-8-data-analysis.m2d8_eq2.jpg"
+                  type="other"
+                  href="contents/labs/module-2-day-8-data-analysis/m2d8_eq2.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/module-2-day-8-data-analysis/m2d8_eq2.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-2-day-8-data-analysis/m2d8_eq2.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-2-day-1-start-up-protein-engineering.MIT20_109S10_m2d1_watcut.pdf"
+                  type="other"
+                  href="contents/labs/module-2-day-1-start-up-protein-engineering/MIT20_109S10_m2d1_watcut.pdf">
+            <metadata>
+                <adlcp:location>contents/labs/module-2-day-1-start-up-protein-engineering/MIT20_109S10_m2d1_watcut.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-2-day-1-start-up-protein-engineering/MIT20_109S10_m2d1_watcut.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-3-day-1-start-up-biomaterials-engineering.m3d1_fig1b.jpg"
+                  type="other"
+                  href="contents/labs/module-3-day-1-start-up-biomaterials-engineering/m3d1_fig1b.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/module-3-day-1-start-up-biomaterials-engineering/m3d1_fig1b.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-3-day-1-start-up-biomaterials-engineering/m3d1_fig1b.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-2-day-8-data-analysis.m2d8_prep.zip"
+                  type="other"
+                  href="contents/labs/module-2-day-8-data-analysis/m2d8_prep.zip">
+            <metadata>
+                <adlcp:location>contents/labs/module-2-day-8-data-analysis/m2d8_prep.zip.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-2-day-8-data-analysis/m2d8_prep.zip"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.MIT20_109S10_lec_m2d1.pdf"
+                  type="other"
+                  href="contents/lecture-notes/MIT20_109S10_lec_m2d1.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/MIT20_109S10_lec_m2d1.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/MIT20_109S10_lec_m2d1.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-2-day-8-data-analysis.MIT20_109S10_syll_self.pdf"
+                  type="other"
+                  href="contents/labs/module-2-day-8-data-analysis/MIT20_109S10_syll_self.pdf">
+            <metadata>
+                <adlcp:location>contents/labs/module-2-day-8-data-analysis/MIT20_109S10_syll_self.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-2-day-8-data-analysis/MIT20_109S10_syll_self.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.MIT20_109S10_labpre_m1d6.pdf"
+                  type="other"
+                  href="contents/labs/MIT20_109S10_labpre_m1d6.pdf">
+            <metadata>
+                <adlcp:location>contents/labs/MIT20_109S10_labpre_m1d6.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/MIT20_109S10_labpre_m1d6.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-1-day-4-purify-rna-and-run-affinity-column.m1d4_fig1.jpg"
+                  type="other"
+                  href="contents/labs/module-1-day-4-purify-rna-and-run-affinity-column/m1d4_fig1.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/module-1-day-4-purify-rna-and-run-affinity-column/m1d4_fig1.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-1-day-4-purify-rna-and-run-affinity-column/m1d4_fig1.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-3-day-1-start-up-biomaterials-engineering.m3d1_fig2.jpg"
+                  type="other"
+                  href="contents/labs/module-3-day-1-start-up-biomaterials-engineering/m3d1_fig2.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/module-3-day-1-start-up-biomaterials-engineering/m3d1_fig2.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-3-day-1-start-up-biomaterials-engineering/m3d1_fig2.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.MIT20_109S10_lec_m3d3.pdf"
+                  type="other"
+                  href="contents/lecture-notes/MIT20_109S10_lec_m3d3.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/MIT20_109S10_lec_m3d3.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/MIT20_109S10_lec_m3d3.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.MIT20_109S10_lec_m3d5.pdf"
+                  type="other"
+                  href="contents/lecture-notes/MIT20_109S10_lec_m3d5.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/MIT20_109S10_lec_m3d5.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/MIT20_109S10_lec_m3d5.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-3-day-3-testing-cell-viability.m3d3_fig1.jpg"
+                  type="other"
+                  href="contents/labs/module-3-day-3-testing-cell-viability/m3d3_fig1.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/module-3-day-3-testing-cell-viability/m3d3_fig1.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-3-day-3-testing-cell-viability/m3d3_fig1.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.20.109-s10-lab-orientation.orient_1.jpg"
+                  type="other"
+                  href="contents/labs/20.109-s10-lab-orientation/orient_1.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/20.109-s10-lab-orientation/orient_1.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/20.109-s10-lab-orientation/orient_1.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.module-1-assignment-rna-engineering-laboratory-report.index.htm"
+                  type="webcontent"
+                  href="contents/assignments/module-1-assignment-rna-engineering-laboratory-report/index.htm">
+            <metadata>
+                <adlcp:location>contents/assignments/module-1-assignment-rna-engineering-laboratory-report/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/module-1-assignment-rna-engineering-laboratory-report/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-spring-2010"/>            
+        </resource>
+        <resource identifier="r_contents.assignments.MIT20_109S10_syll_self.pdf"
+                  type="other"
+                  href="contents/assignments/MIT20_109S10_syll_self.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/MIT20_109S10_syll_self.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/MIT20_109S10_syll_self.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-2-day-4-prepare-expression-system.m2d4_fig3.jpg"
+                  type="other"
+                  href="contents/labs/module-2-day-4-prepare-expression-system/m2d4_fig3.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/module-2-day-4-prepare-expression-system/m2d4_fig3.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-2-day-4-prepare-expression-system/m2d4_fig3.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-3-day-4-preparing-cells-for-analysis.m3d4_fig2.jpg"
+                  type="other"
+                  href="contents/labs/module-3-day-4-preparing-cells-for-analysis/m3d4_fig2.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/module-3-day-4-preparing-cells-for-analysis/m3d4_fig2.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-3-day-4-preparing-cells-for-analysis/m3d4_fig2.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-2-day-8-data-analysis.m2d8_data.zip"
+                  type="other"
+                  href="contents/labs/module-2-day-8-data-analysis/m2d8_data.zip">
+            <metadata>
+                <adlcp:location>contents/labs/module-2-day-8-data-analysis/m2d8_data.zip.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-2-day-8-data-analysis/m2d8_data.zip"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-2-day-4-prepare-expression-system.MIT20_109S10_syl_mdtrm_evl.pdf"
+                  type="other"
+                  href="contents/labs/module-2-day-4-prepare-expression-system/MIT20_109S10_syl_mdtrm_evl.pdf">
+            <metadata>
+                <adlcp:location>contents/labs/module-2-day-4-prepare-expression-system/MIT20_109S10_syl_mdtrm_evl.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-2-day-4-prepare-expression-system/MIT20_109S10_syl_mdtrm_evl.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.MIT20_109S10_labpre_m3d4.pdf"
+                  type="other"
+                  href="contents/labs/MIT20_109S10_labpre_m3d4.pdf">
+            <metadata>
+                <adlcp:location>contents/labs/MIT20_109S10_labpre_m3d4.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/MIT20_109S10_labpre_m3d4.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-1-day-7-aptamer-binding-assay.module-1-day-7-results.tr_orange_norm.gif"
+                  type="other"
+                  href="contents/labs/module-1-day-7-aptamer-binding-assay/module-1-day-7-results/tr_orange_norm.gif">
+            <metadata>
+                <adlcp:location>contents/labs/module-1-day-7-aptamer-binding-assay/module-1-day-7-results/tr_orange_norm.gif.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-1-day-7-aptamer-binding-assay/module-1-day-7-results/tr_orange_norm.gif"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-1-day-7-aptamer-binding-assay.module-1-day-7-results.wf_red_normdata.gif"
+                  type="other"
+                  href="contents/labs/module-1-day-7-aptamer-binding-assay/module-1-day-7-results/wf_red_normdata.gif">
+            <metadata>
+                <adlcp:location>contents/labs/module-1-day-7-aptamer-binding-assay/module-1-day-7-results/wf_red_normdata.gif.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-1-day-7-aptamer-binding-assay/module-1-day-7-results/wf_red_normdata.gif"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-3-day-2-initiate-cell-culture.index.htm"
+                  type="webcontent"
+                  href="contents/labs/module-3-day-2-initiate-cell-culture/index.htm">
+            <metadata>
+                <adlcp:location>contents/labs/module-3-day-2-initiate-cell-culture/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-3-day-2-initiate-cell-culture/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-spring-2010"/>            
+        </resource>
+        <resource identifier="r_contents.lecture-notes.MIT20_109S10_lec_m2d8.pdf"
+                  type="other"
+                  href="contents/lecture-notes/MIT20_109S10_lec_m2d8.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/MIT20_109S10_lec_m2d8.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/MIT20_109S10_lec_m2d8.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.index.htm"
+                  type="webcontent"
+                  href="contents/labs/index.htm">
+            <metadata>
+                <adlcp:location>contents/labs/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-spring-2010"/>            
+        </resource>
+        <resource identifier="r_contents.labs.MIT20_109S10_labpre_m2d3.pdf"
+                  type="other"
+                  href="contents/labs/MIT20_109S10_labpre_m2d3.pdf">
+            <metadata>
+                <adlcp:location>contents/labs/MIT20_109S10_labpre_m2d3.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/MIT20_109S10_labpre_m2d3.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.module-1-assignments-journal-club.index.htm"
+                  type="webcontent"
+                  href="contents/assignments/module-1-assignments-journal-club/index.htm">
+            <metadata>
+                <adlcp:location>contents/assignments/module-1-assignments-journal-club/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/module-1-assignments-journal-club/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-spring-2010"/>            
+        </resource>
+        <resource identifier="r_contents.labs.module-1-day-2-purify-aptamer-encoding-dna.m1d2_fig1.jpg"
+                  type="other"
+                  href="contents/labs/module-1-day-2-purify-aptamer-encoding-dna/m1d2_fig1.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/module-1-day-2-purify-aptamer-encoding-dna/m1d2_fig1.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-1-day-2-purify-aptamer-encoding-dna/m1d2_fig1.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.20.109-s10-lab-orientation.orient_4.jpg"
+                  type="other"
+                  href="contents/labs/20.109-s10-lab-orientation/orient_4.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/20.109-s10-lab-orientation/orient_4.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/20.109-s10-lab-orientation/orient_4.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-3-day-4-preparing-cells-for-analysis.m3d4_fig1.jpg"
+                  type="other"
+                  href="contents/labs/module-3-day-4-preparing-cells-for-analysis/m3d4_fig1.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/module-3-day-4-preparing-cells-for-analysis/m3d4_fig1.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-3-day-4-preparing-cells-for-analysis/m3d4_fig1.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-3-day-5-transcript-level-analysis.index.htm"
+                  type="webcontent"
+                  href="contents/labs/module-3-day-5-transcript-level-analysis/index.htm">
+            <metadata>
+                <adlcp:location>contents/labs/module-3-day-5-transcript-level-analysis/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-3-day-5-transcript-level-analysis/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-spring-2010"/>            
+        </resource>
+        <resource identifier="r_contents.labs.module-1-day-7-aptamer-binding-assay.module-1-day-7-results.tr_green_raw.gif"
+                  type="other"
+                  href="contents/labs/module-1-day-7-aptamer-binding-assay/module-1-day-7-results/tr_green_raw.gif">
+            <metadata>
+                <adlcp:location>contents/labs/module-1-day-7-aptamer-binding-assay/module-1-day-7-results/tr_green_raw.gif.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-1-day-7-aptamer-binding-assay/module-1-day-7-results/tr_green_raw.gif"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.MIT20_109S10_lec_m2d3.pdf"
+                  type="other"
+                  href="contents/lecture-notes/MIT20_109S10_lec_m2d3.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/MIT20_109S10_lec_m2d3.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/MIT20_109S10_lec_m2d3.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-2-day-2-site-directed-mutagenesis.index.htm"
+                  type="webcontent"
+                  href="contents/labs/module-2-day-2-site-directed-mutagenesis/index.htm">
+            <metadata>
+                <adlcp:location>contents/labs/module-2-day-2-site-directed-mutagenesis/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-2-day-2-site-directed-mutagenesis/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-spring-2010"/>            
+        </resource>
+        <resource identifier="r_contents.labs.module-3-day-3-testing-cell-viability.m3d3_result1_new.jpg"
+                  type="other"
+                  href="contents/labs/module-3-day-3-testing-cell-viability/m3d3_result1_new.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/module-3-day-3-testing-cell-viability/m3d3_result1_new.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-3-day-3-testing-cell-viability/m3d3_result1_new.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-2-day-5-induce-protein-and-evaluate-dna.m2d5_fig2a.jpg"
+                  type="other"
+                  href="contents/labs/module-2-day-5-induce-protein-and-evaluate-dna/m2d5_fig2a.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/module-2-day-5-induce-protein-and-evaluate-dna/m2d5_fig2a.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-2-day-5-induce-protein-and-evaluate-dna/m2d5_fig2a.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.module-3-assignment-oral-presentations.index.htm"
+                  type="webcontent"
+                  href="contents/assignments/module-3-assignment-oral-presentations/index.htm">
+            <metadata>
+                <adlcp:location>contents/assignments/module-3-assignment-oral-presentations/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/module-3-assignment-oral-presentations/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-spring-2010"/>            
+        </resource>
+        <resource identifier="r_contents.labs.module-1-day-4-purify-rna-and-run-affinity-column.index.htm"
+                  type="webcontent"
+                  href="contents/labs/module-1-day-4-purify-rna-and-run-affinity-column/index.htm">
+            <metadata>
+                <adlcp:location>contents/labs/module-1-day-4-purify-rna-and-run-affinity-column/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-1-day-4-purify-rna-and-run-affinity-column/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-spring-2010"/>            
+        </resource>
+        <resource identifier="r_contents.labs.module-3-day-6-protein-level-analysis.m3d6_fig1a.jpg"
+                  type="other"
+                  href="contents/labs/module-3-day-6-protein-level-analysis/m3d6_fig1a.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/module-3-day-6-protein-level-analysis/m3d6_fig1a.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-3-day-6-protein-level-analysis/m3d6_fig1a.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.MIT20_109S10_m1_anly_data.rtf"
+                  type="other"
+                  href="contents/assignments/MIT20_109S10_m1_anly_data.rtf">
+            <metadata>
+                <adlcp:location>contents/assignments/MIT20_109S10_m1_anly_data.rtf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/MIT20_109S10_m1_anly_data.rtf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-2-day-5-induce-protein-and-evaluate-dna.m2d5_fig2c.jpg"
+                  type="other"
+                  href="contents/labs/module-2-day-5-induce-protein-and-evaluate-dna/m2d5_fig2c.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/module-2-day-5-induce-protein-and-evaluate-dna/m2d5_fig2c.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-2-day-5-induce-protein-and-evaluate-dna/m2d5_fig2c.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.MIT20_109S10_labpre_m3d7.pdf"
+                  type="other"
+                  href="contents/labs/MIT20_109S10_labpre_m3d7.pdf">
+            <metadata>
+                <adlcp:location>contents/labs/MIT20_109S10_labpre_m3d7.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/MIT20_109S10_labpre_m3d7.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.module-3-assignment-cell-biomaterial-engineering-report.index.htm"
+                  type="webcontent"
+                  href="contents/assignments/module-3-assignment-cell-biomaterial-engineering-report/index.htm">
+            <metadata>
+                <adlcp:location>contents/assignments/module-3-assignment-cell-biomaterial-engineering-report/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/module-3-assignment-cell-biomaterial-engineering-report/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-spring-2010"/>            
+        </resource>
+        <resource identifier="r_contents.lecture-notes.index.htm"
+                  type="webcontent"
+                  href="contents/lecture-notes/index.htm">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-spring-2010"/>            
+        </resource>
+        <resource identifier="r_contents.labs.module-1-day-6-post-selection-ivt-and-journal-club.index.htm"
+                  type="webcontent"
+                  href="contents/labs/module-1-day-6-post-selection-ivt-and-journal-club/index.htm">
+            <metadata>
+                <adlcp:location>contents/labs/module-1-day-6-post-selection-ivt-and-journal-club/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-1-day-6-post-selection-ivt-and-journal-club/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-spring-2010"/>            
+        </resource>
+        <resource identifier="r_contents.labs.module-2-day-8-data-analysis.m2d8_2kd.zip"
+                  type="other"
+                  href="contents/labs/module-2-day-8-data-analysis/m2d8_2kd.zip">
+            <metadata>
+                <adlcp:location>contents/labs/module-2-day-8-data-analysis/m2d8_2kd.zip.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-2-day-8-data-analysis/m2d8_2kd.zip"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-1-day-2-purify-aptamer-encoding-dna.m1d2_sample.jpg"
+                  type="other"
+                  href="contents/labs/module-1-day-2-purify-aptamer-encoding-dna/m1d2_sample.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/module-1-day-2-purify-aptamer-encoding-dna/m1d2_sample.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-1-day-2-purify-aptamer-encoding-dna/m1d2_sample.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-1-day-1-amplify-aptamer-encoding-dna.m1d1_fig1.jpg"
+                  type="other"
+                  href="contents/labs/module-1-day-1-amplify-aptamer-encoding-dna/m1d1_fig1.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/module-1-day-1-amplify-aptamer-encoding-dna/m1d1_fig1.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-1-day-1-amplify-aptamer-encoding-dna/m1d1_fig1.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-2-day-4-prepare-expression-system.m2d4_fig2_1.gif"
+                  type="other"
+                  href="contents/labs/module-2-day-4-prepare-expression-system/m2d4_fig2_1.gif">
+            <metadata>
+                <adlcp:location>contents/labs/module-2-day-4-prepare-expression-system/m2d4_fig2_1.gif.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-2-day-4-prepare-expression-system/m2d4_fig2_1.gif"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.MIT20_109S10_labpre_m1d7.pdf"
+                  type="other"
+                  href="contents/labs/MIT20_109S10_labpre_m1d7.pdf">
+            <metadata>
+                <adlcp:location>contents/labs/MIT20_109S10_labpre_m1d7.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/MIT20_109S10_labpre_m1d7.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.labs_m3_fig1.jpg"
+                  type="other"
+                  href="contents/labs/labs_m3_fig1.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/labs_m3_fig1.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/labs_m3_fig1.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-2-day-4-prepare-expression-system.MIT20_109S10_m2d4_sequence.doc"
+                  type="other"
+                  href="contents/labs/module-2-day-4-prepare-expression-system/MIT20_109S10_m2d4_sequence.doc">
+            <metadata>
+                <adlcp:location>contents/labs/module-2-day-4-prepare-expression-system/MIT20_109S10_m2d4_sequence.doc.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-2-day-4-prepare-expression-system/MIT20_109S10_m2d4_sequence.doc"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-2-day-5-induce-protein-and-evaluate-dna.m2d5_fig1b.jpg"
+                  type="other"
+                  href="contents/labs/module-2-day-5-induce-protein-and-evaluate-dna/m2d5_fig1b.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/module-2-day-5-induce-protein-and-evaluate-dna/m2d5_fig1b.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-2-day-5-induce-protein-and-evaluate-dna/m2d5_fig1b.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.module-1-assignment-rna-computational-analysis.index.htm"
+                  type="webcontent"
+                  href="contents/assignments/module-1-assignment-rna-computational-analysis/index.htm">
+            <metadata>
+                <adlcp:location>contents/assignments/module-1-assignment-rna-computational-analysis/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/module-1-assignment-rna-computational-analysis/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-spring-2010"/>            
+        </resource>
+        <resource identifier="r_contents.labs.module-3-day-7-wrap-up-analysis.index.htm"
+                  type="webcontent"
+                  href="contents/labs/module-3-day-7-wrap-up-analysis/index.htm">
+            <metadata>
+                <adlcp:location>contents/labs/module-3-day-7-wrap-up-analysis/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-3-day-7-wrap-up-analysis/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-spring-2010"/>            
+        </resource>
+        <resource identifier="r_contents.lecture-notes.MIT20_109S10_lec_m3d6.pdf"
+                  type="other"
+                  href="contents/lecture-notes/MIT20_109S10_lec_m3d6.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/MIT20_109S10_lec_m3d6.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/MIT20_109S10_lec_m3d6.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-1-day-5-rna-to-dna-by-rt-pcr.m1d5_fig1.jpg"
+                  type="other"
+                  href="contents/labs/module-1-day-5-rna-to-dna-by-rt-pcr/m1d5_fig1.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/module-1-day-5-rna-to-dna-by-rt-pcr/m1d5_fig1.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-1-day-5-rna-to-dna-by-rt-pcr/m1d5_fig1.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.20.109-s10-lab-orientation.orient_5.jpg"
+                  type="other"
+                  href="contents/labs/20.109-s10-lab-orientation/orient_5.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/20.109-s10-lab-orientation/orient_5.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/20.109-s10-lab-orientation/orient_5.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-3-day-1-start-up-biomaterials-engineering.index.htm"
+                  type="webcontent"
+                  href="contents/labs/module-3-day-1-start-up-biomaterials-engineering/index.htm">
+            <metadata>
+                <adlcp:location>contents/labs/module-3-day-1-start-up-biomaterials-engineering/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-3-day-1-start-up-biomaterials-engineering/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-spring-2010"/>            
+        </resource>
+        <resource identifier="r_contents.labs.module-2-day-5-induce-protein-and-evaluate-dna.m2d5_result.jpg"
+                  type="other"
+                  href="contents/labs/module-2-day-5-induce-protein-and-evaluate-dna/m2d5_result.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/module-2-day-5-induce-protein-and-evaluate-dna/m2d5_result.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-2-day-5-induce-protein-and-evaluate-dna/m2d5_result.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.ta-notes-for-lab-module-1.index.htm"
+                  type="webcontent"
+                  href="contents/labs/ta-notes-for-lab-module-1/index.htm">
+            <metadata>
+                <adlcp:location>contents/labs/ta-notes-for-lab-module-1/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/ta-notes-for-lab-module-1/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-spring-2010"/>            
+        </resource>
+        <resource identifier="r_contents.lecture-notes.supporting-videos-for-module-3-day-1-lecture-introduction-to-cell-biomaterial-engineering.index.htm"
+                  type="webcontent"
+                  href="contents/lecture-notes/supporting-videos-for-module-3-day-1-lecture-introduction-to-cell-biomaterial-engineering/index.htm">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/supporting-videos-for-module-3-day-1-lecture-introduction-to-cell-biomaterial-engineering/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/supporting-videos-for-module-3-day-1-lecture-introduction-to-cell-biomaterial-engineering/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-spring-2010"/>            
+        </resource>
+        <resource identifier="r_contents.labs.labs_m1_fig1.jpg"
+                  type="other"
+                  href="contents/labs/labs_m1_fig1.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/labs_m1_fig1.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/labs_m1_fig1.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.MIT20_109S10_labpre_m1d5.pdf"
+                  type="other"
+                  href="contents/labs/MIT20_109S10_labpre_m1d5.pdf">
+            <metadata>
+                <adlcp:location>contents/labs/MIT20_109S10_labpre_m1d5.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/MIT20_109S10_labpre_m1d5.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.20.109-s10-lab-orientation.orient_6.jpg"
+                  type="other"
+                  href="contents/labs/20.109-s10-lab-orientation/orient_6.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/20.109-s10-lab-orientation/orient_6.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/20.109-s10-lab-orientation/orient_6.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.20.109-s10-ta-notes-for-module-3.index.htm"
+                  type="webcontent"
+                  href="contents/labs/20.109-s10-ta-notes-for-module-3/index.htm">
+            <metadata>
+                <adlcp:location>contents/labs/20.109-s10-ta-notes-for-module-3/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/20.109-s10-ta-notes-for-module-3/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-spring-2010"/>            
+        </resource>
+        <resource identifier="r_contents.labs.module-3-day-6-protein-level-analysis.m3d6_fig1b.jpg"
+                  type="other"
+                  href="contents/labs/module-3-day-6-protein-level-analysis/m3d6_fig1b.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/module-3-day-6-protein-level-analysis/m3d6_fig1b.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-3-day-6-protein-level-analysis/m3d6_fig1b.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-2-day-5-induce-protein-and-evaluate-dna.index.htm"
+                  type="webcontent"
+                  href="contents/labs/module-2-day-5-induce-protein-and-evaluate-dna/index.htm">
+            <metadata>
+                <adlcp:location>contents/labs/module-2-day-5-induce-protein-and-evaluate-dna/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-2-day-5-induce-protein-and-evaluate-dna/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-spring-2010"/>            
+        </resource>
+        <resource identifier="r_contents.labs.MIT20_109S10_labpre_m0d1.pdf"
+                  type="other"
+                  href="contents/labs/MIT20_109S10_labpre_m0d1.pdf">
+            <metadata>
+                <adlcp:location>contents/labs/MIT20_109S10_labpre_m0d1.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/MIT20_109S10_labpre_m0d1.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-2-day-8-data-analysis.m2d8_fig1b.jpg"
+                  type="other"
+                  href="contents/labs/module-2-day-8-data-analysis/m2d8_fig1b.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/module-2-day-8-data-analysis/m2d8_fig1b.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-2-day-8-data-analysis/m2d8_fig1b.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.guidelines-for-maintaining-your-lab-notebook.index.htm"
+                  type="webcontent"
+                  href="contents/labs/guidelines-for-maintaining-your-lab-notebook/index.htm">
+            <metadata>
+                <adlcp:location>contents/labs/guidelines-for-maintaining-your-lab-notebook/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/guidelines-for-maintaining-your-lab-notebook/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-spring-2010"/>            
+        </resource>
+        <resource identifier="r_contents.lecture-notes.MIT20_109S10_lec_m2d2.pdf"
+                  type="other"
+                  href="contents/lecture-notes/MIT20_109S10_lec_m2d2.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/MIT20_109S10_lec_m2d2.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/MIT20_109S10_lec_m2d2.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.MIT20_109S10_labpre_m1d3.pdf"
+                  type="other"
+                  href="contents/labs/MIT20_109S10_labpre_m1d3.pdf">
+            <metadata>
+                <adlcp:location>contents/labs/MIT20_109S10_labpre_m1d3.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/MIT20_109S10_labpre_m1d3.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-3-day-3-testing-cell-viability.index.htm"
+                  type="webcontent"
+                  href="contents/labs/module-3-day-3-testing-cell-viability/index.htm">
+            <metadata>
+                <adlcp:location>contents/labs/module-3-day-3-testing-cell-viability/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-3-day-3-testing-cell-viability/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-spring-2010"/>            
+        </resource>
+        <resource identifier="r_contents.labs.MIT20_109S10_labpre_m1d1.pdf"
+                  type="other"
+                  href="contents/labs/MIT20_109S10_labpre_m1d1.pdf">
+            <metadata>
+                <adlcp:location>contents/labs/MIT20_109S10_labpre_m1d1.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/MIT20_109S10_labpre_m1d1.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.20.109-s10-lab-orientation.orient_1b.jpg"
+                  type="other"
+                  href="contents/labs/20.109-s10-lab-orientation/orient_1b.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/20.109-s10-lab-orientation/orient_1b.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/20.109-s10-lab-orientation/orient_1b.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-3-day-5-transcript-level-analysis.m3d5_fig1.jpg"
+                  type="other"
+                  href="contents/labs/module-3-day-5-transcript-level-analysis/m3d5_fig1.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/module-3-day-5-transcript-level-analysis/m3d5_fig1.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-3-day-5-transcript-level-analysis/m3d5_fig1.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.guidelines-for-writing-up-your-research.index.htm"
+                  type="webcontent"
+                  href="contents/assignments/guidelines-for-writing-up-your-research/index.htm">
+            <metadata>
+                <adlcp:location>contents/assignments/guidelines-for-writing-up-your-research/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/guidelines-for-writing-up-your-research/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-spring-2010"/>            
+        </resource>
+        <resource identifier="r_contents.labs.module-1-day-5-rna-to-dna-by-rt-pcr.m1d5_sample.jpg"
+                  type="other"
+                  href="contents/labs/module-1-day-5-rna-to-dna-by-rt-pcr/m1d5_sample.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/module-1-day-5-rna-to-dna-by-rt-pcr/m1d5_sample.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-1-day-5-rna-to-dna-by-rt-pcr/m1d5_sample.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.MIT20_109S10_labpre_m2d5.pdf"
+                  type="other"
+                  href="contents/labs/MIT20_109S10_labpre_m2d5.pdf">
+            <metadata>
+                <adlcp:location>contents/labs/MIT20_109S10_labpre_m2d5.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/MIT20_109S10_labpre_m2d5.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-1-day-7-aptamer-binding-assay.module-1-day-7-results.wf_red_normgraph.gif"
+                  type="other"
+                  href="contents/labs/module-1-day-7-aptamer-binding-assay/module-1-day-7-results/wf_red_normgraph.gif">
+            <metadata>
+                <adlcp:location>contents/labs/module-1-day-7-aptamer-binding-assay/module-1-day-7-results/wf_red_normgraph.gif.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-1-day-7-aptamer-binding-assay/module-1-day-7-results/wf_red_normgraph.gif"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.MIT20_109S10_labpre_m3d6.pdf"
+                  type="other"
+                  href="contents/labs/MIT20_109S10_labpre_m3d6.pdf">
+            <metadata>
+                <adlcp:location>contents/labs/MIT20_109S10_labpre_m3d6.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/MIT20_109S10_labpre_m3d6.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.20-109s10.JPG"
+                  type="other" href="contents/20-109s10.JPG">
+            <metadata>
+                <adlcp:location>contents/20-109s10.JPG.xml</adlcp:location>
+            </metadata>
+            <file href="contents/20-109s10.JPG"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.MIT20_109S10_lec_m1d5_w.pdf"
+                  type="other"
+                  href="contents/lecture-notes/MIT20_109S10_lec_m1d5_w.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/MIT20_109S10_lec_m1d5_w.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/MIT20_109S10_lec_m1d5_w.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.MIT20_109S10_lec_m2d6.pdf"
+                  type="other"
+                  href="contents/lecture-notes/MIT20_109S10_lec_m2d6.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/MIT20_109S10_lec_m2d6.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/MIT20_109S10_lec_m2d6.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.MIT20_109S10_labpre_m1d4.pdf"
+                  type="other"
+                  href="contents/labs/MIT20_109S10_labpre_m1d4.pdf">
+            <metadata>
+                <adlcp:location>contents/labs/MIT20_109S10_labpre_m1d4.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/MIT20_109S10_labpre_m1d4.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.Syllabus.openwetware-use-in-20.109.index.htm"
+                  type="webcontent"
+                  href="contents/Syllabus/openwetware-use-in-20.109/index.htm">
+            <metadata>
+                <adlcp:location>contents/Syllabus/openwetware-use-in-20.109/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/Syllabus/openwetware-use-in-20.109/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-spring-2010"/>            
+        </resource>
+        <resource identifier="r_contents.labs.module-2-day-3-bacterial-amplification-of-dna.m2d3_fig1.jpg"
+                  type="other"
+                  href="contents/labs/module-2-day-3-bacterial-amplification-of-dna/m2d3_fig1.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/module-2-day-3-bacterial-amplification-of-dna/m2d3_fig1.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-2-day-3-bacterial-amplification-of-dna/m2d3_fig1.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-2-day-7-assay-protein-behavior.m2d7_fig2.jpg"
+                  type="other"
+                  href="contents/labs/module-2-day-7-assay-protein-behavior/m2d7_fig2.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/module-2-day-7-assay-protein-behavior/m2d7_fig2.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-2-day-7-assay-protein-behavior/m2d7_fig2.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.MIT20_109S10_lec_m3d7_w.pdf"
+                  type="other"
+                  href="contents/lecture-notes/MIT20_109S10_lec_m3d7_w.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/MIT20_109S10_lec_m3d7_w.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/MIT20_109S10_lec_m3d7_w.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.MIT20_109S10_m1_orl_rubric.pdf"
+                  type="other"
+                  href="contents/assignments/MIT20_109S10_m1_orl_rubric.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/MIT20_109S10_m1_orl_rubric.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/MIT20_109S10_m1_orl_rubric.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-2-day-7-assay-protein-behavior.m2d7_fig1.jpg"
+                  type="other"
+                  href="contents/labs/module-2-day-7-assay-protein-behavior/m2d7_fig1.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/module-2-day-7-assay-protein-behavior/m2d7_fig1.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-2-day-7-assay-protein-behavior/m2d7_fig1.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-2-day-6-characterize-protein-expression.m2d6_result.jpg"
+                  type="other"
+                  href="contents/labs/module-2-day-6-characterize-protein-expression/m2d6_result.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/module-2-day-6-characterize-protein-expression/m2d6_result.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-2-day-6-characterize-protein-expression/m2d6_result.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-1-day-7-aptamer-binding-assay.module-1-day-7-results.tr_green_norm.gif"
+                  type="other"
+                  href="contents/labs/module-1-day-7-aptamer-binding-assay/module-1-day-7-results/tr_green_norm.gif">
+            <metadata>
+                <adlcp:location>contents/labs/module-1-day-7-aptamer-binding-assay/module-1-day-7-results/tr_green_norm.gif.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-1-day-7-aptamer-binding-assay/module-1-day-7-results/tr_green_norm.gif"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-3-day-5-transcript-level-analysis.m3d5_fig2b.jpg"
+                  type="other"
+                  href="contents/labs/module-3-day-5-transcript-level-analysis/m3d5_fig2b.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/module-3-day-5-transcript-level-analysis/m3d5_fig2b.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-3-day-5-transcript-level-analysis/m3d5_fig2b.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-2-day-6-characterize-protein-expression.index.htm"
+                  type="webcontent"
+                  href="contents/labs/module-2-day-6-characterize-protein-expression/index.htm">
+            <metadata>
+                <adlcp:location>contents/labs/module-2-day-6-characterize-protein-expression/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-2-day-6-characterize-protein-expression/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-spring-2010"/>            
+        </resource>
+        <resource identifier="r_contents.lecture-notes.MIT20_109S10_lec_m2d4.pdf"
+                  type="other"
+                  href="contents/lecture-notes/MIT20_109S10_lec_m2d4.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/MIT20_109S10_lec_m2d4.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/MIT20_109S10_lec_m2d4.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-1-day-7-aptamer-binding-assay.MIT20_109S10_syll_self.pdf"
+                  type="other"
+                  href="contents/labs/module-1-day-7-aptamer-binding-assay/MIT20_109S10_syll_self.pdf">
+            <metadata>
+                <adlcp:location>contents/labs/module-1-day-7-aptamer-binding-assay/MIT20_109S10_syll_self.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-1-day-7-aptamer-binding-assay/MIT20_109S10_syll_self.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.module-2-day-5-induce-protein-and-evaluate-dna.m2d5_fig2b.jpg"
+                  type="other"
+                  href="contents/labs/module-2-day-5-induce-protein-and-evaluate-dna/m2d5_fig2b.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/module-2-day-5-induce-protein-and-evaluate-dna/m2d5_fig2b.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/module-2-day-5-induce-protein-and-evaluate-dna/m2d5_fig2b.jpg"/>
+                        
+        </resource>        
+        <resource identifier="r_common.search.AdvancedSearch.htm"
+                  type="webcontent"
+                  href="common/search/AdvancedSearch.htm">
+            <file href="common/search/AdvancedSearch.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-spring-2010"/>            
+        </resource>
+        <resource identifier="r_common.jsp.feedback.htm"
+                  type="webcontent"
+                  href="common/jsp/feedback.htm">
+            <file href="common/jsp/feedback.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-spring-2010"/>            
+        </resource>
+        <resource identifier="r_common.terms.index.htm"
+                  type="webcontent"
+                  href="common/terms/index.htm">
+            <file href="common/terms/share.png"/>
+            <file href="common/terms/remix.png"/>
+            <file href="common/terms/by.png"/>
+            <file href="common/terms/nc.png"/>
+            <file href="common/terms/sa.png"/>
+            <file href="common/terms/deedheadyellow.png"/>
+            <file href="common/terms/freedomsheader.png"/>
+            <file href="common/terms/limitationsheader.png"/>
+            <file href="common/terms/deedfootyellow.png"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-spring-2010"/>            
+        </resource>
+        <resource identifier="r_common.terms.trademarks.index.htm"
+                  type="webcontent"
+                  href="common/terms/trademarks/index.htm">
+            <file href="common/terms/trademarks/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-spring-2010"/>            
+        </resource>
+        <resource identifier="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-spring-2010"
+                  type="webcontent">
+        	<file href="common/styles/base.css"/>
+        	<file href="common/styles/courses.css"/>
+        	<file href="common/styles/courses_new.css"/>
+        	<file href="common/styles/global.css"/>
+        	<file href="common/styles/grid.css"/>
+        	<file href="common/styles/highslide.css"/>
+        	<file href="common/styles/highslide-ie6.css"/>
+        	<file href="common/styles/jquery.bubblepopup.css"/>
+        	<file href="common/styles/jquery.jscrollpane.css"/>
+        	<file href="common/styles/jquery-ui.css"/>
+        	<file href="common/styles/menu.css"/>
+        	<file href="common/styles/scholar2.css"/>
+        	<file href="common/styles/media_tabs.css"/>
+        	<file href="common/scripts/bubble-popup-offline.js"/>
+        	<file href="common/scripts/common-utils-offline.js"/>
+        	<file href="common/scripts/highslide-with-gallery.js"/>
+        	<file href="common/scripts/jquery.bubblepopup.min.js"/>
+        	<file href="common/scripts/jquery.jscrollpane.min.js"/>
+        	<file href="common/scripts/jquery-ui.min.js"/>
+        	<file href="common/scripts/jQuizMe-uncompressed.js"/>
+        	<file href="common/scripts/ocw-offline.js"/>
+        	<file href="common/scripts/expandy.js"/>
+        	<file href="common/images/ocw_mast.png"/>
+        	<file href="common/images/button_subscribe.png"/>
+        	<file href="common/images/icon_fb.png"/>
+        	<file href="common/images/icon_tw.png"/>
+        	<file href="common/images/top-nav_home.png"/>
+        	<file href="common/images/button_search.png"/>
+        	<file href="common/images/bg_top.png"/>
+        	<file href="common/images/bg_social.png"/>
+        	<file href="common/images/bg_mega-courses.png"/>
+        	<file href="common/images/bg_center2.png"/>
+        	<file href="common/images/bg_course-nav_current.png"/>
+        	<file href="common/images/button_donate-now.png"/>
+        	<file href="common/images/logo_mit.png"/>
+        	<file href="common/images/logo_ocwc.gif"/>
+        	<file href="common/images/cc_by-nc-sa.png"/>
+        	<file href="common/images/logo_dow.png"/>
+        	<file href="common/images/logo_lockheed.png"/>
+        	<file href="common/images/logo_mathworks.png"/>
+        	<file href="common/images/logo_abinitio.png"/>
+        	<file href="common/images/bg_bottom.png"/>
+        	<file href="common/images/nav_arrow.png"/>
+        	<file href="common/images/black-arrow.gif"/>
+        	<file href="common/images/trans.gif"/>
+        	<file href="common/images/arrow-bullet.gif"/>
+        	<file href="common/images/apple-touch-icon.png"/>
+        	<file href="common/images/highslide/graphics/zoomin.cur"/>
+        	<file href="common/images/highslide/graphics/zoomout.cur"/>
+        	<file href="common/images/highslide/graphics/controlbar2.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar3.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar4.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar4-hover.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar-black-border.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar-white.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar-white-small.gif"/>
+        	<file href="common/images/highslide/graphics/fullexpand.gif"/>
+        	<file href="common/images/highslide/graphics/icon.gif"/>
+        	<file href="common/images/highslide/graphics/loader.gif"/>
+        	<file href="common/images/highslide/graphics/loader.white.gif"/>
+        	<file href="common/images/highslide/graphics/resize.gif"/>
+        	<file href="common/images/highslide/graphics/close.png"/>
+        	<file href="common/images/highslide/graphics/closeX.png"/>
+        	<file href="common/images/highslide/graphics/controlbar-text-buttons.png"/>
+        	<file href="common/images/highslide/graphics/geckodimmer.png"/>
+        	<file href="common/images/highslide/graphics/scrollarrows.png"/>
+        	<file href="common/images/highslide/graphics/outlines/beveled.png"/>
+        	<file href="common/images/highslide/graphics/outlines/drop-shadow.png"/>
+        	<file href="common/images/highslide/graphics/outlines/glossy-dark.png"/>
+        	<file href="common/images/highslide/graphics/outlines/outer-glow.png"/>
+        	<file href="common/images/highslide/graphics/outlines/rounded-black.png"/>
+        	<file href="common/images/highslide/graphics/outlines/rounded-white.png"/>
+        	<file href="common/images/highslide/graphics/outlines/Outlines.psd"/>
+        	<file href="common/images/button_continue.jpg"/>
+        	<file href="common/images/button_donate.jpg"/>
+        	<file href="common/images/button_start.jpg"/>
+        	<file href="common/images/scholar_bar_chp.png"/>
+        	<file href="common/images/scholar_bar.png"/>
+        	<file href="common/images/logo_pdf.jpg"/>
+        	<file href="common/images/h2_trigger_open_close.gif"/>
+        	<file href="common/images/bookmark.gif"/>
+        	<file href="common/images/check.png"/>
+        	<file href="common/images/lightbulb.png"/>
+        	<file href="common/images/audio_file.gif"/>
+        	<file href="common/images/audio_only_slate.gif"/>
+        	<file href="common/images/video_file.gif"/>
+        	<file href="common/images/back-5.png"/>
+        	<file href="common/images/btn_next_resource.png"/>
+        	<file href="common/images/btn_previous_resource.png"/>
+        	<file href="common/images/close.png"/>
+        	<file href="common/images/inacessible.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/bottom-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/bottom-middle.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/bottom-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/middle-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/middle-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-bottom.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-top.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/top-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/top-middle.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/top-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/bottom-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/bottom-middle.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/bottom-right.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/middle-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/middle-right.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-bottom.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-right.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-top.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/top-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/top-middle.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/top-right.png"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.woff"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.ttf"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.svg"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.eot"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.woff"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.ttf"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.eot"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.svg"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.woff"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.ttf"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.svg"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.eot"/>
+        </resource>        
+  </resources>
+</manifest>

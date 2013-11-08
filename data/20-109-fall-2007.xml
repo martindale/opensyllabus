@@ -1,0 +1,2070 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest xmlns="http://www.imsglobal.org/xsd/imscp_v1p1"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+          xmlns:cwsp="http://www.dspace.org/xmlns/cwspace_imscp"
+          xmlns:ocw="http://ocw.mit.edu/xmlns/ocw_imscp"
+          xmlns:lom="http://ocw.mit.edu/xmlns/LOM"
+          identifier="urn_edu.mit.ocw_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007"
+          version="2013-6-21T21:51:33"
+          cwsp:packageType="Course"
+          xml:base="20-109-fall-2007/"
+          xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 http://www.imsglobal.org/xsd/imscp_v1p1.xsd  http://www.adlnet.org/xsd/adlcp_rootv1p2 http://www.adlnet.org/xsd/adlcp_rootv1p2.xsd http://www.dspace.org/xmlns/cwspace_imscp http://www.dspace.org/xsd/cwspace_imscp/version10/cwspace_imscpv10.xsd http://ocw.mit.edu/xmlns/ocw_imscp http://ocw.mit.edu/xsd/ocw_imscp/version10/ocw_imscpv10.xsd http://ocw.mit.edu/xmlns/LOM http://ocw.mit.edu/xsd/LOM/lomv1.0/lomv1.0.xsd">
+   	<metadata>
+   		<schema>IMS Content</schema>
+        <schemaversion>1.1</schemaversion>
+        <cwsp:packageMetadata>
+            <cwsp:sourceSystem>OCW</cwsp:sourceSystem>
+            <cwsp:profile>CWSpace</cwsp:profile>
+            <cwsp:profileVersion>0.1</cwsp:profileVersion>
+        </cwsp:packageMetadata>
+        <lom:general uniqueElementName="general">
+            <lom:title uniqueElementName="title">
+				<lom:string language="en">Laboratory Fundamentals in Biological Engineering</lom:string>
+			</lom:title>
+			<lom:identifier>
+				<lom:catalog uniqueElementName="catalog">OCW Master Course Number</lom:catalog>
+		      	<lom:entry uniqueElementName="entry">20.109</lom:entry>
+			</lom:identifier>
+        </lom:general>
+        <lom:lifecycle uniqueElementName="lifeCycle">
+            <lom:version uniqueElementName="version">
+				<lom:string language="en">Fall 2007</lom:string>
+			</lom:version>
+            <lom:contribute>
+	            <lom:role>
+	                <lom:source uniqueElementName="source">OCW_LOMv1.0</lom:source>
+	                <lom:value uniqueElementName="value">Author</lom:value>
+	            </lom:role>
+	            <lom:entity>Endy, Drew</lom:entity>
+	            <lom:date uniqueElementName="date">
+	                <lom:dateTime uniqueElementName="dateTime">2013-6-21</lom:dateTime>
+	            </lom:date>
+        	</lom:contribute>
+            <lom:contribute>
+	            <lom:role>
+	                <lom:source uniqueElementName="source">OCW_LOMv1.0</lom:source>
+	                <lom:value uniqueElementName="value">Author</lom:value>
+	            </lom:role>
+	            <lom:entity>Kuldell, Natalie</lom:entity>
+	            <lom:date uniqueElementName="date">
+	                <lom:dateTime uniqueElementName="dateTime">2013-6-21</lom:dateTime>
+	            </lom:date>
+        	</lom:contribute>
+            <lom:contribute>
+	            <lom:role>
+	                <lom:source uniqueElementName="source">OCW_LOMv1.0</lom:source>
+	                <lom:value uniqueElementName="value">Author</lom:value>
+	            </lom:role>
+	            <lom:entity>Lerner, Neal</lom:entity>
+	            <lom:date uniqueElementName="date">
+	                <lom:dateTime uniqueElementName="dateTime">2013-6-21</lom:dateTime>
+	            </lom:date>
+        	</lom:contribute>
+            <lom:contribute>
+	            <lom:role>
+	                <lom:source uniqueElementName="source">OCW_LOMv1.0</lom:source>
+	                <lom:value uniqueElementName="value">Author</lom:value>
+	            </lom:role>
+	            <lom:entity>Stachowiak, Agi</lom:entity>
+	            <lom:date uniqueElementName="date">
+	                <lom:dateTime uniqueElementName="dateTime">2013-6-21</lom:dateTime>
+	            </lom:date>
+        	</lom:contribute>
+            <lom:contribute>
+	            <lom:role>
+	                <lom:source uniqueElementName="source">OCW_LOMv1.0</lom:source>
+	                <lom:value uniqueElementName="value">Author</lom:value>
+	            </lom:role>
+	            <lom:entity>Belcher, Angela M.</lom:entity>
+	            <lom:date uniqueElementName="date">
+	                <lom:dateTime uniqueElementName="dateTime">2013-6-21</lom:dateTime>
+	            </lom:date>
+        	</lom:contribute>
+            <lom:contribute>
+	            <lom:role>
+	                <lom:source uniqueElementName="source">OCW_LOMv1.0</lom:source>
+	                <lom:value uniqueElementName="value">Author</lom:value>
+	            </lom:role>
+	            <lom:entity>Banuazizi, Atissa</lom:entity>
+	            <lom:date uniqueElementName="date">
+	                <lom:dateTime uniqueElementName="dateTime">2013-6-21</lom:dateTime>
+	            </lom:date>
+        	</lom:contribute>
+        </lom:lifecycle>
+        <lom:taxonPath>
+            <lom:source uniqueElementName="source">
+                <lom:string language="en">OCW Course Categories</lom:string>
+            </lom:source>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Engineering</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Biological Engineering</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Biomaterials</lom:string>
+                </lom:entry>
+            </lom:taxon>
+        </lom:taxonPath>
+        <lom:taxonPath>
+            <lom:source uniqueElementName="source">
+                <lom:string language="en">OCW Course Categories</lom:string>
+            </lom:source>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Engineering</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Biological Engineering</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            
+        </lom:taxonPath>
+        <lom:taxonPath>
+            <lom:source uniqueElementName="source">
+                <lom:string language="en">OCW Course Categories</lom:string>
+            </lom:source>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Science</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Biology</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Genetics</lom:string>
+                </lom:entry>
+            </lom:taxon>
+        </lom:taxonPath>
+        <lom:taxonPath>
+            <lom:source uniqueElementName="source">
+                <lom:string language="en">OCW Course Categories</lom:string>
+            </lom:source>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Engineering</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Systems Engineering</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            
+        </lom:taxonPath>        
+        <adlcp:location>contents/index.htm.xml</adlcp:location>
+    </metadata>
+    <organizations default="ocw_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007">
+        <organization identifier="ocw_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007">
+            <title>Laboratory Fundamentals in Biological Engineering</title>
+            <item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.CourseHome"
+                  identifierref="r_contents.index.htm"
+                  ocw:sectionTemplateType="CourseHomePage"
+                  ocw:sectionTemplateVersion="2013-6-21">
+				<title>Laboratory Fundamentals in Biological Engineering</title>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.20-109f07.jpg"
+          identifierref="r_contents.20-109f07.jpg">
+				<title>20-109f07.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.20-109f07-th.jpg"
+          identifierref="r_contents.20-109f07-th.jpg">
+				<title>20-109f07-th.jpg</title>
+				</item>
+			</item>
+            <item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.syllabus"
+                  identifierref="r_contents.syllabus.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-21">
+				<title>Syllabus</title>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.syllabus.usingopenwetware"
+          identifierref="r_contents.syllabus.usingopenwetware.index.htm">
+				<title>OpenWetWare Use in 20.109</title>
+				</item>
+			</item>
+            <item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.lecture-notes"
+                  identifierref="r_contents.lecture-notes.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-21">
+				<title>Lecture Notes</title>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.lecture-notes.lec1_4.pdf"
+          identifierref="r_contents.lecture-notes.lec1_4.pdf">
+				<title>lec1_4.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.lecture-notes.lec1_5_atissa.pdf"
+          identifierref="r_contents.lecture-notes.lec1_5_atissa.pdf">
+				<title>lec1_5_atissa.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.lecture-notes.coated_coli_m13.jpg"
+          identifierref="r_contents.lecture-notes.coated_coli_m13.jpg">
+				<title>coated_coli_m13.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.lecture-notes.lec2_5.pdf"
+          identifierref="r_contents.lecture-notes.lec2_5.pdf">
+				<title>lec2_5.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.lecture-notes.lec2_3.pdf"
+          identifierref="r_contents.lecture-notes.lec2_3.pdf">
+				<title>lec2_3.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.lecture-notes.lec2_7.pdf"
+          identifierref="r_contents.lecture-notes.lec2_7.pdf">
+				<title>lec2_7.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.lecture-notes.lec1_2.pdf"
+          identifierref="r_contents.lecture-notes.lec1_2.pdf">
+				<title>lec1_2.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.lecture-notes.natalie.jpg"
+          identifierref="r_contents.lecture-notes.natalie.jpg">
+				<title>natalie.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.lecture-notes.lec1_5.pdf"
+          identifierref="r_contents.lecture-notes.lec1_5.pdf">
+				<title>lec1_5.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.lecture-notes.lec1_1.pdf"
+          identifierref="r_contents.lecture-notes.lec1_1.pdf">
+				<title>lec1_1.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.lecture-notes.lec2_2.pdf"
+          identifierref="r_contents.lecture-notes.lec2_2.pdf">
+				<title>lec2_2.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.lecture-notes.lec2_1.pdf"
+          identifierref="r_contents.lecture-notes.lec2_1.pdf">
+				<title>lec2_1.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.lecture-notes.lec2_4_writing.pdf"
+          identifierref="r_contents.lecture-notes.lec2_4_writing.pdf">
+				<title>lec2_4_writing.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.lecture-notes.orientation.pdf"
+          identifierref="r_contents.lecture-notes.orientation.pdf">
+				<title>orientation.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.lecture-notes.lec1_6.pdf"
+          identifierref="r_contents.lecture-notes.lec1_6.pdf">
+				<title>lec1_6.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.lecture-notes.lec1_7.pdf"
+          identifierref="r_contents.lecture-notes.lec1_7.pdf">
+				<title>lec1_7.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.lecture-notes.lec1_3.pdf"
+          identifierref="r_contents.lecture-notes.lec1_3.pdf">
+				<title>lec1_3.pdf</title>
+				</item>
+			</item>
+            <item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs"
+                  identifierref="r_contents.labs.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-21">
+				<title>Labs</title>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.dna_strand2.jpg"
+          identifierref="r_contents.labs.dna_strand2.jpg">
+				<title>dna_strand2.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.consensus.jpg"
+          identifierref="r_contents.labs.consensus.jpg">
+				<title>consensus.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.p200calibration.jpg"
+          identifierref="r_contents.labs.p200calibration.jpg">
+				<title>p200calibration.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.normal_fibro.jpg"
+          identifierref="r_contents.labs.normal_fibro.jpg">
+				<title>normal_fibro.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.spectrophotometr.jpg"
+          identifierref="r_contents.labs.spectrophotometr.jpg">
+				<title>spectrophotometr.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.protein_function.jpg"
+          identifierref="r_contents.labs.protein_function.jpg">
+				<title>protein_function.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.dna_sequence.jpg"
+          identifierref="r_contents.labs.dna_sequence.jpg">
+				<title>dna_sequence.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.introduction.jpg"
+          identifierref="r_contents.labs.introduction.jpg">
+				<title>introduction.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.ph_meter.jpg"
+          identifierref="r_contents.labs.ph_meter.jpg">
+				<title>ph_meter.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.monoclonal.jpg"
+          identifierref="r_contents.labs.monoclonal.jpg">
+				<title>monoclonal.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.reading.jpg"
+          identifierref="r_contents.labs.reading.jpg">
+				<title>reading.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.surrogate_13.jpg"
+          identifierref="r_contents.labs.surrogate_13.jpg">
+				<title>surrogate_13.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.mod1_1_zerocut.txt"
+          identifierref="r_contents.labs.mod1_1_zerocut.txt">
+				<title>mod1_1_zerocut.txt</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.sequence_data.jpg"
+          identifierref="r_contents.labs.sequence_data.jpg">
+				<title>sequence_data.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.student_sirnas.pdf"
+          identifierref="r_contents.labs.student_sirnas.pdf">
+				<title>student_sirnas.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.mod1_3_sche_bact.jpg"
+          identifierref="r_contents.labs.mod1_3_sche_bact.jpg">
+				<title>mod1_3_sche_bact.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.mod1_3_dnaligatn.jpg"
+          identifierref="r_contents.labs.mod1_3_dnaligatn.jpg">
+				<title>mod1_3_dnaligatn.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.dna_strand4.jpg"
+          identifierref="r_contents.labs.dna_strand4.jpg">
+				<title>dna_strand4.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.dna_alignment.jpg"
+          identifierref="r_contents.labs.dna_alignment.jpg">
+				<title>dna_alignment.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.mc_hd_nkdel_miar.jpg"
+          identifierref="r_contents.labs.mc_hd_nkdel_miar.jpg">
+				<title>mc_hd_nkdel_miar.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.samplechip.jpg"
+          identifierref="r_contents.labs.samplechip.jpg">
+				<title>samplechip.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.transform_fibro.jpg"
+          identifierref="r_contents.labs.transform_fibro.jpg">
+				<title>transform_fibro.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.rbsvsconsensus.jpg"
+          identifierref="r_contents.labs.rbsvsconsensus.jpg">
+				<title>rbsvsconsensus.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.bacteriophage.jpg"
+          identifierref="r_contents.labs.bacteriophage.jpg">
+				<title>bacteriophage.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.m13_1_genome.jpg"
+          identifierref="r_contents.labs.m13_1_genome.jpg">
+				<title>m13_1_genome.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.dna_strand3.jpg"
+          identifierref="r_contents.labs.dna_strand3.jpg">
+				<title>dna_strand3.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.p20calibration.jpg"
+          identifierref="r_contents.labs.p20calibration.jpg">
+				<title>p20calibration.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.dna_strand5.jpg"
+          identifierref="r_contents.labs.dna_strand5.jpg">
+				<title>dna_strand5.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.annotation_pbad.jpg"
+          identifierref="r_contents.labs.annotation_pbad.jpg">
+				<title>annotation_pbad.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.m13k07map.jpg"
+          identifierref="r_contents.labs.m13k07map.jpg">
+				<title>m13k07map.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.mod1_1_g3p.pdf"
+          identifierref="r_contents.labs.mod1_1_g3p.pdf">
+				<title>mod1_1_g3p.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.firefly.jpg"
+          identifierref="r_contents.labs.firefly.jpg">
+				<title>firefly.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.dna_strand1.jpg"
+          identifierref="r_contents.labs.dna_strand1.jpg">
+				<title>dna_strand1.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.anotation_spacer.jpg"
+          identifierref="r_contents.labs.anotation_spacer.jpg">
+				<title>anotation_spacer.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.reaction.jpg"
+          identifierref="r_contents.labs.reaction.jpg">
+				<title>reaction.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.annotation_rbs.jpg"
+          identifierref="r_contents.labs.annotation_rbs.jpg">
+				<title>annotation_rbs.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.mod1_1_eco_ri.jpg"
+          identifierref="r_contents.labs.mod1_1_eco_ri.jpg">
+				<title>mod1_1_eco_ri.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.promoter.jpg"
+          identifierref="r_contents.labs.promoter.jpg">
+				<title>promoter.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.mc_hd_nkdel_cdna.jpg"
+          identifierref="r_contents.labs.mc_hd_nkdel_cdna.jpg">
+				<title>mc_hd_nkdel_cdna.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.mc_nkdel_marhyb.jpg"
+          identifierref="r_contents.labs.mc_nkdel_marhyb.jpg">
+				<title>mc_nkdel_marhyb.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.refactoring_gene.jpg"
+          identifierref="r_contents.labs.refactoring_gene.jpg">
+				<title>refactoring_gene.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.sea_pansy.jpg"
+          identifierref="r_contents.labs.sea_pansy.jpg">
+				<title>sea_pansy.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.dna_strand.jpg"
+          identifierref="r_contents.labs.dna_strand.jpg">
+				<title>dna_strand.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.mod1_2_agaro_gel.jpg"
+          identifierref="r_contents.labs.mod1_2_agaro_gel.jpg">
+				<title>mod1_2_agaro_gel.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.plasmid_map.jpg"
+          identifierref="r_contents.labs.plasmid_map.jpg">
+				<title>plasmid_map.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.mod2_5_data.xls"
+          identifierref="r_contents.labs.mod2_5_data.xls">
+				<title>mod2_5_data.xls</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.cnvntnl_mcrscope.jpg"
+          identifierref="r_contents.labs.cnvntnl_mcrscope.jpg">
+				<title>cnvntnl_mcrscope.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.balance.jpg"
+          identifierref="r_contents.labs.balance.jpg">
+				<title>balance.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.mod1_2_photo.jpg"
+          identifierref="r_contents.labs.mod1_2_photo.jpg">
+				<title>mod1_2_photo.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.rna_processing.jpg"
+          identifierref="r_contents.labs.rna_processing.jpg">
+				<title>rna_processing.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.hemocytometer.jpg"
+          identifierref="r_contents.labs.hemocytometer.jpg">
+				<title>hemocytometer.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.agilentarray.jpg"
+          identifierref="r_contents.labs.agilentarray.jpg">
+				<title>agilentarray.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.be109nucleotide.jpg"
+          identifierref="r_contents.labs.be109nucleotide.jpg">
+				<title>be109nucleotide.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.removing_cells.jpg"
+          identifierref="r_contents.labs.removing_cells.jpg">
+				<title>removing_cells.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.m13k07scafold_m8.pdf"
+          identifierref="r_contents.labs.m13k07scafold_m8.pdf">
+				<title>m13k07scafold_m8.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.samplecellshape.jpg"
+          identifierref="r_contents.labs.samplecellshape.jpg">
+				<title>samplecellshape.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.touched.jpg"
+          identifierref="r_contents.labs.touched.jpg">
+				<title>touched.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.m13_genome.jpg"
+          identifierref="r_contents.labs.m13_genome.jpg">
+				<title>m13_genome.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.schematic.jpg"
+          identifierref="r_contents.labs.schematic.jpg">
+				<title>schematic.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.color_coding.jpg"
+          identifierref="r_contents.labs.color_coding.jpg">
+				<title>color_coding.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.flrscnc_mcrscope.jpg"
+          identifierref="r_contents.labs.flrscnc_mcrscope.jpg">
+				<title>flrscnc_mcrscope.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.polyclonal_ab.jpg"
+          identifierref="r_contents.labs.polyclonal_ab.jpg">
+				<title>polyclonal_ab.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.scanning_em.jpg"
+          identifierref="r_contents.labs.scanning_em.jpg">
+				<title>scanning_em.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.lerner_rev_tips.pdf"
+          identifierref="r_contents.labs.lerner_rev_tips.pdf">
+				<title>lerner_rev_tips.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.samplewestern.jpg"
+          identifierref="r_contents.labs.samplewestern.jpg">
+				<title>samplewestern.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.mod1_2cncntrtn_ba.jpg"
+          identifierref="r_contents.labs.mod1_2cncntrtn_ba.jpg">
+				<title>mod1_2cncntrtn_ba.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.msrng_absrbnce.jpg"
+          identifierref="r_contents.labs.msrng_absrbnce.jpg">
+				<title>msrng_absrbnce.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.sample_rtpcr.jpg"
+          identifierref="r_contents.labs.sample_rtpcr.jpg">
+				<title>sample_rtpcr.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.plaques.jpg"
+          identifierref="r_contents.labs.plaques.jpg">
+				<title>plaques.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.p1000calibration.jpg"
+          identifierref="r_contents.labs.p1000calibration.jpg">
+				<title>p1000calibration.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.life_cycle.jpg"
+          identifierref="r_contents.labs.life_cycle.jpg">
+				<title>life_cycle.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.cuvetteholder.jpg"
+          identifierref="r_contents.labs.cuvetteholder.jpg">
+				<title>cuvetteholder.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.tem_of_m13e4.jpg"
+          identifierref="r_contents.labs.tem_of_m13e4.jpg">
+				<title>tem_of_m13e4.jpg</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.mod1_3"
+          identifierref="r_contents.labs.mod1_3.index.htm">
+				<title>Module 1.3: DNA Ligation and Bacterial Transformation</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.mod1_6"
+          identifierref="r_contents.labs.mod1_6.index.htm">
+				<title>Module 1.6: Western Analysis</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.mod2_5"
+          identifierref="r_contents.labs.mod2_5.index.htm">
+				<title>Module 2.5: cDNA Synthesis and Microarray</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.mod1_ta_notes"
+          identifierref="r_contents.labs.mod1_ta_notes.index.htm">
+				<title>TA's Notes for Module 1</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.mod1_1"
+          identifierref="r_contents.labs.mod1_1.index.htm">
+				<title>Module 1.1: Start-up Genome Engineering</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.sirna_design"
+          identifierref="r_contents.labs.sirna_design.index.htm">
+				<title>Module 2.1: siRNA Design</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.examine_clones"
+          identifierref="r_contents.labs.examine_clones.index.htm">
+				<title>Module 1.4: Examine Candidate Clones</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.mod2_4"
+          identifierref="r_contents.labs.mod2_4.index.htm">
+				<title>Module 2.4: Journal Article Discussion</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.luciferase_assay"
+          identifierref="r_contents.labs.luciferase_assay.index.htm">
+				<title>Module 2.3: Luciferase Assays and RNA Prep</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.mod2_6"
+          identifierref="r_contents.labs.mod2_6.index.htm">
+				<title>Module 2.6: Microarray Data Analysis</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.lab_tour"
+          identifierref="r_contents.labs.lab_tour.index.htm">
+				<title>Lab Tour</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.mod1_m13refactor"
+          identifierref="r_contents.labs.mod1_m13refactor.index.htm">
+				<title>Working Page for M13 Refactoring</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.mod1_7"
+          identifierref="r_contents.labs.mod1_7.index.htm">
+				<title>Module 1.7: Probe Western</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.mod2_ta_notes"
+          identifierref="r_contents.labs.mod2_ta_notes.index.htm">
+				<title>TA's Notes for Module 2</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.mod1_2"
+          identifierref="r_contents.labs.mod1_2.index.htm">
+				<title>Module 1.2: Agarose Gel Electrophoresis</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.lab_policy"
+          identifierref="r_contents.labs.lab_policy.index.htm">
+				<title>General Lab Policy</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.mod1_5"
+          identifierref="r_contents.labs.mod1_5.index.htm">
+				<title>Module 1.5: M13.1</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.transfection"
+          identifierref="r_contents.labs.transfection.index.htm">
+				<title>Module 2.2: Transfection</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.guide_lab_notebook"
+          identifierref="r_contents.labs.guide_lab_notebook.index.htm">
+				<title>Guidelines for Maintaining Your Lab Notebook</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.labs.guide_tissueculture"
+          identifierref="r_contents.labs.guide_tissueculture.index.htm">
+				<title>Guidelines for Working in the Tissue Culture Facility</title>
+				</item>
+			</item>
+            <item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.assignments"
+                  identifierref="r_contents.assignments.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-21">
+				<title>Assignments</title>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.assignments.mod3_blue.pdf"
+          identifierref="r_contents.assignments.mod3_blue.pdf">
+				<title>mod3_blue.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.assignments.mod2_knan_tntri.pdf"
+          identifierref="r_contents.assignments.mod2_knan_tntri.pdf">
+				<title>mod2_knan_tntri.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.assignments.lec3_2_atissa.pdf"
+          identifierref="r_contents.assignments.lec3_2_atissa.pdf">
+				<title>lec3_2_atissa.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.assignments.sci_writing_guid.pdf"
+          identifierref="r_contents.assignments.sci_writing_guid.pdf">
+				<title>sci_writing_guid.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.assignments.lerner_revie_tip.pdf"
+          identifierref="r_contents.assignments.lerner_revie_tip.pdf">
+				<title>lerner_revie_tip.pdf</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.assignments.guide_lab_report-htm"
+          identifierref="r_contents.assignments.guide_lab_report-htm.index.htm">
+				<title>Guidelines for Writing a Lab Report</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.assignments.guide_oral_prese-htm"
+          identifierref="r_contents.assignments.guide_oral_prese-htm.index.htm">
+				<title>Guidelines for Oral Presentations</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.assignments.mod1"
+          identifierref="r_contents.assignments.mod1.index.htm">
+				<title>Module 1 Assignment: Genome Engineering Portfolio</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.assignments.mod2_papers"
+          identifierref="r_contents.assignments.mod2_papers.index.htm">
+				<title>List of Papers for Module 2 Presentations</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.assignments.mod1_papers"
+          identifierref="r_contents.assignments.mod1_papers.index.htm">
+				<title>List of Papers for Module 1 Presentations</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.assignments.mod2"
+          identifierref="r_contents.assignments.mod2.index.htm">
+				<title>Module 2 Assignment: Expression Engineering Written Report</title>
+				</item>
+				<item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.assignments.mod3"
+          identifierref="r_contents.assignments.mod3.index.htm">
+				<title>Module 3 Assignment: Biomaterials Engineering Oral Presentation</title>
+				</item>
+			</item>
+            <item identifier="i_20-109-laboratory-fundamentals-in-biological-engineering-fall-2007.related-resources"
+                  identifierref="r_contents.related-resources.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-21">
+				<title>Related Resources</title>
+			</item>
+            <item identifier="i_terms"
+                  identifierref="r_common.terms.index.htm"
+                  ocw:sectionTemplateType="GlobalSection"
+                  ocw:sectionTemplateVersion="2013-6-21">
+				<title>Legal Notices</title>
+			</item>
+            <item identifier="i_terms"
+                  identifierref="r_common.terms.index.htm"
+                  ocw:sectionTemplateType="GlobalSection"
+                  ocw:sectionTemplateVersion="2013-6-21">
+				<title>Privacy Statement</title>
+			</item>
+            <item identifier="i_terms.trademarks"
+                  identifierref="r_common.terms.trademarks.index.htm"
+                  ocw:sectionTemplateType="GlobalSection"
+                  ocw:sectionTemplateVersion="2013-6-21">
+				<title>Trademark Notices</title>
+			</item>
+        </organization>
+    </organizations>
+    <resources>
+        <resource identifier="r_contents.labs.rna_processing.jpg"
+                  type="other"
+                  href="contents/labs/rna_processing.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/rna_processing.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/rna_processing.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.annotation_pbad.jpg"
+                  type="other"
+                  href="contents/labs/annotation_pbad.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/annotation_pbad.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/annotation_pbad.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.natalie.jpg"
+                  type="other"
+                  href="contents/lecture-notes/natalie.jpg">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/natalie.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/natalie.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.removing_cells.jpg"
+                  type="other"
+                  href="contents/labs/removing_cells.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/removing_cells.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/removing_cells.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.hemocytometer.jpg"
+                  type="other"
+                  href="contents/labs/hemocytometer.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/hemocytometer.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/hemocytometer.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.scanning_em.jpg"
+                  type="other"
+                  href="contents/labs/scanning_em.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/scanning_em.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/scanning_em.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.samplechip.jpg"
+                  type="other"
+                  href="contents/labs/samplechip.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/samplechip.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/samplechip.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.mod2_papers.index.htm"
+                  type="webcontent"
+                  href="contents/assignments/mod2_papers/index.htm">
+            <metadata>
+                <adlcp:location>contents/assignments/mod2_papers/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/mod2_papers/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-fall-2007"/>            
+        </resource>
+        <resource identifier="r_contents.20-109f07-th.jpg"
+                  type="other"
+                  href="contents/20-109f07-th.jpg">
+            <metadata>
+                <adlcp:location>contents/20-109f07-th.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/20-109f07-th.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.syllabus.index.htm"
+                  type="webcontent"
+                  href="contents/syllabus/index.htm">
+            <metadata>
+                <adlcp:location>contents/syllabus/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/syllabus/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-fall-2007"/>            
+        </resource>
+        <resource identifier="r_contents.labs.mod2_4.index.htm"
+                  type="webcontent"
+                  href="contents/labs/mod2_4/index.htm">
+            <metadata>
+                <adlcp:location>contents/labs/mod2_4/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/mod2_4/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-fall-2007"/>            
+        </resource>
+        <resource identifier="r_contents.labs.mod1_1_zerocut.txt"
+                  type="other"
+                  href="contents/labs/mod1_1_zerocut.txt">
+            <metadata>
+                <adlcp:location>contents/labs/mod1_1_zerocut.txt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/mod1_1_zerocut.txt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.p200calibration.jpg"
+                  type="other"
+                  href="contents/labs/p200calibration.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/p200calibration.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/p200calibration.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.examine_clones.index.htm"
+                  type="webcontent"
+                  href="contents/labs/examine_clones/index.htm">
+            <metadata>
+                <adlcp:location>contents/labs/examine_clones/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/examine_clones/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-fall-2007"/>            
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec1_5_atissa.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec1_5_atissa.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec1_5_atissa.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec1_5_atissa.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.mod1_6.index.htm"
+                  type="webcontent"
+                  href="contents/labs/mod1_6/index.htm">
+            <metadata>
+                <adlcp:location>contents/labs/mod1_6/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/mod1_6/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-fall-2007"/>            
+        </resource>
+        <resource identifier="r_contents.labs.index.htm"
+                  type="webcontent"
+                  href="contents/labs/index.htm">
+            <metadata>
+                <adlcp:location>contents/labs/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-fall-2007"/>            
+        </resource>
+        <resource identifier="r_contents.labs.introduction.jpg"
+                  type="other"
+                  href="contents/labs/introduction.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/introduction.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/introduction.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec2_2.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec2_2.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec2_2.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec2_2.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.index.htm"
+                  type="webcontent"
+                  href="contents/index.htm">
+            <metadata>
+                <adlcp:location>contents/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-fall-2007"/>            
+        </resource>
+        <resource identifier="r_contents.labs.mod1_2cncntrtn_ba.jpg"
+                  type="other"
+                  href="contents/labs/mod1_2cncntrtn_ba.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/mod1_2cncntrtn_ba.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/mod1_2cncntrtn_ba.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.balance.jpg"
+                  type="other"
+                  href="contents/labs/balance.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/balance.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/balance.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.monoclonal.jpg"
+                  type="other"
+                  href="contents/labs/monoclonal.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/monoclonal.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/monoclonal.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.20-109f07.jpg"
+                  type="other" href="contents/20-109f07.jpg">
+            <metadata>
+                <adlcp:location>contents/20-109f07.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/20-109f07.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec2_4_writing.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec2_4_writing.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec2_4_writing.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec2_4_writing.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.luciferase_assay.index.htm"
+                  type="webcontent"
+                  href="contents/labs/luciferase_assay/index.htm">
+            <metadata>
+                <adlcp:location>contents/labs/luciferase_assay/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/luciferase_assay/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-fall-2007"/>            
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec1_3.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec1_3.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec1_3.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec1_3.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.plaques.jpg"
+                  type="other"
+                  href="contents/labs/plaques.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/plaques.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/plaques.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.lerner_rev_tips.pdf"
+                  type="other"
+                  href="contents/labs/lerner_rev_tips.pdf">
+            <metadata>
+                <adlcp:location>contents/labs/lerner_rev_tips.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/lerner_rev_tips.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.mod1_2.index.htm"
+                  type="webcontent"
+                  href="contents/labs/mod1_2/index.htm">
+            <metadata>
+                <adlcp:location>contents/labs/mod1_2/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/mod1_2/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-fall-2007"/>            
+        </resource>
+        <resource identifier="r_contents.labs.m13k07scafold_m8.pdf"
+                  type="other"
+                  href="contents/labs/m13k07scafold_m8.pdf">
+            <metadata>
+                <adlcp:location>contents/labs/m13k07scafold_m8.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/m13k07scafold_m8.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.mod2_5_data.xls"
+                  type="other"
+                  href="contents/labs/mod2_5_data.xls">
+            <metadata>
+                <adlcp:location>contents/labs/mod2_5_data.xls.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/mod2_5_data.xls"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec2_5.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec2_5.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec2_5.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec2_5.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.sequence_data.jpg"
+                  type="other"
+                  href="contents/labs/sequence_data.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/sequence_data.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/sequence_data.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.life_cycle.jpg"
+                  type="other"
+                  href="contents/labs/life_cycle.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/life_cycle.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/life_cycle.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.mod1_3_dnaligatn.jpg"
+                  type="other"
+                  href="contents/labs/mod1_3_dnaligatn.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/mod1_3_dnaligatn.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/mod1_3_dnaligatn.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.lerner_revie_tip.pdf"
+                  type="other"
+                  href="contents/assignments/lerner_revie_tip.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/lerner_revie_tip.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/lerner_revie_tip.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.index.htm"
+                  type="webcontent"
+                  href="contents/lecture-notes/index.htm">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-fall-2007"/>            
+        </resource>
+        <resource identifier="r_contents.labs.student_sirnas.pdf"
+                  type="other"
+                  href="contents/labs/student_sirnas.pdf">
+            <metadata>
+                <adlcp:location>contents/labs/student_sirnas.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/student_sirnas.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.coated_coli_m13.jpg"
+                  type="other"
+                  href="contents/lecture-notes/coated_coli_m13.jpg">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/coated_coli_m13.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/coated_coli_m13.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.mc_hd_nkdel_cdna.jpg"
+                  type="other"
+                  href="contents/labs/mc_hd_nkdel_cdna.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/mc_hd_nkdel_cdna.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/mc_hd_nkdel_cdna.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec1_6.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec1_6.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec1_6.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec1_6.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.agilentarray.jpg"
+                  type="other"
+                  href="contents/labs/agilentarray.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/agilentarray.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/agilentarray.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.dna_strand5.jpg"
+                  type="other"
+                  href="contents/labs/dna_strand5.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/dna_strand5.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/dna_strand5.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.cnvntnl_mcrscope.jpg"
+                  type="other"
+                  href="contents/labs/cnvntnl_mcrscope.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/cnvntnl_mcrscope.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/cnvntnl_mcrscope.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec1_1.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec1_1.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec1_1.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec1_1.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.cuvetteholder.jpg"
+                  type="other"
+                  href="contents/labs/cuvetteholder.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/cuvetteholder.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/cuvetteholder.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.mod2_ta_notes.index.htm"
+                  type="webcontent"
+                  href="contents/labs/mod2_ta_notes/index.htm">
+            <metadata>
+                <adlcp:location>contents/labs/mod2_ta_notes/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/mod2_ta_notes/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-fall-2007"/>            
+        </resource>
+        <resource identifier="r_contents.labs.lab_policy.index.htm"
+                  type="webcontent"
+                  href="contents/labs/lab_policy/index.htm">
+            <metadata>
+                <adlcp:location>contents/labs/lab_policy/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/lab_policy/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-fall-2007"/>            
+        </resource>
+        <resource identifier="r_contents.labs.be109nucleotide.jpg"
+                  type="other"
+                  href="contents/labs/be109nucleotide.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/be109nucleotide.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/be109nucleotide.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.m13_1_genome.jpg"
+                  type="other"
+                  href="contents/labs/m13_1_genome.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/m13_1_genome.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/m13_1_genome.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.mod3.index.htm"
+                  type="webcontent"
+                  href="contents/assignments/mod3/index.htm">
+            <metadata>
+                <adlcp:location>contents/assignments/mod3/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/mod3/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-fall-2007"/>            
+        </resource>
+        <resource identifier="r_contents.assignments.index.htm"
+                  type="webcontent"
+                  href="contents/assignments/index.htm">
+            <metadata>
+                <adlcp:location>contents/assignments/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-fall-2007"/>            
+        </resource>
+        <resource identifier="r_contents.labs.transform_fibro.jpg"
+                  type="other"
+                  href="contents/labs/transform_fibro.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/transform_fibro.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/transform_fibro.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.anotation_spacer.jpg"
+                  type="other"
+                  href="contents/labs/anotation_spacer.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/anotation_spacer.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/anotation_spacer.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.guide_tissueculture.index.htm"
+                  type="webcontent"
+                  href="contents/labs/guide_tissueculture/index.htm">
+            <metadata>
+                <adlcp:location>contents/labs/guide_tissueculture/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/guide_tissueculture/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-fall-2007"/>            
+        </resource>
+        <resource identifier="r_contents.labs.mod1_1_eco_ri.jpg"
+                  type="other"
+                  href="contents/labs/mod1_1_eco_ri.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/mod1_1_eco_ri.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/mod1_1_eco_ri.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.reaction.jpg"
+                  type="other"
+                  href="contents/labs/reaction.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/reaction.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/reaction.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.samplewestern.jpg"
+                  type="other"
+                  href="contents/labs/samplewestern.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/samplewestern.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/samplewestern.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.tem_of_m13e4.jpg"
+                  type="other"
+                  href="contents/labs/tem_of_m13e4.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/tem_of_m13e4.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/tem_of_m13e4.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.bacteriophage.jpg"
+                  type="other"
+                  href="contents/labs/bacteriophage.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/bacteriophage.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/bacteriophage.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.orientation.pdf"
+                  type="other"
+                  href="contents/lecture-notes/orientation.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/orientation.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/orientation.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec1_7.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec1_7.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec1_7.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec1_7.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.consensus.jpg"
+                  type="other"
+                  href="contents/labs/consensus.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/consensus.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/consensus.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.dna_strand4.jpg"
+                  type="other"
+                  href="contents/labs/dna_strand4.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/dna_strand4.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/dna_strand4.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.mod3_blue.pdf"
+                  type="other"
+                  href="contents/assignments/mod3_blue.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/mod3_blue.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/mod3_blue.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.refactoring_gene.jpg"
+                  type="other"
+                  href="contents/labs/refactoring_gene.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/refactoring_gene.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/refactoring_gene.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.dna_strand3.jpg"
+                  type="other"
+                  href="contents/labs/dna_strand3.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/dna_strand3.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/dna_strand3.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.reading.jpg"
+                  type="other"
+                  href="contents/labs/reading.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/reading.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/reading.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.normal_fibro.jpg"
+                  type="other"
+                  href="contents/labs/normal_fibro.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/normal_fibro.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/normal_fibro.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.sea_pansy.jpg"
+                  type="other"
+                  href="contents/labs/sea_pansy.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/sea_pansy.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/sea_pansy.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.ph_meter.jpg"
+                  type="other"
+                  href="contents/labs/ph_meter.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/ph_meter.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/ph_meter.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.mod2_knan_tntri.pdf"
+                  type="other"
+                  href="contents/assignments/mod2_knan_tntri.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/mod2_knan_tntri.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/mod2_knan_tntri.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.annotation_rbs.jpg"
+                  type="other"
+                  href="contents/labs/annotation_rbs.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/annotation_rbs.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/annotation_rbs.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.msrng_absrbnce.jpg"
+                  type="other"
+                  href="contents/labs/msrng_absrbnce.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/msrng_absrbnce.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/msrng_absrbnce.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.lab_tour.index.htm"
+                  type="webcontent"
+                  href="contents/labs/lab_tour/index.htm">
+            <metadata>
+                <adlcp:location>contents/labs/lab_tour/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/lab_tour/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-fall-2007"/>            
+        </resource>
+        <resource identifier="r_contents.labs.p1000calibration.jpg"
+                  type="other"
+                  href="contents/labs/p1000calibration.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/p1000calibration.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/p1000calibration.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec1_4.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec1_4.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec1_4.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec1_4.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.lec3_2_atissa.pdf"
+                  type="other"
+                  href="contents/assignments/lec3_2_atissa.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/lec3_2_atissa.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/lec3_2_atissa.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.firefly.jpg"
+                  type="other"
+                  href="contents/labs/firefly.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/firefly.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/firefly.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.promoter.jpg"
+                  type="other"
+                  href="contents/labs/promoter.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/promoter.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/promoter.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.mod1_m13refactor.index.htm"
+                  type="webcontent"
+                  href="contents/labs/mod1_m13refactor/index.htm">
+            <metadata>
+                <adlcp:location>contents/labs/mod1_m13refactor/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/mod1_m13refactor/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-fall-2007"/>            
+        </resource>
+        <resource identifier="r_contents.labs.schematic.jpg"
+                  type="other"
+                  href="contents/labs/schematic.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/schematic.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/schematic.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.dna_alignment.jpg"
+                  type="other"
+                  href="contents/labs/dna_alignment.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/dna_alignment.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/dna_alignment.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.polyclonal_ab.jpg"
+                  type="other"
+                  href="contents/labs/polyclonal_ab.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/polyclonal_ab.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/polyclonal_ab.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.m13k07map.jpg"
+                  type="other"
+                  href="contents/labs/m13k07map.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/m13k07map.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/m13k07map.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec2_1.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec2_1.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec2_1.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec2_1.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.mod1_7.index.htm"
+                  type="webcontent"
+                  href="contents/labs/mod1_7/index.htm">
+            <metadata>
+                <adlcp:location>contents/labs/mod1_7/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/mod1_7/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-fall-2007"/>            
+        </resource>
+        <resource identifier="r_contents.labs.sample_rtpcr.jpg"
+                  type="other"
+                  href="contents/labs/sample_rtpcr.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/sample_rtpcr.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/sample_rtpcr.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.spectrophotometr.jpg"
+                  type="other"
+                  href="contents/labs/spectrophotometr.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/spectrophotometr.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/spectrophotometr.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.mod1_1.index.htm"
+                  type="webcontent"
+                  href="contents/labs/mod1_1/index.htm">
+            <metadata>
+                <adlcp:location>contents/labs/mod1_1/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/mod1_1/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-fall-2007"/>            
+        </resource>
+        <resource identifier="r_contents.related-resources.index.htm"
+                  type="webcontent"
+                  href="contents/related-resources/index.htm">
+            <metadata>
+                <adlcp:location>contents/related-resources/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/related-resources/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-fall-2007"/>            
+        </resource>
+        <resource identifier="r_contents.assignments.guide_lab_report-htm.index.htm"
+                  type="webcontent"
+                  href="contents/assignments/guide_lab_report-htm/index.htm">
+            <metadata>
+                <adlcp:location>contents/assignments/guide_lab_report-htm/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/guide_lab_report-htm/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-fall-2007"/>            
+        </resource>
+        <resource identifier="r_contents.labs.touched.jpg"
+                  type="other"
+                  href="contents/labs/touched.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/touched.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/touched.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.p20calibration.jpg"
+                  type="other"
+                  href="contents/labs/p20calibration.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/p20calibration.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/p20calibration.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec1_2.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec1_2.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec1_2.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec1_2.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec2_7.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec2_7.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec2_7.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec2_7.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.dna_strand.jpg"
+                  type="other"
+                  href="contents/labs/dna_strand.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/dna_strand.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/dna_strand.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.guide_oral_prese-htm.index.htm"
+                  type="webcontent"
+                  href="contents/assignments/guide_oral_prese-htm/index.htm">
+            <metadata>
+                <adlcp:location>contents/assignments/guide_oral_prese-htm/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/guide_oral_prese-htm/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-fall-2007"/>            
+        </resource>
+        <resource identifier="r_contents.labs.mod1_1_g3p.pdf"
+                  type="other"
+                  href="contents/labs/mod1_1_g3p.pdf">
+            <metadata>
+                <adlcp:location>contents/labs/mod1_1_g3p.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/mod1_1_g3p.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.sirna_design.index.htm"
+                  type="webcontent"
+                  href="contents/labs/sirna_design/index.htm">
+            <metadata>
+                <adlcp:location>contents/labs/sirna_design/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/sirna_design/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-fall-2007"/>            
+        </resource>
+        <resource identifier="r_contents.syllabus.usingopenwetware.index.htm"
+                  type="webcontent"
+                  href="contents/syllabus/usingopenwetware/index.htm">
+            <metadata>
+                <adlcp:location>contents/syllabus/usingopenwetware/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/syllabus/usingopenwetware/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-fall-2007"/>            
+        </resource>
+        <resource identifier="r_contents.labs.dna_sequence.jpg"
+                  type="other"
+                  href="contents/labs/dna_sequence.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/dna_sequence.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/dna_sequence.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.mod1.index.htm"
+                  type="webcontent"
+                  href="contents/assignments/mod1/index.htm">
+            <metadata>
+                <adlcp:location>contents/assignments/mod1/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/mod1/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-fall-2007"/>            
+        </resource>
+        <resource identifier="r_contents.labs.mod1_5.index.htm"
+                  type="webcontent"
+                  href="contents/labs/mod1_5/index.htm">
+            <metadata>
+                <adlcp:location>contents/labs/mod1_5/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/mod1_5/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-fall-2007"/>            
+        </resource>
+        <resource identifier="r_contents.labs.samplecellshape.jpg"
+                  type="other"
+                  href="contents/labs/samplecellshape.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/samplecellshape.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/samplecellshape.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.mc_nkdel_marhyb.jpg"
+                  type="other"
+                  href="contents/labs/mc_nkdel_marhyb.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/mc_nkdel_marhyb.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/mc_nkdel_marhyb.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.mod2_5.index.htm"
+                  type="webcontent"
+                  href="contents/labs/mod2_5/index.htm">
+            <metadata>
+                <adlcp:location>contents/labs/mod2_5/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/mod2_5/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-fall-2007"/>            
+        </resource>
+        <resource identifier="r_contents.labs.mc_hd_nkdel_miar.jpg"
+                  type="other"
+                  href="contents/labs/mc_hd_nkdel_miar.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/mc_hd_nkdel_miar.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/mc_hd_nkdel_miar.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.mod1_3_sche_bact.jpg"
+                  type="other"
+                  href="contents/labs/mod1_3_sche_bact.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/mod1_3_sche_bact.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/mod1_3_sche_bact.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.dna_strand1.jpg"
+                  type="other"
+                  href="contents/labs/dna_strand1.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/dna_strand1.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/dna_strand1.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec1_5.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec1_5.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec1_5.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec1_5.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.mod2.index.htm"
+                  type="webcontent"
+                  href="contents/assignments/mod2/index.htm">
+            <metadata>
+                <adlcp:location>contents/assignments/mod2/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/mod2/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-fall-2007"/>            
+        </resource>
+        <resource identifier="r_contents.labs.transfection.index.htm"
+                  type="webcontent"
+                  href="contents/labs/transfection/index.htm">
+            <metadata>
+                <adlcp:location>contents/labs/transfection/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/transfection/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-fall-2007"/>            
+        </resource>
+        <resource identifier="r_contents.labs.mod1_2_agaro_gel.jpg"
+                  type="other"
+                  href="contents/labs/mod1_2_agaro_gel.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/mod1_2_agaro_gel.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/mod1_2_agaro_gel.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.lec2_3.pdf"
+                  type="other"
+                  href="contents/lecture-notes/lec2_3.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/lec2_3.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/lec2_3.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.color_coding.jpg"
+                  type="other"
+                  href="contents/labs/color_coding.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/color_coding.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/color_coding.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.m13_genome.jpg"
+                  type="other"
+                  href="contents/labs/m13_genome.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/m13_genome.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/m13_genome.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.mod1_papers.index.htm"
+                  type="webcontent"
+                  href="contents/assignments/mod1_papers/index.htm">
+            <metadata>
+                <adlcp:location>contents/assignments/mod1_papers/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/mod1_papers/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-fall-2007"/>            
+        </resource>
+        <resource identifier="r_contents.labs.mod1_ta_notes.index.htm"
+                  type="webcontent"
+                  href="contents/labs/mod1_ta_notes/index.htm">
+            <metadata>
+                <adlcp:location>contents/labs/mod1_ta_notes/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/mod1_ta_notes/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-fall-2007"/>            
+        </resource>
+        <resource identifier="r_contents.assignments.sci_writing_guid.pdf"
+                  type="other"
+                  href="contents/assignments/sci_writing_guid.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/sci_writing_guid.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/sci_writing_guid.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.flrscnc_mcrscope.jpg"
+                  type="other"
+                  href="contents/labs/flrscnc_mcrscope.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/flrscnc_mcrscope.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/flrscnc_mcrscope.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.guide_lab_notebook.index.htm"
+                  type="webcontent"
+                  href="contents/labs/guide_lab_notebook/index.htm">
+            <metadata>
+                <adlcp:location>contents/labs/guide_lab_notebook/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/guide_lab_notebook/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-fall-2007"/>            
+        </resource>
+        <resource identifier="r_contents.labs.mod2_6.index.htm"
+                  type="webcontent"
+                  href="contents/labs/mod2_6/index.htm">
+            <metadata>
+                <adlcp:location>contents/labs/mod2_6/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/mod2_6/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-fall-2007"/>            
+        </resource>
+        <resource identifier="r_contents.labs.plasmid_map.jpg"
+                  type="other"
+                  href="contents/labs/plasmid_map.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/plasmid_map.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/plasmid_map.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.protein_function.jpg"
+                  type="other"
+                  href="contents/labs/protein_function.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/protein_function.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/protein_function.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.rbsvsconsensus.jpg"
+                  type="other"
+                  href="contents/labs/rbsvsconsensus.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/rbsvsconsensus.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/rbsvsconsensus.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.mod1_3.index.htm"
+                  type="webcontent"
+                  href="contents/labs/mod1_3/index.htm">
+            <metadata>
+                <adlcp:location>contents/labs/mod1_3/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/mod1_3/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-fall-2007"/>            
+        </resource>
+        <resource identifier="r_contents.labs.dna_strand2.jpg"
+                  type="other"
+                  href="contents/labs/dna_strand2.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/dna_strand2.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/dna_strand2.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.mod1_2_photo.jpg"
+                  type="other"
+                  href="contents/labs/mod1_2_photo.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/mod1_2_photo.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/mod1_2_photo.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.labs.surrogate_13.jpg"
+                  type="other"
+                  href="contents/labs/surrogate_13.jpg">
+            <metadata>
+                <adlcp:location>contents/labs/surrogate_13.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/labs/surrogate_13.jpg"/>
+                        
+        </resource>        
+        <resource identifier="r_common.search.AdvancedSearch.htm"
+                  type="webcontent"
+                  href="common/search/AdvancedSearch.htm">
+            <file href="common/search/AdvancedSearch.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-fall-2007"/>            
+        </resource>
+        <resource identifier="r_common.jsp.feedback.htm"
+                  type="webcontent"
+                  href="common/jsp/feedback.htm">
+            <file href="common/jsp/feedback.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-fall-2007"/>            
+        </resource>
+        <resource identifier="r_common.terms.index.htm"
+                  type="webcontent"
+                  href="common/terms/index.htm">
+            <file href="common/terms/share.png"/>
+            <file href="common/terms/remix.png"/>
+            <file href="common/terms/by.png"/>
+            <file href="common/terms/nc.png"/>
+            <file href="common/terms/sa.png"/>
+            <file href="common/terms/deedheadyellow.png"/>
+            <file href="common/terms/freedomsheader.png"/>
+            <file href="common/terms/limitationsheader.png"/>
+            <file href="common/terms/deedfootyellow.png"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-fall-2007"/>            
+        </resource>
+        <resource identifier="r_common.terms.trademarks.index.htm"
+                  type="webcontent"
+                  href="common/terms/trademarks/index.htm">
+            <file href="common/terms/trademarks/index.htm"/>
+            <dependency identifierref="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-fall-2007"/>            
+        </resource>
+        <resource identifier="webrenderrequirements.20-109-laboratory-fundamentals-in-biological-engineering-fall-2007"
+                  type="webcontent">
+        	<file href="common/styles/base.css"/>
+        	<file href="common/styles/courses.css"/>
+        	<file href="common/styles/courses_new.css"/>
+        	<file href="common/styles/global.css"/>
+        	<file href="common/styles/grid.css"/>
+        	<file href="common/styles/highslide.css"/>
+        	<file href="common/styles/highslide-ie6.css"/>
+        	<file href="common/styles/jquery.bubblepopup.css"/>
+        	<file href="common/styles/jquery.jscrollpane.css"/>
+        	<file href="common/styles/jquery-ui.css"/>
+        	<file href="common/styles/menu.css"/>
+        	<file href="common/styles/scholar2.css"/>
+        	<file href="common/styles/media_tabs.css"/>
+        	<file href="common/scripts/bubble-popup-offline.js"/>
+        	<file href="common/scripts/common-utils-offline.js"/>
+        	<file href="common/scripts/highslide-with-gallery.js"/>
+        	<file href="common/scripts/jquery.bubblepopup.min.js"/>
+        	<file href="common/scripts/jquery.jscrollpane.min.js"/>
+        	<file href="common/scripts/jquery-ui.min.js"/>
+        	<file href="common/scripts/jQuizMe-uncompressed.js"/>
+        	<file href="common/scripts/ocw-offline.js"/>
+        	<file href="common/scripts/expandy.js"/>
+        	<file href="common/images/ocw_mast.png"/>
+        	<file href="common/images/button_subscribe.png"/>
+        	<file href="common/images/icon_fb.png"/>
+        	<file href="common/images/icon_tw.png"/>
+        	<file href="common/images/top-nav_home.png"/>
+        	<file href="common/images/button_search.png"/>
+        	<file href="common/images/bg_top.png"/>
+        	<file href="common/images/bg_social.png"/>
+        	<file href="common/images/bg_mega-courses.png"/>
+        	<file href="common/images/bg_center2.png"/>
+        	<file href="common/images/bg_course-nav_current.png"/>
+        	<file href="common/images/button_donate-now.png"/>
+        	<file href="common/images/logo_mit.png"/>
+        	<file href="common/images/logo_ocwc.gif"/>
+        	<file href="common/images/cc_by-nc-sa.png"/>
+        	<file href="common/images/logo_dow.png"/>
+        	<file href="common/images/logo_lockheed.png"/>
+        	<file href="common/images/logo_mathworks.png"/>
+        	<file href="common/images/logo_abinitio.png"/>
+        	<file href="common/images/bg_bottom.png"/>
+        	<file href="common/images/nav_arrow.png"/>
+        	<file href="common/images/black-arrow.gif"/>
+        	<file href="common/images/trans.gif"/>
+        	<file href="common/images/arrow-bullet.gif"/>
+        	<file href="common/images/apple-touch-icon.png"/>
+        	<file href="common/images/highslide/graphics/zoomin.cur"/>
+        	<file href="common/images/highslide/graphics/zoomout.cur"/>
+        	<file href="common/images/highslide/graphics/controlbar2.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar3.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar4.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar4-hover.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar-black-border.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar-white.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar-white-small.gif"/>
+        	<file href="common/images/highslide/graphics/fullexpand.gif"/>
+        	<file href="common/images/highslide/graphics/icon.gif"/>
+        	<file href="common/images/highslide/graphics/loader.gif"/>
+        	<file href="common/images/highslide/graphics/loader.white.gif"/>
+        	<file href="common/images/highslide/graphics/resize.gif"/>
+        	<file href="common/images/highslide/graphics/close.png"/>
+        	<file href="common/images/highslide/graphics/closeX.png"/>
+        	<file href="common/images/highslide/graphics/controlbar-text-buttons.png"/>
+        	<file href="common/images/highslide/graphics/geckodimmer.png"/>
+        	<file href="common/images/highslide/graphics/scrollarrows.png"/>
+        	<file href="common/images/highslide/graphics/outlines/beveled.png"/>
+        	<file href="common/images/highslide/graphics/outlines/drop-shadow.png"/>
+        	<file href="common/images/highslide/graphics/outlines/glossy-dark.png"/>
+        	<file href="common/images/highslide/graphics/outlines/outer-glow.png"/>
+        	<file href="common/images/highslide/graphics/outlines/rounded-black.png"/>
+        	<file href="common/images/highslide/graphics/outlines/rounded-white.png"/>
+        	<file href="common/images/highslide/graphics/outlines/Outlines.psd"/>
+        	<file href="common/images/button_continue.jpg"/>
+        	<file href="common/images/button_donate.jpg"/>
+        	<file href="common/images/button_start.jpg"/>
+        	<file href="common/images/scholar_bar_chp.png"/>
+        	<file href="common/images/scholar_bar.png"/>
+        	<file href="common/images/logo_pdf.jpg"/>
+        	<file href="common/images/h2_trigger_open_close.gif"/>
+        	<file href="common/images/bookmark.gif"/>
+        	<file href="common/images/check.png"/>
+        	<file href="common/images/lightbulb.png"/>
+        	<file href="common/images/audio_file.gif"/>
+        	<file href="common/images/audio_only_slate.gif"/>
+        	<file href="common/images/video_file.gif"/>
+        	<file href="common/images/back-5.png"/>
+        	<file href="common/images/btn_next_resource.png"/>
+        	<file href="common/images/btn_previous_resource.png"/>
+        	<file href="common/images/close.png"/>
+        	<file href="common/images/inacessible.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/bottom-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/bottom-middle.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/bottom-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/middle-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/middle-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-bottom.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-top.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/top-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/top-middle.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/top-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/bottom-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/bottom-middle.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/bottom-right.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/middle-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/middle-right.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-bottom.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-right.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-top.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/top-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/top-middle.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/top-right.png"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.woff"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.ttf"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.svg"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.eot"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.woff"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.ttf"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.eot"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.svg"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.woff"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.ttf"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.svg"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.eot"/>
+        </resource>        
+  </resources>
+</manifest>

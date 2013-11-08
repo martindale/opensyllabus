@@ -1,0 +1,3603 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest xmlns="http://www.imsglobal.org/xsd/imscp_v1p1"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+          xmlns:cwsp="http://www.dspace.org/xmlns/cwspace_imscp"
+          xmlns:ocw="http://ocw.mit.edu/xmlns/ocw_imscp"
+          xmlns:lom="http://ocw.mit.edu/xmlns/LOM"
+          identifier="urn_edu.mit.ocw_7-014-introductory-biology-spring-2005"
+          version="2013-7-24T7:53:20"
+          cwsp:packageType="Course"
+          xml:base="7-014-spring-2005/"
+          xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 http://www.imsglobal.org/xsd/imscp_v1p1.xsd  http://www.adlnet.org/xsd/adlcp_rootv1p2 http://www.adlnet.org/xsd/adlcp_rootv1p2.xsd http://www.dspace.org/xmlns/cwspace_imscp http://www.dspace.org/xsd/cwspace_imscp/version10/cwspace_imscpv10.xsd http://ocw.mit.edu/xmlns/ocw_imscp http://ocw.mit.edu/xsd/ocw_imscp/version10/ocw_imscpv10.xsd http://ocw.mit.edu/xmlns/LOM http://ocw.mit.edu/xsd/LOM/lomv1.0/lomv1.0.xsd">
+   	<metadata>
+   		<schema>IMS Content</schema>
+        <schemaversion>1.1</schemaversion>
+        <cwsp:packageMetadata>
+            <cwsp:sourceSystem>OCW</cwsp:sourceSystem>
+            <cwsp:profile>CWSpace</cwsp:profile>
+            <cwsp:profileVersion>0.1</cwsp:profileVersion>
+        </cwsp:packageMetadata>
+        <lom:general uniqueElementName="general">
+            <lom:title uniqueElementName="title">
+				<lom:string language="en">Introductory Biology</lom:string>
+			</lom:title>
+			<lom:identifier>
+				<lom:catalog uniqueElementName="catalog">OCW Master Course Number</lom:catalog>
+		      	<lom:entry uniqueElementName="entry">7.014</lom:entry>
+			</lom:identifier>
+        </lom:general>
+        <lom:lifecycle uniqueElementName="lifeCycle">
+            <lom:version uniqueElementName="version">
+				<lom:string language="en">Spring 2005</lom:string>
+			</lom:version>
+            <lom:contribute>
+	            <lom:role>
+	                <lom:source uniqueElementName="source">OCW_LOMv1.0</lom:source>
+	                <lom:value uniqueElementName="value">Author</lom:value>
+	            </lom:role>
+	            <lom:entity>Walker, Graham</lom:entity>
+	            <lom:date uniqueElementName="date">
+	                <lom:dateTime uniqueElementName="dateTime">2013-7-24</lom:dateTime>
+	            </lom:date>
+        	</lom:contribute>
+            <lom:contribute>
+	            <lom:role>
+	                <lom:source uniqueElementName="source">OCW_LOMv1.0</lom:source>
+	                <lom:value uniqueElementName="value">Author</lom:value>
+	            </lom:role>
+	            <lom:entity>Khodor, Julia</lom:entity>
+	            <lom:date uniqueElementName="date">
+	                <lom:dateTime uniqueElementName="dateTime">2013-7-24</lom:dateTime>
+	            </lom:date>
+        	</lom:contribute>
+            <lom:contribute>
+	            <lom:role>
+	                <lom:source uniqueElementName="source">OCW_LOMv1.0</lom:source>
+	                <lom:value uniqueElementName="value">Author</lom:value>
+	            </lom:role>
+	            <lom:entity>Mischke, Michelle</lom:entity>
+	            <lom:date uniqueElementName="date">
+	                <lom:dateTime uniqueElementName="dateTime">2013-7-24</lom:dateTime>
+	            </lom:date>
+        	</lom:contribute>
+            <lom:contribute>
+	            <lom:role>
+	                <lom:source uniqueElementName="source">OCW_LOMv1.0</lom:source>
+	                <lom:value uniqueElementName="value">Author</lom:value>
+	            </lom:role>
+	            <lom:entity>Chisholm, Penny</lom:entity>
+	            <lom:date uniqueElementName="date">
+	                <lom:dateTime uniqueElementName="dateTime">2013-7-24</lom:dateTime>
+	            </lom:date>
+        	</lom:contribute>
+        </lom:lifecycle>
+        <lom:relation uniqueElementName="relation">
+        	<lom:kind uniqueElementName="kind">
+        		<lom:source uniqueElementName="source">OCW_LOMv1.0</lom:source>
+        		<lom:value uniqueElementName="value">hasversion</lom:value>
+        	</lom:kind>
+        	<lom:resource uniqueElementName="resource">
+        		<lom:identifier>
+        			<lom:catalog uniqueElementName="catalog">URI</lom:catalog>
+        			<lom:entry uniqueElementName="entry">http://www.snow.or.kr/lecture/pure_sciences/biology/447.html</lom:entry>
+        		</lom:identifier>
+        		<lom:description uniqueElementName="description">
+        			<lom:string language="en"></lom:string>
+        		</lom:description>
+        	</lom:resource>
+        </lom:relation>
+        <lom:taxonPath>
+            <lom:source uniqueElementName="source">
+                <lom:string language="en">OCW Course Categories</lom:string>
+            </lom:source>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Science</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Biology</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            
+        </lom:taxonPath>        
+        <adlcp:location>contents/index.htm.xml</adlcp:location>
+    </metadata>
+    <organizations default="ocw_7-014-introductory-biology-spring-2005">
+        <organization identifier="ocw_7-014-introductory-biology-spring-2005">
+            <title>Introductory Biology</title>
+            <item identifier="i_7-014-introductory-biology-spring-2005.CourseHome"
+                  identifierref="r_contents.index.htm"
+                  ocw:sectionTemplateType="CourseHomePage"
+                  ocw:sectionTemplateVersion="2013-7-24">
+				<title>Introductory Biology</title>
+				<item identifier="i_7-014-introductory-biology-spring-2005.7-014s05.jpg"
+          identifierref="r_contents.7-014s05.jpg">
+				<title>7-014s05.jpg</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.7-014s05-th.jpg"
+          identifierref="r_contents.7-014s05-th.jpg">
+				<title>7-014s05-th.jpg</title>
+				</item>
+			</item>
+            <item identifier="i_7-014-introductory-biology-spring-2005.syllabus"
+                  identifierref="r_contents.syllabus.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-7-24">
+				<title>Syllabus</title>
+			</item>
+            <item identifier="i_7-014-introductory-biology-spring-2005.calendar"
+                  identifierref="r_contents.calendar.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-7-24">
+				<title>Calendar</title>
+			</item>
+            <item identifier="i_7-014-introductory-biology-spring-2005.readings"
+                  identifierref="r_contents.readings.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-7-24">
+				<title>Readings</title>
+				<item identifier="i_7-014-introductory-biology-spring-2005.readings.l17_redox_handou.pdf"
+          identifierref="r_contents.readings.l17_redox_handou.pdf">
+				<title>l17_redox_handou.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.readings.l16_17_carb_ener.pdf"
+          identifierref="r_contents.readings.l16_17_carb_ener.pdf">
+				<title>l16_17_carb_ener.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.readings.lec4_luria_exp.pdf"
+          identifierref="r_contents.readings.lec4_luria_exp.pdf">
+				<title>lec4_luria_exp.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.readings.l14_bioche_genet.pdf"
+          identifierref="r_contents.readings.l14_bioche_genet.pdf">
+				<title>l14_bioche_genet.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.readings.biochem5_6.pdf"
+          identifierref="r_contents.readings.biochem5_6.pdf">
+				<title>biochem5_6.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.readings.l5_bioche_deltag.pdf"
+          identifierref="r_contents.readings.l5_bioche_deltag.pdf">
+				<title>l5_bioche_deltag.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.readings.biochem1_3.pdf"
+          identifierref="r_contents.readings.biochem1_3.pdf">
+				<title>biochem1_3.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.readings.l18_productivity.pdf"
+          identifierref="r_contents.readings.l18_productivity.pdf">
+				<title>l18_productivity.pdf</title>
+				</item>
+			</item>
+            <item identifier="i_7-014-introductory-biology-spring-2005.recitations"
+                  identifierref="r_contents.recitations.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-7-24">
+				<title>Recitations</title>
+				<item identifier="i_7-014-introductory-biology-spring-2005.recitations.section14.pdf"
+          identifierref="r_contents.recitations.section14.pdf">
+				<title>section14.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.recitations.section17_ak.pdf"
+          identifierref="r_contents.recitations.section17_ak.pdf">
+				<title>section17_ak.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.recitations.section8.pdf"
+          identifierref="r_contents.recitations.section8.pdf">
+				<title>section8.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.recitations.section18_ak.pdf"
+          identifierref="r_contents.recitations.section18_ak.pdf">
+				<title>section18_ak.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.recitations.section4.pdf"
+          identifierref="r_contents.recitations.section4.pdf">
+				<title>section4.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.recitations.section9.pdf"
+          identifierref="r_contents.recitations.section9.pdf">
+				<title>section9.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.recitations.section13.pdf"
+          identifierref="r_contents.recitations.section13.pdf">
+				<title>section13.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.recitations.section16_ak.pdf"
+          identifierref="r_contents.recitations.section16_ak.pdf">
+				<title>section16_ak.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.recitations.section2_ak.pdf"
+          identifierref="r_contents.recitations.section2_ak.pdf">
+				<title>section2_ak.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.recitations.section20.pdf"
+          identifierref="r_contents.recitations.section20.pdf">
+				<title>section20.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.recitations.section10.pdf"
+          identifierref="r_contents.recitations.section10.pdf">
+				<title>section10.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.recitations.section10_ak.pdf"
+          identifierref="r_contents.recitations.section10_ak.pdf">
+				<title>section10_ak.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.recitations.section5_ak.pdf"
+          identifierref="r_contents.recitations.section5_ak.pdf">
+				<title>section5_ak.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.recitations.section19_review.pdf"
+          identifierref="r_contents.recitations.section19_review.pdf">
+				<title>section19_review.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.recitations.section18.pdf"
+          identifierref="r_contents.recitations.section18.pdf">
+				<title>section18.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.recitations.section13_ak.pdf"
+          identifierref="r_contents.recitations.section13_ak.pdf">
+				<title>section13_ak.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.recitations.section1_ak.pdf"
+          identifierref="r_contents.recitations.section1_ak.pdf">
+				<title>section1_ak.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.recitations.section11.pdf"
+          identifierref="r_contents.recitations.section11.pdf">
+				<title>section11.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.recitations.section8_ak.pdf"
+          identifierref="r_contents.recitations.section8_ak.pdf">
+				<title>section8_ak.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.recitations.section14_ak.pdf"
+          identifierref="r_contents.recitations.section14_ak.pdf">
+				<title>section14_ak.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.recitations.section12_ak.pdf"
+          identifierref="r_contents.recitations.section12_ak.pdf">
+				<title>section12_ak.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.recitations.section11_ak.pdf"
+          identifierref="r_contents.recitations.section11_ak.pdf">
+				<title>section11_ak.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.recitations.section9_ak.pdf"
+          identifierref="r_contents.recitations.section9_ak.pdf">
+				<title>section9_ak.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.recitations.section16.pdf"
+          identifierref="r_contents.recitations.section16.pdf">
+				<title>section16.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.recitations.section24.pdf"
+          identifierref="r_contents.recitations.section24.pdf">
+				<title>section24.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.recitations.section21.pdf"
+          identifierref="r_contents.recitations.section21.pdf">
+				<title>section21.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.recitations.section4_ak.pdf"
+          identifierref="r_contents.recitations.section4_ak.pdf">
+				<title>section4_ak.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.recitations.section23.pdf"
+          identifierref="r_contents.recitations.section23.pdf">
+				<title>section23.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.recitations.section21_ak.pdf"
+          identifierref="r_contents.recitations.section21_ak.pdf">
+				<title>section21_ak.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.recitations.section15.pdf"
+          identifierref="r_contents.recitations.section15.pdf">
+				<title>section15.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.recitations.section3.pdf"
+          identifierref="r_contents.recitations.section3.pdf">
+				<title>section3.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.recitations.section23_ak.pdf"
+          identifierref="r_contents.recitations.section23_ak.pdf">
+				<title>section23_ak.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.recitations.section2.pdf"
+          identifierref="r_contents.recitations.section2.pdf">
+				<title>section2.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.recitations.Section6Review.pdf"
+          identifierref="r_contents.recitations.Section6Review.pdf">
+				<title>Section6Review.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.recitations.section15_ak.pdf"
+          identifierref="r_contents.recitations.section15_ak.pdf">
+				<title>section15_ak.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.recitations.section24_ak.pdf"
+          identifierref="r_contents.recitations.section24_ak.pdf">
+				<title>section24_ak.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.recitations.section20_ak.pdf"
+          identifierref="r_contents.recitations.section20_ak.pdf">
+				<title>section20_ak.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.recitations.section17.pdf"
+          identifierref="r_contents.recitations.section17.pdf">
+				<title>section17.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.recitations.section7_ak.pdf"
+          identifierref="r_contents.recitations.section7_ak.pdf">
+				<title>section7_ak.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.recitations.section5.pdf"
+          identifierref="r_contents.recitations.section5.pdf">
+				<title>section5.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.recitations.section1.pdf"
+          identifierref="r_contents.recitations.section1.pdf">
+				<title>section1.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.recitations.section22.pdf"
+          identifierref="r_contents.recitations.section22.pdf">
+				<title>section22.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.recitations.section7.pdf"
+          identifierref="r_contents.recitations.section7.pdf">
+				<title>section7.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.recitations.section22_ak.pdf"
+          identifierref="r_contents.recitations.section22_ak.pdf">
+				<title>section22_ak.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.recitations.section12.pdf"
+          identifierref="r_contents.recitations.section12.pdf">
+				<title>section12.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.recitations.section3_ak.pdf"
+          identifierref="r_contents.recitations.section3_ak.pdf">
+				<title>section3_ak.pdf</title>
+				</item>
+			</item>
+            <item identifier="i_7-014-introductory-biology-spring-2005.assignments"
+                  identifierref="r_contents.assignments.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-7-24">
+				<title>Assignments</title>
+				<item identifier="i_7-014-introductory-biology-spring-2005.assignments.ps7q_05.pdf"
+          identifierref="r_contents.assignments.ps7q_05.pdf">
+				<title>ps7q_05.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.assignments.ps2s_05.pdf"
+          identifierref="r_contents.assignments.ps2s_05.pdf">
+				<title>ps2s_05.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.assignments.ps5q_05.pdf"
+          identifierref="r_contents.assignments.ps5q_05.pdf">
+				<title>ps5q_05.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.assignments.ps4s_05.pdf"
+          identifierref="r_contents.assignments.ps4s_05.pdf">
+				<title>ps4s_05.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.assignments.ps3q_05.pdf"
+          identifierref="r_contents.assignments.ps3q_05.pdf">
+				<title>ps3q_05.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.assignments.ps7s_05.pdf"
+          identifierref="r_contents.assignments.ps7s_05.pdf">
+				<title>ps7s_05.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.assignments.pset1q.pdf"
+          identifierref="r_contents.assignments.pset1q.pdf">
+				<title>pset1q.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.assignments.pset1s.pdf"
+          identifierref="r_contents.assignments.pset1s.pdf">
+				<title>pset1s.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.assignments.ps2q_05.pdf"
+          identifierref="r_contents.assignments.ps2q_05.pdf">
+				<title>ps2q_05.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.assignments.ps6s_05.pdf"
+          identifierref="r_contents.assignments.ps6s_05.pdf">
+				<title>ps6s_05.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.assignments.ps3s_05.pdf"
+          identifierref="r_contents.assignments.ps3s_05.pdf">
+				<title>ps3s_05.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.assignments.ps4q_05.pdf"
+          identifierref="r_contents.assignments.ps4q_05.pdf">
+				<title>ps4q_05.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.assignments.ps6q_05.pdf"
+          identifierref="r_contents.assignments.ps6q_05.pdf">
+				<title>ps6q_05.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.assignments.ps5s_05.pdf"
+          identifierref="r_contents.assignments.ps5s_05.pdf">
+				<title>ps5s_05.pdf</title>
+				</item>
+			</item>
+            <item identifier="i_7-014-introductory-biology-spring-2005.exams"
+                  identifierref="r_contents.exams.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-7-24">
+				<title>Exams</title>
+				<item identifier="i_7-014-introductory-biology-spring-2005.exams.quiz3_handout.pdf"
+          identifierref="r_contents.exams.quiz3_handout.pdf">
+				<title>quiz3_handout.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.exams.quiz2_final.pdf"
+          identifierref="r_contents.exams.quiz2_final.pdf">
+				<title>quiz2_final.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.exams.quiz1_2_24.pdf"
+          identifierref="r_contents.exams.quiz1_2_24.pdf">
+				<title>quiz1_2_24.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.exams.quiz2ho.pdf"
+          identifierref="r_contents.exams.quiz2ho.pdf">
+				<title>quiz2ho.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.exams.quiz1_prep_ho.pdf"
+          identifierref="r_contents.exams.quiz1_prep_ho.pdf">
+				<title>quiz1_prep_ho.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.exams.quiz3_s.pdf"
+          identifierref="r_contents.exams.quiz3_s.pdf">
+				<title>quiz3_s.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.exams.quiz2_s.pdf"
+          identifierref="r_contents.exams.quiz2_s.pdf">
+				<title>quiz2_s.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.exams.quiz1_s.pdf"
+          identifierref="r_contents.exams.quiz1_s.pdf">
+				<title>quiz1_s.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.exams.quiz3_4_21.pdf"
+          identifierref="r_contents.exams.quiz3_4_21.pdf">
+				<title>quiz3_4_21.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.exams.final_handout.pdf"
+          identifierref="r_contents.exams.final_handout.pdf">
+				<title>final_handout.pdf</title>
+				</item>
+			</item>
+            <item identifier="i_7-014-introductory-biology-spring-2005.study-materials"
+                  identifierref="r_contents.study-materials.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-7-24">
+				<title>Study Materials</title>
+				<item identifier="i_7-014-introductory-biology-spring-2005.study-materials.ps2s.pdf"
+          identifierref="r_contents.study-materials.ps2s.pdf">
+				<title>ps2s.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.study-materials.ps7q.pdf"
+          identifierref="r_contents.study-materials.ps7q.pdf">
+				<title>ps7q.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.study-materials.ps3s.pdf"
+          identifierref="r_contents.study-materials.ps3s.pdf">
+				<title>ps3s.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.study-materials.ps1s.pdf"
+          identifierref="r_contents.study-materials.ps1s.pdf">
+				<title>ps1s.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.study-materials.ps8s.pdf"
+          identifierref="r_contents.study-materials.ps8s.pdf">
+				<title>ps8s.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.study-materials.ps6q.pdf"
+          identifierref="r_contents.study-materials.ps6q.pdf">
+				<title>ps6q.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.study-materials.ps3q.pdf"
+          identifierref="r_contents.study-materials.ps3q.pdf">
+				<title>ps3q.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.study-materials.ps6s.pdf"
+          identifierref="r_contents.study-materials.ps6s.pdf">
+				<title>ps6s.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.study-materials.ps5q.pdf"
+          identifierref="r_contents.study-materials.ps5q.pdf">
+				<title>ps5q.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.study-materials.ps7s.pdf"
+          identifierref="r_contents.study-materials.ps7s.pdf">
+				<title>ps7s.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.study-materials.ps5s.pdf"
+          identifierref="r_contents.study-materials.ps5s.pdf">
+				<title>ps5s.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.study-materials.ps8q.pdf"
+          identifierref="r_contents.study-materials.ps8q.pdf">
+				<title>ps8q.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.study-materials.ps4s.pdf"
+          identifierref="r_contents.study-materials.ps4s.pdf">
+				<title>ps4s.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.study-materials.ps4q.pdf"
+          identifierref="r_contents.study-materials.ps4q.pdf">
+				<title>ps4q.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.study-materials.ps1q.pdf"
+          identifierref="r_contents.study-materials.ps1q.pdf">
+				<title>ps1q.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.study-materials.ps2q.pdf"
+          identifierref="r_contents.study-materials.ps2q.pdf">
+				<title>ps2q.pdf</title>
+				</item>
+			</item>
+            <item identifier="i_7-014-introductory-biology-spring-2005.video-lectures"
+                  identifierref="r_contents.video-lectures.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-7-24">
+				<title>Video Lectures</title>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.7_0142005L28.pdf"
+          identifierref="r_contents.video-lectures.7_0142005L28.pdf">
+				<title>7_0142005L28.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.7_0142005L17.pdf"
+          identifierref="r_contents.video-lectures.7_0142005L17.pdf">
+				<title>7_0142005L17.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.7_0142005L30.pdf"
+          identifierref="r_contents.video-lectures.7_0142005L30.pdf">
+				<title>7_0142005L30.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.7_0142005L27.pdf"
+          identifierref="r_contents.video-lectures.7_0142005L27.pdf">
+				<title>7_0142005L27.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.lec33_35_handout.pdf"
+          identifierref="r_contents.video-lectures.lec33_35_handout.pdf">
+				<title>lec33_35_handout.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.7_0142005L02.pdf"
+          identifierref="r_contents.video-lectures.7_0142005L02.pdf">
+				<title>7_0142005L02.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.7_0142005L08.pdf"
+          identifierref="r_contents.video-lectures.7_0142005L08.pdf">
+				<title>7_0142005L08.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.7_0142005L25.pdf"
+          identifierref="r_contents.video-lectures.7_0142005L25.pdf">
+				<title>7_0142005L25.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.7_0142005L20.pdf"
+          identifierref="r_contents.video-lectures.7_0142005L20.pdf">
+				<title>7_0142005L20.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.7_0142005L01.pdf"
+          identifierref="r_contents.video-lectures.7_0142005L01.pdf">
+				<title>7_0142005L01.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.lectur18_handout.pdf"
+          identifierref="r_contents.video-lectures.lectur18_handout.pdf">
+				<title>lectur18_handout.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.7_0142005L03.pdf"
+          identifierref="r_contents.video-lectures.7_0142005L03.pdf">
+				<title>7_0142005L03.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.7_0142005L19.pdf"
+          identifierref="r_contents.video-lectures.7_0142005L19.pdf">
+				<title>7_0142005L19.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.7_0142005L10.pdf"
+          identifierref="r_contents.video-lectures.7_0142005L10.pdf">
+				<title>7_0142005L10.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.7_0142005L33.pdf"
+          identifierref="r_contents.video-lectures.7_0142005L33.pdf">
+				<title>7_0142005L33.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.lectur16_handout.pdf"
+          identifierref="r_contents.video-lectures.lectur16_handout.pdf">
+				<title>lectur16_handout.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.lectur17_handout.pdf"
+          identifierref="r_contents.video-lectures.lectur17_handout.pdf">
+				<title>lectur17_handout.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.7_0142005L13.pdf"
+          identifierref="r_contents.video-lectures.7_0142005L13.pdf">
+				<title>7_0142005L13.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.7_0142005L26.pdf"
+          identifierref="r_contents.video-lectures.7_0142005L26.pdf">
+				<title>7_0142005L26.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.7_0142005L16.pdf"
+          identifierref="r_contents.video-lectures.7_0142005L16.pdf">
+				<title>7_0142005L16.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.7_0142005L12.pdf"
+          identifierref="r_contents.video-lectures.7_0142005L12.pdf">
+				<title>7_0142005L12.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.7_0142005L05.pdf"
+          identifierref="r_contents.video-lectures.7_0142005L05.pdf">
+				<title>7_0142005L05.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.7_0142005L22.pdf"
+          identifierref="r_contents.video-lectures.7_0142005L22.pdf">
+				<title>7_0142005L22.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.7_0142005L23.pdf"
+          identifierref="r_contents.video-lectures.7_0142005L23.pdf">
+				<title>7_0142005L23.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.lec29n30_handout.pdf"
+          identifierref="r_contents.video-lectures.lec29n30_handout.pdf">
+				<title>lec29n30_handout.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.7_0142005L15.pdf"
+          identifierref="r_contents.video-lectures.7_0142005L15.pdf">
+				<title>7_0142005L15.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.7_0142005L07.pdf"
+          identifierref="r_contents.video-lectures.7_0142005L07.pdf">
+				<title>7_0142005L07.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.7_0142005L06.pdf"
+          identifierref="r_contents.video-lectures.7_0142005L06.pdf">
+				<title>7_0142005L06.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.7_0142005L29.pdf"
+          identifierref="r_contents.video-lectures.7_0142005L29.pdf">
+				<title>7_0142005L29.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.7_0142005L31.pdf"
+          identifierref="r_contents.video-lectures.7_0142005L31.pdf">
+				<title>7_0142005L31.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.7_0142005L11.pdf"
+          identifierref="r_contents.video-lectures.7_0142005L11.pdf">
+				<title>7_0142005L11.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.7_0142005L36.pdf"
+          identifierref="r_contents.video-lectures.7_0142005L36.pdf">
+				<title>7_0142005L36.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.7_0142005L35.pdf"
+          identifierref="r_contents.video-lectures.7_0142005L35.pdf">
+				<title>7_0142005L35.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.7_0142005L09.pdf"
+          identifierref="r_contents.video-lectures.7_0142005L09.pdf">
+				<title>7_0142005L09.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.7_0142005L18.pdf"
+          identifierref="r_contents.video-lectures.7_0142005L18.pdf">
+				<title>7_0142005L18.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.7_0142005L34.pdf"
+          identifierref="r_contents.video-lectures.7_0142005L34.pdf">
+				<title>7_0142005L34.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.7_0142005L14.pdf"
+          identifierref="r_contents.video-lectures.7_0142005L14.pdf">
+				<title>7_0142005L14.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.7_0142005L21.pdf"
+          identifierref="r_contents.video-lectures.7_0142005L21.pdf">
+				<title>7_0142005L21.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.7_0142005L24.pdf"
+          identifierref="r_contents.video-lectures.7_0142005L24.pdf">
+				<title>7_0142005L24.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.7_0142005L32.pdf"
+          identifierref="r_contents.video-lectures.7_0142005L32.pdf">
+				<title>7_0142005L32.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.1-introduction"
+          identifierref="r_contents.video-lectures.1-introduction.index.htm">
+				<title>1: Introduction</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.1-introduction.lec1.jpg"
+          identifierref="r_contents.video-lectures.1-introduction.lec1.jpg">
+				<title>lec1.jpg</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.1-introduction.7.014-2005-L01.srt"
+          identifierref="r_contents.video-lectures.1-introduction.7.014-2005-L01.srt">
+				<title>7.014-2005-L01.srt</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.7_0142005L04.pdf"
+          identifierref="r_contents.video-lectures.7_0142005L04.pdf">
+				<title>7_0142005L04.pdf</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.2-biochemistry-i"
+          identifierref="r_contents.video-lectures.2-biochemistry-i.index.htm">
+				<title>2: Biochemistry I</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.2-biochemistry-i.lec2.jpg"
+          identifierref="r_contents.video-lectures.2-biochemistry-i.lec2.jpg">
+				<title>lec2.jpg</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.2-biochemistry-i.7.014-2005-L02.srt"
+          identifierref="r_contents.video-lectures.2-biochemistry-i.7.014-2005-L02.srt">
+				<title>7.014-2005-L02.srt</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.3-biochemistry-ii"
+          identifierref="r_contents.video-lectures.3-biochemistry-ii.index.htm">
+				<title>3: Biochemistry II</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.3-biochemistry-ii.lec3.jpg"
+          identifierref="r_contents.video-lectures.3-biochemistry-ii.lec3.jpg">
+				<title>lec3.jpg</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.3-biochemistry-ii.7.014-2005-L03.srt"
+          identifierref="r_contents.video-lectures.3-biochemistry-ii.7.014-2005-L03.srt">
+				<title>7.014-2005-L03.srt</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.4-biochemistry-iii"
+          identifierref="r_contents.video-lectures.4-biochemistry-iii.index.htm">
+				<title>4: Biochemistry III</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.4-biochemistry-iii.lec4.jpg"
+          identifierref="r_contents.video-lectures.4-biochemistry-iii.lec4.jpg">
+				<title>lec4.jpg</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.4-biochemistry-iii.7.014-2005-L04.srt"
+          identifierref="r_contents.video-lectures.4-biochemistry-iii.7.014-2005-L04.srt">
+				<title>7.014-2005-L04.srt</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.5-biochemistry-iv"
+          identifierref="r_contents.video-lectures.5-biochemistry-iv.index.htm">
+				<title>5: Biochemistry IV</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.5-biochemistry-iv.lec5.jpg"
+          identifierref="r_contents.video-lectures.5-biochemistry-iv.lec5.jpg">
+				<title>lec5.jpg</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.5-biochemistry-iv.7.014-2005-L05.srt"
+          identifierref="r_contents.video-lectures.5-biochemistry-iv.7.014-2005-L05.srt">
+				<title>7.014-2005-L05.srt</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.6-biochemistry-v"
+          identifierref="r_contents.video-lectures.6-biochemistry-v.index.htm">
+				<title>6: Biochemistry V</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.6-biochemistry-v.lec6.jpg"
+          identifierref="r_contents.video-lectures.6-biochemistry-v.lec6.jpg">
+				<title>lec6.jpg</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.6-biochemistry-v.7.014-2005-L06.srt"
+          identifierref="r_contents.video-lectures.6-biochemistry-v.7.014-2005-L06.srt">
+				<title>7.014-2005-L06.srt</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.7-biochemistry-vi"
+          identifierref="r_contents.video-lectures.7-biochemistry-vi.index.htm">
+				<title>7: Biochemistry VI</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.7-biochemistry-vi.lec7.jpg"
+          identifierref="r_contents.video-lectures.7-biochemistry-vi.lec7.jpg">
+				<title>lec7.jpg</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.7-biochemistry-vi.7.014-2005-L07.srt"
+          identifierref="r_contents.video-lectures.7-biochemistry-vi.7.014-2005-L07.srt">
+				<title>7.014-2005-L07.srt</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.8-biochemistry-vi-cont.-dna-as-genetic-material"
+          identifierref="r_contents.video-lectures.8-biochemistry-vi-cont.-dna-as-genetic-material.index.htm">
+				<title>8: Biochemistry VI (cont.) - DNA as Genetic Material</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.8-biochemistry-vi-cont.-dna-as-genetic-material.lec8.jpg"
+          identifierref="r_contents.video-lectures.8-biochemistry-vi-cont.-dna-as-genetic-material.lec8.jpg">
+				<title>lec8.jpg</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.8-biochemistry-vi-cont.-dna-as-genetic-material.7.014-2005-L08.srt"
+          identifierref="r_contents.video-lectures.8-biochemistry-vi-cont.-dna-as-genetic-material.7.014-2005-L08.srt">
+				<title>7.014-2005-L08.srt</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.9-molecular-biology-i"
+          identifierref="r_contents.video-lectures.9-molecular-biology-i.index.htm">
+				<title>9: Molecular Biology I</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.9-molecular-biology-i.lec9.jpg"
+          identifierref="r_contents.video-lectures.9-molecular-biology-i.lec9.jpg">
+				<title>lec9.jpg</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.9-molecular-biology-i.7.014-2005-L09.srt"
+          identifierref="r_contents.video-lectures.9-molecular-biology-i.7.014-2005-L09.srt">
+				<title>7.014-2005-L09.srt</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.10-molecular-biology-ii-process-of-science"
+          identifierref="r_contents.video-lectures.10-molecular-biology-ii-process-of-science.index.htm">
+				<title>10: Molecular Biology II - Process of Science</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.10-molecular-biology-ii-process-of-science.lec10.jpg"
+          identifierref="r_contents.video-lectures.10-molecular-biology-ii-process-of-science.lec10.jpg">
+				<title>lec10.jpg</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.10-molecular-biology-ii-process-of-science.7.014-2005-L10.srt"
+          identifierref="r_contents.video-lectures.10-molecular-biology-ii-process-of-science.7.014-2005-L10.srt">
+				<title>7.014-2005-L10.srt</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.11-molecular-biology-iii"
+          identifierref="r_contents.video-lectures.11-molecular-biology-iii.index.htm">
+				<title>11: Molecular Biology III</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.11-molecular-biology-iii.lec11.jpg"
+          identifierref="r_contents.video-lectures.11-molecular-biology-iii.lec11.jpg">
+				<title>lec11.jpg</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.11-molecular-biology-iii.7.014-2005-L11.srt"
+          identifierref="r_contents.video-lectures.11-molecular-biology-iii.7.014-2005-L11.srt">
+				<title>7.014-2005-L11.srt</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.12-molecular-biology-iv"
+          identifierref="r_contents.video-lectures.12-molecular-biology-iv.index.htm">
+				<title>12: Molecular Biology IV</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.12-molecular-biology-iv.lec12.jpg"
+          identifierref="r_contents.video-lectures.12-molecular-biology-iv.lec12.jpg">
+				<title>lec12.jpg</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.12-molecular-biology-iv.7.014-2005-L12.srt"
+          identifierref="r_contents.video-lectures.12-molecular-biology-iv.7.014-2005-L12.srt">
+				<title>7.014-2005-L12.srt</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.mediaresource.2010-10-26.0571828698"
+          identifierref="r_contents.video-lectures.mediaresource.2010-10-26.0571828698.index.htm">
+				<title>13: 	  Molecular Biology IV (cont.) - Gene Regulation I</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.mediaresource.2010-10-26.0571828698.lec13.jpg"
+          identifierref="r_contents.video-lectures.mediaresource.2010-10-26.0571828698.lec13.jpg">
+				<title>lec13.jpg</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.mediaresource.2010-10-26.0571828698.7.014-2005-L13.srt"
+          identifierref="r_contents.video-lectures.mediaresource.2010-10-26.0571828698.7.014-2005-L13.srt">
+				<title>7.014-2005-L13.srt</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.14-gene-regulation-ii"
+          identifierref="r_contents.video-lectures.14-gene-regulation-ii.index.htm">
+				<title>14: Gene Regulation II</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.14-gene-regulation-ii.lec14.jpg"
+          identifierref="r_contents.video-lectures.14-gene-regulation-ii.lec14.jpg">
+				<title>lec14.jpg</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.14-gene-regulation-ii.7.014-2005-L14.srt"
+          identifierref="r_contents.video-lectures.14-gene-regulation-ii.7.014-2005-L14.srt">
+				<title>7.014-2005-L14.srt</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.15-bacterial-genetics"
+          identifierref="r_contents.video-lectures.15-bacterial-genetics.index.htm">
+				<title>15: Bacterial Genetics</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.15-bacterial-genetics.lec15.jpg"
+          identifierref="r_contents.video-lectures.15-bacterial-genetics.lec15.jpg">
+				<title>lec15.jpg</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.15-bacterial-genetics.7.014-2005-L15.srt"
+          identifierref="r_contents.video-lectures.15-bacterial-genetics.7.014-2005-L15.srt">
+				<title>7.014-2005-L15.srt</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.1-the-biosphere"
+          identifierref="r_contents.video-lectures.1-the-biosphere.index.htm">
+				<title>16: The Biosphere</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.1-the-biosphere.lec16.jpg"
+          identifierref="r_contents.video-lectures.1-the-biosphere.lec16.jpg">
+				<title>lec16.jpg</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.1-the-biosphere.7.014-2005-L16.srt"
+          identifierref="r_contents.video-lectures.1-the-biosphere.7.014-2005-L16.srt">
+				<title>7.014-2005-L16.srt</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.17-carbon-and-energy-metabolism"
+          identifierref="r_contents.video-lectures.17-carbon-and-energy-metabolism.index.htm">
+				<title>17: Carbon and Energy Metabolism</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.17-carbon-and-energy-metabolism.lec17.jpg"
+          identifierref="r_contents.video-lectures.17-carbon-and-energy-metabolism.lec17.jpg">
+				<title>lec17.jpg</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.17-carbon-and-energy-metabolism.7.014-2005-L17.srt"
+          identifierref="r_contents.video-lectures.17-carbon-and-energy-metabolism.7.014-2005-L17.srt">
+				<title>7.014-2005-L17.srt</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.18-productivity-and-food-webs"
+          identifierref="r_contents.video-lectures.18-productivity-and-food-webs.index.htm">
+				<title>18: Productivity and Food Webs</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.18-productivity-and-food-webs.lec18.jpg"
+          identifierref="r_contents.video-lectures.18-productivity-and-food-webs.lec18.jpg">
+				<title>lec18.jpg</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.18-productivity-and-food-webs.7.014-2005-L18.srt"
+          identifierref="r_contents.video-lectures.18-productivity-and-food-webs.7.014-2005-L18.srt">
+				<title>7.014-2005-L18.srt</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.19-regulation-of-productivity"
+          identifierref="r_contents.video-lectures.19-regulation-of-productivity.index.htm">
+				<title>19: Regulation of Productivity</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.19-regulation-of-productivity.lec19.jpg"
+          identifierref="r_contents.video-lectures.19-regulation-of-productivity.lec19.jpg">
+				<title>lec19.jpg</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.19-regulation-of-productivity.7.014-2005-L19.srt"
+          identifierref="r_contents.video-lectures.19-regulation-of-productivity.7.014-2005-L19.srt">
+				<title>7.014-2005-L19.srt</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.20-limiting-factors-and-biogeochemical-cycleslimiting-factors-and-biogeochemical-cycles"
+          identifierref="r_contents.video-lectures.20-limiting-factors-and-biogeochemical-cycleslimiting-factors-and-biogeochemical-cycles.index.htm">
+				<title>20: Limiting Factors and Biogeochemical Cycles</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.20-limiting-factors-and-biogeochemical-cycleslimiting-factors-and-biogeochemical-cycles.lec20.jpg"
+          identifierref="r_contents.video-lectures.20-limiting-factors-and-biogeochemical-cycleslimiting-factors-and-biogeochemical-cycles.lec20.jpg">
+				<title>lec20.jpg</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.20-limiting-factors-and-biogeochemical-cycleslimiting-factors-and-biogeochemical-cycles.7.014-2005-L20.srt"
+          identifierref="r_contents.video-lectures.20-limiting-factors-and-biogeochemical-cycleslimiting-factors-and-biogeochemical-cycles.7.014-2005-L20.srt">
+				<title>7.014-2005-L20.srt</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.21-mendelian-genetics"
+          identifierref="r_contents.video-lectures.21-mendelian-genetics.index.htm">
+				<title>21: Mendelian Genetics</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.21-mendelian-genetics.lec21.jpg"
+          identifierref="r_contents.video-lectures.21-mendelian-genetics.lec21.jpg">
+				<title>lec21.jpg</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.21-mendelian-genetics.7.014-2005-L21.srt"
+          identifierref="r_contents.video-lectures.21-mendelian-genetics.7.014-2005-L21.srt">
+				<title>7.014-2005-L21.srt</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.22-mitosis-and-meiosis"
+          identifierref="r_contents.video-lectures.22-mitosis-and-meiosis.index.htm">
+				<title>22: Mitosis and Meiosis</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.22-mitosis-and-meiosis.lec22.jpg"
+          identifierref="r_contents.video-lectures.22-mitosis-and-meiosis.lec22.jpg">
+				<title>lec22.jpg</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.22-mitosis-and-meiosis.7.014-2005-L22.srt"
+          identifierref="r_contents.video-lectures.22-mitosis-and-meiosis.7.014-2005-L22.srt">
+				<title>7.014-2005-L22.srt</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.23-diploid-genetics"
+          identifierref="r_contents.video-lectures.23-diploid-genetics.index.htm">
+				<title>23: Diploid Genetics</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.23-diploid-genetics.lec23.jpg"
+          identifierref="r_contents.video-lectures.23-diploid-genetics.lec23.jpg">
+				<title>lec23.jpg</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.23-diploid-genetics.7.014-2005-L23.srt"
+          identifierref="r_contents.video-lectures.23-diploid-genetics.7.014-2005-L23.srt">
+				<title>7.014-2005-L23.srt</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.24-recombinant-dna-i"
+          identifierref="r_contents.video-lectures.24-recombinant-dna-i.index.htm">
+				<title>24: Recombinant DNA I</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.24-recombinant-dna-i.lec24.jpg"
+          identifierref="r_contents.video-lectures.24-recombinant-dna-i.lec24.jpg">
+				<title>lec24.jpg</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.24-recombinant-dna-i.7.014-2005-L24.srt"
+          identifierref="r_contents.video-lectures.24-recombinant-dna-i.7.014-2005-L24.srt">
+				<title>7.014-2005-L24.srt</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.25-recombinant-dna-ii"
+          identifierref="r_contents.video-lectures.25-recombinant-dna-ii.index.htm">
+				<title>25: Recombinant DNA II</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.25-recombinant-dna-ii.lec25.jpg"
+          identifierref="r_contents.video-lectures.25-recombinant-dna-ii.lec25.jpg">
+				<title>lec25.jpg</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.25-recombinant-dna-ii.7.014-2005-L25.srt"
+          identifierref="r_contents.video-lectures.25-recombinant-dna-ii.7.014-2005-L25.srt">
+				<title>7.014-2005-L25.srt</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.26-recombinant-dna-iii"
+          identifierref="r_contents.video-lectures.26-recombinant-dna-iii.index.htm">
+				<title>26: Recombinant DNA III</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.26-recombinant-dna-iii.lec26.jpg"
+          identifierref="r_contents.video-lectures.26-recombinant-dna-iii.lec26.jpg">
+				<title>lec26.jpg</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.26-recombinant-dna-iii.7.014-2005-L26.srt"
+          identifierref="r_contents.video-lectures.26-recombinant-dna-iii.7.014-2005-L26.srt">
+				<title>7.014-2005-L26.srt</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.27-recombinant-dna-iii-cont.-immunology-i"
+          identifierref="r_contents.video-lectures.27-recombinant-dna-iii-cont.-immunology-i.index.htm">
+				<title>27: Recombinant DNA III (cont.) - Immunology I</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.27-recombinant-dna-iii-cont.-immunology-i.lec27.jpg"
+          identifierref="r_contents.video-lectures.27-recombinant-dna-iii-cont.-immunology-i.lec27.jpg">
+				<title>lec27.jpg</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.27-recombinant-dna-iii-cont.-immunology-i.7.014-2005-L27.srt"
+          identifierref="r_contents.video-lectures.27-recombinant-dna-iii-cont.-immunology-i.7.014-2005-L27.srt">
+				<title>7.014-2005-L27.srt</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.2-immunology-ii"
+          identifierref="r_contents.video-lectures.2-immunology-ii.index.htm">
+				<title>28: Immunology II</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.2-immunology-ii.lec28.jpg"
+          identifierref="r_contents.video-lectures.2-immunology-ii.lec28.jpg">
+				<title>lec28.jpg</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.2-immunology-ii.7.014-2005-L28.srt"
+          identifierref="r_contents.video-lectures.2-immunology-ii.7.014-2005-L28.srt">
+				<title>7.014-2005-L28.srt</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.29-population-growth-i"
+          identifierref="r_contents.video-lectures.29-population-growth-i.index.htm">
+				<title>29: Population Growth I</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.29-population-growth-i.lec29.jpg"
+          identifierref="r_contents.video-lectures.29-population-growth-i.lec29.jpg">
+				<title>lec29.jpg</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.29-population-growth-i.7.014-2005-L29.srt"
+          identifierref="r_contents.video-lectures.29-population-growth-i.7.014-2005-L29.srt">
+				<title>7.014-2005-L29.srt</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.30-population-growth-ii"
+          identifierref="r_contents.video-lectures.30-population-growth-ii.index.htm">
+				<title>30: Population Growth II</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.30-population-growth-ii.lec30.jpg"
+          identifierref="r_contents.video-lectures.30-population-growth-ii.lec30.jpg">
+				<title>lec30.jpg</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.30-population-growth-ii.7.014-2005-L30.srt"
+          identifierref="r_contents.video-lectures.30-population-growth-ii.7.014-2005-L30.srt">
+				<title>7.014-2005-L30.srt</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.31-population-genetics-and-evolution"
+          identifierref="r_contents.video-lectures.31-population-genetics-and-evolution.index.htm">
+				<title>31: Population Genetics and Evolution</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.31-population-genetics-and-evolution.lec31.jpg"
+          identifierref="r_contents.video-lectures.31-population-genetics-and-evolution.lec31.jpg">
+				<title>lec31.jpg</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.31-population-genetics-and-evolution.7.014-2005-L31.srt"
+          identifierref="r_contents.video-lectures.31-population-genetics-and-evolution.7.014-2005-L31.srt">
+				<title>7.014-2005-L31.srt</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.32-molecular-evolution"
+          identifierref="r_contents.video-lectures.32-molecular-evolution.index.htm">
+				<title>32: Molecular Evolution</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.32-molecular-evolution.lec32.jpg"
+          identifierref="r_contents.video-lectures.32-molecular-evolution.lec32.jpg">
+				<title>lec32.jpg</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.32-molecular-evolution.7.014-2005-L32.srt"
+          identifierref="r_contents.video-lectures.32-molecular-evolution.7.014-2005-L32.srt">
+				<title>7.014-2005-L32.srt</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.33-communities-i"
+          identifierref="r_contents.video-lectures.33-communities-i.index.htm">
+				<title>33: Communities I</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.33-communities-i.lec33.jpg"
+          identifierref="r_contents.video-lectures.33-communities-i.lec33.jpg">
+				<title>lec33.jpg</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.33-communities-i.7.014-2005-L33.srt"
+          identifierref="r_contents.video-lectures.33-communities-i.7.014-2005-L33.srt">
+				<title>7.014-2005-L33.srt</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.34-communities-ii"
+          identifierref="r_contents.video-lectures.34-communities-ii.index.htm">
+				<title>34: Communities II</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.34-communities-ii.lec34.jpg"
+          identifierref="r_contents.video-lectures.34-communities-ii.lec34.jpg">
+				<title>lec34.jpg</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.34-communities-ii.7.014-2005-L34.srt"
+          identifierref="r_contents.video-lectures.34-communities-ii.7.014-2005-L34.srt">
+				<title>7.014-2005-L34.srt</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.35-communities-iii"
+          identifierref="r_contents.video-lectures.35-communities-iii.index.htm">
+				<title>35: Communities III</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.35-communities-iii.7.014-2005-L35.srt"
+          identifierref="r_contents.video-lectures.35-communities-iii.7.014-2005-L35.srt">
+				<title>7.014-2005-L35.srt</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.36-ecological-applications"
+          identifierref="r_contents.video-lectures.36-ecological-applications.index.htm">
+				<title>36: Ecological Applications</title>
+				</item>
+				<item identifier="i_7-014-introductory-biology-spring-2005.video-lectures.video-lectures.36-ecological-applications.7.014-2005-L36.srt"
+          identifierref="r_contents.video-lectures.36-ecological-applications.7.014-2005-L36.srt">
+				<title>7.014-2005-L36.srt</title>
+				</item>
+			</item>
+            <item identifier="i_7-014-introductory-biology-spring-2005.unit-questions"
+                  identifierref="r_contents.unit-questions.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-7-24">
+				<title>Unit Questions</title>
+			</item>
+            <item identifier="i_terms"
+                  identifierref="r_common.terms.index.htm"
+                  ocw:sectionTemplateType="GlobalSection"
+                  ocw:sectionTemplateVersion="2013-7-24">
+				<title>Legal Notices</title>
+			</item>
+            <item identifier="i_terms"
+                  identifierref="r_common.terms.index.htm"
+                  ocw:sectionTemplateType="GlobalSection"
+                  ocw:sectionTemplateVersion="2013-7-24">
+				<title>Privacy Statement</title>
+			</item>
+            <item identifier="i_terms.trademarks"
+                  identifierref="r_common.terms.trademarks.index.htm"
+                  ocw:sectionTemplateType="GlobalSection"
+                  ocw:sectionTemplateVersion="2013-7-24">
+				<title>Trademark Notices</title>
+			</item>
+        </organization>
+    </organizations>
+    <resources>
+        <resource identifier="r_contents.video-lectures.2-immunology-ii.lec28.jpg"
+                  type="other"
+                  href="contents/video-lectures/2-immunology-ii/lec28.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/2-immunology-ii/lec28.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/2-immunology-ii/lec28.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.unit-questions.index.htm"
+                  type="webcontent"
+                  href="contents/unit-questions/index.htm">
+            <metadata>
+                <adlcp:location>contents/unit-questions/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/unit-questions/index.htm"/>
+            <dependency identifierref="webrenderrequirements.7-014-introductory-biology-spring-2005"/>            
+        </resource>
+        <resource identifier="r_contents.assignments.ps7s_05.pdf"
+                  type="other"
+                  href="contents/assignments/ps7s_05.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ps7s_05.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ps7s_05.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.19-regulation-of-productivity.lec19.jpg"
+                  type="other"
+                  href="contents/video-lectures/19-regulation-of-productivity/lec19.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/19-regulation-of-productivity/lec19.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/19-regulation-of-productivity/lec19.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.4-biochemistry-iii.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/4-biochemistry-iii/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/4-biochemistry-iii/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/4-biochemistry-iii/index.htm"/>
+            <dependency identifierref="webrenderrequirements.7-014-introductory-biology-spring-2005"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.30-population-growth-ii.7.014-2005-L30.srt"
+                  type="other"
+                  href="contents/video-lectures/30-population-growth-ii/7.014-2005-L30.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/30-population-growth-ii/7.014-2005-L30.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/30-population-growth-ii/7.014-2005-L30.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.22-mitosis-and-meiosis.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/22-mitosis-and-meiosis/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/22-mitosis-and-meiosis/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/22-mitosis-and-meiosis/index.htm"/>
+            <dependency identifierref="webrenderrequirements.7-014-introductory-biology-spring-2005"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.7_0142005L12.pdf"
+                  type="other"
+                  href="contents/video-lectures/7_0142005L12.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/7_0142005L12.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/7_0142005L12.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.9-molecular-biology-i.7.014-2005-L09.srt"
+                  type="other"
+                  href="contents/video-lectures/9-molecular-biology-i/7.014-2005-L09.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/9-molecular-biology-i/7.014-2005-L09.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/9-molecular-biology-i/7.014-2005-L09.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.2-biochemistry-i.7.014-2005-L02.srt"
+                  type="other"
+                  href="contents/video-lectures/2-biochemistry-i/7.014-2005-L02.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/2-biochemistry-i/7.014-2005-L02.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/2-biochemistry-i/7.014-2005-L02.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.recitations.section3.pdf"
+                  type="other"
+                  href="contents/recitations/section3.pdf">
+            <metadata>
+                <adlcp:location>contents/recitations/section3.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/recitations/section3.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.recitations.section4_ak.pdf"
+                  type="other"
+                  href="contents/recitations/section4_ak.pdf">
+            <metadata>
+                <adlcp:location>contents/recitations/section4_ak.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/recitations/section4_ak.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.14-gene-regulation-ii.7.014-2005-L14.srt"
+                  type="other"
+                  href="contents/video-lectures/14-gene-regulation-ii/7.014-2005-L14.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/14-gene-regulation-ii/7.014-2005-L14.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/14-gene-regulation-ii/7.014-2005-L14.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lectur16_handout.pdf"
+                  type="other"
+                  href="contents/video-lectures/lectur16_handout.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lectur16_handout.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lectur16_handout.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.ps3s_05.pdf"
+                  type="other"
+                  href="contents/assignments/ps3s_05.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ps3s_05.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ps3s_05.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.22-mitosis-and-meiosis.lec22.jpg"
+                  type="other"
+                  href="contents/video-lectures/22-mitosis-and-meiosis/lec22.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/22-mitosis-and-meiosis/lec22.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/22-mitosis-and-meiosis/lec22.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.14-gene-regulation-ii.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/14-gene-regulation-ii/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/14-gene-regulation-ii/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/14-gene-regulation-ii/index.htm"/>
+            <dependency identifierref="webrenderrequirements.7-014-introductory-biology-spring-2005"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.33-communities-i.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/33-communities-i/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/33-communities-i/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/33-communities-i/index.htm"/>
+            <dependency identifierref="webrenderrequirements.7-014-introductory-biology-spring-2005"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.7_0142005L06.pdf"
+                  type="other"
+                  href="contents/video-lectures/7_0142005L06.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/7_0142005L06.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/7_0142005L06.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.7_0142005L25.pdf"
+                  type="other"
+                  href="contents/video-lectures/7_0142005L25.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/7_0142005L25.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/7_0142005L25.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.7_0142005L32.pdf"
+                  type="other"
+                  href="contents/video-lectures/7_0142005L32.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/7_0142005L32.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/7_0142005L32.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.24-recombinant-dna-i.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/24-recombinant-dna-i/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/24-recombinant-dna-i/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/24-recombinant-dna-i/index.htm"/>
+            <dependency identifierref="webrenderrequirements.7-014-introductory-biology-spring-2005"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.lectur18_handout.pdf"
+                  type="other"
+                  href="contents/video-lectures/lectur18_handout.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lectur18_handout.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lectur18_handout.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.10-molecular-biology-ii-process-of-science.7.014-2005-L10.srt"
+                  type="other"
+                  href="contents/video-lectures/10-molecular-biology-ii-process-of-science/7.014-2005-L10.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/10-molecular-biology-ii-process-of-science/7.014-2005-L10.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/10-molecular-biology-ii-process-of-science/7.014-2005-L10.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.25-recombinant-dna-ii.lec25.jpg"
+                  type="other"
+                  href="contents/video-lectures/25-recombinant-dna-ii/lec25.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/25-recombinant-dna-ii/lec25.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/25-recombinant-dna-ii/lec25.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.recitations.section4.pdf"
+                  type="other"
+                  href="contents/recitations/section4.pdf">
+            <metadata>
+                <adlcp:location>contents/recitations/section4.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/recitations/section4.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.32-molecular-evolution.7.014-2005-L32.srt"
+                  type="other"
+                  href="contents/video-lectures/32-molecular-evolution/7.014-2005-L32.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/32-molecular-evolution/7.014-2005-L32.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/32-molecular-evolution/7.014-2005-L32.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.29-population-growth-i.lec29.jpg"
+                  type="other"
+                  href="contents/video-lectures/29-population-growth-i/lec29.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/29-population-growth-i/lec29.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/29-population-growth-i/lec29.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.recitations.section19_review.pdf"
+                  type="other"
+                  href="contents/recitations/section19_review.pdf">
+            <metadata>
+                <adlcp:location>contents/recitations/section19_review.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/recitations/section19_review.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.recitations.section2.pdf"
+                  type="other"
+                  href="contents/recitations/section2.pdf">
+            <metadata>
+                <adlcp:location>contents/recitations/section2.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/recitations/section2.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.34-communities-ii.7.014-2005-L34.srt"
+                  type="other"
+                  href="contents/video-lectures/34-communities-ii/7.014-2005-L34.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/34-communities-ii/7.014-2005-L34.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/34-communities-ii/7.014-2005-L34.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.3-biochemistry-ii.lec3.jpg"
+                  type="other"
+                  href="contents/video-lectures/3-biochemistry-ii/lec3.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/3-biochemistry-ii/lec3.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/3-biochemistry-ii/lec3.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.7_0142005L18.pdf"
+                  type="other"
+                  href="contents/video-lectures/7_0142005L18.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/7_0142005L18.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/7_0142005L18.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.12-molecular-biology-iv.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/12-molecular-biology-iv/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/12-molecular-biology-iv/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/12-molecular-biology-iv/index.htm"/>
+            <dependency identifierref="webrenderrequirements.7-014-introductory-biology-spring-2005"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.36-ecological-applications.7.014-2005-L36.srt"
+                  type="other"
+                  href="contents/video-lectures/36-ecological-applications/7.014-2005-L36.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/36-ecological-applications/7.014-2005-L36.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/36-ecological-applications/7.014-2005-L36.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.recitations.section18_ak.pdf"
+                  type="other"
+                  href="contents/recitations/section18_ak.pdf">
+            <metadata>
+                <adlcp:location>contents/recitations/section18_ak.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/recitations/section18_ak.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.readings.l16_17_carb_ener.pdf"
+                  type="other"
+                  href="contents/readings/l16_17_carb_ener.pdf">
+            <metadata>
+                <adlcp:location>contents/readings/l16_17_carb_ener.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/readings/l16_17_carb_ener.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.20-limiting-factors-and-biogeochemical-cycleslimiting-factors-and-biogeochemical-cycles.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/20-limiting-factors-and-biogeochemical-cycleslimiting-factors-and-biogeochemical-cycles/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/20-limiting-factors-and-biogeochemical-cycleslimiting-factors-and-biogeochemical-cycles/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/20-limiting-factors-and-biogeochemical-cycleslimiting-factors-and-biogeochemical-cycles/index.htm"/>
+            <dependency identifierref="webrenderrequirements.7-014-introductory-biology-spring-2005"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.7_0142005L01.pdf"
+                  type="other"
+                  href="contents/video-lectures/7_0142005L01.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/7_0142005L01.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/7_0142005L01.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.7_0142005L31.pdf"
+                  type="other"
+                  href="contents/video-lectures/7_0142005L31.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/7_0142005L31.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/7_0142005L31.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.recitations.Section6Review.pdf"
+                  type="other"
+                  href="contents/recitations/Section6Review.pdf">
+            <metadata>
+                <adlcp:location>contents/recitations/Section6Review.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/recitations/Section6Review.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.36-ecological-applications.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/36-ecological-applications/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/36-ecological-applications/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/36-ecological-applications/index.htm"/>
+            <dependency identifierref="webrenderrequirements.7-014-introductory-biology-spring-2005"/>            
+        </resource>
+        <resource identifier="r_contents.readings.biochem5_6.pdf"
+                  type="other"
+                  href="contents/readings/biochem5_6.pdf">
+            <metadata>
+                <adlcp:location>contents/readings/biochem5_6.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/readings/biochem5_6.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.readings.biochem1_3.pdf"
+                  type="other"
+                  href="contents/readings/biochem1_3.pdf">
+            <metadata>
+                <adlcp:location>contents/readings/biochem1_3.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/readings/biochem1_3.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.24-recombinant-dna-i.lec24.jpg"
+                  type="other"
+                  href="contents/video-lectures/24-recombinant-dna-i/lec24.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/24-recombinant-dna-i/lec24.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/24-recombinant-dna-i/lec24.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.14-gene-regulation-ii.lec14.jpg"
+                  type="other"
+                  href="contents/video-lectures/14-gene-regulation-ii/lec14.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/14-gene-regulation-ii/lec14.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/14-gene-regulation-ii/lec14.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.readings.l14_bioche_genet.pdf"
+                  type="other"
+                  href="contents/readings/l14_bioche_genet.pdf">
+            <metadata>
+                <adlcp:location>contents/readings/l14_bioche_genet.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/readings/l14_bioche_genet.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.ps4q_05.pdf"
+                  type="other"
+                  href="contents/assignments/ps4q_05.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ps4q_05.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ps4q_05.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lec29n30_handout.pdf"
+                  type="other"
+                  href="contents/video-lectures/lec29n30_handout.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lec29n30_handout.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lec29n30_handout.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.11-molecular-biology-iii.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/11-molecular-biology-iii/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/11-molecular-biology-iii/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/11-molecular-biology-iii/index.htm"/>
+            <dependency identifierref="webrenderrequirements.7-014-introductory-biology-spring-2005"/>            
+        </resource>
+        <resource identifier="r_contents.recitations.section15_ak.pdf"
+                  type="other"
+                  href="contents/recitations/section15_ak.pdf">
+            <metadata>
+                <adlcp:location>contents/recitations/section15_ak.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/recitations/section15_ak.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.mediaresource.2010-10-26.0571828698.lec13.jpg"
+                  type="other"
+                  href="contents/video-lectures/mediaresource.2010-10-26.0571828698/lec13.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/mediaresource.2010-10-26.0571828698/lec13.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/mediaresource.2010-10-26.0571828698/lec13.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.18-productivity-and-food-webs.7.014-2005-L18.srt"
+                  type="other"
+                  href="contents/video-lectures/18-productivity-and-food-webs/7.014-2005-L18.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/18-productivity-and-food-webs/7.014-2005-L18.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/18-productivity-and-food-webs/7.014-2005-L18.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.24-recombinant-dna-i.7.014-2005-L24.srt"
+                  type="other"
+                  href="contents/video-lectures/24-recombinant-dna-i/7.014-2005-L24.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/24-recombinant-dna-i/7.014-2005-L24.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/24-recombinant-dna-i/7.014-2005-L24.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.7-014s05-th.jpg"
+                  type="other"
+                  href="contents/7-014s05-th.jpg">
+            <metadata>
+                <adlcp:location>contents/7-014s05-th.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/7-014s05-th.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.5-biochemistry-iv.lec5.jpg"
+                  type="other"
+                  href="contents/video-lectures/5-biochemistry-iv/lec5.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/5-biochemistry-iv/lec5.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/5-biochemistry-iv/lec5.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.exams.index.htm"
+                  type="webcontent"
+                  href="contents/exams/index.htm">
+            <metadata>
+                <adlcp:location>contents/exams/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/exams/index.htm"/>
+            <dependency identifierref="webrenderrequirements.7-014-introductory-biology-spring-2005"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.7_0142005L05.pdf"
+                  type="other"
+                  href="contents/video-lectures/7_0142005L05.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/7_0142005L05.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/7_0142005L05.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.study-materials.ps6s.pdf"
+                  type="other"
+                  href="contents/study-materials/ps6s.pdf">
+            <metadata>
+                <adlcp:location>contents/study-materials/ps6s.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/study-materials/ps6s.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.9-molecular-biology-i.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/9-molecular-biology-i/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/9-molecular-biology-i/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/9-molecular-biology-i/index.htm"/>
+            <dependency identifierref="webrenderrequirements.7-014-introductory-biology-spring-2005"/>            
+        </resource>
+        <resource identifier="r_contents.recitations.section18.pdf"
+                  type="other"
+                  href="contents/recitations/section18.pdf">
+            <metadata>
+                <adlcp:location>contents/recitations/section18.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/recitations/section18.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.1-the-biosphere.lec16.jpg"
+                  type="other"
+                  href="contents/video-lectures/1-the-biosphere/lec16.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/1-the-biosphere/lec16.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/1-the-biosphere/lec16.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.study-materials.ps5s.pdf"
+                  type="other"
+                  href="contents/study-materials/ps5s.pdf">
+            <metadata>
+                <adlcp:location>contents/study-materials/ps5s.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/study-materials/ps5s.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.exams.quiz3_handout.pdf"
+                  type="other"
+                  href="contents/exams/quiz3_handout.pdf">
+            <metadata>
+                <adlcp:location>contents/exams/quiz3_handout.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/exams/quiz3_handout.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lectur17_handout.pdf"
+                  type="other"
+                  href="contents/video-lectures/lectur17_handout.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lectur17_handout.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lectur17_handout.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.1-the-biosphere.7.014-2005-L16.srt"
+                  type="other"
+                  href="contents/video-lectures/1-the-biosphere/7.014-2005-L16.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/1-the-biosphere/7.014-2005-L16.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/1-the-biosphere/7.014-2005-L16.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/index.htm"/>
+            <dependency identifierref="webrenderrequirements.7-014-introductory-biology-spring-2005"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.15-bacterial-genetics.7.014-2005-L15.srt"
+                  type="other"
+                  href="contents/video-lectures/15-bacterial-genetics/7.014-2005-L15.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/15-bacterial-genetics/7.014-2005-L15.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/15-bacterial-genetics/7.014-2005-L15.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.34-communities-ii.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/34-communities-ii/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/34-communities-ii/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/34-communities-ii/index.htm"/>
+            <dependency identifierref="webrenderrequirements.7-014-introductory-biology-spring-2005"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.7_0142005L35.pdf"
+                  type="other"
+                  href="contents/video-lectures/7_0142005L35.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/7_0142005L35.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/7_0142005L35.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.recitations.section20_ak.pdf"
+                  type="other"
+                  href="contents/recitations/section20_ak.pdf">
+            <metadata>
+                <adlcp:location>contents/recitations/section20_ak.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/recitations/section20_ak.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.readings.index.htm"
+                  type="webcontent"
+                  href="contents/readings/index.htm">
+            <metadata>
+                <adlcp:location>contents/readings/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/readings/index.htm"/>
+            <dependency identifierref="webrenderrequirements.7-014-introductory-biology-spring-2005"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.7_0142005L03.pdf"
+                  type="other"
+                  href="contents/video-lectures/7_0142005L03.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/7_0142005L03.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/7_0142005L03.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.exams.quiz2_final.pdf"
+                  type="other"
+                  href="contents/exams/quiz2_final.pdf">
+            <metadata>
+                <adlcp:location>contents/exams/quiz2_final.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/exams/quiz2_final.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.21-mendelian-genetics.lec21.jpg"
+                  type="other"
+                  href="contents/video-lectures/21-mendelian-genetics/lec21.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/21-mendelian-genetics/lec21.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/21-mendelian-genetics/lec21.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.7_0142005L09.pdf"
+                  type="other"
+                  href="contents/video-lectures/7_0142005L09.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/7_0142005L09.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/7_0142005L09.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.recitations.section17.pdf"
+                  type="other"
+                  href="contents/recitations/section17.pdf">
+            <metadata>
+                <adlcp:location>contents/recitations/section17.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/recitations/section17.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.12-molecular-biology-iv.7.014-2005-L12.srt"
+                  type="other"
+                  href="contents/video-lectures/12-molecular-biology-iv/7.014-2005-L12.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/12-molecular-biology-iv/7.014-2005-L12.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/12-molecular-biology-iv/7.014-2005-L12.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.recitations.section11.pdf"
+                  type="other"
+                  href="contents/recitations/section11.pdf">
+            <metadata>
+                <adlcp:location>contents/recitations/section11.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/recitations/section11.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.7_0142005L08.pdf"
+                  type="other"
+                  href="contents/video-lectures/7_0142005L08.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/7_0142005L08.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/7_0142005L08.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.8-biochemistry-vi-cont.-dna-as-genetic-material.7.014-2005-L08.srt"
+                  type="other"
+                  href="contents/video-lectures/8-biochemistry-vi-cont.-dna-as-genetic-material/7.014-2005-L08.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/8-biochemistry-vi-cont.-dna-as-genetic-material/7.014-2005-L08.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/8-biochemistry-vi-cont.-dna-as-genetic-material/7.014-2005-L08.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.recitations.section8.pdf"
+                  type="other"
+                  href="contents/recitations/section8.pdf">
+            <metadata>
+                <adlcp:location>contents/recitations/section8.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/recitations/section8.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.12-molecular-biology-iv.lec12.jpg"
+                  type="other"
+                  href="contents/video-lectures/12-molecular-biology-iv/lec12.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/12-molecular-biology-iv/lec12.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/12-molecular-biology-iv/lec12.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.exams.quiz1_2_24.pdf"
+                  type="other"
+                  href="contents/exams/quiz1_2_24.pdf">
+            <metadata>
+                <adlcp:location>contents/exams/quiz1_2_24.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/exams/quiz1_2_24.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.recitations.section22_ak.pdf"
+                  type="other"
+                  href="contents/recitations/section22_ak.pdf">
+            <metadata>
+                <adlcp:location>contents/recitations/section22_ak.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/recitations/section22_ak.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.1-the-biosphere.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/1-the-biosphere/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/1-the-biosphere/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/1-the-biosphere/index.htm"/>
+            <dependency identifierref="webrenderrequirements.7-014-introductory-biology-spring-2005"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.29-population-growth-i.7.014-2005-L29.srt"
+                  type="other"
+                  href="contents/video-lectures/29-population-growth-i/7.014-2005-L29.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/29-population-growth-i/7.014-2005-L29.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/29-population-growth-i/7.014-2005-L29.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.2-biochemistry-i.lec2.jpg"
+                  type="other"
+                  href="contents/video-lectures/2-biochemistry-i/lec2.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/2-biochemistry-i/lec2.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/2-biochemistry-i/lec2.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.ps4s_05.pdf"
+                  type="other"
+                  href="contents/assignments/ps4s_05.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ps4s_05.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ps4s_05.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.1-introduction.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/1-introduction/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/1-introduction/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/1-introduction/index.htm"/>
+            <dependency identifierref="webrenderrequirements.7-014-introductory-biology-spring-2005"/>            
+        </resource>
+        <resource identifier="r_contents.assignments.ps5q_05.pdf"
+                  type="other"
+                  href="contents/assignments/ps5q_05.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ps5q_05.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ps5q_05.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.7_0142005L30.pdf"
+                  type="other"
+                  href="contents/video-lectures/7_0142005L30.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/7_0142005L30.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/7_0142005L30.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.recitations.section7_ak.pdf"
+                  type="other"
+                  href="contents/recitations/section7_ak.pdf">
+            <metadata>
+                <adlcp:location>contents/recitations/section7_ak.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/recitations/section7_ak.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.ps6q_05.pdf"
+                  type="other"
+                  href="contents/assignments/ps6q_05.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ps6q_05.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ps6q_05.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.exams.quiz2ho.pdf"
+                  type="other"
+                  href="contents/exams/quiz2ho.pdf">
+            <metadata>
+                <adlcp:location>contents/exams/quiz2ho.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/exams/quiz2ho.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.7-biochemistry-vi.7.014-2005-L07.srt"
+                  type="other"
+                  href="contents/video-lectures/7-biochemistry-vi/7.014-2005-L07.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/7-biochemistry-vi/7.014-2005-L07.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/7-biochemistry-vi/7.014-2005-L07.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.5-biochemistry-iv.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/5-biochemistry-iv/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/5-biochemistry-iv/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/5-biochemistry-iv/index.htm"/>
+            <dependency identifierref="webrenderrequirements.7-014-introductory-biology-spring-2005"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.26-recombinant-dna-iii.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/26-recombinant-dna-iii/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/26-recombinant-dna-iii/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/26-recombinant-dna-iii/index.htm"/>
+            <dependency identifierref="webrenderrequirements.7-014-introductory-biology-spring-2005"/>            
+        </resource>
+        <resource identifier="r_contents.recitations.section5.pdf"
+                  type="other"
+                  href="contents/recitations/section5.pdf">
+            <metadata>
+                <adlcp:location>contents/recitations/section5.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/recitations/section5.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.study-materials.ps1q.pdf"
+                  type="other"
+                  href="contents/study-materials/ps1q.pdf">
+            <metadata>
+                <adlcp:location>contents/study-materials/ps1q.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/study-materials/ps1q.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.19-regulation-of-productivity.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/19-regulation-of-productivity/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/19-regulation-of-productivity/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/19-regulation-of-productivity/index.htm"/>
+            <dependency identifierref="webrenderrequirements.7-014-introductory-biology-spring-2005"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.32-molecular-evolution.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/32-molecular-evolution/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/32-molecular-evolution/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/32-molecular-evolution/index.htm"/>
+            <dependency identifierref="webrenderrequirements.7-014-introductory-biology-spring-2005"/>            
+        </resource>
+        <resource identifier="r_contents.recitations.section20.pdf"
+                  type="other"
+                  href="contents/recitations/section20.pdf">
+            <metadata>
+                <adlcp:location>contents/recitations/section20.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/recitations/section20.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.exams.quiz1_prep_ho.pdf"
+                  type="other"
+                  href="contents/exams/quiz1_prep_ho.pdf">
+            <metadata>
+                <adlcp:location>contents/exams/quiz1_prep_ho.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/exams/quiz1_prep_ho.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.34-communities-ii.lec34.jpg"
+                  type="other"
+                  href="contents/video-lectures/34-communities-ii/lec34.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/34-communities-ii/lec34.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/34-communities-ii/lec34.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.8-biochemistry-vi-cont.-dna-as-genetic-material.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/8-biochemistry-vi-cont.-dna-as-genetic-material/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/8-biochemistry-vi-cont.-dna-as-genetic-material/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/8-biochemistry-vi-cont.-dna-as-genetic-material/index.htm"/>
+            <dependency identifierref="webrenderrequirements.7-014-introductory-biology-spring-2005"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.33-communities-i.7.014-2005-L33.srt"
+                  type="other"
+                  href="contents/video-lectures/33-communities-i/7.014-2005-L33.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/33-communities-i/7.014-2005-L33.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/33-communities-i/7.014-2005-L33.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.recitations.section1.pdf"
+                  type="other"
+                  href="contents/recitations/section1.pdf">
+            <metadata>
+                <adlcp:location>contents/recitations/section1.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/recitations/section1.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.27-recombinant-dna-iii-cont.-immunology-i.7.014-2005-L27.srt"
+                  type="other"
+                  href="contents/video-lectures/27-recombinant-dna-iii-cont.-immunology-i/7.014-2005-L27.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/27-recombinant-dna-iii-cont.-immunology-i/7.014-2005-L27.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/27-recombinant-dna-iii-cont.-immunology-i/7.014-2005-L27.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.27-recombinant-dna-iii-cont.-immunology-i.lec27.jpg"
+                  type="other"
+                  href="contents/video-lectures/27-recombinant-dna-iii-cont.-immunology-i/lec27.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/27-recombinant-dna-iii-cont.-immunology-i/lec27.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/27-recombinant-dna-iii-cont.-immunology-i/lec27.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.recitations.section21_ak.pdf"
+                  type="other"
+                  href="contents/recitations/section21_ak.pdf">
+            <metadata>
+                <adlcp:location>contents/recitations/section21_ak.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/recitations/section21_ak.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.19-regulation-of-productivity.7.014-2005-L19.srt"
+                  type="other"
+                  href="contents/video-lectures/19-regulation-of-productivity/7.014-2005-L19.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/19-regulation-of-productivity/7.014-2005-L19.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/19-regulation-of-productivity/7.014-2005-L19.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.21-mendelian-genetics.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/21-mendelian-genetics/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/21-mendelian-genetics/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/21-mendelian-genetics/index.htm"/>
+            <dependency identifierref="webrenderrequirements.7-014-introductory-biology-spring-2005"/>            
+        </resource>
+        <resource identifier="r_contents.recitations.section23_ak.pdf"
+                  type="other"
+                  href="contents/recitations/section23_ak.pdf">
+            <metadata>
+                <adlcp:location>contents/recitations/section23_ak.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/recitations/section23_ak.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.27-recombinant-dna-iii-cont.-immunology-i.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/27-recombinant-dna-iii-cont.-immunology-i/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/27-recombinant-dna-iii-cont.-immunology-i/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/27-recombinant-dna-iii-cont.-immunology-i/index.htm"/>
+            <dependency identifierref="webrenderrequirements.7-014-introductory-biology-spring-2005"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.7_0142005L11.pdf"
+                  type="other"
+                  href="contents/video-lectures/7_0142005L11.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/7_0142005L11.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/7_0142005L11.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.recitations.section2_ak.pdf"
+                  type="other"
+                  href="contents/recitations/section2_ak.pdf">
+            <metadata>
+                <adlcp:location>contents/recitations/section2_ak.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/recitations/section2_ak.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.7_0142005L21.pdf"
+                  type="other"
+                  href="contents/video-lectures/7_0142005L21.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/7_0142005L21.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/7_0142005L21.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.7_0142005L13.pdf"
+                  type="other"
+                  href="contents/video-lectures/7_0142005L13.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/7_0142005L13.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/7_0142005L13.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.17-carbon-and-energy-metabolism.7.014-2005-L17.srt"
+                  type="other"
+                  href="contents/video-lectures/17-carbon-and-energy-metabolism/7.014-2005-L17.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/17-carbon-and-energy-metabolism/7.014-2005-L17.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/17-carbon-and-energy-metabolism/7.014-2005-L17.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.5-biochemistry-iv.7.014-2005-L05.srt"
+                  type="other"
+                  href="contents/video-lectures/5-biochemistry-iv/7.014-2005-L05.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/5-biochemistry-iv/7.014-2005-L05.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/5-biochemistry-iv/7.014-2005-L05.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.readings.l5_bioche_deltag.pdf"
+                  type="other"
+                  href="contents/readings/l5_bioche_deltag.pdf">
+            <metadata>
+                <adlcp:location>contents/readings/l5_bioche_deltag.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/readings/l5_bioche_deltag.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.7_0142005L19.pdf"
+                  type="other"
+                  href="contents/video-lectures/7_0142005L19.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/7_0142005L19.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/7_0142005L19.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.exams.quiz2_s.pdf"
+                  type="other"
+                  href="contents/exams/quiz2_s.pdf">
+            <metadata>
+                <adlcp:location>contents/exams/quiz2_s.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/exams/quiz2_s.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.11-molecular-biology-iii.lec11.jpg"
+                  type="other"
+                  href="contents/video-lectures/11-molecular-biology-iii/lec11.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/11-molecular-biology-iii/lec11.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/11-molecular-biology-iii/lec11.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.recitations.section17_ak.pdf"
+                  type="other"
+                  href="contents/recitations/section17_ak.pdf">
+            <metadata>
+                <adlcp:location>contents/recitations/section17_ak.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/recitations/section17_ak.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.exams.quiz3_4_21.pdf"
+                  type="other"
+                  href="contents/exams/quiz3_4_21.pdf">
+            <metadata>
+                <adlcp:location>contents/exams/quiz3_4_21.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/exams/quiz3_4_21.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.ps6s_05.pdf"
+                  type="other"
+                  href="contents/assignments/ps6s_05.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ps6s_05.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ps6s_05.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.recitations.section7.pdf"
+                  type="other"
+                  href="contents/recitations/section7.pdf">
+            <metadata>
+                <adlcp:location>contents/recitations/section7.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/recitations/section7.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.7_0142005L29.pdf"
+                  type="other"
+                  href="contents/video-lectures/7_0142005L29.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/7_0142005L29.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/7_0142005L29.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.11-molecular-biology-iii.7.014-2005-L11.srt"
+                  type="other"
+                  href="contents/video-lectures/11-molecular-biology-iii/7.014-2005-L11.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/11-molecular-biology-iii/7.014-2005-L11.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/11-molecular-biology-iii/7.014-2005-L11.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.recitations.section22.pdf"
+                  type="other"
+                  href="contents/recitations/section22.pdf">
+            <metadata>
+                <adlcp:location>contents/recitations/section22.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/recitations/section22.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.readings.l17_redox_handou.pdf"
+                  type="other"
+                  href="contents/readings/l17_redox_handou.pdf">
+            <metadata>
+                <adlcp:location>contents/readings/l17_redox_handou.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/readings/l17_redox_handou.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.exams.quiz1_s.pdf"
+                  type="other"
+                  href="contents/exams/quiz1_s.pdf">
+            <metadata>
+                <adlcp:location>contents/exams/quiz1_s.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/exams/quiz1_s.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.7_0142005L10.pdf"
+                  type="other"
+                  href="contents/video-lectures/7_0142005L10.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/7_0142005L10.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/7_0142005L10.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.recitations.section12.pdf"
+                  type="other"
+                  href="contents/recitations/section12.pdf">
+            <metadata>
+                <adlcp:location>contents/recitations/section12.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/recitations/section12.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.7_0142005L36.pdf"
+                  type="other"
+                  href="contents/video-lectures/7_0142005L36.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/7_0142005L36.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/7_0142005L36.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.26-recombinant-dna-iii.lec26.jpg"
+                  type="other"
+                  href="contents/video-lectures/26-recombinant-dna-iii/lec26.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/26-recombinant-dna-iii/lec26.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/26-recombinant-dna-iii/lec26.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.23-diploid-genetics.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/23-diploid-genetics/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/23-diploid-genetics/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/23-diploid-genetics/index.htm"/>
+            <dependency identifierref="webrenderrequirements.7-014-introductory-biology-spring-2005"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.7_0142005L27.pdf"
+                  type="other"
+                  href="contents/video-lectures/7_0142005L27.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/7_0142005L27.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/7_0142005L27.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.29-population-growth-i.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/29-population-growth-i/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/29-population-growth-i/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/29-population-growth-i/index.htm"/>
+            <dependency identifierref="webrenderrequirements.7-014-introductory-biology-spring-2005"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.7-biochemistry-vi.lec7.jpg"
+                  type="other"
+                  href="contents/video-lectures/7-biochemistry-vi/lec7.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/7-biochemistry-vi/lec7.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/7-biochemistry-vi/lec7.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.recitations.section1_ak.pdf"
+                  type="other"
+                  href="contents/recitations/section1_ak.pdf">
+            <metadata>
+                <adlcp:location>contents/recitations/section1_ak.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/recitations/section1_ak.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.ps5s_05.pdf"
+                  type="other"
+                  href="contents/assignments/ps5s_05.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ps5s_05.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ps5s_05.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.31-population-genetics-and-evolution.7.014-2005-L31.srt"
+                  type="other"
+                  href="contents/video-lectures/31-population-genetics-and-evolution/7.014-2005-L31.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/31-population-genetics-and-evolution/7.014-2005-L31.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/31-population-genetics-and-evolution/7.014-2005-L31.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.31-population-genetics-and-evolution.lec31.jpg"
+                  type="other"
+                  href="contents/video-lectures/31-population-genetics-and-evolution/lec31.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/31-population-genetics-and-evolution/lec31.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/31-population-genetics-and-evolution/lec31.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.recitations.section8_ak.pdf"
+                  type="other"
+                  href="contents/recitations/section8_ak.pdf">
+            <metadata>
+                <adlcp:location>contents/recitations/section8_ak.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/recitations/section8_ak.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.7_0142005L04.pdf"
+                  type="other"
+                  href="contents/video-lectures/7_0142005L04.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/7_0142005L04.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/7_0142005L04.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.recitations.section10_ak.pdf"
+                  type="other"
+                  href="contents/recitations/section10_ak.pdf">
+            <metadata>
+                <adlcp:location>contents/recitations/section10_ak.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/recitations/section10_ak.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.study-materials.ps2q.pdf"
+                  type="other"
+                  href="contents/study-materials/ps2q.pdf">
+            <metadata>
+                <adlcp:location>contents/study-materials/ps2q.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/study-materials/ps2q.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.1-introduction.7.014-2005-L01.srt"
+                  type="other"
+                  href="contents/video-lectures/1-introduction/7.014-2005-L01.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/1-introduction/7.014-2005-L01.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/1-introduction/7.014-2005-L01.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.ps2q_05.pdf"
+                  type="other"
+                  href="contents/assignments/ps2q_05.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ps2q_05.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ps2q_05.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.7_0142005L23.pdf"
+                  type="other"
+                  href="contents/video-lectures/7_0142005L23.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/7_0142005L23.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/7_0142005L23.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.recitations.section16_ak.pdf"
+                  type="other"
+                  href="contents/recitations/section16_ak.pdf">
+            <metadata>
+                <adlcp:location>contents/recitations/section16_ak.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/recitations/section16_ak.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.study-materials.ps4q.pdf"
+                  type="other"
+                  href="contents/study-materials/ps4q.pdf">
+            <metadata>
+                <adlcp:location>contents/study-materials/ps4q.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/study-materials/ps4q.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.pset1q.pdf"
+                  type="other"
+                  href="contents/assignments/pset1q.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/pset1q.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/pset1q.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.3-biochemistry-ii.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/3-biochemistry-ii/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/3-biochemistry-ii/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/3-biochemistry-ii/index.htm"/>
+            <dependency identifierref="webrenderrequirements.7-014-introductory-biology-spring-2005"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.26-recombinant-dna-iii.7.014-2005-L26.srt"
+                  type="other"
+                  href="contents/video-lectures/26-recombinant-dna-iii/7.014-2005-L26.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/26-recombinant-dna-iii/7.014-2005-L26.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/26-recombinant-dna-iii/7.014-2005-L26.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.8-biochemistry-vi-cont.-dna-as-genetic-material.lec8.jpg"
+                  type="other"
+                  href="contents/video-lectures/8-biochemistry-vi-cont.-dna-as-genetic-material/lec8.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/8-biochemistry-vi-cont.-dna-as-genetic-material/lec8.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/8-biochemistry-vi-cont.-dna-as-genetic-material/lec8.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.recitations.section3_ak.pdf"
+                  type="other"
+                  href="contents/recitations/section3_ak.pdf">
+            <metadata>
+                <adlcp:location>contents/recitations/section3_ak.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/recitations/section3_ak.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.7_0142005L15.pdf"
+                  type="other"
+                  href="contents/video-lectures/7_0142005L15.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/7_0142005L15.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/7_0142005L15.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.mediaresource.2010-10-26.0571828698.7.014-2005-L13.srt"
+                  type="other"
+                  href="contents/video-lectures/mediaresource.2010-10-26.0571828698/7.014-2005-L13.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/mediaresource.2010-10-26.0571828698/7.014-2005-L13.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/mediaresource.2010-10-26.0571828698/7.014-2005-L13.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.recitations.section15.pdf"
+                  type="other"
+                  href="contents/recitations/section15.pdf">
+            <metadata>
+                <adlcp:location>contents/recitations/section15.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/recitations/section15.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.23-diploid-genetics.lec23.jpg"
+                  type="other"
+                  href="contents/video-lectures/23-diploid-genetics/lec23.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/23-diploid-genetics/lec23.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/23-diploid-genetics/lec23.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.20-limiting-factors-and-biogeochemical-cycleslimiting-factors-and-biogeochemical-cycles.7.014-2005-L20.srt"
+                  type="other"
+                  href="contents/video-lectures/20-limiting-factors-and-biogeochemical-cycleslimiting-factors-and-biogeochemical-cycles/7.014-2005-L20.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/20-limiting-factors-and-biogeochemical-cycleslimiting-factors-and-biogeochemical-cycles/7.014-2005-L20.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/20-limiting-factors-and-biogeochemical-cycleslimiting-factors-and-biogeochemical-cycles/7.014-2005-L20.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.study-materials.ps2s.pdf"
+                  type="other"
+                  href="contents/study-materials/ps2s.pdf">
+            <metadata>
+                <adlcp:location>contents/study-materials/ps2s.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/study-materials/ps2s.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.7_0142005L26.pdf"
+                  type="other"
+                  href="contents/video-lectures/7_0142005L26.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/7_0142005L26.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/7_0142005L26.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.study-materials.ps8s.pdf"
+                  type="other"
+                  href="contents/study-materials/ps8s.pdf">
+            <metadata>
+                <adlcp:location>contents/study-materials/ps8s.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/study-materials/ps8s.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.recitations.section12_ak.pdf"
+                  type="other"
+                  href="contents/recitations/section12_ak.pdf">
+            <metadata>
+                <adlcp:location>contents/recitations/section12_ak.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/recitations/section12_ak.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.18-productivity-and-food-webs.lec18.jpg"
+                  type="other"
+                  href="contents/video-lectures/18-productivity-and-food-webs/lec18.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/18-productivity-and-food-webs/lec18.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/18-productivity-and-food-webs/lec18.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.7_0142005L22.pdf"
+                  type="other"
+                  href="contents/video-lectures/7_0142005L22.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/7_0142005L22.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/7_0142005L22.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.4-biochemistry-iii.7.014-2005-L04.srt"
+                  type="other"
+                  href="contents/video-lectures/4-biochemistry-iii/7.014-2005-L04.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/4-biochemistry-iii/7.014-2005-L04.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/4-biochemistry-iii/7.014-2005-L04.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.33-communities-i.lec33.jpg"
+                  type="other"
+                  href="contents/video-lectures/33-communities-i/lec33.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/33-communities-i/lec33.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/33-communities-i/lec33.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.readings.lec4_luria_exp.pdf"
+                  type="other"
+                  href="contents/readings/lec4_luria_exp.pdf">
+            <metadata>
+                <adlcp:location>contents/readings/lec4_luria_exp.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/readings/lec4_luria_exp.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.study-materials.ps7q.pdf"
+                  type="other"
+                  href="contents/study-materials/ps7q.pdf">
+            <metadata>
+                <adlcp:location>contents/study-materials/ps7q.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/study-materials/ps7q.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.18-productivity-and-food-webs.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/18-productivity-and-food-webs/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/18-productivity-and-food-webs/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/18-productivity-and-food-webs/index.htm"/>
+            <dependency identifierref="webrenderrequirements.7-014-introductory-biology-spring-2005"/>            
+        </resource>
+        <resource identifier="r_contents.exams.final_handout.pdf"
+                  type="other"
+                  href="contents/exams/final_handout.pdf">
+            <metadata>
+                <adlcp:location>contents/exams/final_handout.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/exams/final_handout.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.recitations.index.htm"
+                  type="webcontent"
+                  href="contents/recitations/index.htm">
+            <metadata>
+                <adlcp:location>contents/recitations/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/recitations/index.htm"/>
+            <dependency identifierref="webrenderrequirements.7-014-introductory-biology-spring-2005"/>            
+        </resource>
+        <resource identifier="r_contents.recitations.section13_ak.pdf"
+                  type="other"
+                  href="contents/recitations/section13_ak.pdf">
+            <metadata>
+                <adlcp:location>contents/recitations/section13_ak.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/recitations/section13_ak.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.recitations.section13.pdf"
+                  type="other"
+                  href="contents/recitations/section13.pdf">
+            <metadata>
+                <adlcp:location>contents/recitations/section13.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/recitations/section13.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.6-biochemistry-v.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/6-biochemistry-v/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/6-biochemistry-v/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/6-biochemistry-v/index.htm"/>
+            <dependency identifierref="webrenderrequirements.7-014-introductory-biology-spring-2005"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.7_0142005L20.pdf"
+                  type="other"
+                  href="contents/video-lectures/7_0142005L20.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/7_0142005L20.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/7_0142005L20.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.ps2s_05.pdf"
+                  type="other"
+                  href="contents/assignments/ps2s_05.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ps2s_05.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ps2s_05.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.study-materials.index.htm"
+                  type="webcontent"
+                  href="contents/study-materials/index.htm">
+            <metadata>
+                <adlcp:location>contents/study-materials/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/study-materials/index.htm"/>
+            <dependency identifierref="webrenderrequirements.7-014-introductory-biology-spring-2005"/>            
+        </resource>
+        <resource identifier="r_contents.study-materials.ps3s.pdf"
+                  type="other"
+                  href="contents/study-materials/ps3s.pdf">
+            <metadata>
+                <adlcp:location>contents/study-materials/ps3s.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/study-materials/ps3s.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.7_0142005L07.pdf"
+                  type="other"
+                  href="contents/video-lectures/7_0142005L07.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/7_0142005L07.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/7_0142005L07.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.recitations.section5_ak.pdf"
+                  type="other"
+                  href="contents/recitations/section5_ak.pdf">
+            <metadata>
+                <adlcp:location>contents/recitations/section5_ak.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/recitations/section5_ak.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.1-introduction.lec1.jpg"
+                  type="other"
+                  href="contents/video-lectures/1-introduction/lec1.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/1-introduction/lec1.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/1-introduction/lec1.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.21-mendelian-genetics.7.014-2005-L21.srt"
+                  type="other"
+                  href="contents/video-lectures/21-mendelian-genetics/7.014-2005-L21.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/21-mendelian-genetics/7.014-2005-L21.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/21-mendelian-genetics/7.014-2005-L21.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.recitations.section10.pdf"
+                  type="other"
+                  href="contents/recitations/section10.pdf">
+            <metadata>
+                <adlcp:location>contents/recitations/section10.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/recitations/section10.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.recitations.section9_ak.pdf"
+                  type="other"
+                  href="contents/recitations/section9_ak.pdf">
+            <metadata>
+                <adlcp:location>contents/recitations/section9_ak.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/recitations/section9_ak.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lec33_35_handout.pdf"
+                  type="other"
+                  href="contents/video-lectures/lec33_35_handout.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lec33_35_handout.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lec33_35_handout.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.10-molecular-biology-ii-process-of-science.lec10.jpg"
+                  type="other"
+                  href="contents/video-lectures/10-molecular-biology-ii-process-of-science/lec10.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/10-molecular-biology-ii-process-of-science/lec10.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/10-molecular-biology-ii-process-of-science/lec10.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.6-biochemistry-v.7.014-2005-L06.srt"
+                  type="other"
+                  href="contents/video-lectures/6-biochemistry-v/7.014-2005-L06.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/6-biochemistry-v/7.014-2005-L06.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/6-biochemistry-v/7.014-2005-L06.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.study-materials.ps7s.pdf"
+                  type="other"
+                  href="contents/study-materials/ps7s.pdf">
+            <metadata>
+                <adlcp:location>contents/study-materials/ps7s.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/study-materials/ps7s.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.study-materials.ps1s.pdf"
+                  type="other"
+                  href="contents/study-materials/ps1s.pdf">
+            <metadata>
+                <adlcp:location>contents/study-materials/ps1s.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/study-materials/ps1s.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.30-population-growth-ii.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/30-population-growth-ii/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/30-population-growth-ii/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/30-population-growth-ii/index.htm"/>
+            <dependency identifierref="webrenderrequirements.7-014-introductory-biology-spring-2005"/>            
+        </resource>
+        <resource identifier="r_contents.recitations.section16.pdf"
+                  type="other"
+                  href="contents/recitations/section16.pdf">
+            <metadata>
+                <adlcp:location>contents/recitations/section16.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/recitations/section16.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.7_0142005L28.pdf"
+                  type="other"
+                  href="contents/video-lectures/7_0142005L28.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/7_0142005L28.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/7_0142005L28.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.7_0142005L16.pdf"
+                  type="other"
+                  href="contents/video-lectures/7_0142005L16.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/7_0142005L16.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/7_0142005L16.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.recitations.section24_ak.pdf"
+                  type="other"
+                  href="contents/recitations/section24_ak.pdf">
+            <metadata>
+                <adlcp:location>contents/recitations/section24_ak.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/recitations/section24_ak.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.3-biochemistry-ii.7.014-2005-L03.srt"
+                  type="other"
+                  href="contents/video-lectures/3-biochemistry-ii/7.014-2005-L03.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/3-biochemistry-ii/7.014-2005-L03.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/3-biochemistry-ii/7.014-2005-L03.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.readings.l18_productivity.pdf"
+                  type="other"
+                  href="contents/readings/l18_productivity.pdf">
+            <metadata>
+                <adlcp:location>contents/readings/l18_productivity.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/readings/l18_productivity.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.2-immunology-ii.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/2-immunology-ii/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/2-immunology-ii/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/2-immunology-ii/index.htm"/>
+            <dependency identifierref="webrenderrequirements.7-014-introductory-biology-spring-2005"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.31-population-genetics-and-evolution.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/31-population-genetics-and-evolution/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/31-population-genetics-and-evolution/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/31-population-genetics-and-evolution/index.htm"/>
+            <dependency identifierref="webrenderrequirements.7-014-introductory-biology-spring-2005"/>            
+        </resource>
+        <resource identifier="r_contents.recitations.section24.pdf"
+                  type="other"
+                  href="contents/recitations/section24.pdf">
+            <metadata>
+                <adlcp:location>contents/recitations/section24.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/recitations/section24.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.15-bacterial-genetics.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/15-bacterial-genetics/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/15-bacterial-genetics/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/15-bacterial-genetics/index.htm"/>
+            <dependency identifierref="webrenderrequirements.7-014-introductory-biology-spring-2005"/>            
+        </resource>
+        <resource identifier="r_contents.study-materials.ps8q.pdf"
+                  type="other"
+                  href="contents/study-materials/ps8q.pdf">
+            <metadata>
+                <adlcp:location>contents/study-materials/ps8q.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/study-materials/ps8q.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.ps3q_05.pdf"
+                  type="other"
+                  href="contents/assignments/ps3q_05.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ps3q_05.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ps3q_05.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.recitations.section9.pdf"
+                  type="other"
+                  href="contents/recitations/section9.pdf">
+            <metadata>
+                <adlcp:location>contents/recitations/section9.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/recitations/section9.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.17-carbon-and-energy-metabolism.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/17-carbon-and-energy-metabolism/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/17-carbon-and-energy-metabolism/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/17-carbon-and-energy-metabolism/index.htm"/>
+            <dependency identifierref="webrenderrequirements.7-014-introductory-biology-spring-2005"/>            
+        </resource>
+        <resource identifier="r_contents.study-materials.ps6q.pdf"
+                  type="other"
+                  href="contents/study-materials/ps6q.pdf">
+            <metadata>
+                <adlcp:location>contents/study-materials/ps6q.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/study-materials/ps6q.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.recitations.section11_ak.pdf"
+                  type="other"
+                  href="contents/recitations/section11_ak.pdf">
+            <metadata>
+                <adlcp:location>contents/recitations/section11_ak.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/recitations/section11_ak.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.20-limiting-factors-and-biogeochemical-cycleslimiting-factors-and-biogeochemical-cycles.lec20.jpg"
+                  type="other"
+                  href="contents/video-lectures/20-limiting-factors-and-biogeochemical-cycleslimiting-factors-and-biogeochemical-cycles/lec20.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/20-limiting-factors-and-biogeochemical-cycleslimiting-factors-and-biogeochemical-cycles/lec20.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/20-limiting-factors-and-biogeochemical-cycleslimiting-factors-and-biogeochemical-cycles/lec20.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.recitations.section14.pdf"
+                  type="other"
+                  href="contents/recitations/section14.pdf">
+            <metadata>
+                <adlcp:location>contents/recitations/section14.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/recitations/section14.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.30-population-growth-ii.lec30.jpg"
+                  type="other"
+                  href="contents/video-lectures/30-population-growth-ii/lec30.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/30-population-growth-ii/lec30.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/30-population-growth-ii/lec30.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.2-immunology-ii.7.014-2005-L28.srt"
+                  type="other"
+                  href="contents/video-lectures/2-immunology-ii/7.014-2005-L28.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/2-immunology-ii/7.014-2005-L28.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/2-immunology-ii/7.014-2005-L28.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.recitations.section21.pdf"
+                  type="other"
+                  href="contents/recitations/section21.pdf">
+            <metadata>
+                <adlcp:location>contents/recitations/section21.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/recitations/section21.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.7_0142005L33.pdf"
+                  type="other"
+                  href="contents/video-lectures/7_0142005L33.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/7_0142005L33.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/7_0142005L33.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.7_0142005L14.pdf"
+                  type="other"
+                  href="contents/video-lectures/7_0142005L14.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/7_0142005L14.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/7_0142005L14.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.25-recombinant-dna-ii.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/25-recombinant-dna-ii/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/25-recombinant-dna-ii/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/25-recombinant-dna-ii/index.htm"/>
+            <dependency identifierref="webrenderrequirements.7-014-introductory-biology-spring-2005"/>            
+        </resource>
+        <resource identifier="r_contents.calendar.index.htm"
+                  type="webcontent"
+                  href="contents/calendar/index.htm">
+            <metadata>
+                <adlcp:location>contents/calendar/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/calendar/index.htm"/>
+            <dependency identifierref="webrenderrequirements.7-014-introductory-biology-spring-2005"/>            
+        </resource>
+        <resource identifier="r_contents.study-materials.ps3q.pdf"
+                  type="other"
+                  href="contents/study-materials/ps3q.pdf">
+            <metadata>
+                <adlcp:location>contents/study-materials/ps3q.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/study-materials/ps3q.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.recitations.section14_ak.pdf"
+                  type="other"
+                  href="contents/recitations/section14_ak.pdf">
+            <metadata>
+                <adlcp:location>contents/recitations/section14_ak.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/recitations/section14_ak.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.15-bacterial-genetics.lec15.jpg"
+                  type="other"
+                  href="contents/video-lectures/15-bacterial-genetics/lec15.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/15-bacterial-genetics/lec15.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/15-bacterial-genetics/lec15.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.4-biochemistry-iii.lec4.jpg"
+                  type="other"
+                  href="contents/video-lectures/4-biochemistry-iii/lec4.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/4-biochemistry-iii/lec4.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/4-biochemistry-iii/lec4.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.7_0142005L34.pdf"
+                  type="other"
+                  href="contents/video-lectures/7_0142005L34.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/7_0142005L34.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/7_0142005L34.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.7_0142005L24.pdf"
+                  type="other"
+                  href="contents/video-lectures/7_0142005L24.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/7_0142005L24.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/7_0142005L24.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.ps7q_05.pdf"
+                  type="other"
+                  href="contents/assignments/ps7q_05.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ps7q_05.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ps7q_05.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.17-carbon-and-energy-metabolism.lec17.jpg"
+                  type="other"
+                  href="contents/video-lectures/17-carbon-and-energy-metabolism/lec17.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/17-carbon-and-energy-metabolism/lec17.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/17-carbon-and-energy-metabolism/lec17.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.exams.quiz3_s.pdf"
+                  type="other"
+                  href="contents/exams/quiz3_s.pdf">
+            <metadata>
+                <adlcp:location>contents/exams/quiz3_s.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/exams/quiz3_s.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.syllabus.index.htm"
+                  type="webcontent"
+                  href="contents/syllabus/index.htm">
+            <metadata>
+                <adlcp:location>contents/syllabus/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/syllabus/index.htm"/>
+            <dependency identifierref="webrenderrequirements.7-014-introductory-biology-spring-2005"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.mediaresource.2010-10-26.0571828698.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/mediaresource.2010-10-26.0571828698/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/mediaresource.2010-10-26.0571828698/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/mediaresource.2010-10-26.0571828698/index.htm"/>
+            <dependency identifierref="webrenderrequirements.7-014-introductory-biology-spring-2005"/>            
+        </resource>
+        <resource identifier="r_contents.recitations.section23.pdf"
+                  type="other"
+                  href="contents/recitations/section23.pdf">
+            <metadata>
+                <adlcp:location>contents/recitations/section23.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/recitations/section23.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.index.htm"
+                  type="webcontent"
+                  href="contents/assignments/index.htm">
+            <metadata>
+                <adlcp:location>contents/assignments/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/index.htm"/>
+            <dependency identifierref="webrenderrequirements.7-014-introductory-biology-spring-2005"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.7_0142005L02.pdf"
+                  type="other"
+                  href="contents/video-lectures/7_0142005L02.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/7_0142005L02.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/7_0142005L02.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.pset1s.pdf"
+                  type="other"
+                  href="contents/assignments/pset1s.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/pset1s.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/pset1s.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.study-materials.ps5q.pdf"
+                  type="other"
+                  href="contents/study-materials/ps5q.pdf">
+            <metadata>
+                <adlcp:location>contents/study-materials/ps5q.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/study-materials/ps5q.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.7-biochemistry-vi.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/7-biochemistry-vi/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/7-biochemistry-vi/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/7-biochemistry-vi/index.htm"/>
+            <dependency identifierref="webrenderrequirements.7-014-introductory-biology-spring-2005"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.6-biochemistry-v.lec6.jpg"
+                  type="other"
+                  href="contents/video-lectures/6-biochemistry-v/lec6.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/6-biochemistry-v/lec6.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/6-biochemistry-v/lec6.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.35-communities-iii.7.014-2005-L35.srt"
+                  type="other"
+                  href="contents/video-lectures/35-communities-iii/7.014-2005-L35.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/35-communities-iii/7.014-2005-L35.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/35-communities-iii/7.014-2005-L35.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.index.htm"
+                  type="webcontent"
+                  href="contents/index.htm">
+            <metadata>
+                <adlcp:location>contents/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/index.htm"/>
+            <dependency identifierref="webrenderrequirements.7-014-introductory-biology-spring-2005"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.35-communities-iii.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/35-communities-iii/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/35-communities-iii/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/35-communities-iii/index.htm"/>
+            <dependency identifierref="webrenderrequirements.7-014-introductory-biology-spring-2005"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.7_0142005L17.pdf"
+                  type="other"
+                  href="contents/video-lectures/7_0142005L17.pdf">
+            <metadata>
+                <adlcp:location>contents/video-lectures/7_0142005L17.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/7_0142005L17.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.2-biochemistry-i.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/2-biochemistry-i/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/2-biochemistry-i/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/2-biochemistry-i/index.htm"/>
+            <dependency identifierref="webrenderrequirements.7-014-introductory-biology-spring-2005"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.9-molecular-biology-i.lec9.jpg"
+                  type="other"
+                  href="contents/video-lectures/9-molecular-biology-i/lec9.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/9-molecular-biology-i/lec9.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/9-molecular-biology-i/lec9.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.10-molecular-biology-ii-process-of-science.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/10-molecular-biology-ii-process-of-science/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/10-molecular-biology-ii-process-of-science/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/10-molecular-biology-ii-process-of-science/index.htm"/>
+            <dependency identifierref="webrenderrequirements.7-014-introductory-biology-spring-2005"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.22-mitosis-and-meiosis.7.014-2005-L22.srt"
+                  type="other"
+                  href="contents/video-lectures/22-mitosis-and-meiosis/7.014-2005-L22.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/22-mitosis-and-meiosis/7.014-2005-L22.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/22-mitosis-and-meiosis/7.014-2005-L22.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.23-diploid-genetics.7.014-2005-L23.srt"
+                  type="other"
+                  href="contents/video-lectures/23-diploid-genetics/7.014-2005-L23.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/23-diploid-genetics/7.014-2005-L23.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/23-diploid-genetics/7.014-2005-L23.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.25-recombinant-dna-ii.7.014-2005-L25.srt"
+                  type="other"
+                  href="contents/video-lectures/25-recombinant-dna-ii/7.014-2005-L25.srt">
+            <metadata>
+                <adlcp:location>contents/video-lectures/25-recombinant-dna-ii/7.014-2005-L25.srt.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/25-recombinant-dna-ii/7.014-2005-L25.srt"/>
+                        
+        </resource>
+        <resource identifier="r_contents.7-014s05.jpg"
+                  type="other" href="contents/7-014s05.jpg">
+            <metadata>
+                <adlcp:location>contents/7-014s05.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/7-014s05.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.study-materials.ps4s.pdf"
+                  type="other"
+                  href="contents/study-materials/ps4s.pdf">
+            <metadata>
+                <adlcp:location>contents/study-materials/ps4s.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/study-materials/ps4s.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.32-molecular-evolution.lec32.jpg"
+                  type="other"
+                  href="contents/video-lectures/32-molecular-evolution/lec32.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/32-molecular-evolution/lec32.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/32-molecular-evolution/lec32.jpg"/>
+                        
+        </resource>        
+        <resource identifier="r_common.search.AdvancedSearch.htm"
+                  type="webcontent"
+                  href="common/search/AdvancedSearch.htm">
+            <file href="common/search/AdvancedSearch.htm"/>
+            <dependency identifierref="webrenderrequirements.7-014-introductory-biology-spring-2005"/>            
+        </resource>
+        <resource identifier="r_common.jsp.feedback.htm"
+                  type="webcontent"
+                  href="common/jsp/feedback.htm">
+            <file href="common/jsp/feedback.htm"/>
+            <dependency identifierref="webrenderrequirements.7-014-introductory-biology-spring-2005"/>            
+        </resource>
+        <resource identifier="r_common.terms.index.htm"
+                  type="webcontent"
+                  href="common/terms/index.htm">
+            <file href="common/terms/share.png"/>
+            <file href="common/terms/remix.png"/>
+            <file href="common/terms/by.png"/>
+            <file href="common/terms/nc.png"/>
+            <file href="common/terms/sa.png"/>
+            <file href="common/terms/deedheadyellow.png"/>
+            <file href="common/terms/freedomsheader.png"/>
+            <file href="common/terms/limitationsheader.png"/>
+            <file href="common/terms/deedfootyellow.png"/>
+            <dependency identifierref="webrenderrequirements.7-014-introductory-biology-spring-2005"/>            
+        </resource>
+        <resource identifier="r_common.terms.trademarks.index.htm"
+                  type="webcontent"
+                  href="common/terms/trademarks/index.htm">
+            <file href="common/terms/trademarks/index.htm"/>
+            <dependency identifierref="webrenderrequirements.7-014-introductory-biology-spring-2005"/>            
+        </resource>
+        <resource identifier="webrenderrequirements.7-014-introductory-biology-spring-2005"
+                  type="webcontent">
+        	<file href="common/styles/base.css"/>
+        	<file href="common/styles/courses.css"/>
+        	<file href="common/styles/courses_new.css"/>
+        	<file href="common/styles/global.css"/>
+        	<file href="common/styles/grid.css"/>
+        	<file href="common/styles/highslide.css"/>
+        	<file href="common/styles/highslide-ie6.css"/>
+        	<file href="common/styles/jquery.bubblepopup.css"/>
+        	<file href="common/styles/jquery.jscrollpane.css"/>
+        	<file href="common/styles/jquery-ui.css"/>
+        	<file href="common/styles/menu.css"/>
+        	<file href="common/styles/scholar2.css"/>
+        	<file href="common/styles/media_tabs.css"/>
+        	<file href="common/scripts/bubble-popup-offline.js"/>
+        	<file href="common/scripts/common-utils-offline.js"/>
+        	<file href="common/scripts/highslide-with-gallery.js"/>
+        	<file href="common/scripts/jquery.bubblepopup.min.js"/>
+        	<file href="common/scripts/jquery.jscrollpane.min.js"/>
+        	<file href="common/scripts/jquery-ui.min.js"/>
+        	<file href="common/scripts/jQuizMe-uncompressed.js"/>
+        	<file href="common/scripts/ocw-offline.js"/>
+        	<file href="common/scripts/expandy.js"/>
+        	<file href="common/images/ocw_mast.png"/>
+        	<file href="common/images/button_subscribe.png"/>
+        	<file href="common/images/icon_fb.png"/>
+        	<file href="common/images/icon_tw.png"/>
+        	<file href="common/images/top-nav_home.png"/>
+        	<file href="common/images/button_search.png"/>
+        	<file href="common/images/bg_top.png"/>
+        	<file href="common/images/bg_social.png"/>
+        	<file href="common/images/bg_mega-courses.png"/>
+        	<file href="common/images/bg_center2.png"/>
+        	<file href="common/images/bg_course-nav_current.png"/>
+        	<file href="common/images/button_donate-now.png"/>
+        	<file href="common/images/logo_mit.png"/>
+        	<file href="common/images/logo_ocwc.gif"/>
+        	<file href="common/images/cc_by-nc-sa.png"/>
+        	<file href="common/images/logo_dow.png"/>
+        	<file href="common/images/logo_lockheed.png"/>
+        	<file href="common/images/logo_mathworks.png"/>
+        	<file href="common/images/logo_abinitio.png"/>
+        	<file href="common/images/bg_bottom.png"/>
+        	<file href="common/images/nav_arrow.png"/>
+        	<file href="common/images/black-arrow.gif"/>
+        	<file href="common/images/trans.gif"/>
+        	<file href="common/images/arrow-bullet.gif"/>
+        	<file href="common/images/apple-touch-icon.png"/>
+        	<file href="common/images/highslide/graphics/zoomin.cur"/>
+        	<file href="common/images/highslide/graphics/zoomout.cur"/>
+        	<file href="common/images/highslide/graphics/controlbar2.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar3.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar4.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar4-hover.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar-black-border.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar-white.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar-white-small.gif"/>
+        	<file href="common/images/highslide/graphics/fullexpand.gif"/>
+        	<file href="common/images/highslide/graphics/icon.gif"/>
+        	<file href="common/images/highslide/graphics/loader.gif"/>
+        	<file href="common/images/highslide/graphics/loader.white.gif"/>
+        	<file href="common/images/highslide/graphics/resize.gif"/>
+        	<file href="common/images/highslide/graphics/close.png"/>
+        	<file href="common/images/highslide/graphics/closeX.png"/>
+        	<file href="common/images/highslide/graphics/controlbar-text-buttons.png"/>
+        	<file href="common/images/highslide/graphics/geckodimmer.png"/>
+        	<file href="common/images/highslide/graphics/scrollarrows.png"/>
+        	<file href="common/images/highslide/graphics/outlines/beveled.png"/>
+        	<file href="common/images/highslide/graphics/outlines/drop-shadow.png"/>
+        	<file href="common/images/highslide/graphics/outlines/glossy-dark.png"/>
+        	<file href="common/images/highslide/graphics/outlines/outer-glow.png"/>
+        	<file href="common/images/highslide/graphics/outlines/rounded-black.png"/>
+        	<file href="common/images/highslide/graphics/outlines/rounded-white.png"/>
+        	<file href="common/images/highslide/graphics/outlines/Outlines.psd"/>
+        	<file href="common/images/button_continue.jpg"/>
+        	<file href="common/images/button_donate.jpg"/>
+        	<file href="common/images/button_start.jpg"/>
+        	<file href="common/images/scholar_bar_chp.png"/>
+        	<file href="common/images/scholar_bar.png"/>
+        	<file href="common/images/logo_pdf.jpg"/>
+        	<file href="common/images/h2_trigger_open_close.gif"/>
+        	<file href="common/images/bookmark.gif"/>
+        	<file href="common/images/check.png"/>
+        	<file href="common/images/lightbulb.png"/>
+        	<file href="common/images/audio_file.gif"/>
+        	<file href="common/images/audio_only_slate.gif"/>
+        	<file href="common/images/video_file.gif"/>
+        	<file href="common/images/back-5.png"/>
+        	<file href="common/images/btn_next_resource.png"/>
+        	<file href="common/images/btn_previous_resource.png"/>
+        	<file href="common/images/close.png"/>
+        	<file href="common/images/inacessible.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/bottom-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/bottom-middle.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/bottom-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/middle-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/middle-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-bottom.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-top.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/top-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/top-middle.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/top-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/bottom-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/bottom-middle.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/bottom-right.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/middle-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/middle-right.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-bottom.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-right.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-top.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/top-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/top-middle.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/top-right.png"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.woff"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.ttf"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.svg"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.eot"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.woff"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.ttf"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.eot"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.svg"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.woff"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.ttf"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.svg"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.eot"/>
+        </resource>        
+  </resources>
+</manifest>

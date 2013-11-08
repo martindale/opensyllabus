@@ -1,0 +1,933 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest xmlns="http://www.imsglobal.org/xsd/imscp_v1p1"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+          xmlns:cwsp="http://www.dspace.org/xmlns/cwspace_imscp"
+          xmlns:ocw="http://ocw.mit.edu/xmlns/ocw_imscp"
+          xmlns:lom="http://ocw.mit.edu/xmlns/LOM"
+          identifier="urn_edu.mit.ocw_16-83x-space-systems-engineering-spring-2002-spring-2003"
+          version="2013-6-22T3:2:36"
+          cwsp:packageType="Course"
+          xml:base="16-83x-spring-2002-spring-2003/"
+          xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 http://www.imsglobal.org/xsd/imscp_v1p1.xsd  http://www.adlnet.org/xsd/adlcp_rootv1p2 http://www.adlnet.org/xsd/adlcp_rootv1p2.xsd http://www.dspace.org/xmlns/cwspace_imscp http://www.dspace.org/xsd/cwspace_imscp/version10/cwspace_imscpv10.xsd http://ocw.mit.edu/xmlns/ocw_imscp http://ocw.mit.edu/xsd/ocw_imscp/version10/ocw_imscpv10.xsd http://ocw.mit.edu/xmlns/LOM http://ocw.mit.edu/xsd/LOM/lomv1.0/lomv1.0.xsd">
+   	<metadata>
+   		<schema>IMS Content</schema>
+        <schemaversion>1.1</schemaversion>
+        <cwsp:packageMetadata>
+            <cwsp:sourceSystem>OCW</cwsp:sourceSystem>
+            <cwsp:profile>CWSpace</cwsp:profile>
+            <cwsp:profileVersion>0.1</cwsp:profileVersion>
+        </cwsp:packageMetadata>
+        <lom:general uniqueElementName="general">
+            <lom:title uniqueElementName="title">
+				<lom:string language="en">Space Systems Engineering</lom:string>
+			</lom:title>
+			<lom:identifier>
+				<lom:catalog uniqueElementName="catalog">OCW Master Course Number</lom:catalog>
+		      	<lom:entry uniqueElementName="entry">16.83X</lom:entry>
+			</lom:identifier>
+        </lom:general>
+        <lom:lifecycle uniqueElementName="lifeCycle">
+            <lom:version uniqueElementName="version">
+				<lom:string language="en">Spring 2002 - Spring 2003</lom:string>
+			</lom:version>
+            <lom:contribute>
+	            <lom:role>
+	                <lom:source uniqueElementName="source">OCW_LOMv1.0</lom:source>
+	                <lom:value uniqueElementName="value">Author</lom:value>
+	            </lom:role>
+	            <lom:entity>Miller, David</lom:entity>
+	            <lom:date uniqueElementName="date">
+	                <lom:dateTime uniqueElementName="dateTime">2013-6-22</lom:dateTime>
+	            </lom:date>
+        	</lom:contribute>
+            <lom:contribute>
+	            <lom:role>
+	                <lom:source uniqueElementName="source">OCW_LOMv1.0</lom:source>
+	                <lom:value uniqueElementName="value">Author</lom:value>
+	            </lom:role>
+	            <lom:entity>Keesee, John</lom:entity>
+	            <lom:date uniqueElementName="date">
+	                <lom:dateTime uniqueElementName="dateTime">2013-6-22</lom:dateTime>
+	            </lom:date>
+        	</lom:contribute>
+        </lom:lifecycle>
+        <lom:taxonPath>
+            <lom:source uniqueElementName="source">
+                <lom:string language="en">OCW Course Categories</lom:string>
+            </lom:source>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Engineering</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Aerospace Engineering</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            
+        </lom:taxonPath>
+        <lom:taxonPath>
+            <lom:source uniqueElementName="source">
+                <lom:string language="en">OCW Course Categories</lom:string>
+            </lom:source>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Engineering</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Aerospace Engineering</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Guidance and Control Systems</lom:string>
+                </lom:entry>
+            </lom:taxon>
+        </lom:taxonPath>
+        <lom:taxonPath>
+            <lom:source uniqueElementName="source">
+                <lom:string language="en">OCW Course Categories</lom:string>
+            </lom:source>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Engineering</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Aerospace Engineering</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Astrodynamics</lom:string>
+                </lom:entry>
+            </lom:taxon>
+        </lom:taxonPath>        
+        <adlcp:location>contents/index.htm.xml</adlcp:location>
+    </metadata>
+    <organizations default="ocw_16-83x-space-systems-engineering-spring-2002-spring-2003">
+        <organization identifier="ocw_16-83x-space-systems-engineering-spring-2002-spring-2003">
+            <title>Space Systems Engineering</title>
+            <item identifier="i_16-83x-space-systems-engineering-spring-2002-spring-2003.CourseHome"
+                  identifierref="r_contents.index.htm"
+                  ocw:sectionTemplateType="CourseHomePage"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Space Systems Engineering</title>
+				<item identifier="i_16-83x-space-systems-engineering-spring-2002-spring-2003.16-83xs02.jpg"
+          identifierref="r_contents.16-83xs02.jpg">
+				<title>16-83xs02.jpg</title>
+				</item>
+				<item identifier="i_16-83x-space-systems-engineering-spring-2002-spring-2003.16-83xs02-th.jpg"
+          identifierref="r_contents.16-83xs02-th.jpg">
+				<title>16-83xs02-th.jpg</title>
+				</item>
+			</item>
+            <item identifier="i_16-83x-space-systems-engineering-spring-2002-spring-2003.syllabus"
+                  identifierref="r_contents.syllabus.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Syllabus</title>
+				<item identifier="i_16-83x-space-systems-engineering-spring-2002-spring-2003.syllabus.prog_plan_v2_11.pdf"
+          identifierref="r_contents.syllabus.prog_plan_v2_11.pdf">
+				<title>prog_plan_v2_11.pdf</title>
+				</item>
+			</item>
+            <item identifier="i_16-83x-space-systems-engineering-spring-2002-spring-2003.calendar"
+                  identifierref="r_contents.calendar.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Calendar</title>
+			</item>
+            <item identifier="i_16-83x-space-systems-engineering-spring-2002-spring-2003.lecture-notes"
+                  identifierref="r_contents.lecture-notes.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Lecture Notes</title>
+				<item identifier="i_16-83x-space-systems-engineering-spring-2002-spring-2003.lecture-notes.grav_well_tb_4.pdf"
+          identifierref="r_contents.lecture-notes.grav_well_tb_4.pdf">
+				<title>grav_well_tb_4.pdf</title>
+				</item>
+				<item identifier="i_16-83x-space-systems-engineering-spring-2002-spring-2003.lecture-notes.evpm.pdf"
+          identifierref="r_contents.lecture-notes.evpm.pdf">
+				<title>evpm.pdf</title>
+				</item>
+				<item identifier="i_16-83x-space-systems-engineering-spring-2002-spring-2003.lecture-notes.badslides.pdf"
+          identifierref="r_contents.lecture-notes.badslides.pdf">
+				<title>badslides.pdf</title>
+				</item>
+				<item identifier="i_16-83x-space-systems-engineering-spring-2002-spring-2003.lecture-notes.designdoc.pdf"
+          identifierref="r_contents.lecture-notes.designdoc.pdf">
+				<title>designdoc.pdf</title>
+				</item>
+				<item identifier="i_16-83x-space-systems-engineering-spring-2002-spring-2003.lecture-notes.sys_engg_manage2.pdf"
+          identifierref="r_contents.lecture-notes.sys_engg_manage2.pdf">
+				<title>sys_engg_manage2.pdf</title>
+				</item>
+				<item identifier="i_16-83x-space-systems-engineering-spring-2002-spring-2003.lecture-notes.design_team_pres.pdf"
+          identifierref="r_contents.lecture-notes.design_team_pres.pdf">
+				<title>design_team_pres.pdf</title>
+				</item>
+				<item identifier="i_16-83x-space-systems-engineering-spring-2002-spring-2003.lecture-notes.smt.pdf"
+          identifierref="r_contents.lecture-notes.smt.pdf">
+				<title>smt.pdf</title>
+				</item>
+			</item>
+            <item identifier="i_16-83x-space-systems-engineering-spring-2002-spring-2003.projects"
+                  identifierref="r_contents.projects.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Projects</title>
+				<item identifier="i_16-83x-space-systems-engineering-spring-2002-spring-2003.projects.4_19_ff.pdf"
+          identifierref="r_contents.projects.4_19_ff.pdf">
+				<title>4_19_ff.pdf</title>
+				</item>
+				<item identifier="i_16-83x-space-systems-engineering-spring-2002-spring-2003.projects.design_final_i.pdf"
+          identifierref="r_contents.projects.design_final_i.pdf">
+				<title>design_final_i.pdf</title>
+				</item>
+				<item identifier="i_16-83x-space-systems-engineering-spring-2002-spring-2003.projects.pdr1.pdf"
+          identifierref="r_contents.projects.pdr1.pdf">
+				<title>pdr1.pdf</title>
+				</item>
+				<item identifier="i_16-83x-space-systems-engineering-spring-2002-spring-2003.projects.nro8_200211.pdf"
+          identifierref="r_contents.projects.nro8_200211.pdf">
+				<title>nro8_200211.pdf</title>
+				</item>
+				<item identifier="i_16-83x-space-systems-engineering-spring-2002-spring-2003.projects.nro7_200210.pdf"
+          identifierref="r_contents.projects.nro7_200210.pdf">
+				<title>nro7_200210.pdf</title>
+				</item>
+				<item identifier="i_16-83x-space-systems-engineering-spring-2002-spring-2003.projects.4_19_sp.pdf"
+          identifierref="r_contents.projects.4_19_sp.pdf">
+				<title>4_19_sp.pdf</title>
+				</item>
+				<item identifier="i_16-83x-space-systems-engineering-spring-2002-spring-2003.projects.nro1.pdf"
+          identifierref="r_contents.projects.nro1.pdf">
+				<title>nro1.pdf</title>
+				</item>
+				<item identifier="i_16-83x-space-systems-engineering-spring-2002-spring-2003.projects.pc_dat.pdf"
+          identifierref="r_contents.projects.pc_dat.pdf">
+				<title>pc_dat.pdf</title>
+				</item>
+				<item identifier="i_16-83x-space-systems-engineering-spring-2002-spring-2003.projects.tarr.pdf"
+          identifierref="r_contents.projects.tarr.pdf">
+				<title>tarr.pdf</title>
+				</item>
+				<item identifier="i_16-83x-space-systems-engineering-spring-2002-spring-2003.projects.nro2_200205.pdf"
+          identifierref="r_contents.projects.nro2_200205.pdf">
+				<title>nro2_200205.pdf</title>
+				</item>
+				<item identifier="i_16-83x-space-systems-engineering-spring-2002-spring-2003.projects.design_final_e.pdf"
+          identifierref="r_contents.projects.design_final_e.pdf">
+				<title>design_final_e.pdf</title>
+				</item>
+				<item identifier="i_16-83x-space-systems-engineering-spring-2002-spring-2003.projects.reqs_doc_v51.pdf"
+          identifierref="r_contents.projects.reqs_doc_v51.pdf">
+				<title>reqs_doc_v51.pdf</title>
+				</item>
+				<item identifier="i_16-83x-space-systems-engineering-spring-2002-spring-2003.projects.nro5_200208.pdf"
+          identifierref="r_contents.projects.nro5_200208.pdf">
+				<title>nro5_200208.pdf</title>
+				</item>
+				<item identifier="i_16-83x-space-systems-engineering-spring-2002-spring-2003.projects.nar_final.pdf"
+          identifierref="r_contents.projects.nar_final.pdf">
+				<title>nar_final.pdf</title>
+				</item>
+				<item identifier="i_16-83x-space-systems-engineering-spring-2002-spring-2003.projects.nro6_200209.pdf"
+          identifierref="r_contents.projects.nro6_200209.pdf">
+				<title>nro6_200209.pdf</title>
+				</item>
+				<item identifier="i_16-83x-space-systems-engineering-spring-2002-spring-2003.projects.nro12_200303.pdf"
+          identifierref="r_contents.projects.nro12_200303.pdf">
+				<title>nro12_200303.pdf</title>
+				</item>
+				<item identifier="i_16-83x-space-systems-engineering-spring-2002-spring-2003.projects.pics.pdf"
+          identifierref="r_contents.projects.pics.pdf">
+				<title>pics.pdf</title>
+				</item>
+				<item identifier="i_16-83x-space-systems-engineering-spring-2002-spring-2003.projects.design_final_h.pdf"
+          identifierref="r_contents.projects.design_final_h.pdf">
+				<title>design_final_h.pdf</title>
+				</item>
+				<item identifier="i_16-83x-space-systems-engineering-spring-2002-spring-2003.projects.design_final_g.pdf"
+          identifierref="r_contents.projects.design_final_g.pdf">
+				<title>design_final_g.pdf</title>
+				</item>
+				<item identifier="i_16-83x-space-systems-engineering-spring-2002-spring-2003.projects.cdr_final3.pdf"
+          identifierref="r_contents.projects.cdr_final3.pdf">
+				<title>cdr_final3.pdf</title>
+				</item>
+				<item identifier="i_16-83x-space-systems-engineering-spring-2002-spring-2003.projects.opsman.pdf"
+          identifierref="r_contents.projects.opsman.pdf">
+				<title>opsman.pdf</title>
+				</item>
+				<item identifier="i_16-83x-space-systems-engineering-spring-2002-spring-2003.projects.nro3_200206.pdf"
+          identifierref="r_contents.projects.nro3_200206.pdf">
+				<title>nro3_200206.pdf</title>
+				</item>
+				<item identifier="i_16-83x-space-systems-engineering-spring-2002-spring-2003.projects.designdocument.pdf"
+          identifierref="r_contents.projects.designdocument.pdf">
+				<title>designdocument.pdf</title>
+				</item>
+				<item identifier="i_16-83x-space-systems-engineering-spring-2002-spring-2003.projects.design_final_a.pdf"
+          identifierref="r_contents.projects.design_final_a.pdf">
+				<title>design_final_a.pdf</title>
+				</item>
+				<item identifier="i_16-83x-space-systems-engineering-spring-2002-spring-2003.projects.design_final_d.pdf"
+          identifierref="r_contents.projects.design_final_d.pdf">
+				<title>design_final_d.pdf</title>
+				</item>
+				<item identifier="i_16-83x-space-systems-engineering-spring-2002-spring-2003.projects.design_final_f.pdf"
+          identifierref="r_contents.projects.design_final_f.pdf">
+				<title>design_final_f.pdf</title>
+				</item>
+				<item identifier="i_16-83x-space-systems-engineering-spring-2002-spring-2003.projects.pc_req.pdf"
+          identifierref="r_contents.projects.pc_req.pdf">
+				<title>pc_req.pdf</title>
+				</item>
+				<item identifier="i_16-83x-space-systems-engineering-spring-2002-spring-2003.projects.design_final_c.pdf"
+          identifierref="r_contents.projects.design_final_c.pdf">
+				<title>design_final_c.pdf</title>
+				</item>
+				<item identifier="i_16-83x-space-systems-engineering-spring-2002-spring-2003.projects.nro4_200207.pdf"
+          identifierref="r_contents.projects.nro4_200207.pdf">
+				<title>nro4_200207.pdf</title>
+				</item>
+				<item identifier="i_16-83x-space-systems-engineering-spring-2002-spring-2003.projects.pdr2.pdf"
+          identifierref="r_contents.projects.pdr2.pdf">
+				<title>pdr2.pdf</title>
+				</item>
+				<item identifier="i_16-83x-space-systems-engineering-spring-2002-spring-2003.projects.nro10_200301.pdf"
+          identifierref="r_contents.projects.nro10_200301.pdf">
+				<title>nro10_200301.pdf</title>
+				</item>
+				<item identifier="i_16-83x-space-systems-engineering-spring-2002-spring-2003.projects.nro14_200305.pdf"
+          identifierref="r_contents.projects.nro14_200305.pdf">
+				<title>nro14_200305.pdf</title>
+				</item>
+				<item identifier="i_16-83x-space-systems-engineering-spring-2002-spring-2003.projects.design_final_b.pdf"
+          identifierref="r_contents.projects.design_final_b.pdf">
+				<title>design_final_b.pdf</title>
+				</item>
+			</item>
+            <item identifier="i_terms"
+                  identifierref="r_common.terms.index.htm"
+                  ocw:sectionTemplateType="GlobalSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Legal Notices</title>
+			</item>
+            <item identifier="i_terms"
+                  identifierref="r_common.terms.index.htm"
+                  ocw:sectionTemplateType="GlobalSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Privacy Statement</title>
+			</item>
+            <item identifier="i_terms.trademarks"
+                  identifierref="r_common.terms.trademarks.index.htm"
+                  ocw:sectionTemplateType="GlobalSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Trademark Notices</title>
+			</item>
+        </organization>
+    </organizations>
+    <resources>
+        <resource identifier="r_contents.lecture-notes.index.htm"
+                  type="webcontent"
+                  href="contents/lecture-notes/index.htm">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/index.htm"/>
+            <dependency identifierref="webrenderrequirements.16-83x-space-systems-engineering-spring-2002-spring-2003"/>            
+        </resource>
+        <resource identifier="r_contents.lecture-notes.evpm.pdf"
+                  type="other"
+                  href="contents/lecture-notes/evpm.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/evpm.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/evpm.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.designdocument.pdf"
+                  type="other"
+                  href="contents/projects/designdocument.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/designdocument.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/designdocument.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.design_final_b.pdf"
+                  type="other"
+                  href="contents/projects/design_final_b.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/design_final_b.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/design_final_b.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.design_final_i.pdf"
+                  type="other"
+                  href="contents/projects/design_final_i.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/design_final_i.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/design_final_i.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.16-83xs02.jpg"
+                  type="other" href="contents/16-83xs02.jpg">
+            <metadata>
+                <adlcp:location>contents/16-83xs02.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/16-83xs02.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.cdr_final3.pdf"
+                  type="other"
+                  href="contents/projects/cdr_final3.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/cdr_final3.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/cdr_final3.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.pdr1.pdf"
+                  type="other"
+                  href="contents/projects/pdr1.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/pdr1.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/pdr1.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.nar_final.pdf"
+                  type="other"
+                  href="contents/projects/nar_final.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/nar_final.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/nar_final.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.index.htm"
+                  type="webcontent"
+                  href="contents/index.htm">
+            <metadata>
+                <adlcp:location>contents/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/index.htm"/>
+            <dependency identifierref="webrenderrequirements.16-83x-space-systems-engineering-spring-2002-spring-2003"/>            
+        </resource>
+        <resource identifier="r_contents.projects.design_final_h.pdf"
+                  type="other"
+                  href="contents/projects/design_final_h.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/design_final_h.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/design_final_h.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.nro2_200205.pdf"
+                  type="other"
+                  href="contents/projects/nro2_200205.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/nro2_200205.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/nro2_200205.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.pc_req.pdf"
+                  type="other"
+                  href="contents/projects/pc_req.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/pc_req.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/pc_req.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.smt.pdf"
+                  type="other"
+                  href="contents/lecture-notes/smt.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/smt.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/smt.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.nro6_200209.pdf"
+                  type="other"
+                  href="contents/projects/nro6_200209.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/nro6_200209.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/nro6_200209.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.design_final_c.pdf"
+                  type="other"
+                  href="contents/projects/design_final_c.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/design_final_c.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/design_final_c.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.sys_engg_manage2.pdf"
+                  type="other"
+                  href="contents/lecture-notes/sys_engg_manage2.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/sys_engg_manage2.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/sys_engg_manage2.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.nro5_200208.pdf"
+                  type="other"
+                  href="contents/projects/nro5_200208.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/nro5_200208.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/nro5_200208.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.designdoc.pdf"
+                  type="other"
+                  href="contents/lecture-notes/designdoc.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/designdoc.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/designdoc.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.design_final_g.pdf"
+                  type="other"
+                  href="contents/projects/design_final_g.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/design_final_g.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/design_final_g.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.4_19_ff.pdf"
+                  type="other"
+                  href="contents/projects/4_19_ff.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/4_19_ff.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/4_19_ff.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.4_19_sp.pdf"
+                  type="other"
+                  href="contents/projects/4_19_sp.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/4_19_sp.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/4_19_sp.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.16-83xs02-th.jpg"
+                  type="other"
+                  href="contents/16-83xs02-th.jpg">
+            <metadata>
+                <adlcp:location>contents/16-83xs02-th.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/16-83xs02-th.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.nro4_200207.pdf"
+                  type="other"
+                  href="contents/projects/nro4_200207.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/nro4_200207.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/nro4_200207.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.nro7_200210.pdf"
+                  type="other"
+                  href="contents/projects/nro7_200210.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/nro7_200210.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/nro7_200210.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.design_final_f.pdf"
+                  type="other"
+                  href="contents/projects/design_final_f.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/design_final_f.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/design_final_f.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.design_final_a.pdf"
+                  type="other"
+                  href="contents/projects/design_final_a.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/design_final_a.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/design_final_a.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.tarr.pdf"
+                  type="other"
+                  href="contents/projects/tarr.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/tarr.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/tarr.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.nro12_200303.pdf"
+                  type="other"
+                  href="contents/projects/nro12_200303.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/nro12_200303.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/nro12_200303.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.calendar.index.htm"
+                  type="webcontent"
+                  href="contents/calendar/index.htm">
+            <metadata>
+                <adlcp:location>contents/calendar/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/calendar/index.htm"/>
+            <dependency identifierref="webrenderrequirements.16-83x-space-systems-engineering-spring-2002-spring-2003"/>            
+        </resource>
+        <resource identifier="r_contents.projects.pdr2.pdf"
+                  type="other"
+                  href="contents/projects/pdr2.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/pdr2.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/pdr2.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.pics.pdf"
+                  type="other"
+                  href="contents/projects/pics.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/pics.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/pics.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.syllabus.index.htm"
+                  type="webcontent"
+                  href="contents/syllabus/index.htm">
+            <metadata>
+                <adlcp:location>contents/syllabus/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/syllabus/index.htm"/>
+            <dependency identifierref="webrenderrequirements.16-83x-space-systems-engineering-spring-2002-spring-2003"/>            
+        </resource>
+        <resource identifier="r_contents.projects.pc_dat.pdf"
+                  type="other"
+                  href="contents/projects/pc_dat.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/pc_dat.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/pc_dat.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.design_final_d.pdf"
+                  type="other"
+                  href="contents/projects/design_final_d.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/design_final_d.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/design_final_d.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.nro3_200206.pdf"
+                  type="other"
+                  href="contents/projects/nro3_200206.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/nro3_200206.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/nro3_200206.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.badslides.pdf"
+                  type="other"
+                  href="contents/lecture-notes/badslides.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/badslides.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/badslides.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.nro10_200301.pdf"
+                  type="other"
+                  href="contents/projects/nro10_200301.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/nro10_200301.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/nro10_200301.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.nro8_200211.pdf"
+                  type="other"
+                  href="contents/projects/nro8_200211.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/nro8_200211.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/nro8_200211.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.grav_well_tb_4.pdf"
+                  type="other"
+                  href="contents/lecture-notes/grav_well_tb_4.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/grav_well_tb_4.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/grav_well_tb_4.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.syllabus.prog_plan_v2_11.pdf"
+                  type="other"
+                  href="contents/syllabus/prog_plan_v2_11.pdf">
+            <metadata>
+                <adlcp:location>contents/syllabus/prog_plan_v2_11.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/syllabus/prog_plan_v2_11.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.reqs_doc_v51.pdf"
+                  type="other"
+                  href="contents/projects/reqs_doc_v51.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/reqs_doc_v51.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/reqs_doc_v51.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.nro1.pdf"
+                  type="other"
+                  href="contents/projects/nro1.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/nro1.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/nro1.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.nro14_200305.pdf"
+                  type="other"
+                  href="contents/projects/nro14_200305.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/nro14_200305.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/nro14_200305.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.opsman.pdf"
+                  type="other"
+                  href="contents/projects/opsman.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/opsman.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/opsman.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.design_team_pres.pdf"
+                  type="other"
+                  href="contents/lecture-notes/design_team_pres.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/design_team_pres.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/design_team_pres.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.index.htm"
+                  type="webcontent"
+                  href="contents/projects/index.htm">
+            <metadata>
+                <adlcp:location>contents/projects/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/index.htm"/>
+            <dependency identifierref="webrenderrequirements.16-83x-space-systems-engineering-spring-2002-spring-2003"/>            
+        </resource>
+        <resource identifier="r_contents.projects.design_final_e.pdf"
+                  type="other"
+                  href="contents/projects/design_final_e.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/design_final_e.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/design_final_e.pdf"/>
+                        
+        </resource>        
+        <resource identifier="r_common.search.AdvancedSearch.htm"
+                  type="webcontent"
+                  href="common/search/AdvancedSearch.htm">
+            <file href="common/search/AdvancedSearch.htm"/>
+            <dependency identifierref="webrenderrequirements.16-83x-space-systems-engineering-spring-2002-spring-2003"/>            
+        </resource>
+        <resource identifier="r_common.jsp.feedback.htm"
+                  type="webcontent"
+                  href="common/jsp/feedback.htm">
+            <file href="common/jsp/feedback.htm"/>
+            <dependency identifierref="webrenderrequirements.16-83x-space-systems-engineering-spring-2002-spring-2003"/>            
+        </resource>
+        <resource identifier="r_common.terms.index.htm"
+                  type="webcontent"
+                  href="common/terms/index.htm">
+            <file href="common/terms/share.png"/>
+            <file href="common/terms/remix.png"/>
+            <file href="common/terms/by.png"/>
+            <file href="common/terms/nc.png"/>
+            <file href="common/terms/sa.png"/>
+            <file href="common/terms/deedheadyellow.png"/>
+            <file href="common/terms/freedomsheader.png"/>
+            <file href="common/terms/limitationsheader.png"/>
+            <file href="common/terms/deedfootyellow.png"/>
+            <dependency identifierref="webrenderrequirements.16-83x-space-systems-engineering-spring-2002-spring-2003"/>            
+        </resource>
+        <resource identifier="r_common.terms.trademarks.index.htm"
+                  type="webcontent"
+                  href="common/terms/trademarks/index.htm">
+            <file href="common/terms/trademarks/index.htm"/>
+            <dependency identifierref="webrenderrequirements.16-83x-space-systems-engineering-spring-2002-spring-2003"/>            
+        </resource>
+        <resource identifier="webrenderrequirements.16-83x-space-systems-engineering-spring-2002-spring-2003"
+                  type="webcontent">
+        	<file href="common/styles/base.css"/>
+        	<file href="common/styles/courses.css"/>
+        	<file href="common/styles/courses_new.css"/>
+        	<file href="common/styles/global.css"/>
+        	<file href="common/styles/grid.css"/>
+        	<file href="common/styles/highslide.css"/>
+        	<file href="common/styles/highslide-ie6.css"/>
+        	<file href="common/styles/jquery.bubblepopup.css"/>
+        	<file href="common/styles/jquery.jscrollpane.css"/>
+        	<file href="common/styles/jquery-ui.css"/>
+        	<file href="common/styles/menu.css"/>
+        	<file href="common/styles/scholar2.css"/>
+        	<file href="common/styles/media_tabs.css"/>
+        	<file href="common/scripts/bubble-popup-offline.js"/>
+        	<file href="common/scripts/common-utils-offline.js"/>
+        	<file href="common/scripts/highslide-with-gallery.js"/>
+        	<file href="common/scripts/jquery.bubblepopup.min.js"/>
+        	<file href="common/scripts/jquery.jscrollpane.min.js"/>
+        	<file href="common/scripts/jquery-ui.min.js"/>
+        	<file href="common/scripts/jQuizMe-uncompressed.js"/>
+        	<file href="common/scripts/ocw-offline.js"/>
+        	<file href="common/scripts/expandy.js"/>
+        	<file href="common/images/ocw_mast.png"/>
+        	<file href="common/images/button_subscribe.png"/>
+        	<file href="common/images/icon_fb.png"/>
+        	<file href="common/images/icon_tw.png"/>
+        	<file href="common/images/top-nav_home.png"/>
+        	<file href="common/images/button_search.png"/>
+        	<file href="common/images/bg_top.png"/>
+        	<file href="common/images/bg_social.png"/>
+        	<file href="common/images/bg_mega-courses.png"/>
+        	<file href="common/images/bg_center2.png"/>
+        	<file href="common/images/bg_course-nav_current.png"/>
+        	<file href="common/images/button_donate-now.png"/>
+        	<file href="common/images/logo_mit.png"/>
+        	<file href="common/images/logo_ocwc.gif"/>
+        	<file href="common/images/cc_by-nc-sa.png"/>
+        	<file href="common/images/logo_dow.png"/>
+        	<file href="common/images/logo_lockheed.png"/>
+        	<file href="common/images/logo_mathworks.png"/>
+        	<file href="common/images/logo_abinitio.png"/>
+        	<file href="common/images/bg_bottom.png"/>
+        	<file href="common/images/nav_arrow.png"/>
+        	<file href="common/images/black-arrow.gif"/>
+        	<file href="common/images/trans.gif"/>
+        	<file href="common/images/arrow-bullet.gif"/>
+        	<file href="common/images/apple-touch-icon.png"/>
+        	<file href="common/images/highslide/graphics/zoomin.cur"/>
+        	<file href="common/images/highslide/graphics/zoomout.cur"/>
+        	<file href="common/images/highslide/graphics/controlbar2.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar3.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar4.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar4-hover.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar-black-border.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar-white.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar-white-small.gif"/>
+        	<file href="common/images/highslide/graphics/fullexpand.gif"/>
+        	<file href="common/images/highslide/graphics/icon.gif"/>
+        	<file href="common/images/highslide/graphics/loader.gif"/>
+        	<file href="common/images/highslide/graphics/loader.white.gif"/>
+        	<file href="common/images/highslide/graphics/resize.gif"/>
+        	<file href="common/images/highslide/graphics/close.png"/>
+        	<file href="common/images/highslide/graphics/closeX.png"/>
+        	<file href="common/images/highslide/graphics/controlbar-text-buttons.png"/>
+        	<file href="common/images/highslide/graphics/geckodimmer.png"/>
+        	<file href="common/images/highslide/graphics/scrollarrows.png"/>
+        	<file href="common/images/highslide/graphics/outlines/beveled.png"/>
+        	<file href="common/images/highslide/graphics/outlines/drop-shadow.png"/>
+        	<file href="common/images/highslide/graphics/outlines/glossy-dark.png"/>
+        	<file href="common/images/highslide/graphics/outlines/outer-glow.png"/>
+        	<file href="common/images/highslide/graphics/outlines/rounded-black.png"/>
+        	<file href="common/images/highslide/graphics/outlines/rounded-white.png"/>
+        	<file href="common/images/highslide/graphics/outlines/Outlines.psd"/>
+        	<file href="common/images/button_continue.jpg"/>
+        	<file href="common/images/button_donate.jpg"/>
+        	<file href="common/images/button_start.jpg"/>
+        	<file href="common/images/scholar_bar_chp.png"/>
+        	<file href="common/images/scholar_bar.png"/>
+        	<file href="common/images/logo_pdf.jpg"/>
+        	<file href="common/images/h2_trigger_open_close.gif"/>
+        	<file href="common/images/bookmark.gif"/>
+        	<file href="common/images/check.png"/>
+        	<file href="common/images/lightbulb.png"/>
+        	<file href="common/images/audio_file.gif"/>
+        	<file href="common/images/audio_only_slate.gif"/>
+        	<file href="common/images/video_file.gif"/>
+        	<file href="common/images/back-5.png"/>
+        	<file href="common/images/btn_next_resource.png"/>
+        	<file href="common/images/btn_previous_resource.png"/>
+        	<file href="common/images/close.png"/>
+        	<file href="common/images/inacessible.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/bottom-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/bottom-middle.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/bottom-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/middle-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/middle-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-bottom.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-top.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/top-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/top-middle.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/top-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/bottom-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/bottom-middle.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/bottom-right.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/middle-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/middle-right.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-bottom.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-right.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-top.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/top-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/top-middle.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/top-right.png"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.woff"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.ttf"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.svg"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.eot"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.woff"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.ttf"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.eot"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.svg"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.woff"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.ttf"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.svg"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.eot"/>
+        </resource>        
+  </resources>
+</manifest>

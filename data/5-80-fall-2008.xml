@@ -1,0 +1,2564 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest xmlns="http://www.imsglobal.org/xsd/imscp_v1p1"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+          xmlns:cwsp="http://www.dspace.org/xmlns/cwspace_imscp"
+          xmlns:ocw="http://ocw.mit.edu/xmlns/ocw_imscp"
+          xmlns:lom="http://ocw.mit.edu/xmlns/LOM"
+          identifier="urn_edu.mit.ocw_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008"
+          version="2013-6-22T17:3:23"
+          cwsp:packageType="Course"
+          xml:base="5-80-fall-2008/"
+          xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 http://www.imsglobal.org/xsd/imscp_v1p1.xsd  http://www.adlnet.org/xsd/adlcp_rootv1p2 http://www.adlnet.org/xsd/adlcp_rootv1p2.xsd http://www.dspace.org/xmlns/cwspace_imscp http://www.dspace.org/xsd/cwspace_imscp/version10/cwspace_imscpv10.xsd http://ocw.mit.edu/xmlns/ocw_imscp http://ocw.mit.edu/xsd/ocw_imscp/version10/ocw_imscpv10.xsd http://ocw.mit.edu/xmlns/LOM http://ocw.mit.edu/xsd/LOM/lomv1.0/lomv1.0.xsd">
+   	<metadata>
+   		<schema>IMS Content</schema>
+        <schemaversion>1.1</schemaversion>
+        <cwsp:packageMetadata>
+            <cwsp:sourceSystem>OCW</cwsp:sourceSystem>
+            <cwsp:profile>CWSpace</cwsp:profile>
+            <cwsp:profileVersion>0.1</cwsp:profileVersion>
+        </cwsp:packageMetadata>
+        <lom:general uniqueElementName="general">
+            <lom:title uniqueElementName="title">
+				<lom:string language="en">Small-Molecule Spectroscopy and Dynamics</lom:string>
+			</lom:title>
+			<lom:identifier>
+				<lom:catalog uniqueElementName="catalog">OCW Master Course Number</lom:catalog>
+		      	<lom:entry uniqueElementName="entry">5.80</lom:entry>
+			</lom:identifier>
+        </lom:general>
+        <lom:lifecycle uniqueElementName="lifeCycle">
+            <lom:version uniqueElementName="version">
+				<lom:string language="en">Fall 2008</lom:string>
+			</lom:version>
+            <lom:contribute>
+	            <lom:role>
+	                <lom:source uniqueElementName="source">OCW_LOMv1.0</lom:source>
+	                <lom:value uniqueElementName="value">Author</lom:value>
+	            </lom:role>
+	            <lom:entity>Field, Robert</lom:entity>
+	            <lom:date uniqueElementName="date">
+	                <lom:dateTime uniqueElementName="dateTime">2013-6-22</lom:dateTime>
+	            </lom:date>
+        	</lom:contribute>
+        </lom:lifecycle>
+        <lom:relation uniqueElementName="relation">
+        	<lom:kind uniqueElementName="kind">
+        		<lom:source uniqueElementName="source">OCW_LOMv1.0</lom:source>
+        		<lom:value uniqueElementName="value">isbasedon</lom:value>
+        	</lom:kind>
+        	<lom:resource uniqueElementName="resource">
+        		<lom:identifier>
+        			<lom:catalog uniqueElementName="catalog">URI</lom:catalog>
+        			<lom:entry uniqueElementName="entry">http://hdl.handle.net/1721.1/49430</lom:entry>
+        		</lom:identifier>
+        		<lom:description uniqueElementName="description">
+        			<lom:string language="en">Previous version of the course</lom:string>
+        		</lom:description>
+        	</lom:resource>
+        </lom:relation>
+        <lom:taxonPath>
+            <lom:source uniqueElementName="source">
+                <lom:string language="en">OCW Course Categories</lom:string>
+            </lom:source>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Science</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Chemistry</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Physical Chemistry</lom:string>
+                </lom:entry>
+            </lom:taxon>
+        </lom:taxonPath>
+        <lom:taxonPath>
+            <lom:source uniqueElementName="source">
+                <lom:string language="en">OCW Course Categories</lom:string>
+            </lom:source>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Science</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Physics</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Quantum Mechanics</lom:string>
+                </lom:entry>
+            </lom:taxon>
+        </lom:taxonPath>        
+        <adlcp:location>contents/index.htm.xml</adlcp:location>
+    </metadata>
+    <organizations default="ocw_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008">
+        <organization identifier="ocw_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008">
+            <title>Small-Molecule Spectroscopy and Dynamics</title>
+            <item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.CourseHome"
+                  identifierref="r_contents.index.htm"
+                  ocw:sectionTemplateType="CourseHomePage"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Small-Molecule Spectroscopy and Dynamics</title>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.5-80f08.jpg"
+          identifierref="r_contents.5-80f08.jpg">
+				<title>Toy top, tilted while spinning</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.5-80f08-th.jpg"
+          identifierref="r_contents.5-80f08-th.jpg">
+				<title>Toy top, tilted while spinning</title>
+				</item>
+			</item>
+            <item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.syllabus"
+                  identifierref="r_contents.syllabus.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Syllabus</title>
+			</item>
+            <item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.calendar"
+                  identifierref="r_contents.calendar.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Calendar</title>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.calendar.lec14image.jpg"
+          identifierref="r_contents.calendar.lec14image.jpg">
+				<title>Lecture 14 Image</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.calendar.lec32image.jpg"
+          identifierref="r_contents.calendar.lec32image.jpg">
+				<title>Lecture 32 Image</title>
+				</item>
+			</item>
+            <item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.lecture-notes"
+                  identifierref="r_contents.lecture-notes.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Lecture Notes</title>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.lecture-notes.08s_elecconfigs.pdf"
+          identifierref="r_contents.lecture-notes.08s_elecconfigs.pdf">
+				<title>Lecture #8 Supplement</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.lecture-notes.05_580ln_fa08.pdf"
+          identifierref="r_contents.lecture-notes.05_580ln_fa08.pdf">
+				<title>Lecture #5: Alkali and Many e- Atomic Spectra</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.lecture-notes.23_580ln_fa08.pdf"
+          identifierref="r_contents.lecture-notes.23_580ln_fa08.pdf">
+				<title>Lecture #23: Asymmetric Top</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.lecture-notes.08_580ln_576.pdf"
+          identifierref="r_contents.lecture-notes.08_580ln_576.pdf">
+				<title>Lecture #8: The Born-Oppenheimer Approximation</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.lecture-notes.03s_anoscvibrot.pdf"
+          identifierref="r_contents.lecture-notes.03s_anoscvibrot.pdf">
+				<title>Lecture #3 Supplement</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.lecture-notes.34_580ln_fa08.pdf"
+          identifierref="r_contents.lecture-notes.34_580ln_fa08.pdf">
+				<title>Lecture #34: Wavepacket Dynamics</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.lecture-notes.31_580ln_fa08.pdf"
+          identifierref="r_contents.lecture-notes.31_580ln_fa08.pdf">
+				<title>Lecture #31: Electronic Spectra of Polyatomic Molecules</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.lecture-notes.03_580ln_fa08.pdf"
+          identifierref="r_contents.lecture-notes.03_580ln_fa08.pdf">
+				<title>Lecture #3: Building an Effective Hamiltonian</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.lecture-notes.22_580ln_fa08.pdf"
+          identifierref="r_contents.lecture-notes.22_580ln_fa08.pdf">
+				<title>Lecture #22: Rotation of Polyatomic Molecules I</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.lecture-notes.19s_secndordreff.pdf"
+          identifierref="r_contents.lecture-notes.19s_secndordreff.pdf">
+				<title>Lecture #19 Supplement</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.lecture-notes.33_580ln_fa08.pdf"
+          identifierref="r_contents.lecture-notes.33_580ln_fa08.pdf">
+				<title>Lecture #33: Vibronic Coupling</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.lecture-notes.20_580ln_fa08.pdf"
+          identifierref="r_contents.lecture-notes.20_580ln_fa08.pdf">
+				<title>Lecture #20: Transformations between Basis Sets: 3-j, 6-j, and Wigner-Eckart Theorem </title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.lecture-notes.01_090308_580.pdf"
+          identifierref="r_contents.lecture-notes.01_090308_580.pdf">
+				<title>Lecture #1: Matrices are Useful in Spectroscopic Theory </title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.lecture-notes.32_580ln_fa08.pdf"
+          identifierref="r_contents.lecture-notes.32_580ln_fa08.pdf">
+				<title>Lecture #32</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.lecture-notes.17_580ln_fa08.pdf"
+          identifierref="r_contents.lecture-notes.17_580ln_fa08.pdf">
+				<title>Lecture #17</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.lecture-notes.23s_580ln_fa08.pdf"
+          identifierref="r_contents.lecture-notes.23s_580ln_fa08.pdf">
+				<title>Lecture #23 Supplement</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.lecture-notes.07_580ln_fa08.pdf"
+          identifierref="r_contents.lecture-notes.07_580ln_fa08.pdf">
+				<title>Lecture #7: How to Assign an Atomic Spectrum</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.lecture-notes.18s_analpertb.pdf"
+          identifierref="r_contents.lecture-notes.18s_analpertb.pdf">
+				<title>Lecture #18 Supplement</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.lecture-notes.24s_580ln_fa08.pdf"
+          identifierref="r_contents.lecture-notes.24s_580ln_fa08.pdf">
+				<title>Lecture #24 Supplement: Energy levels of a Rigid Rotor*</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.lecture-notes.11_580ln_fa08.pdf"
+          identifierref="r_contents.lecture-notes.11_580ln_fa08.pdf">
+				<title>Lecture #11: Pictures of Spectra and Notation </title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.lecture-notes.19_580ln_fa08.pdf"
+          identifierref="r_contents.lecture-notes.19_580ln_fa08.pdf">
+				<title>Lecture #19: Second-Order Effects</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.lecture-notes.15_580ln_fa08.pdf"
+          identifierref="r_contents.lecture-notes.15_580ln_fa08.pdf">
+				<title>Lecture #15</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.lecture-notes.33s_580ln_fa08.pdf"
+          identifierref="r_contents.lecture-notes.33s_580ln_fa08.pdf">
+				<title>Lecture #33 Supplement</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.lecture-notes.25_580ln_fa08.pdf"
+          identifierref="r_contents.lecture-notes.25_580ln_fa08.pdf">
+				<title>Lecture #25: Polyatomic Vibrations: Normal Mode Calculations</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.lecture-notes.27_580ln_fa08.pdf"
+          identifierref="r_contents.lecture-notes.27_580ln_fa08.pdf">
+				<title>Lecture #27: Polyatomic Vibrations III: s-Vectors and H2O</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.lecture-notes.26_580ln_fa08.pdf"
+          identifierref="r_contents.lecture-notes.26_580ln_fa08.pdf">
+				<title>Lecture #26: Polyatomic Vibrations II: s-Vectors, G-matrix, and Eckart Condition</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.lecture-notes.12_580ln_fa08.pdf"
+          identifierref="r_contents.lecture-notes.12_580ln_fa08.pdf">
+				<title>Lecture #12: Rotational Assignment of Diatomic Electronic Spectra I</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.lecture-notes.13_580ln_fa08.pdf"
+          identifierref="r_contents.lecture-notes.13_580ln_fa08.pdf">
+				<title>Lecture #13: Laser Schemes for Rotational Assignment First Lines for Ω′, Ω″ Assignments</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.lecture-notes.02_580ln_08.pdf"
+          identifierref="r_contents.lecture-notes.02_580ln_08.pdf">
+				<title>Lecture #2: Coupled Harmonic Oscillators: Truncation of an Infinite Matrix</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.lecture-notes.04_580ln_fa08.pdf"
+          identifierref="r_contents.lecture-notes.04_580ln_fa08.pdf">
+				<title>Lecture #4: Atoms: 1e–  and Alkali</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.lecture-notes.30_580ln_fa08.pdf"
+          identifierref="r_contents.lecture-notes.30_580ln_fa08.pdf">
+				<title>Lecture #30: What is in a Character Table and How do we use it?</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.lecture-notes.17s_engylvlstrctr.pdf"
+          identifierref="r_contents.lecture-notes.17s_engylvlstrctr.pdf">
+				<title>Lecture #17 Supplement</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.lecture-notes.14_580ln_fa08.pdf"
+          identifierref="r_contents.lecture-notes.14_580ln_fa08.pdf">
+				<title>Lecture #14</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.lecture-notes.36_580ln_fa08.pdf"
+          identifierref="r_contents.lecture-notes.36_580ln_fa08.pdf">
+				<title>Lectures #35 &amp; 36: Wavepacket Dynamics II and III</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.lecture-notes.02s_mtxsol.pdf"
+          identifierref="r_contents.lecture-notes.02s_mtxsol.pdf">
+				<title>Lecture #2 Supplement</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.lecture-notes.06_580ln_fa08.pdf"
+          identifierref="r_contents.lecture-notes.06_580ln_fa08.pdf">
+				<title>Lecture #6: Many e- Atoms</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.lecture-notes.14s_rotatangmom.pdf"
+          identifierref="r_contents.lecture-notes.14s_rotatangmom.pdf">
+				<title>Lecture #14 Supplement</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.lecture-notes.09_580ln_fa08.pdf"
+          identifierref="r_contents.lecture-notes.09_580ln_fa08.pdf">
+				<title>Lecture #9: The Born-Oppenheimer Approach to Transitions</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.lecture-notes.24_580ln_fa08.pdf"
+          identifierref="r_contents.lecture-notes.24_580ln_fa08.pdf">
+				<title>Lecture #24: Pure Rotation Spectra of Polyatomic Molecules</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.lecture-notes.00_580ln_08.pdf"
+          identifierref="r_contents.lecture-notes.00_580ln_08.pdf">
+				<title>Lecture #0: General Information</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.lecture-notes.16_580ln_fa08.pdf"
+          identifierref="r_contents.lecture-notes.16_580ln_fa08.pdf">
+				<title>Lecture #16: Parity and e/f Basis for 2∏,  2∑± </title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.lecture-notes.22s_580ln_fa08.pdf"
+          identifierref="r_contents.lecture-notes.22s_580ln_fa08.pdf">
+				<title>Lecture #22 Supplement</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.lecture-notes.10_580ln_fa08.pdf"
+          identifierref="r_contents.lecture-notes.10_580ln_fa08.pdf">
+				<title>Lecture #10: Transitions II</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.lecture-notes.17s_engylvlstrct.pdf"
+          identifierref="r_contents.lecture-notes.17s_engylvlstrct.pdf">
+				<title>Lecture #17 Supplement</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.lecture-notes.01s_transmxel.pdf"
+          identifierref="r_contents.lecture-notes.01s_transmxel.pdf">
+				<title>Lecture #1 Supplement</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.lecture-notes.29_580ln_fa08.pdf"
+          identifierref="r_contents.lecture-notes.29_580ln_fa08.pdf">
+				<title>Lecture #29: A Sprint Through Group Theory</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.lecture-notes.21_580ln_fa08.pdf"
+          identifierref="r_contents.lecture-notes.21_580ln_fa08.pdf">
+				<title>Lecture #21: Construction of Potential Curves by the Rydberg-Klein-Rees Method (RKR)</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.lecture-notes.18_580ln_fa08.pdf"
+          identifierref="r_contents.lecture-notes.18_580ln_fa08.pdf">
+				<title>Lecture #18: Perturbations</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.lecture-notes.28_580ln_fa08.pdf"
+          identifierref="r_contents.lecture-notes.28_580ln_fa08.pdf">
+				<title>Lecture #28: Polyatomic Vibrations IV: Symmetry</title>
+				</item>
+			</item>
+            <item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.assignments"
+                  identifierref="r_contents.assignments.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Assignments</title>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.assignments.ps3_1985.pdf"
+          identifierref="r_contents.assignments.ps3_1985.pdf">
+				<title>Problem Set #3</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.assignments.ps4_1982.pdf"
+          identifierref="r_contents.assignments.ps4_1982.pdf">
+				<title>Problem Set #4</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.assignments.ps4_1977.pdf"
+          identifierref="r_contents.assignments.ps4_1977.pdf">
+				<title>Problem Set #4</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.assignments.ps3_1994.pdf"
+          identifierref="r_contents.assignments.ps3_1994.pdf">
+				<title>Problem Set #3</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.assignments.ps2_1987.pdf"
+          identifierref="r_contents.assignments.ps2_1987.pdf">
+				<title>Problem Set #2</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.assignments.ps1_1982.pdf"
+          identifierref="r_contents.assignments.ps1_1982.pdf">
+				<title>Problem Set #1</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.assignments.ps2_1980.pdf"
+          identifierref="r_contents.assignments.ps2_1980.pdf">
+				<title>Problem Set #2</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.assignments.ps3_1978.pdf"
+          identifierref="r_contents.assignments.ps3_1978.pdf">
+				<title>Problem Set #3</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.assignments.ps2ans_1976.pdf"
+          identifierref="r_contents.assignments.ps2ans_1976.pdf">
+				<title>Problem Set #2 Answers</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.assignments.ps1_1976.pdf"
+          identifierref="r_contents.assignments.ps1_1976.pdf">
+				<title>Problem Set #1</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.assignments.ps1_1994.pdf"
+          identifierref="r_contents.assignments.ps1_1994.pdf">
+				<title>Problem Set #1</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.assignments.ps2_1996.pdf"
+          identifierref="r_contents.assignments.ps2_1996.pdf">
+				<title>Problem Set #2</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.assignments.02psetsp94.pdf"
+          identifierref="r_contents.assignments.02psetsp94.pdf">
+				<title>Problem Set #2</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.assignments.ps2_1976.pdf"
+          identifierref="r_contents.assignments.ps2_1976.pdf">
+				<title>Problem Set #2</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.assignments.mtxmthds_1982.pdf"
+          identifierref="r_contents.assignments.mtxmthds_1982.pdf">
+				<title>Notes on Matrix Methods</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.assignments.ps1_1978.pdf"
+          identifierref="r_contents.assignments.ps1_1978.pdf">
+				<title>Problem Set #1</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.assignments.ps3_1987.pdf"
+          identifierref="r_contents.assignments.ps3_1987.pdf">
+				<title>Problem Set #3</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.assignments.vanvleck_1982.pdf"
+          identifierref="r_contents.assignments.vanvleck_1982.pdf">
+				<title>Van Vleck Transformation in Perturbation Theory</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.assignments.ps4_1994.pdf"
+          identifierref="r_contents.assignments.ps4_1994.pdf">
+				<title>Problem Set #4</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.assignments.ps2_1977.pdf"
+          identifierref="r_contents.assignments.ps2_1977.pdf">
+				<title>Problem Set #2</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.assignments.ps4_1985.pdf"
+          identifierref="r_contents.assignments.ps4_1985.pdf">
+				<title>Problem Set #4</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.assignments.ps4_1987.pdf"
+          identifierref="r_contents.assignments.ps4_1987.pdf">
+				<title>Problem Set #4</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.assignments.ps3ans_1976.pdf"
+          identifierref="r_contents.assignments.ps3ans_1976.pdf">
+				<title>Problem Set #3 Answers</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.assignments.ps4_ans_1982.pdf"
+          identifierref="r_contents.assignments.ps4_ans_1982.pdf">
+				<title>Problem Set #4 Answers</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.assignments.02pset_ans_sp94.pdf"
+          identifierref="r_contents.assignments.02pset_ans_sp94.pdf">
+				<title>Problem Set #2 Answers</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.assignments.ps1ans_1994.pdf"
+          identifierref="r_contents.assignments.ps1ans_1994.pdf">
+				<title>Problem Set #1 Answers</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.assignments.ps2_1985.pdf"
+          identifierref="r_contents.assignments.ps2_1985.pdf">
+				<title>Problem Set #2</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.assignments.ps3_1976.pdf"
+          identifierref="r_contents.assignments.ps3_1976.pdf">
+				<title>Problem Set #3</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.assignments.ps1_1987.pdf"
+          identifierref="r_contents.assignments.ps1_1987.pdf">
+				<title>Problem Set #1</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.assignments.ps4_1991.pdf"
+          identifierref="r_contents.assignments.ps4_1991.pdf">
+				<title>Problem Set #4</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.assignments.ps1_1977.pdf"
+          identifierref="r_contents.assignments.ps1_1977.pdf">
+				<title>Problem Set #1</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.assignments.ps2ans_1985.pdf"
+          identifierref="r_contents.assignments.ps2ans_1985.pdf">
+				<title>Problem Set #2 Answers</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.assignments.ps3_1982.pdf"
+          identifierref="r_contents.assignments.ps3_1982.pdf">
+				<title>Problem Set #3</title>
+				</item>
+			</item>
+            <item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.exams"
+                  identifierref="r_contents.exams.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Exams</title>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.exams.examf_1976.pdf"
+          identifierref="r_contents.exams.examf_1976.pdf">
+				<title>Final Examination</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.exams.examf_1978.pdf"
+          identifierref="r_contents.exams.examf_1978.pdf">
+				<title>Take Home Examination</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.exams.exam1_1978.pdf"
+          identifierref="r_contents.exams.exam1_1978.pdf">
+				<title>Examination #1</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.exams.exam2_1977.pdf"
+          identifierref="r_contents.exams.exam2_1977.pdf">
+				<title>Examination #2</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.exams.exam1_1976.pdf"
+          identifierref="r_contents.exams.exam1_1976.pdf">
+				<title>Examination #1</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.exams.exam1ans_1976.pdf"
+          identifierref="r_contents.exams.exam1ans_1976.pdf">
+				<title>Examination #1 Answers</title>
+				</item>
+			</item>
+            <item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures"
+                  identifierref="r_contents.video-lectures.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Video Lectures</title>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.introduction"
+          identifierref="r_contents.video-lectures.introduction.index.htm">
+				<title>Course Introduction</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.lecture-1"
+          identifierref="r_contents.video-lectures.lecture-1.index.htm">
+				<title>Lecture 1</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.video-lectures.lecture-1.mit5_80f08lec1_th.jpg"
+          identifierref="r_contents.video-lectures.lecture-1.mit5_80f08lec1_th.jpg">
+				<title>Lecture 1</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.lecture-2"
+          identifierref="r_contents.video-lectures.lecture-2.index.htm">
+				<title>Lecture 2</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.video-lectures.lecture-2.mit5_80f08lec2_th.jpg"
+          identifierref="r_contents.video-lectures.lecture-2.mit5_80f08lec2_th.jpg">
+				<title>Lecture 2</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.lecture-3"
+          identifierref="r_contents.video-lectures.lecture-3.index.htm">
+				<title>Lecture 3</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.video-lectures.lecture-3.mit5_80f08lec3_th.jpg"
+          identifierref="r_contents.video-lectures.lecture-3.mit5_80f08lec3_th.jpg">
+				<title>Lecture 3</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.lecture-4"
+          identifierref="r_contents.video-lectures.lecture-4.index.htm">
+				<title>Lecture 4</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.video-lectures.lecture-4.mit5_80f08lec4_th.jpg"
+          identifierref="r_contents.video-lectures.lecture-4.mit5_80f08lec4_th.jpg">
+				<title>Lecture 4</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.lecture-5"
+          identifierref="r_contents.video-lectures.lecture-5.index.htm">
+				<title>Lecture 5</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.video-lectures.lecture-5.mit5_80f08lec5_th.jpg"
+          identifierref="r_contents.video-lectures.lecture-5.mit5_80f08lec5_th.jpg">
+				<title>Lecture 5</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.lecture-6"
+          identifierref="r_contents.video-lectures.lecture-6.index.htm">
+				<title>Lecture 6</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.video-lectures.lecture-6.mit5_80f08lec6_th.jpg"
+          identifierref="r_contents.video-lectures.lecture-6.mit5_80f08lec6_th.jpg">
+				<title>Lecture 6</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.lecture-8"
+          identifierref="r_contents.video-lectures.lecture-8.index.htm">
+				<title>Lecture 8</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.video-lectures.lecture-8.mit5_80f08lec8_th.jpg"
+          identifierref="r_contents.video-lectures.lecture-8.mit5_80f08lec8_th.jpg">
+				<title>Lecture 8</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.lecture-7"
+          identifierref="r_contents.video-lectures.lecture-7.index.htm">
+				<title>Lecture 7</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.video-lectures.lecture-7.mit5_80f08lec7_th.jpg"
+          identifierref="r_contents.video-lectures.lecture-7.mit5_80f08lec7_th.jpg">
+				<title>Lecture 7</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.lecture-9"
+          identifierref="r_contents.video-lectures.lecture-9.index.htm">
+				<title>Lecture 9</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.video-lectures.lecture-9.mit5_80f08lec9_th.jpg"
+          identifierref="r_contents.video-lectures.lecture-9.mit5_80f08lec9_th.jpg">
+				<title>Lecture 9</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.lecture-11"
+          identifierref="r_contents.video-lectures.lecture-11.index.htm">
+				<title>Lecture 11</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.video-lectures.lecture-11.mit5_80f08lec11_th.jpg"
+          identifierref="r_contents.video-lectures.lecture-11.mit5_80f08lec11_th.jpg">
+				<title>Lecture 11</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.lecture-10"
+          identifierref="r_contents.video-lectures.lecture-10.index.htm">
+				<title>Lecture 10</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.video-lectures.lecture-10.mit5_80f08lec10_th.jpg"
+          identifierref="r_contents.video-lectures.lecture-10.mit5_80f08lec10_th.jpg">
+				<title>Lecture 10</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.lecture-12"
+          identifierref="r_contents.video-lectures.lecture-12.index.htm">
+				<title>Lecture 12</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.video-lectures.lecture-12.mit5_80f08lec12_th.jpg"
+          identifierref="r_contents.video-lectures.lecture-12.mit5_80f08lec12_th.jpg">
+				<title>Lecture 12</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.lecture-13"
+          identifierref="r_contents.video-lectures.lecture-13.index.htm">
+				<title>Lecture 13</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.video-lectures.lecture-13.mit5_80f08lec13_th.jpg"
+          identifierref="r_contents.video-lectures.lecture-13.mit5_80f08lec13_th.jpg">
+				<title>Lecture 13</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.lecture-14"
+          identifierref="r_contents.video-lectures.lecture-14.index.htm">
+				<title>Lecture 14</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.video-lectures.lecture-14.mit5_80f08lec14_th.jpg"
+          identifierref="r_contents.video-lectures.lecture-14.mit5_80f08lec14_th.jpg">
+				<title>Lecture 14</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.lecture-15"
+          identifierref="r_contents.video-lectures.lecture-15.index.htm">
+				<title>Lecture 15</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.video-lectures.lecture-15.mit5_80f08lec15_th.jpg"
+          identifierref="r_contents.video-lectures.lecture-15.mit5_80f08lec15_th.jpg">
+				<title>Lecture 15</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.lecture-16"
+          identifierref="r_contents.video-lectures.lecture-16.index.htm">
+				<title>Lecture 16</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.video-lectures.lecture-16.mit5_80f08lec16_th.jpg"
+          identifierref="r_contents.video-lectures.lecture-16.mit5_80f08lec16_th.jpg">
+				<title>Lecture 16</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.lecture-17"
+          identifierref="r_contents.video-lectures.lecture-17.index.htm">
+				<title>Lecture 17</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.video-lectures.lecture-17.mit5_80f08lec17_th.jpg"
+          identifierref="r_contents.video-lectures.lecture-17.mit5_80f08lec17_th.jpg">
+				<title>Lecture 17</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.lecture-18"
+          identifierref="r_contents.video-lectures.lecture-18.index.htm">
+				<title>Lecture 18</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.video-lectures.lecture-18.mit5_80f08lec18_th.jpg"
+          identifierref="r_contents.video-lectures.lecture-18.mit5_80f08lec18_th.jpg">
+				<title>Lecture 18</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.lecture-19"
+          identifierref="r_contents.video-lectures.lecture-19.index.htm">
+				<title>Lecture 19</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.video-lectures.lecture-19.mit5_80f08lec19_th.jpg"
+          identifierref="r_contents.video-lectures.lecture-19.mit5_80f08lec19_th.jpg">
+				<title>Lecture 19</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.lecture-20"
+          identifierref="r_contents.video-lectures.lecture-20.index.htm">
+				<title>Lecture 20</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.video-lectures.lecture-20.mit5_80f08lec20_th.jpg"
+          identifierref="r_contents.video-lectures.lecture-20.mit5_80f08lec20_th.jpg">
+				<title>Lecture 20</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.lecture-21"
+          identifierref="r_contents.video-lectures.lecture-21.index.htm">
+				<title>Lecture 21</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.video-lectures.lecture-21.mit5_80f08lec21_th.jpg"
+          identifierref="r_contents.video-lectures.lecture-21.mit5_80f08lec21_th.jpg">
+				<title>Lecture 21</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.lecture-22"
+          identifierref="r_contents.video-lectures.lecture-22.index.htm">
+				<title>Lecture 22</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.video-lectures.lecture-22.mit5_80f08lec22_th.jpg"
+          identifierref="r_contents.video-lectures.lecture-22.mit5_80f08lec22_th.jpg">
+				<title>Lecture 22</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.lecture-23"
+          identifierref="r_contents.video-lectures.lecture-23.index.htm">
+				<title>Lecture 23</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.video-lectures.lecture-23.mit5_80f08lec23_th.jpg"
+          identifierref="r_contents.video-lectures.lecture-23.mit5_80f08lec23_th.jpg">
+				<title>Lecture 23</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.lecture-24"
+          identifierref="r_contents.video-lectures.lecture-24.index.htm">
+				<title>Lecture 24</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.video-lectures.lecture-24.mit5_80f08lec24_th.jpg"
+          identifierref="r_contents.video-lectures.lecture-24.mit5_80f08lec24_th.jpg">
+				<title>Lecture 24</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.lecture-26"
+          identifierref="r_contents.video-lectures.lecture-26.index.htm">
+				<title>Lecture 26</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.video-lectures.lecture-26.mit5_80f08lec26_th.jpg"
+          identifierref="r_contents.video-lectures.lecture-26.mit5_80f08lec26_th.jpg">
+				<title>Lecture 26</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.lecture-25"
+          identifierref="r_contents.video-lectures.lecture-25.index.htm">
+				<title>Lecture 25</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.video-lectures.lecture-25.mit5_80f08lec25_th.jpg"
+          identifierref="r_contents.video-lectures.lecture-25.mit5_80f08lec25_th.jpg">
+				<title>Lecture 25</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.lecture-27"
+          identifierref="r_contents.video-lectures.lecture-27.index.htm">
+				<title>Lecture 27</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.video-lectures.lecture-27.mit5_80f08lec27_th.jpg"
+          identifierref="r_contents.video-lectures.lecture-27.mit5_80f08lec27_th.jpg">
+				<title>Lecture 27</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.lecture-29"
+          identifierref="r_contents.video-lectures.lecture-29.index.htm">
+				<title>Lecture 29</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.video-lectures.lecture-29.mit5_80f08lec29_th.jpg"
+          identifierref="r_contents.video-lectures.lecture-29.mit5_80f08lec29_th.jpg">
+				<title>Lecture 29</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.lecture-28"
+          identifierref="r_contents.video-lectures.lecture-28.index.htm">
+				<title>Lecture 28</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.video-lectures.lecture-28.mit5_80f08lec28_th.jpg"
+          identifierref="r_contents.video-lectures.lecture-28.mit5_80f08lec28_th.jpg">
+				<title>Lecture 28</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.lecture-31"
+          identifierref="r_contents.video-lectures.lecture-31.index.htm">
+				<title>Lecture 31</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.video-lectures.lecture-31.mit5_80f08lec31_th.jpg"
+          identifierref="r_contents.video-lectures.lecture-31.mit5_80f08lec31_th.jpg">
+				<title>Lecture 31</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.lecture-30"
+          identifierref="r_contents.video-lectures.lecture-30.index.htm">
+				<title>Lecture 30</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.video-lectures.lecture-30.mit5_80f08lec30_th.jpg"
+          identifierref="r_contents.video-lectures.lecture-30.mit5_80f08lec30_th.jpg">
+				<title>Lecture 30</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.lecture-33"
+          identifierref="r_contents.video-lectures.lecture-33.index.htm">
+				<title>Lecture 33</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.video-lectures.lecture-33.mit5_80f08lec33_th.jpg"
+          identifierref="r_contents.video-lectures.lecture-33.mit5_80f08lec33_th.jpg">
+				<title>Lecture 33</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.lecture-34"
+          identifierref="r_contents.video-lectures.lecture-34.index.htm">
+				<title>Lecture 34</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.video-lectures.lecture-34.mit5_80f08lec34_th.jpg"
+          identifierref="r_contents.video-lectures.lecture-34.mit5_80f08lec34_th.jpg">
+				<title>Lecture 34</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.lecture-35"
+          identifierref="r_contents.video-lectures.lecture-35.index.htm">
+				<title>Lecture 35</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.video-lectures.lecture-35.mit5_80f08lec35_th.jpg"
+          identifierref="r_contents.video-lectures.lecture-35.mit5_80f08lec35_th.jpg">
+				<title>Lecture 35</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.lecture-36"
+          identifierref="r_contents.video-lectures.lecture-36.index.htm">
+				<title>Lecture 36</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.video-lectures.lecture-36.mit5_80f08lec36_th.jpg"
+          identifierref="r_contents.video-lectures.lecture-36.mit5_80f08lec36_th.jpg">
+				<title>Lecture 36</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.lecture-37"
+          identifierref="r_contents.video-lectures.lecture-37.index.htm">
+				<title>Lecture 37</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.video-lectures.lecture-37.mit5_80f08lec37_th.jpg"
+          identifierref="r_contents.video-lectures.lecture-37.mit5_80f08lec37_th.jpg">
+				<title>Lecture 37</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.lecture-38"
+          identifierref="r_contents.video-lectures.lecture-38.index.htm">
+				<title>Lecture 38</title>
+				</item>
+				<item identifier="i_5-80-small-molecule-spectroscopy-and-dynamics-fall-2008.video-lectures.video-lectures.lecture-38.mit5_80f08lec38_th.jpg"
+          identifierref="r_contents.video-lectures.lecture-38.mit5_80f08lec38_th.jpg">
+				<title>Lecture 38</title>
+				</item>
+			</item>
+            <item identifier="i_terms"
+                  identifierref="r_common.terms.index.htm"
+                  ocw:sectionTemplateType="GlobalSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Legal Notices</title>
+			</item>
+            <item identifier="i_terms"
+                  identifierref="r_common.terms.index.htm"
+                  ocw:sectionTemplateType="GlobalSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Privacy Statement</title>
+			</item>
+            <item identifier="i_terms.trademarks"
+                  identifierref="r_common.terms.trademarks.index.htm"
+                  ocw:sectionTemplateType="GlobalSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Trademark Notices</title>
+			</item>
+        </organization>
+    </organizations>
+    <resources>
+        <resource identifier="r_contents.lecture-notes.16_580ln_fa08.pdf"
+                  type="other"
+                  href="contents/lecture-notes/16_580ln_fa08.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/16_580ln_fa08.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/16_580ln_fa08.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-20.mit5_80f08lec20_th.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-20/mit5_80f08lec20_th.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-20/mit5_80f08lec20_th.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-20/mit5_80f08lec20_th.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.33_580ln_fa08.pdf"
+                  type="other"
+                  href="contents/lecture-notes/33_580ln_fa08.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/33_580ln_fa08.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/33_580ln_fa08.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.ps4_1987.pdf"
+                  type="other"
+                  href="contents/assignments/ps4_1987.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ps4_1987.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ps4_1987.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.23_580ln_fa08.pdf"
+                  type="other"
+                  href="contents/lecture-notes/23_580ln_fa08.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/23_580ln_fa08.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/23_580ln_fa08.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-9.mit5_80f08lec9_th.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-9/mit5_80f08lec9_th.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-9/mit5_80f08lec9_th.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-9/mit5_80f08lec9_th.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.15_580ln_fa08.pdf"
+                  type="other"
+                  href="contents/lecture-notes/15_580ln_fa08.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/15_580ln_fa08.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/15_580ln_fa08.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.index.htm"
+                  type="webcontent"
+                  href="contents/lecture-notes/index.htm">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/index.htm"/>
+            <dependency identifierref="webrenderrequirements.5-80-small-molecule-spectroscopy-and-dynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-4.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-4/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-4/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-4/index.htm"/>
+            <dependency identifierref="webrenderrequirements.5-80-small-molecule-spectroscopy-and-dynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-7.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-7/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-7/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-7/index.htm"/>
+            <dependency identifierref="webrenderrequirements.5-80-small-molecule-spectroscopy-and-dynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="r_contents.assignments.ps4_1982.pdf"
+                  type="other"
+                  href="contents/assignments/ps4_1982.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ps4_1982.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ps4_1982.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.index.htm"
+                  type="webcontent"
+                  href="contents/index.htm">
+            <metadata>
+                <adlcp:location>contents/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/index.htm"/>
+            <dependency identifierref="webrenderrequirements.5-80-small-molecule-spectroscopy-and-dynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="r_contents.lecture-notes.19_580ln_fa08.pdf"
+                  type="other"
+                  href="contents/lecture-notes/19_580ln_fa08.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/19_580ln_fa08.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/19_580ln_fa08.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.ps1_1982.pdf"
+                  type="other"
+                  href="contents/assignments/ps1_1982.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ps1_1982.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ps1_1982.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-8.mit5_80f08lec8_th.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-8/mit5_80f08lec8_th.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-8/mit5_80f08lec8_th.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-8/mit5_80f08lec8_th.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.vanvleck_1982.pdf"
+                  type="other"
+                  href="contents/assignments/vanvleck_1982.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/vanvleck_1982.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/vanvleck_1982.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-22.mit5_80f08lec22_th.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-22/mit5_80f08lec22_th.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-22/mit5_80f08lec22_th.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-22/mit5_80f08lec22_th.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-4.mit5_80f08lec4_th.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-4/mit5_80f08lec4_th.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-4/mit5_80f08lec4_th.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-4/mit5_80f08lec4_th.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-26.mit5_80f08lec26_th.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-26/mit5_80f08lec26_th.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-26/mit5_80f08lec26_th.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-26/mit5_80f08lec26_th.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.12_580ln_fa08.pdf"
+                  type="other"
+                  href="contents/lecture-notes/12_580ln_fa08.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/12_580ln_fa08.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/12_580ln_fa08.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-20.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-20/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-20/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-20/index.htm"/>
+            <dependency identifierref="webrenderrequirements.5-80-small-molecule-spectroscopy-and-dynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-15.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-15/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-15/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-15/index.htm"/>
+            <dependency identifierref="webrenderrequirements.5-80-small-molecule-spectroscopy-and-dynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="r_contents.lecture-notes.18s_analpertb.pdf"
+                  type="other"
+                  href="contents/lecture-notes/18s_analpertb.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/18s_analpertb.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/18s_analpertb.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.28_580ln_fa08.pdf"
+                  type="other"
+                  href="contents/lecture-notes/28_580ln_fa08.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/28_580ln_fa08.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/28_580ln_fa08.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.17_580ln_fa08.pdf"
+                  type="other"
+                  href="contents/lecture-notes/17_580ln_fa08.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/17_580ln_fa08.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/17_580ln_fa08.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.36_580ln_fa08.pdf"
+                  type="other"
+                  href="contents/lecture-notes/36_580ln_fa08.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/36_580ln_fa08.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/36_580ln_fa08.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-34.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-34/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-34/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-34/index.htm"/>
+            <dependency identifierref="webrenderrequirements.5-80-small-molecule-spectroscopy-and-dynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="r_contents.assignments.ps2_1977.pdf"
+                  type="other"
+                  href="contents/assignments/ps2_1977.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ps2_1977.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ps2_1977.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.ps1_1994.pdf"
+                  type="other"
+                  href="contents/assignments/ps1_1994.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ps1_1994.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ps1_1994.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.24s_580ln_fa08.pdf"
+                  type="other"
+                  href="contents/lecture-notes/24s_580ln_fa08.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/24s_580ln_fa08.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/24s_580ln_fa08.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-26.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-26/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-26/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-26/index.htm"/>
+            <dependency identifierref="webrenderrequirements.5-80-small-molecule-spectroscopy-and-dynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-30.mit5_80f08lec30_th.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-30/mit5_80f08lec30_th.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-30/mit5_80f08lec30_th.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-30/mit5_80f08lec30_th.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.ps2_1985.pdf"
+                  type="other"
+                  href="contents/assignments/ps2_1985.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ps2_1985.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ps2_1985.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.ps2_1976.pdf"
+                  type="other"
+                  href="contents/assignments/ps2_1976.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ps2_1976.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ps2_1976.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/index.htm"/>
+            <dependency identifierref="webrenderrequirements.5-80-small-molecule-spectroscopy-and-dynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-38.mit5_80f08lec38_th.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-38/mit5_80f08lec38_th.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-38/mit5_80f08lec38_th.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-38/mit5_80f08lec38_th.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-14.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-14/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-14/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-14/index.htm"/>
+            <dependency identifierref="webrenderrequirements.5-80-small-molecule-spectroscopy-and-dynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-25.mit5_80f08lec25_th.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-25/mit5_80f08lec25_th.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-25/mit5_80f08lec25_th.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-25/mit5_80f08lec25_th.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-5.mit5_80f08lec5_th.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-5/mit5_80f08lec5_th.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-5/mit5_80f08lec5_th.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-5/mit5_80f08lec5_th.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.33s_580ln_fa08.pdf"
+                  type="other"
+                  href="contents/lecture-notes/33s_580ln_fa08.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/33s_580ln_fa08.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/33s_580ln_fa08.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.03_580ln_fa08.pdf"
+                  type="other"
+                  href="contents/lecture-notes/03_580ln_fa08.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/03_580ln_fa08.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/03_580ln_fa08.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-6.mit5_80f08lec6_th.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-6/mit5_80f08lec6_th.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-6/mit5_80f08lec6_th.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-6/mit5_80f08lec6_th.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-16.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-16/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-16/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-16/index.htm"/>
+            <dependency identifierref="webrenderrequirements.5-80-small-molecule-spectroscopy-and-dynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="r_contents.lecture-notes.00_580ln_08.pdf"
+                  type="other"
+                  href="contents/lecture-notes/00_580ln_08.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/00_580ln_08.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/00_580ln_08.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.ps3_1994.pdf"
+                  type="other"
+                  href="contents/assignments/ps3_1994.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ps3_1994.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ps3_1994.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-37.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-37/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-37/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-37/index.htm"/>
+            <dependency identifierref="webrenderrequirements.5-80-small-molecule-spectroscopy-and-dynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="r_contents.assignments.ps3ans_1976.pdf"
+                  type="other"
+                  href="contents/assignments/ps3ans_1976.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ps3ans_1976.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ps3ans_1976.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-18.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-18/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-18/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-18/index.htm"/>
+            <dependency identifierref="webrenderrequirements.5-80-small-molecule-spectroscopy-and-dynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="r_contents.assignments.ps4_1977.pdf"
+                  type="other"
+                  href="contents/assignments/ps4_1977.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ps4_1977.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ps4_1977.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.ps2ans_1976.pdf"
+                  type="other"
+                  href="contents/assignments/ps2ans_1976.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ps2ans_1976.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ps2ans_1976.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.01_090308_580.pdf"
+                  type="other"
+                  href="contents/lecture-notes/01_090308_580.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/01_090308_580.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/01_090308_580.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.22_580ln_fa08.pdf"
+                  type="other"
+                  href="contents/lecture-notes/22_580ln_fa08.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/22_580ln_fa08.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/22_580ln_fa08.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-27.mit5_80f08lec27_th.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-27/mit5_80f08lec27_th.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-27/mit5_80f08lec27_th.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-27/mit5_80f08lec27_th.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-12.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-12/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-12/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-12/index.htm"/>
+            <dependency identifierref="webrenderrequirements.5-80-small-molecule-spectroscopy-and-dynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="r_contents.assignments.ps4_ans_1982.pdf"
+                  type="other"
+                  href="contents/assignments/ps4_ans_1982.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ps4_ans_1982.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ps4_ans_1982.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.30_580ln_fa08.pdf"
+                  type="other"
+                  href="contents/lecture-notes/30_580ln_fa08.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/30_580ln_fa08.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/30_580ln_fa08.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.calendar.lec14image.jpg"
+                  type="other"
+                  href="contents/calendar/lec14image.jpg">
+            <metadata>
+                <adlcp:location>contents/calendar/lec14image.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/calendar/lec14image.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.5-80f08-th.jpg"
+                  type="other"
+                  href="contents/5-80f08-th.jpg">
+            <metadata>
+                <adlcp:location>contents/5-80f08-th.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/5-80f08-th.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-36.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-36/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-36/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-36/index.htm"/>
+            <dependency identifierref="webrenderrequirements.5-80-small-molecule-spectroscopy-and-dynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="r_contents.lecture-notes.17s_engylvlstrctr.pdf"
+                  type="other"
+                  href="contents/lecture-notes/17s_engylvlstrctr.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/17s_engylvlstrctr.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/17s_engylvlstrctr.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.14s_rotatangmom.pdf"
+                  type="other"
+                  href="contents/lecture-notes/14s_rotatangmom.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/14s_rotatangmom.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/14s_rotatangmom.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-27.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-27/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-27/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-27/index.htm"/>
+            <dependency identifierref="webrenderrequirements.5-80-small-molecule-spectroscopy-and-dynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="r_contents.assignments.mtxmthds_1982.pdf"
+                  type="other"
+                  href="contents/assignments/mtxmthds_1982.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/mtxmthds_1982.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/mtxmthds_1982.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-25.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-25/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-25/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-25/index.htm"/>
+            <dependency identifierref="webrenderrequirements.5-80-small-molecule-spectroscopy-and-dynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-16.mit5_80f08lec16_th.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-16/mit5_80f08lec16_th.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-16/mit5_80f08lec16_th.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-16/mit5_80f08lec16_th.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-3.mit5_80f08lec3_th.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-3/mit5_80f08lec3_th.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-3/mit5_80f08lec3_th.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-3/mit5_80f08lec3_th.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.02pset_ans_sp94.pdf"
+                  type="other"
+                  href="contents/assignments/02pset_ans_sp94.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/02pset_ans_sp94.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/02pset_ans_sp94.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-29.mit5_80f08lec29_th.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-29/mit5_80f08lec29_th.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-29/mit5_80f08lec29_th.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-29/mit5_80f08lec29_th.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.5-80f08.jpg"
+                  type="other" href="contents/5-80f08.jpg">
+            <metadata>
+                <adlcp:location>contents/5-80f08.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/5-80f08.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-11.mit5_80f08lec11_th.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-11/mit5_80f08lec11_th.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-11/mit5_80f08lec11_th.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-11/mit5_80f08lec11_th.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.13_580ln_fa08.pdf"
+                  type="other"
+                  href="contents/lecture-notes/13_580ln_fa08.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/13_580ln_fa08.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/13_580ln_fa08.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-18.mit5_80f08lec18_th.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-18/mit5_80f08lec18_th.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-18/mit5_80f08lec18_th.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-18/mit5_80f08lec18_th.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.01s_transmxel.pdf"
+                  type="other"
+                  href="contents/lecture-notes/01s_transmxel.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/01s_transmxel.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/01s_transmxel.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.34_580ln_fa08.pdf"
+                  type="other"
+                  href="contents/lecture-notes/34_580ln_fa08.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/34_580ln_fa08.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/34_580ln_fa08.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.04_580ln_fa08.pdf"
+                  type="other"
+                  href="contents/lecture-notes/04_580ln_fa08.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/04_580ln_fa08.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/04_580ln_fa08.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-36.mit5_80f08lec36_th.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-36/mit5_80f08lec36_th.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-36/mit5_80f08lec36_th.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-36/mit5_80f08lec36_th.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-2.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-2/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-2/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-2/index.htm"/>
+            <dependency identifierref="webrenderrequirements.5-80-small-molecule-spectroscopy-and-dynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-23.mit5_80f08lec23_th.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-23/mit5_80f08lec23_th.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-23/mit5_80f08lec23_th.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-23/mit5_80f08lec23_th.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.05_580ln_fa08.pdf"
+                  type="other"
+                  href="contents/lecture-notes/05_580ln_fa08.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/05_580ln_fa08.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/05_580ln_fa08.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.ps3_1978.pdf"
+                  type="other"
+                  href="contents/assignments/ps3_1978.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ps3_1978.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ps3_1978.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.11_580ln_fa08.pdf"
+                  type="other"
+                  href="contents/lecture-notes/11_580ln_fa08.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/11_580ln_fa08.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/11_580ln_fa08.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-35.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-35/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-35/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-35/index.htm"/>
+            <dependency identifierref="webrenderrequirements.5-80-small-molecule-spectroscopy-and-dynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="r_contents.assignments.ps1_1977.pdf"
+                  type="other"
+                  href="contents/assignments/ps1_1977.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ps1_1977.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ps1_1977.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.19s_secndordreff.pdf"
+                  type="other"
+                  href="contents/lecture-notes/19s_secndordreff.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/19s_secndordreff.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/19s_secndordreff.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.ps2_1980.pdf"
+                  type="other"
+                  href="contents/assignments/ps2_1980.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ps2_1980.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ps2_1980.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-10.mit5_80f08lec10_th.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-10/mit5_80f08lec10_th.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-10/mit5_80f08lec10_th.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-10/mit5_80f08lec10_th.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.ps2_1996.pdf"
+                  type="other"
+                  href="contents/assignments/ps2_1996.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ps2_1996.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ps2_1996.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-7.mit5_80f08lec7_th.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-7/mit5_80f08lec7_th.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-7/mit5_80f08lec7_th.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-7/mit5_80f08lec7_th.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.07_580ln_fa08.pdf"
+                  type="other"
+                  href="contents/lecture-notes/07_580ln_fa08.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/07_580ln_fa08.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/07_580ln_fa08.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-1.mit5_80f08lec1_th.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-1/mit5_80f08lec1_th.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-1/mit5_80f08lec1_th.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-1/mit5_80f08lec1_th.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.20_580ln_fa08.pdf"
+                  type="other"
+                  href="contents/lecture-notes/20_580ln_fa08.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/20_580ln_fa08.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/20_580ln_fa08.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.introduction.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/introduction/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/introduction/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/introduction/index.htm"/>
+            <dependency identifierref="webrenderrequirements.5-80-small-molecule-spectroscopy-and-dynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-2.mit5_80f08lec2_th.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-2/mit5_80f08lec2_th.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-2/mit5_80f08lec2_th.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-2/mit5_80f08lec2_th.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.ps4_1991.pdf"
+                  type="other"
+                  href="contents/assignments/ps4_1991.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ps4_1991.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ps4_1991.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-21.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-21/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-21/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-21/index.htm"/>
+            <dependency identifierref="webrenderrequirements.5-80-small-molecule-spectroscopy-and-dynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="r_contents.calendar.index.htm"
+                  type="webcontent"
+                  href="contents/calendar/index.htm">
+            <metadata>
+                <adlcp:location>contents/calendar/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/calendar/index.htm"/>
+            <dependency identifierref="webrenderrequirements.5-80-small-molecule-spectroscopy-and-dynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-19.mit5_80f08lec19_th.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-19/mit5_80f08lec19_th.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-19/mit5_80f08lec19_th.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-19/mit5_80f08lec19_th.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-24.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-24/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-24/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-24/index.htm"/>
+            <dependency identifierref="webrenderrequirements.5-80-small-molecule-spectroscopy-and-dynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="r_contents.lecture-notes.29_580ln_fa08.pdf"
+                  type="other"
+                  href="contents/lecture-notes/29_580ln_fa08.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/29_580ln_fa08.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/29_580ln_fa08.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.08_580ln_576.pdf"
+                  type="other"
+                  href="contents/lecture-notes/08_580ln_576.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/08_580ln_576.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/08_580ln_576.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.ps1_1978.pdf"
+                  type="other"
+                  href="contents/assignments/ps1_1978.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ps1_1978.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ps1_1978.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.02s_mtxsol.pdf"
+                  type="other"
+                  href="contents/lecture-notes/02s_mtxsol.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/02s_mtxsol.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/02s_mtxsol.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.index.htm"
+                  type="webcontent"
+                  href="contents/assignments/index.htm">
+            <metadata>
+                <adlcp:location>contents/assignments/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/index.htm"/>
+            <dependency identifierref="webrenderrequirements.5-80-small-molecule-spectroscopy-and-dynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-28.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-28/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-28/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-28/index.htm"/>
+            <dependency identifierref="webrenderrequirements.5-80-small-molecule-spectroscopy-and-dynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="r_contents.lecture-notes.32_580ln_fa08.pdf"
+                  type="other"
+                  href="contents/lecture-notes/32_580ln_fa08.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/32_580ln_fa08.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/32_580ln_fa08.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.ps3_1976.pdf"
+                  type="other"
+                  href="contents/assignments/ps3_1976.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ps3_1976.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ps3_1976.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-28.mit5_80f08lec28_th.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-28/mit5_80f08lec28_th.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-28/mit5_80f08lec28_th.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-28/mit5_80f08lec28_th.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-33.mit5_80f08lec33_th.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-33/mit5_80f08lec33_th.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-33/mit5_80f08lec33_th.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-33/mit5_80f08lec33_th.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-17.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-17/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-17/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-17/index.htm"/>
+            <dependency identifierref="webrenderrequirements.5-80-small-molecule-spectroscopy-and-dynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="r_contents.assignments.ps2ans_1985.pdf"
+                  type="other"
+                  href="contents/assignments/ps2ans_1985.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ps2ans_1985.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ps2ans_1985.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.syllabus.index.htm"
+                  type="webcontent"
+                  href="contents/syllabus/index.htm">
+            <metadata>
+                <adlcp:location>contents/syllabus/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/syllabus/index.htm"/>
+            <dependency identifierref="webrenderrequirements.5-80-small-molecule-spectroscopy-and-dynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="r_contents.assignments.02psetsp94.pdf"
+                  type="other"
+                  href="contents/assignments/02psetsp94.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/02psetsp94.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/02psetsp94.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.08s_elecconfigs.pdf"
+                  type="other"
+                  href="contents/lecture-notes/08s_elecconfigs.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/08s_elecconfigs.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/08s_elecconfigs.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.06_580ln_fa08.pdf"
+                  type="other"
+                  href="contents/lecture-notes/06_580ln_fa08.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/06_580ln_fa08.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/06_580ln_fa08.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.ps1_1987.pdf"
+                  type="other"
+                  href="contents/assignments/ps1_1987.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ps1_1987.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ps1_1987.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-8.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-8/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-8/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-8/index.htm"/>
+            <dependency identifierref="webrenderrequirements.5-80-small-molecule-spectroscopy-and-dynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="r_contents.assignments.ps3_1982.pdf"
+                  type="other"
+                  href="contents/assignments/ps3_1982.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ps3_1982.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ps3_1982.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-30.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-30/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-30/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-30/index.htm"/>
+            <dependency identifierref="webrenderrequirements.5-80-small-molecule-spectroscopy-and-dynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="r_contents.assignments.ps2_1987.pdf"
+                  type="other"
+                  href="contents/assignments/ps2_1987.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ps2_1987.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ps2_1987.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-14.mit5_80f08lec14_th.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-14/mit5_80f08lec14_th.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-14/mit5_80f08lec14_th.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-14/mit5_80f08lec14_th.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-38.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-38/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-38/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-38/index.htm"/>
+            <dependency identifierref="webrenderrequirements.5-80-small-molecule-spectroscopy-and-dynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="r_contents.lecture-notes.27_580ln_fa08.pdf"
+                  type="other"
+                  href="contents/lecture-notes/27_580ln_fa08.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/27_580ln_fa08.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/27_580ln_fa08.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.26_580ln_fa08.pdf"
+                  type="other"
+                  href="contents/lecture-notes/26_580ln_fa08.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/26_580ln_fa08.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/26_580ln_fa08.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-31.mit5_80f08lec31_th.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-31/mit5_80f08lec31_th.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-31/mit5_80f08lec31_th.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-31/mit5_80f08lec31_th.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.exams.index.htm"
+                  type="webcontent"
+                  href="contents/exams/index.htm">
+            <metadata>
+                <adlcp:location>contents/exams/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/exams/index.htm"/>
+            <dependency identifierref="webrenderrequirements.5-80-small-molecule-spectroscopy-and-dynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-10.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-10/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-10/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-10/index.htm"/>
+            <dependency identifierref="webrenderrequirements.5-80-small-molecule-spectroscopy-and-dynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="r_contents.lecture-notes.22s_580ln_fa08.pdf"
+                  type="other"
+                  href="contents/lecture-notes/22s_580ln_fa08.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/22s_580ln_fa08.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/22s_580ln_fa08.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-35.mit5_80f08lec35_th.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-35/mit5_80f08lec35_th.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-35/mit5_80f08lec35_th.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-35/mit5_80f08lec35_th.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-5.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-5/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-5/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-5/index.htm"/>
+            <dependency identifierref="webrenderrequirements.5-80-small-molecule-spectroscopy-and-dynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-9.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-9/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-9/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-9/index.htm"/>
+            <dependency identifierref="webrenderrequirements.5-80-small-molecule-spectroscopy-and-dynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="r_contents.lecture-notes.14_580ln_fa08.pdf"
+                  type="other"
+                  href="contents/lecture-notes/14_580ln_fa08.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/14_580ln_fa08.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/14_580ln_fa08.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.24_580ln_fa08.pdf"
+                  type="other"
+                  href="contents/lecture-notes/24_580ln_fa08.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/24_580ln_fa08.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/24_580ln_fa08.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.exams.examf_1976.pdf"
+                  type="other"
+                  href="contents/exams/examf_1976.pdf">
+            <metadata>
+                <adlcp:location>contents/exams/examf_1976.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/exams/examf_1976.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-23.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-23/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-23/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-23/index.htm"/>
+            <dependency identifierref="webrenderrequirements.5-80-small-molecule-spectroscopy-and-dynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="r_contents.lecture-notes.31_580ln_fa08.pdf"
+                  type="other"
+                  href="contents/lecture-notes/31_580ln_fa08.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/31_580ln_fa08.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/31_580ln_fa08.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.09_580ln_fa08.pdf"
+                  type="other"
+                  href="contents/lecture-notes/09_580ln_fa08.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/09_580ln_fa08.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/09_580ln_fa08.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-31.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-31/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-31/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-31/index.htm"/>
+            <dependency identifierref="webrenderrequirements.5-80-small-molecule-spectroscopy-and-dynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="r_contents.assignments.ps4_1985.pdf"
+                  type="other"
+                  href="contents/assignments/ps4_1985.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ps4_1985.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ps4_1985.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-13.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-13/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-13/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-13/index.htm"/>
+            <dependency identifierref="webrenderrequirements.5-80-small-molecule-spectroscopy-and-dynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="r_contents.exams.examf_1978.pdf"
+                  type="other"
+                  href="contents/exams/examf_1978.pdf">
+            <metadata>
+                <adlcp:location>contents/exams/examf_1978.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/exams/examf_1978.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.10_580ln_fa08.pdf"
+                  type="other"
+                  href="contents/lecture-notes/10_580ln_fa08.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/10_580ln_fa08.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/10_580ln_fa08.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-29.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-29/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-29/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-29/index.htm"/>
+            <dependency identifierref="webrenderrequirements.5-80-small-molecule-spectroscopy-and-dynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-1.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-1/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-1/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-1/index.htm"/>
+            <dependency identifierref="webrenderrequirements.5-80-small-molecule-spectroscopy-and-dynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-15.mit5_80f08lec15_th.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-15/mit5_80f08lec15_th.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-15/mit5_80f08lec15_th.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-15/mit5_80f08lec15_th.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.exams.exam1_1978.pdf"
+                  type="other"
+                  href="contents/exams/exam1_1978.pdf">
+            <metadata>
+                <adlcp:location>contents/exams/exam1_1978.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/exams/exam1_1978.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-22.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-22/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-22/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-22/index.htm"/>
+            <dependency identifierref="webrenderrequirements.5-80-small-molecule-spectroscopy-and-dynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="r_contents.assignments.ps3_1985.pdf"
+                  type="other"
+                  href="contents/assignments/ps3_1985.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ps3_1985.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ps3_1985.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.18_580ln_fa08.pdf"
+                  type="other"
+                  href="contents/lecture-notes/18_580ln_fa08.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/18_580ln_fa08.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/18_580ln_fa08.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.ps3_1987.pdf"
+                  type="other"
+                  href="contents/assignments/ps3_1987.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ps3_1987.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ps3_1987.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.23s_580ln_fa08.pdf"
+                  type="other"
+                  href="contents/lecture-notes/23s_580ln_fa08.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/23s_580ln_fa08.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/23s_580ln_fa08.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.exams.exam2_1977.pdf"
+                  type="other"
+                  href="contents/exams/exam2_1977.pdf">
+            <metadata>
+                <adlcp:location>contents/exams/exam2_1977.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/exams/exam2_1977.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-6.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-6/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-6/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-6/index.htm"/>
+            <dependency identifierref="webrenderrequirements.5-80-small-molecule-spectroscopy-and-dynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-13.mit5_80f08lec13_th.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-13/mit5_80f08lec13_th.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-13/mit5_80f08lec13_th.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-13/mit5_80f08lec13_th.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-17.mit5_80f08lec17_th.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-17/mit5_80f08lec17_th.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-17/mit5_80f08lec17_th.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-17/mit5_80f08lec17_th.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.21_580ln_fa08.pdf"
+                  type="other"
+                  href="contents/lecture-notes/21_580ln_fa08.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/21_580ln_fa08.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/21_580ln_fa08.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.25_580ln_fa08.pdf"
+                  type="other"
+                  href="contents/lecture-notes/25_580ln_fa08.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/25_580ln_fa08.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/25_580ln_fa08.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-11.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-11/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-11/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-11/index.htm"/>
+            <dependency identifierref="webrenderrequirements.5-80-small-molecule-spectroscopy-and-dynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="r_contents.lecture-notes.03s_anoscvibrot.pdf"
+                  type="other"
+                  href="contents/lecture-notes/03s_anoscvibrot.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/03s_anoscvibrot.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/03s_anoscvibrot.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.exams.exam1_1976.pdf"
+                  type="other"
+                  href="contents/exams/exam1_1976.pdf">
+            <metadata>
+                <adlcp:location>contents/exams/exam1_1976.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/exams/exam1_1976.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-21.mit5_80f08lec21_th.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-21/mit5_80f08lec21_th.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-21/mit5_80f08lec21_th.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-21/mit5_80f08lec21_th.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-3.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-3/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-3/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-3/index.htm"/>
+            <dependency identifierref="webrenderrequirements.5-80-small-molecule-spectroscopy-and-dynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="r_contents.lecture-notes.02_580ln_08.pdf"
+                  type="other"
+                  href="contents/lecture-notes/02_580ln_08.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/02_580ln_08.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/02_580ln_08.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-34.mit5_80f08lec34_th.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-34/mit5_80f08lec34_th.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-34/mit5_80f08lec34_th.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-34/mit5_80f08lec34_th.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-12.mit5_80f08lec12_th.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-12/mit5_80f08lec12_th.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-12/mit5_80f08lec12_th.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-12/mit5_80f08lec12_th.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.ps1_1976.pdf"
+                  type="other"
+                  href="contents/assignments/ps1_1976.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ps1_1976.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ps1_1976.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.17s_engylvlstrct.pdf"
+                  type="other"
+                  href="contents/lecture-notes/17s_engylvlstrct.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/17s_engylvlstrct.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/17s_engylvlstrct.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.exams.exam1ans_1976.pdf"
+                  type="other"
+                  href="contents/exams/exam1ans_1976.pdf">
+            <metadata>
+                <adlcp:location>contents/exams/exam1ans_1976.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/exams/exam1ans_1976.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-37.mit5_80f08lec37_th.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-37/mit5_80f08lec37_th.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-37/mit5_80f08lec37_th.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-37/mit5_80f08lec37_th.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.ps1ans_1994.pdf"
+                  type="other"
+                  href="contents/assignments/ps1ans_1994.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ps1ans_1994.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ps1ans_1994.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.ps4_1994.pdf"
+                  type="other"
+                  href="contents/assignments/ps4_1994.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/ps4_1994.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/ps4_1994.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-24.mit5_80f08lec24_th.jpg"
+                  type="other"
+                  href="contents/video-lectures/lecture-24/mit5_80f08lec24_th.jpg">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-24/mit5_80f08lec24_th.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-24/mit5_80f08lec24_th.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-19.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-19/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-19/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-19/index.htm"/>
+            <dependency identifierref="webrenderrequirements.5-80-small-molecule-spectroscopy-and-dynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="r_contents.video-lectures.lecture-33.index.htm"
+                  type="webcontent"
+                  href="contents/video-lectures/lecture-33/index.htm">
+            <metadata>
+                <adlcp:location>contents/video-lectures/lecture-33/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/video-lectures/lecture-33/index.htm"/>
+            <dependency identifierref="webrenderrequirements.5-80-small-molecule-spectroscopy-and-dynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="r_contents.calendar.lec32image.jpg"
+                  type="other"
+                  href="contents/calendar/lec32image.jpg">
+            <metadata>
+                <adlcp:location>contents/calendar/lec32image.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/calendar/lec32image.jpg"/>
+                        
+        </resource>        
+        <resource identifier="r_common.search.AdvancedSearch.htm"
+                  type="webcontent"
+                  href="common/search/AdvancedSearch.htm">
+            <file href="common/search/AdvancedSearch.htm"/>
+            <dependency identifierref="webrenderrequirements.5-80-small-molecule-spectroscopy-and-dynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="r_common.jsp.feedback.htm"
+                  type="webcontent"
+                  href="common/jsp/feedback.htm">
+            <file href="common/jsp/feedback.htm"/>
+            <dependency identifierref="webrenderrequirements.5-80-small-molecule-spectroscopy-and-dynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="r_common.terms.index.htm"
+                  type="webcontent"
+                  href="common/terms/index.htm">
+            <file href="common/terms/share.png"/>
+            <file href="common/terms/remix.png"/>
+            <file href="common/terms/by.png"/>
+            <file href="common/terms/nc.png"/>
+            <file href="common/terms/sa.png"/>
+            <file href="common/terms/deedheadyellow.png"/>
+            <file href="common/terms/freedomsheader.png"/>
+            <file href="common/terms/limitationsheader.png"/>
+            <file href="common/terms/deedfootyellow.png"/>
+            <dependency identifierref="webrenderrequirements.5-80-small-molecule-spectroscopy-and-dynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="r_common.terms.trademarks.index.htm"
+                  type="webcontent"
+                  href="common/terms/trademarks/index.htm">
+            <file href="common/terms/trademarks/index.htm"/>
+            <dependency identifierref="webrenderrequirements.5-80-small-molecule-spectroscopy-and-dynamics-fall-2008"/>            
+        </resource>
+        <resource identifier="webrenderrequirements.5-80-small-molecule-spectroscopy-and-dynamics-fall-2008"
+                  type="webcontent">
+        	<file href="common/styles/base.css"/>
+        	<file href="common/styles/courses.css"/>
+        	<file href="common/styles/courses_new.css"/>
+        	<file href="common/styles/global.css"/>
+        	<file href="common/styles/grid.css"/>
+        	<file href="common/styles/highslide.css"/>
+        	<file href="common/styles/highslide-ie6.css"/>
+        	<file href="common/styles/jquery.bubblepopup.css"/>
+        	<file href="common/styles/jquery.jscrollpane.css"/>
+        	<file href="common/styles/jquery-ui.css"/>
+        	<file href="common/styles/menu.css"/>
+        	<file href="common/styles/scholar2.css"/>
+        	<file href="common/styles/media_tabs.css"/>
+        	<file href="common/scripts/bubble-popup-offline.js"/>
+        	<file href="common/scripts/common-utils-offline.js"/>
+        	<file href="common/scripts/highslide-with-gallery.js"/>
+        	<file href="common/scripts/jquery.bubblepopup.min.js"/>
+        	<file href="common/scripts/jquery.jscrollpane.min.js"/>
+        	<file href="common/scripts/jquery-ui.min.js"/>
+        	<file href="common/scripts/jQuizMe-uncompressed.js"/>
+        	<file href="common/scripts/ocw-offline.js"/>
+        	<file href="common/scripts/expandy.js"/>
+        	<file href="common/images/ocw_mast.png"/>
+        	<file href="common/images/button_subscribe.png"/>
+        	<file href="common/images/icon_fb.png"/>
+        	<file href="common/images/icon_tw.png"/>
+        	<file href="common/images/top-nav_home.png"/>
+        	<file href="common/images/button_search.png"/>
+        	<file href="common/images/bg_top.png"/>
+        	<file href="common/images/bg_social.png"/>
+        	<file href="common/images/bg_mega-courses.png"/>
+        	<file href="common/images/bg_center2.png"/>
+        	<file href="common/images/bg_course-nav_current.png"/>
+        	<file href="common/images/button_donate-now.png"/>
+        	<file href="common/images/logo_mit.png"/>
+        	<file href="common/images/logo_ocwc.gif"/>
+        	<file href="common/images/cc_by-nc-sa.png"/>
+        	<file href="common/images/logo_dow.png"/>
+        	<file href="common/images/logo_lockheed.png"/>
+        	<file href="common/images/logo_mathworks.png"/>
+        	<file href="common/images/logo_abinitio.png"/>
+        	<file href="common/images/bg_bottom.png"/>
+        	<file href="common/images/nav_arrow.png"/>
+        	<file href="common/images/black-arrow.gif"/>
+        	<file href="common/images/trans.gif"/>
+        	<file href="common/images/arrow-bullet.gif"/>
+        	<file href="common/images/apple-touch-icon.png"/>
+        	<file href="common/images/highslide/graphics/zoomin.cur"/>
+        	<file href="common/images/highslide/graphics/zoomout.cur"/>
+        	<file href="common/images/highslide/graphics/controlbar2.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar3.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar4.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar4-hover.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar-black-border.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar-white.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar-white-small.gif"/>
+        	<file href="common/images/highslide/graphics/fullexpand.gif"/>
+        	<file href="common/images/highslide/graphics/icon.gif"/>
+        	<file href="common/images/highslide/graphics/loader.gif"/>
+        	<file href="common/images/highslide/graphics/loader.white.gif"/>
+        	<file href="common/images/highslide/graphics/resize.gif"/>
+        	<file href="common/images/highslide/graphics/close.png"/>
+        	<file href="common/images/highslide/graphics/closeX.png"/>
+        	<file href="common/images/highslide/graphics/controlbar-text-buttons.png"/>
+        	<file href="common/images/highslide/graphics/geckodimmer.png"/>
+        	<file href="common/images/highslide/graphics/scrollarrows.png"/>
+        	<file href="common/images/highslide/graphics/outlines/beveled.png"/>
+        	<file href="common/images/highslide/graphics/outlines/drop-shadow.png"/>
+        	<file href="common/images/highslide/graphics/outlines/glossy-dark.png"/>
+        	<file href="common/images/highslide/graphics/outlines/outer-glow.png"/>
+        	<file href="common/images/highslide/graphics/outlines/rounded-black.png"/>
+        	<file href="common/images/highslide/graphics/outlines/rounded-white.png"/>
+        	<file href="common/images/highslide/graphics/outlines/Outlines.psd"/>
+        	<file href="common/images/button_continue.jpg"/>
+        	<file href="common/images/button_donate.jpg"/>
+        	<file href="common/images/button_start.jpg"/>
+        	<file href="common/images/scholar_bar_chp.png"/>
+        	<file href="common/images/scholar_bar.png"/>
+        	<file href="common/images/logo_pdf.jpg"/>
+        	<file href="common/images/h2_trigger_open_close.gif"/>
+        	<file href="common/images/bookmark.gif"/>
+        	<file href="common/images/check.png"/>
+        	<file href="common/images/lightbulb.png"/>
+        	<file href="common/images/audio_file.gif"/>
+        	<file href="common/images/audio_only_slate.gif"/>
+        	<file href="common/images/video_file.gif"/>
+        	<file href="common/images/back-5.png"/>
+        	<file href="common/images/btn_next_resource.png"/>
+        	<file href="common/images/btn_previous_resource.png"/>
+        	<file href="common/images/close.png"/>
+        	<file href="common/images/inacessible.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/bottom-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/bottom-middle.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/bottom-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/middle-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/middle-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-bottom.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-top.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/top-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/top-middle.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/top-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/bottom-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/bottom-middle.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/bottom-right.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/middle-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/middle-right.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-bottom.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-right.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-top.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/top-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/top-middle.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/top-right.png"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.woff"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.ttf"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.svg"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.eot"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.woff"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.ttf"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.eot"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.svg"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.woff"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.ttf"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.svg"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.eot"/>
+        </resource>        
+  </resources>
+</manifest>

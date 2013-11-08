@@ -1,0 +1,1525 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest xmlns="http://www.imsglobal.org/xsd/imscp_v1p1"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+          xmlns:cwsp="http://www.dspace.org/xmlns/cwspace_imscp"
+          xmlns:ocw="http://ocw.mit.edu/xmlns/ocw_imscp"
+          xmlns:lom="http://ocw.mit.edu/xmlns/LOM"
+          identifier="urn_edu.mit.ocw_cms-608-game-design-spring-2008"
+          version="2013-6-22T21:27:29"
+          cwsp:packageType="Course"
+          xml:base="cms-608-spring-2008/"
+          xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 http://www.imsglobal.org/xsd/imscp_v1p1.xsd  http://www.adlnet.org/xsd/adlcp_rootv1p2 http://www.adlnet.org/xsd/adlcp_rootv1p2.xsd http://www.dspace.org/xmlns/cwspace_imscp http://www.dspace.org/xsd/cwspace_imscp/version10/cwspace_imscpv10.xsd http://ocw.mit.edu/xmlns/ocw_imscp http://ocw.mit.edu/xsd/ocw_imscp/version10/ocw_imscpv10.xsd http://ocw.mit.edu/xmlns/LOM http://ocw.mit.edu/xsd/LOM/lomv1.0/lomv1.0.xsd">
+   	<metadata>
+   		<schema>IMS Content</schema>
+        <schemaversion>1.1</schemaversion>
+        <cwsp:packageMetadata>
+            <cwsp:sourceSystem>OCW</cwsp:sourceSystem>
+            <cwsp:profile>CWSpace</cwsp:profile>
+            <cwsp:profileVersion>0.1</cwsp:profileVersion>
+        </cwsp:packageMetadata>
+        <lom:general uniqueElementName="general">
+            <lom:title uniqueElementName="title">
+				<lom:string language="en">Game Design</lom:string>
+			</lom:title>
+			<lom:identifier>
+				<lom:catalog uniqueElementName="catalog">OCW Master Course Number</lom:catalog>
+		      	<lom:entry uniqueElementName="entry">CMS.608</lom:entry>
+			</lom:identifier>
+			<lom:identifier>
+				<lom:catalog uniqueElementName="catalog">OCW Linked Course Number</lom:catalog>
+		      	<lom:entry uniqueElementName="entry">CMS.864</lom:entry>
+			</lom:identifier>
+        </lom:general>
+        <lom:lifecycle uniqueElementName="lifeCycle">
+            <lom:version uniqueElementName="version">
+				<lom:string language="en">Spring 2008</lom:string>
+			</lom:version>
+            <lom:contribute>
+	            <lom:role>
+	                <lom:source uniqueElementName="source">OCW_LOMv1.0</lom:source>
+	                <lom:value uniqueElementName="value">Author</lom:value>
+	            </lom:role>
+	            <lom:entity>Fernandez-Vara, Clara</lom:entity>
+	            <lom:date uniqueElementName="date">
+	                <lom:dateTime uniqueElementName="dateTime">2013-6-22</lom:dateTime>
+	            </lom:date>
+        	</lom:contribute>
+            <lom:contribute>
+	            <lom:role>
+	                <lom:source uniqueElementName="source">OCW_LOMv1.0</lom:source>
+	                <lom:value uniqueElementName="value">Author</lom:value>
+	            </lom:role>
+	            <lom:entity>Rusch, Doris</lom:entity>
+	            <lom:date uniqueElementName="date">
+	                <lom:dateTime uniqueElementName="dateTime">2013-6-22</lom:dateTime>
+	            </lom:date>
+        	</lom:contribute>
+            <lom:contribute>
+	            <lom:role>
+	                <lom:source uniqueElementName="source">OCW_LOMv1.0</lom:source>
+	                <lom:value uniqueElementName="value">Author</lom:value>
+	            </lom:role>
+	            <lom:entity>Juul, Jesper</lom:entity>
+	            <lom:date uniqueElementName="date">
+	                <lom:dateTime uniqueElementName="dateTime">2013-6-22</lom:dateTime>
+	            </lom:date>
+        	</lom:contribute>
+            <lom:contribute>
+	            <lom:role>
+	                <lom:source uniqueElementName="source">OCW_LOMv1.0</lom:source>
+	                <lom:value uniqueElementName="value">Author</lom:value>
+	            </lom:role>
+	            <lom:entity>Tan, Philip</lom:entity>
+	            <lom:date uniqueElementName="date">
+	                <lom:dateTime uniqueElementName="dateTime">2013-6-22</lom:dateTime>
+	            </lom:date>
+        	</lom:contribute>
+        </lom:lifecycle>
+        <lom:taxonPath>
+            <lom:source uniqueElementName="source">
+                <lom:string language="en">OCW Course Categories</lom:string>
+            </lom:source>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Fine Arts</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Game Design</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            
+        </lom:taxonPath>
+        <lom:taxonPath>
+            <lom:source uniqueElementName="source">
+                <lom:string language="en">OCW Course Categories</lom:string>
+            </lom:source>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Fine Arts</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Media Studies</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            
+        </lom:taxonPath>        
+        <adlcp:location>contents/index.htm.xml</adlcp:location>
+    </metadata>
+    <organizations default="ocw_cms-608-game-design-spring-2008">
+        <organization identifier="ocw_cms-608-game-design-spring-2008">
+            <title>Game Design</title>
+            <item identifier="i_cms-608-game-design-spring-2008.CourseHome"
+                  identifierref="r_contents.index.htm"
+                  ocw:sectionTemplateType="CourseHomePage"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Game Design</title>
+				<item identifier="i_cms-608-game-design-spring-2008.cms-608s08.jpg"
+          identifierref="r_contents.cms-608s08.jpg">
+				<title>A paper grid with various obstacles of Play-Doh and dominos functions as a board for a game with tokens and dice</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.cms-608s08-th.jpg"
+          identifierref="r_contents.cms-608s08-th.jpg">
+				<title>A paper grid with various obstacles of Play-Doh and dominos functions as a board for a game with tokens and dice</title>
+				</item>
+			</item>
+            <item identifier="i_cms-608-game-design-spring-2008.syllabus"
+                  identifierref="r_contents.syllabus.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Syllabus</title>
+			</item>
+            <item identifier="i_cms-608-game-design-spring-2008.calendar"
+                  identifierref="r_contents.calendar.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Calendar</title>
+			</item>
+            <item identifier="i_cms-608-game-design-spring-2008.readings"
+                  identifierref="r_contents.readings.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Readings</title>
+			</item>
+            <item identifier="i_cms-608-game-design-spring-2008.lecture-notes"
+                  identifierref="r_contents.lecture-notes.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Lecture Notes</title>
+				<item identifier="i_cms-608-game-design-spring-2008.lecture-notes.MITCMS_608s08_lec_notes31.pdf"
+          identifierref="r_contents.lecture-notes.MITCMS_608s08_lec_notes31.pdf">
+				<title>Guest lecture, Sam Ford: Wrestling, Meaning, and Symbols</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.lecture-notes.MITCMS_608s08_lec_notes13.pdf"
+          identifierref="r_contents.lecture-notes.MITCMS_608s08_lec_notes13.pdf">
+				<title>Lecture: Information</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.lecture-notes.MITCMS_608s08_lec05.pdf"
+          identifierref="r_contents.lecture-notes.MITCMS_608s08_lec05.pdf">
+				<title>Lecture: Game Design Patterns and Twenty Formal Game Questions</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.lecture-notes.MITCMS_608s08_lec_notes32.pdf"
+          identifierref="r_contents.lecture-notes.MITCMS_608s08_lec_notes32.pdf">
+				<title>Guest lecture, Joshua Green: That's Just Not Cricket!</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.lecture-notes.MITCMS_608s08_lec_notes11.pdf"
+          identifierref="r_contents.lecture-notes.MITCMS_608s08_lec_notes11.pdf">
+				<title>Workshop: Doris' 1000 Blank Cards</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.lecture-notes.MITCMS_608s08_lec_notes30.pdf"
+          identifierref="r_contents.lecture-notes.MITCMS_608s08_lec_notes30.pdf">
+				<title>Workshop: Narrative Play (Riddles, Puzzles, and Word Games)</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.lecture-notes.MITCMS_608s08_lec_notes10.pdf"
+          identifierref="r_contents.lecture-notes.MITCMS_608s08_lec_notes10.pdf">
+				<title>Lecture: The Player</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.lecture-notes.MITCMS_608s08_lec_notes28.pdf"
+          identifierref="r_contents.lecture-notes.MITCMS_608s08_lec_notes28.pdf">
+				<title>Lecture: Abstraction and Simulation</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.lecture-notes.MITCMS_608s08_lec_notes15.pdf"
+          identifierref="r_contents.lecture-notes.MITCMS_608s08_lec_notes15.pdf">
+				<title>Workshop: Racing Games (Parcheesi, Life, Goose, Mille Bournes)</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.lecture-notes.MITCMS_608s08_lec34.pdf"
+          identifierref="r_contents.lecture-notes.MITCMS_608s08_lec34.pdf">
+				<title>Exploiting the Constraints of the Medium: Lessons from Table Table-top vs. Live Action Roleplaying on Computer Games</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.lecture-notes.MITCMS_608s08_lec_notes24.pdf"
+          identifierref="r_contents.lecture-notes.MITCMS_608s08_lec_notes24.pdf">
+				<title>Lecture: Bending and Breaking</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.lecture-notes.MITCMS_608s08_lec24.pdf"
+          identifierref="r_contents.lecture-notes.MITCMS_608s08_lec24.pdf">
+				<title>Bending &amp; Breaking Rules</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.lecture-notes.MITCMS_608s08_lec_notes14.pdf"
+          identifierref="r_contents.lecture-notes.MITCMS_608s08_lec_notes14.pdf">
+				<title>Workshop: Initial Presentation Poker Deck Game, Playtest to Get Feedback, and Suggest Changes</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.lecture-notes.MITCMS_608s08_lec_notes21.pdf"
+          identifierref="r_contents.lecture-notes.MITCMS_608s08_lec_notes21.pdf">
+				<title>Lecture: Possibility Space</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.lecture-notes.MITCMS_608s08_lec04.pdf"
+          identifierref="r_contents.lecture-notes.MITCMS_608s08_lec04.pdf">
+				<title>Types of Fun &amp; Game History</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.lecture-notes.MITCMS_608s08_lec_notes05.pdf"
+          identifierref="r_contents.lecture-notes.MITCMS_608s08_lec_notes05.pdf">
+				<title>Lecture: Game Design Patterns and Twenty Formal Game Questions</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.lecture-notes.MITCMS_608s08_lec_notes04.pdf"
+          identifierref="r_contents.lecture-notes.MITCMS_608s08_lec_notes04.pdf">
+				<title>Lecture: Types of Fun and Game History</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.lecture-notes.MITCMS_608s08_lec13.pdf"
+          identifierref="r_contents.lecture-notes.MITCMS_608s08_lec13.pdf">
+				<title>Lecture: Information</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.lecture-notes.MITCMS_608s08_lec31.pdf"
+          identifierref="r_contents.lecture-notes.MITCMS_608s08_lec31.pdf">
+				<title>Guest lecture, Sam Ford: Wrestling, Meaning, and Symbols</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.lecture-notes.MITCMS_608s08_lec27.pdf"
+          identifierref="r_contents.lecture-notes.MITCMS_608s08_lec27.pdf">
+				<title>Digital Games</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.lecture-notes.MITCMS_608s08_lec01.pdf"
+          identifierref="r_contents.lecture-notes.MITCMS_608s08_lec01.pdf">
+				<title>Lecture: Class and Syllabus Introduction</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.lecture-notes.MITCMS_608s08_lec29.pdf"
+          identifierref="r_contents.lecture-notes.MITCMS_608s08_lec29.pdf">
+				<title>Social Play</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.lecture-notes.MITCMS_608s08_lec_notes22.pdf"
+          identifierref="r_contents.lecture-notes.MITCMS_608s08_lec_notes22.pdf">
+				<title>Lecture: Feedback and Emergence</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.lecture-notes.MITCMS_608s08_lec_notes35.pdf"
+          identifierref="r_contents.lecture-notes.MITCMS_608s08_lec_notes35.pdf">
+				<title>Guest Lecture, Jason Haas: Improv Games</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.lecture-notes.MITCMS_608s08_lec25.pdf"
+          identifierref="r_contents.lecture-notes.MITCMS_608s08_lec25.pdf">
+				<title>Us vs. It</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.lecture-notes.MITCMS_608s08_lec_notes27.pdf"
+          identifierref="r_contents.lecture-notes.MITCMS_608s08_lec_notes27.pdf">
+				<title>Lecture: Digital Games</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.lecture-notes.MITCMS_608s08_lec_notes09.pdf"
+          identifierref="r_contents.lecture-notes.MITCMS_608s08_lec_notes09.pdf">
+				<title>Lecture: Competition and Chance</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.lecture-notes.MITCMS_608s08_lec_notes06.pdf"
+          identifierref="r_contents.lecture-notes.MITCMS_608s08_lec_notes06.pdf">
+				<title>Guest Workshop, Scot Osterweil: Playtesting Exercise – Poker Variants</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.lecture-notes.MITCMS_608s08_lec30.pdf"
+          identifierref="r_contents.lecture-notes.MITCMS_608s08_lec30.pdf">
+				<title>Puzzle Design</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.lecture-notes.MITCMS_608s08_lec22.pdf"
+          identifierref="r_contents.lecture-notes.MITCMS_608s08_lec22.pdf">
+				<title>Emergence, Cybernetic Systems</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.lecture-notes.MITCMS_608s08_lec_notes08.pdf"
+          identifierref="r_contents.lecture-notes.MITCMS_608s08_lec_notes08.pdf">
+				<title>Workshop: Fortunetelling, Games of Chance and Dice (Roulette, Bingo, Tarot)</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.lecture-notes.MITCMS_608s08_lec_notes16.pdf"
+          identifierref="r_contents.lecture-notes.MITCMS_608s08_lec_notes16.pdf">
+				<title>Lecture: Racing Games</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.lecture-notes.MITCMS_608s08_lec02.pdf"
+          identifierref="r_contents.lecture-notes.MITCMS_608s08_lec02.pdf">
+				<title>Design</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.lecture-notes.MITCMS_608s08_lec_notes12.pdf"
+          identifierref="r_contents.lecture-notes.MITCMS_608s08_lec_notes12.pdf">
+				<title>Lecture: Card and Guessing Games</title>
+				</item>
+			</item>
+            <item identifier="i_cms-608-game-design-spring-2008.assignments"
+                  identifierref="r_contents.assignments.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Assignments</title>
+				<item identifier="i_cms-608-game-design-spring-2008.assignments.games.pdf"
+          identifierref="r_contents.assignments.games.pdf">
+				<title>Writing About Games: Analysis and Style</title>
+				</item>
+			</item>
+            <item identifier="i_cms-608-game-design-spring-2008.projects"
+                  identifierref="r_contents.projects.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Projects</title>
+				<item identifier="i_cms-608-game-design-spring-2008.projects.bcpt4.pdf"
+          identifierref="r_contents.projects.bcpt4.pdf">
+				<title>Slide Slide Evolution</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.projects.moe2.pdf"
+          identifierref="r_contents.projects.moe2.pdf">
+				<title>Pokermon</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.projects.btt_cards.pdf"
+          identifierref="r_contents.projects.btt_cards.pdf">
+				<title>Fluxx Cards</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.projects.tseng2.pdf"
+          identifierref="r_contents.projects.tseng2.pdf">
+				<title>Developing a Variant of Contract Bridge</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.projects.tam2.pdf"
+          identifierref="r_contents.projects.tam2.pdf">
+				<title>The "All-Trump" Bridge Variant</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.projects.dowgun2.pdf"
+          identifierref="r_contents.projects.dowgun2.pdf">
+				<title>The Creation of “Churchill Choice”</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.projects.bhat2.pdf"
+          identifierref="r_contents.projects.bhat2.pdf">
+				<title>DrawBridge</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.projects.tam1.pdf"
+          identifierref="r_contents.projects.tam1.pdf">
+				<title>The Royal Game of Ur</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.projects.rst3.pdf"
+          identifierref="r_contents.projects.rst3.pdf">
+				<title>Roller Derby</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.projects.bmt4.pdf"
+          identifierref="r_contents.projects.bmt4.pdf">
+				<title>Scrabble Search</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.projects.MITCMS_608s08_proj02.pdf"
+          identifierref="r_contents.projects.MITCMS_608s08_proj02.pdf">
+				<title>Design a Clubhouse Game Variant</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.projects.rrd4.pdf"
+          identifierref="r_contents.projects.rrd4.pdf">
+				<title>Use the Fours</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.projects.MITCMS_608s08_proj04.pdf"
+          identifierref="r_contents.projects.MITCMS_608s08_proj04.pdf">
+				<title>Design an Original Game</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.projects.tyan2.pdf"
+          identifierref="r_contents.projects.tyan2.pdf">
+				<title>Reverse Bridge</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.projects.campoverde1.pdf"
+          identifierref="r_contents.projects.campoverde1.pdf">
+				<title>Continental Checkers</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.projects.bhat1.pdf"
+          identifierref="r_contents.projects.bhat1.pdf">
+				<title>Rentoy</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.projects.MITCMS_608s08_proj03.pdf"
+          identifierref="r_contents.projects.MITCMS_608s08_proj03.pdf">
+				<title>Adapt a Non-Board Game</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.projects.peng2.pdf"
+          identifierref="r_contents.projects.peng2.pdf">
+				<title>A Twist on Whist</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.projects.dowgun1.pdf"
+          identifierref="r_contents.projects.dowgun1.pdf">
+				<title>Zombie Attack!</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.projects.btt3.pdf"
+          identifierref="r_contents.projects.btt3.pdf">
+				<title>Fluxx: The Board Game</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.projects.sperry2.pdf"
+          identifierref="r_contents.projects.sperry2.pdf">
+				<title>Contract Rummy</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.projects.MITCMS_608s08_proj01.pdf"
+          identifierref="r_contents.projects.MITCMS_608s08_proj01.pdf">
+				<title>Research a Historical Game</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.projects.moe1.pdf"
+          identifierref="r_contents.projects.moe1.pdf">
+				<title>Tablut Reconstruction</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.projects.rrd3.pdf"
+          identifierref="r_contents.projects.rrd3.pdf">
+				<title>Tron: the Board Game</title>
+				</item>
+			</item>
+            <item identifier="i_cms-608-game-design-spring-2008.image-gallery"
+                  identifierref="r_contents.image-gallery.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Image Gallery</title>
+				<item identifier="i_cms-608-game-design-spring-2008.image-gallery.01.jpg"
+          identifierref="r_contents.image-gallery.01.jpg">
+				<title>Image 1</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.image-gallery.thumb_01.jpg"
+          identifierref="r_contents.image-gallery.thumb_01.jpg">
+				<title>Image 1</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.image-gallery.02.jpg"
+          identifierref="r_contents.image-gallery.02.jpg">
+				<title>Image 2</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.image-gallery.thumb_02.jpg"
+          identifierref="r_contents.image-gallery.thumb_02.jpg">
+				<title>Image 2</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.image-gallery.03.jpg"
+          identifierref="r_contents.image-gallery.03.jpg">
+				<title>Image 3</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.image-gallery.thumb_03.jpg"
+          identifierref="r_contents.image-gallery.thumb_03.jpg">
+				<title>Image 3</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.image-gallery.04.jpg"
+          identifierref="r_contents.image-gallery.04.jpg">
+				<title>Image 4</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.image-gallery.thumb_04.jpg"
+          identifierref="r_contents.image-gallery.thumb_04.jpg">
+				<title>Image 4</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.image-gallery.05.jpg"
+          identifierref="r_contents.image-gallery.05.jpg">
+				<title>Image 5</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.image-gallery.thumb_05.jpg"
+          identifierref="r_contents.image-gallery.thumb_05.jpg">
+				<title>Image 5</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.image-gallery.06.jpg"
+          identifierref="r_contents.image-gallery.06.jpg">
+				<title>Image 6</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.image-gallery.thumb_06.jpg"
+          identifierref="r_contents.image-gallery.thumb_06.jpg">
+				<title>Image 6</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.image-gallery.07.jpg"
+          identifierref="r_contents.image-gallery.07.jpg">
+				<title>Image 7</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.image-gallery.thumb_07.jpg"
+          identifierref="r_contents.image-gallery.thumb_07.jpg">
+				<title>Image 7</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.image-gallery.08.jpg"
+          identifierref="r_contents.image-gallery.08.jpg">
+				<title>Image 8</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.image-gallery.thumb_08.jpg"
+          identifierref="r_contents.image-gallery.thumb_08.jpg">
+				<title>Image 8</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.image-gallery.09.jpg"
+          identifierref="r_contents.image-gallery.09.jpg">
+				<title>Image 9</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.image-gallery.thumb_09.jpg"
+          identifierref="r_contents.image-gallery.thumb_09.jpg">
+				<title>Image 9</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.image-gallery.10.jpg"
+          identifierref="r_contents.image-gallery.10.jpg">
+				<title>Image 10</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.image-gallery.thumb_10.jpg"
+          identifierref="r_contents.image-gallery.thumb_10.jpg">
+				<title>Image 10</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.image-gallery.11.jpg"
+          identifierref="r_contents.image-gallery.11.jpg">
+				<title>Image 11</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.image-gallery.thumb_11.jpg"
+          identifierref="r_contents.image-gallery.thumb_11.jpg">
+				<title>Image 11</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.image-gallery.12.jpg"
+          identifierref="r_contents.image-gallery.12.jpg">
+				<title>Image 12</title>
+				</item>
+				<item identifier="i_cms-608-game-design-spring-2008.image-gallery.thumb_12.jpg"
+          identifierref="r_contents.image-gallery.thumb_12.jpg">
+				<title>Image 12</title>
+				</item>
+			</item>
+            <item identifier="i_terms"
+                  identifierref="r_common.terms.index.htm"
+                  ocw:sectionTemplateType="GlobalSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Legal Notices</title>
+			</item>
+            <item identifier="i_terms"
+                  identifierref="r_common.terms.index.htm"
+                  ocw:sectionTemplateType="GlobalSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Privacy Statement</title>
+			</item>
+            <item identifier="i_terms.trademarks"
+                  identifierref="r_common.terms.trademarks.index.htm"
+                  ocw:sectionTemplateType="GlobalSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Trademark Notices</title>
+			</item>
+        </organization>
+    </organizations>
+    <resources>
+        <resource identifier="r_contents.lecture-notes.MITCMS_608s08_lec24.pdf"
+                  type="other"
+                  href="contents/lecture-notes/MITCMS_608s08_lec24.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/MITCMS_608s08_lec24.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/MITCMS_608s08_lec24.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.MITCMS_608s08_lec_notes13.pdf"
+                  type="other"
+                  href="contents/lecture-notes/MITCMS_608s08_lec_notes13.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/MITCMS_608s08_lec_notes13.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/MITCMS_608s08_lec_notes13.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.MITCMS_608s08_lec01.pdf"
+                  type="other"
+                  href="contents/lecture-notes/MITCMS_608s08_lec01.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/MITCMS_608s08_lec01.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/MITCMS_608s08_lec01.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.bcpt4.pdf"
+                  type="other"
+                  href="contents/projects/bcpt4.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/bcpt4.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/bcpt4.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.dowgun2.pdf"
+                  type="other"
+                  href="contents/projects/dowgun2.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/dowgun2.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/dowgun2.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.MITCMS_608s08_lec_notes22.pdf"
+                  type="other"
+                  href="contents/lecture-notes/MITCMS_608s08_lec_notes22.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/MITCMS_608s08_lec_notes22.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/MITCMS_608s08_lec_notes22.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.image-gallery.05.jpg"
+                  type="other"
+                  href="contents/image-gallery/05.jpg">
+            <metadata>
+                <adlcp:location>contents/image-gallery/05.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/image-gallery/05.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.image-gallery.thumb_05.jpg"
+                  type="other"
+                  href="contents/image-gallery/thumb_05.jpg">
+            <metadata>
+                <adlcp:location>contents/image-gallery/thumb_05.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/image-gallery/thumb_05.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.tyan2.pdf"
+                  type="other"
+                  href="contents/projects/tyan2.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/tyan2.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/tyan2.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.MITCMS_608s08_lec25.pdf"
+                  type="other"
+                  href="contents/lecture-notes/MITCMS_608s08_lec25.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/MITCMS_608s08_lec25.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/MITCMS_608s08_lec25.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.index.htm"
+                  type="webcontent"
+                  href="contents/projects/index.htm">
+            <metadata>
+                <adlcp:location>contents/projects/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/index.htm"/>
+            <dependency identifierref="webrenderrequirements.cms-608-game-design-spring-2008"/>            
+        </resource>
+        <resource identifier="r_contents.projects.tam2.pdf"
+                  type="other"
+                  href="contents/projects/tam2.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/tam2.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/tam2.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.MITCMS_608s08_lec34.pdf"
+                  type="other"
+                  href="contents/lecture-notes/MITCMS_608s08_lec34.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/MITCMS_608s08_lec34.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/MITCMS_608s08_lec34.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.image-gallery.04.jpg"
+                  type="other"
+                  href="contents/image-gallery/04.jpg">
+            <metadata>
+                <adlcp:location>contents/image-gallery/04.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/image-gallery/04.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.image-gallery.thumb_04.jpg"
+                  type="other"
+                  href="contents/image-gallery/thumb_04.jpg">
+            <metadata>
+                <adlcp:location>contents/image-gallery/thumb_04.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/image-gallery/thumb_04.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.moe1.pdf"
+                  type="other"
+                  href="contents/projects/moe1.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/moe1.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/moe1.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.MITCMS_608s08_lec_notes15.pdf"
+                  type="other"
+                  href="contents/lecture-notes/MITCMS_608s08_lec_notes15.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/MITCMS_608s08_lec_notes15.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/MITCMS_608s08_lec_notes15.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.peng2.pdf"
+                  type="other"
+                  href="contents/projects/peng2.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/peng2.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/peng2.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.cms-608s08.jpg"
+                  type="other"
+                  href="contents/cms-608s08.jpg">
+            <metadata>
+                <adlcp:location>contents/cms-608s08.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/cms-608s08.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.MITCMS_608s08_lec30.pdf"
+                  type="other"
+                  href="contents/lecture-notes/MITCMS_608s08_lec30.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/MITCMS_608s08_lec30.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/MITCMS_608s08_lec30.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.MITCMS_608s08_lec_notes24.pdf"
+                  type="other"
+                  href="contents/lecture-notes/MITCMS_608s08_lec_notes24.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/MITCMS_608s08_lec_notes24.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/MITCMS_608s08_lec_notes24.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.syllabus.index.htm"
+                  type="webcontent"
+                  href="contents/syllabus/index.htm">
+            <metadata>
+                <adlcp:location>contents/syllabus/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/syllabus/index.htm"/>
+            <dependency identifierref="webrenderrequirements.cms-608-game-design-spring-2008"/>            
+        </resource>
+        <resource identifier="r_contents.image-gallery.06.jpg"
+                  type="other"
+                  href="contents/image-gallery/06.jpg">
+            <metadata>
+                <adlcp:location>contents/image-gallery/06.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/image-gallery/06.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.image-gallery.thumb_06.jpg"
+                  type="other"
+                  href="contents/image-gallery/thumb_06.jpg">
+            <metadata>
+                <adlcp:location>contents/image-gallery/thumb_06.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/image-gallery/thumb_06.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.image-gallery.12.jpg"
+                  type="other"
+                  href="contents/image-gallery/12.jpg">
+            <metadata>
+                <adlcp:location>contents/image-gallery/12.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/image-gallery/12.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.image-gallery.thumb_12.jpg"
+                  type="other"
+                  href="contents/image-gallery/thumb_12.jpg">
+            <metadata>
+                <adlcp:location>contents/image-gallery/thumb_12.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/image-gallery/thumb_12.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.MITCMS_608s08_lec_notes30.pdf"
+                  type="other"
+                  href="contents/lecture-notes/MITCMS_608s08_lec_notes30.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/MITCMS_608s08_lec_notes30.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/MITCMS_608s08_lec_notes30.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.MITCMS_608s08_lec13.pdf"
+                  type="other"
+                  href="contents/lecture-notes/MITCMS_608s08_lec13.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/MITCMS_608s08_lec13.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/MITCMS_608s08_lec13.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.MITCMS_608s08_lec_notes08.pdf"
+                  type="other"
+                  href="contents/lecture-notes/MITCMS_608s08_lec_notes08.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/MITCMS_608s08_lec_notes08.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/MITCMS_608s08_lec_notes08.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.MITCMS_608s08_proj04.pdf"
+                  type="other"
+                  href="contents/projects/MITCMS_608s08_proj04.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/MITCMS_608s08_proj04.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/MITCMS_608s08_proj04.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.tseng2.pdf"
+                  type="other"
+                  href="contents/projects/tseng2.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/tseng2.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/tseng2.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.MITCMS_608s08_lec_notes10.pdf"
+                  type="other"
+                  href="contents/lecture-notes/MITCMS_608s08_lec_notes10.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/MITCMS_608s08_lec_notes10.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/MITCMS_608s08_lec_notes10.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.MITCMS_608s08_lec22.pdf"
+                  type="other"
+                  href="contents/lecture-notes/MITCMS_608s08_lec22.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/MITCMS_608s08_lec22.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/MITCMS_608s08_lec22.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.MITCMS_608s08_lec05.pdf"
+                  type="other"
+                  href="contents/lecture-notes/MITCMS_608s08_lec05.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/MITCMS_608s08_lec05.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/MITCMS_608s08_lec05.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.MITCMS_608s08_lec_notes35.pdf"
+                  type="other"
+                  href="contents/lecture-notes/MITCMS_608s08_lec_notes35.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/MITCMS_608s08_lec_notes35.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/MITCMS_608s08_lec_notes35.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.campoverde1.pdf"
+                  type="other"
+                  href="contents/projects/campoverde1.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/campoverde1.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/campoverde1.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.index.htm"
+                  type="webcontent"
+                  href="contents/lecture-notes/index.htm">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/index.htm"/>
+            <dependency identifierref="webrenderrequirements.cms-608-game-design-spring-2008"/>            
+        </resource>
+        <resource identifier="r_contents.image-gallery.index.htm"
+                  type="webcontent"
+                  href="contents/image-gallery/index.htm">
+            <metadata>
+                <adlcp:location>contents/image-gallery/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/image-gallery/index.htm"/>
+            <dependency identifierref="webrenderrequirements.cms-608-game-design-spring-2008"/>            
+        </resource>
+        <resource identifier="r_contents.projects.MITCMS_608s08_proj03.pdf"
+                  type="other"
+                  href="contents/projects/MITCMS_608s08_proj03.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/MITCMS_608s08_proj03.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/MITCMS_608s08_proj03.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.MITCMS_608s08_lec_notes11.pdf"
+                  type="other"
+                  href="contents/lecture-notes/MITCMS_608s08_lec_notes11.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/MITCMS_608s08_lec_notes11.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/MITCMS_608s08_lec_notes11.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.MITCMS_608s08_lec_notes31.pdf"
+                  type="other"
+                  href="contents/lecture-notes/MITCMS_608s08_lec_notes31.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/MITCMS_608s08_lec_notes31.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/MITCMS_608s08_lec_notes31.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.MITCMS_608s08_lec_notes16.pdf"
+                  type="other"
+                  href="contents/lecture-notes/MITCMS_608s08_lec_notes16.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/MITCMS_608s08_lec_notes16.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/MITCMS_608s08_lec_notes16.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.tam1.pdf"
+                  type="other"
+                  href="contents/projects/tam1.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/tam1.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/tam1.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.image-gallery.01.jpg"
+                  type="other"
+                  href="contents/image-gallery/01.jpg">
+            <metadata>
+                <adlcp:location>contents/image-gallery/01.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/image-gallery/01.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.image-gallery.thumb_01.jpg"
+                  type="other"
+                  href="contents/image-gallery/thumb_01.jpg">
+            <metadata>
+                <adlcp:location>contents/image-gallery/thumb_01.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/image-gallery/thumb_01.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.rst3.pdf"
+                  type="other"
+                  href="contents/projects/rst3.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/rst3.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/rst3.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.MITCMS_608s08_lec31.pdf"
+                  type="other"
+                  href="contents/lecture-notes/MITCMS_608s08_lec31.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/MITCMS_608s08_lec31.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/MITCMS_608s08_lec31.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.index.htm"
+                  type="webcontent"
+                  href="contents/index.htm">
+            <metadata>
+                <adlcp:location>contents/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/index.htm"/>
+            <dependency identifierref="webrenderrequirements.cms-608-game-design-spring-2008"/>            
+        </resource>
+        <resource identifier="r_contents.image-gallery.07.jpg"
+                  type="other"
+                  href="contents/image-gallery/07.jpg">
+            <metadata>
+                <adlcp:location>contents/image-gallery/07.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/image-gallery/07.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.image-gallery.thumb_07.jpg"
+                  type="other"
+                  href="contents/image-gallery/thumb_07.jpg">
+            <metadata>
+                <adlcp:location>contents/image-gallery/thumb_07.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/image-gallery/thumb_07.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.MITCMS_608s08_lec_notes27.pdf"
+                  type="other"
+                  href="contents/lecture-notes/MITCMS_608s08_lec_notes27.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/MITCMS_608s08_lec_notes27.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/MITCMS_608s08_lec_notes27.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.moe2.pdf"
+                  type="other"
+                  href="contents/projects/moe2.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/moe2.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/moe2.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.rrd4.pdf"
+                  type="other"
+                  href="contents/projects/rrd4.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/rrd4.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/rrd4.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.calendar.index.htm"
+                  type="webcontent"
+                  href="contents/calendar/index.htm">
+            <metadata>
+                <adlcp:location>contents/calendar/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/calendar/index.htm"/>
+            <dependency identifierref="webrenderrequirements.cms-608-game-design-spring-2008"/>            
+        </resource>
+        <resource identifier="r_contents.projects.rrd3.pdf"
+                  type="other"
+                  href="contents/projects/rrd3.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/rrd3.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/rrd3.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.games.pdf"
+                  type="other"
+                  href="contents/assignments/games.pdf">
+            <metadata>
+                <adlcp:location>contents/assignments/games.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/games.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.btt_cards.pdf"
+                  type="other"
+                  href="contents/projects/btt_cards.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/btt_cards.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/btt_cards.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.MITCMS_608s08_lec27.pdf"
+                  type="other"
+                  href="contents/lecture-notes/MITCMS_608s08_lec27.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/MITCMS_608s08_lec27.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/MITCMS_608s08_lec27.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.readings.index.htm"
+                  type="webcontent"
+                  href="contents/readings/index.htm">
+            <metadata>
+                <adlcp:location>contents/readings/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/readings/index.htm"/>
+            <dependency identifierref="webrenderrequirements.cms-608-game-design-spring-2008"/>            
+        </resource>
+        <resource identifier="r_contents.image-gallery.08.jpg"
+                  type="other"
+                  href="contents/image-gallery/08.jpg">
+            <metadata>
+                <adlcp:location>contents/image-gallery/08.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/image-gallery/08.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.image-gallery.thumb_08.jpg"
+                  type="other"
+                  href="contents/image-gallery/thumb_08.jpg">
+            <metadata>
+                <adlcp:location>contents/image-gallery/thumb_08.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/image-gallery/thumb_08.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.bhat1.pdf"
+                  type="other"
+                  href="contents/projects/bhat1.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/bhat1.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/bhat1.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.MITCMS_608s08_lec_notes21.pdf"
+                  type="other"
+                  href="contents/lecture-notes/MITCMS_608s08_lec_notes21.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/MITCMS_608s08_lec_notes21.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/MITCMS_608s08_lec_notes21.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.MITCMS_608s08_lec_notes09.pdf"
+                  type="other"
+                  href="contents/lecture-notes/MITCMS_608s08_lec_notes09.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/MITCMS_608s08_lec_notes09.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/MITCMS_608s08_lec_notes09.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.MITCMS_608s08_lec_notes04.pdf"
+                  type="other"
+                  href="contents/lecture-notes/MITCMS_608s08_lec_notes04.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/MITCMS_608s08_lec_notes04.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/MITCMS_608s08_lec_notes04.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.MITCMS_608s08_proj01.pdf"
+                  type="other"
+                  href="contents/projects/MITCMS_608s08_proj01.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/MITCMS_608s08_proj01.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/MITCMS_608s08_proj01.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.index.htm"
+                  type="webcontent"
+                  href="contents/assignments/index.htm">
+            <metadata>
+                <adlcp:location>contents/assignments/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/index.htm"/>
+            <dependency identifierref="webrenderrequirements.cms-608-game-design-spring-2008"/>            
+        </resource>
+        <resource identifier="r_contents.projects.btt3.pdf"
+                  type="other"
+                  href="contents/projects/btt3.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/btt3.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/btt3.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.MITCMS_608s08_lec_notes28.pdf"
+                  type="other"
+                  href="contents/lecture-notes/MITCMS_608s08_lec_notes28.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/MITCMS_608s08_lec_notes28.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/MITCMS_608s08_lec_notes28.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.image-gallery.11.jpg"
+                  type="other"
+                  href="contents/image-gallery/11.jpg">
+            <metadata>
+                <adlcp:location>contents/image-gallery/11.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/image-gallery/11.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.image-gallery.thumb_11.jpg"
+                  type="other"
+                  href="contents/image-gallery/thumb_11.jpg">
+            <metadata>
+                <adlcp:location>contents/image-gallery/thumb_11.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/image-gallery/thumb_11.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.image-gallery.10.jpg"
+                  type="other"
+                  href="contents/image-gallery/10.jpg">
+            <metadata>
+                <adlcp:location>contents/image-gallery/10.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/image-gallery/10.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.image-gallery.thumb_10.jpg"
+                  type="other"
+                  href="contents/image-gallery/thumb_10.jpg">
+            <metadata>
+                <adlcp:location>contents/image-gallery/thumb_10.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/image-gallery/thumb_10.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.MITCMS_608s08_lec_notes12.pdf"
+                  type="other"
+                  href="contents/lecture-notes/MITCMS_608s08_lec_notes12.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/MITCMS_608s08_lec_notes12.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/MITCMS_608s08_lec_notes12.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.sperry2.pdf"
+                  type="other"
+                  href="contents/projects/sperry2.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/sperry2.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/sperry2.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.image-gallery.02.jpg"
+                  type="other"
+                  href="contents/image-gallery/02.jpg">
+            <metadata>
+                <adlcp:location>contents/image-gallery/02.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/image-gallery/02.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.image-gallery.thumb_02.jpg"
+                  type="other"
+                  href="contents/image-gallery/thumb_02.jpg">
+            <metadata>
+                <adlcp:location>contents/image-gallery/thumb_02.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/image-gallery/thumb_02.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.MITCMS_608s08_proj02.pdf"
+                  type="other"
+                  href="contents/projects/MITCMS_608s08_proj02.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/MITCMS_608s08_proj02.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/MITCMS_608s08_proj02.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.MITCMS_608s08_lec_notes06.pdf"
+                  type="other"
+                  href="contents/lecture-notes/MITCMS_608s08_lec_notes06.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/MITCMS_608s08_lec_notes06.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/MITCMS_608s08_lec_notes06.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.MITCMS_608s08_lec_notes14.pdf"
+                  type="other"
+                  href="contents/lecture-notes/MITCMS_608s08_lec_notes14.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/MITCMS_608s08_lec_notes14.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/MITCMS_608s08_lec_notes14.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.MITCMS_608s08_lec02.pdf"
+                  type="other"
+                  href="contents/lecture-notes/MITCMS_608s08_lec02.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/MITCMS_608s08_lec02.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/MITCMS_608s08_lec02.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.bhat2.pdf"
+                  type="other"
+                  href="contents/projects/bhat2.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/bhat2.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/bhat2.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.cms-608s08-th.jpg"
+                  type="other"
+                  href="contents/cms-608s08-th.jpg">
+            <metadata>
+                <adlcp:location>contents/cms-608s08-th.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/cms-608s08-th.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.MITCMS_608s08_lec04.pdf"
+                  type="other"
+                  href="contents/lecture-notes/MITCMS_608s08_lec04.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/MITCMS_608s08_lec04.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/MITCMS_608s08_lec04.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.image-gallery.03.jpg"
+                  type="other"
+                  href="contents/image-gallery/03.jpg">
+            <metadata>
+                <adlcp:location>contents/image-gallery/03.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/image-gallery/03.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.image-gallery.thumb_03.jpg"
+                  type="other"
+                  href="contents/image-gallery/thumb_03.jpg">
+            <metadata>
+                <adlcp:location>contents/image-gallery/thumb_03.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/image-gallery/thumb_03.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.MITCMS_608s08_lec29.pdf"
+                  type="other"
+                  href="contents/lecture-notes/MITCMS_608s08_lec29.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/MITCMS_608s08_lec29.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/MITCMS_608s08_lec29.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.image-gallery.09.jpg"
+                  type="other"
+                  href="contents/image-gallery/09.jpg">
+            <metadata>
+                <adlcp:location>contents/image-gallery/09.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/image-gallery/09.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.image-gallery.thumb_09.jpg"
+                  type="other"
+                  href="contents/image-gallery/thumb_09.jpg">
+            <metadata>
+                <adlcp:location>contents/image-gallery/thumb_09.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/image-gallery/thumb_09.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.dowgun1.pdf"
+                  type="other"
+                  href="contents/projects/dowgun1.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/dowgun1.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/dowgun1.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.MITCMS_608s08_lec_notes32.pdf"
+                  type="other"
+                  href="contents/lecture-notes/MITCMS_608s08_lec_notes32.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/MITCMS_608s08_lec_notes32.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/MITCMS_608s08_lec_notes32.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.lecture-notes.MITCMS_608s08_lec_notes05.pdf"
+                  type="other"
+                  href="contents/lecture-notes/MITCMS_608s08_lec_notes05.pdf">
+            <metadata>
+                <adlcp:location>contents/lecture-notes/MITCMS_608s08_lec_notes05.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/lecture-notes/MITCMS_608s08_lec_notes05.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.bmt4.pdf"
+                  type="other"
+                  href="contents/projects/bmt4.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/bmt4.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/bmt4.pdf"/>
+                        
+        </resource>        
+        <resource identifier="r_common.search.AdvancedSearch.htm"
+                  type="webcontent"
+                  href="common/search/AdvancedSearch.htm">
+            <file href="common/search/AdvancedSearch.htm"/>
+            <dependency identifierref="webrenderrequirements.cms-608-game-design-spring-2008"/>            
+        </resource>
+        <resource identifier="r_common.jsp.feedback.htm"
+                  type="webcontent"
+                  href="common/jsp/feedback.htm">
+            <file href="common/jsp/feedback.htm"/>
+            <dependency identifierref="webrenderrequirements.cms-608-game-design-spring-2008"/>            
+        </resource>
+        <resource identifier="r_common.terms.index.htm"
+                  type="webcontent"
+                  href="common/terms/index.htm">
+            <file href="common/terms/share.png"/>
+            <file href="common/terms/remix.png"/>
+            <file href="common/terms/by.png"/>
+            <file href="common/terms/nc.png"/>
+            <file href="common/terms/sa.png"/>
+            <file href="common/terms/deedheadyellow.png"/>
+            <file href="common/terms/freedomsheader.png"/>
+            <file href="common/terms/limitationsheader.png"/>
+            <file href="common/terms/deedfootyellow.png"/>
+            <dependency identifierref="webrenderrequirements.cms-608-game-design-spring-2008"/>            
+        </resource>
+        <resource identifier="r_common.terms.trademarks.index.htm"
+                  type="webcontent"
+                  href="common/terms/trademarks/index.htm">
+            <file href="common/terms/trademarks/index.htm"/>
+            <dependency identifierref="webrenderrequirements.cms-608-game-design-spring-2008"/>            
+        </resource>
+        <resource identifier="webrenderrequirements.cms-608-game-design-spring-2008"
+                  type="webcontent">
+        	<file href="common/styles/base.css"/>
+        	<file href="common/styles/courses.css"/>
+        	<file href="common/styles/courses_new.css"/>
+        	<file href="common/styles/global.css"/>
+        	<file href="common/styles/grid.css"/>
+        	<file href="common/styles/highslide.css"/>
+        	<file href="common/styles/highslide-ie6.css"/>
+        	<file href="common/styles/jquery.bubblepopup.css"/>
+        	<file href="common/styles/jquery.jscrollpane.css"/>
+        	<file href="common/styles/jquery-ui.css"/>
+        	<file href="common/styles/menu.css"/>
+        	<file href="common/styles/scholar2.css"/>
+        	<file href="common/styles/media_tabs.css"/>
+        	<file href="common/scripts/bubble-popup-offline.js"/>
+        	<file href="common/scripts/common-utils-offline.js"/>
+        	<file href="common/scripts/highslide-with-gallery.js"/>
+        	<file href="common/scripts/jquery.bubblepopup.min.js"/>
+        	<file href="common/scripts/jquery.jscrollpane.min.js"/>
+        	<file href="common/scripts/jquery-ui.min.js"/>
+        	<file href="common/scripts/jQuizMe-uncompressed.js"/>
+        	<file href="common/scripts/ocw-offline.js"/>
+        	<file href="common/scripts/expandy.js"/>
+        	<file href="common/images/ocw_mast.png"/>
+        	<file href="common/images/button_subscribe.png"/>
+        	<file href="common/images/icon_fb.png"/>
+        	<file href="common/images/icon_tw.png"/>
+        	<file href="common/images/top-nav_home.png"/>
+        	<file href="common/images/button_search.png"/>
+        	<file href="common/images/bg_top.png"/>
+        	<file href="common/images/bg_social.png"/>
+        	<file href="common/images/bg_mega-courses.png"/>
+        	<file href="common/images/bg_center2.png"/>
+        	<file href="common/images/bg_course-nav_current.png"/>
+        	<file href="common/images/button_donate-now.png"/>
+        	<file href="common/images/logo_mit.png"/>
+        	<file href="common/images/logo_ocwc.gif"/>
+        	<file href="common/images/cc_by-nc-sa.png"/>
+        	<file href="common/images/logo_dow.png"/>
+        	<file href="common/images/logo_lockheed.png"/>
+        	<file href="common/images/logo_mathworks.png"/>
+        	<file href="common/images/logo_abinitio.png"/>
+        	<file href="common/images/bg_bottom.png"/>
+        	<file href="common/images/nav_arrow.png"/>
+        	<file href="common/images/black-arrow.gif"/>
+        	<file href="common/images/trans.gif"/>
+        	<file href="common/images/arrow-bullet.gif"/>
+        	<file href="common/images/apple-touch-icon.png"/>
+        	<file href="common/images/highslide/graphics/zoomin.cur"/>
+        	<file href="common/images/highslide/graphics/zoomout.cur"/>
+        	<file href="common/images/highslide/graphics/controlbar2.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar3.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar4.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar4-hover.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar-black-border.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar-white.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar-white-small.gif"/>
+        	<file href="common/images/highslide/graphics/fullexpand.gif"/>
+        	<file href="common/images/highslide/graphics/icon.gif"/>
+        	<file href="common/images/highslide/graphics/loader.gif"/>
+        	<file href="common/images/highslide/graphics/loader.white.gif"/>
+        	<file href="common/images/highslide/graphics/resize.gif"/>
+        	<file href="common/images/highslide/graphics/close.png"/>
+        	<file href="common/images/highslide/graphics/closeX.png"/>
+        	<file href="common/images/highslide/graphics/controlbar-text-buttons.png"/>
+        	<file href="common/images/highslide/graphics/geckodimmer.png"/>
+        	<file href="common/images/highslide/graphics/scrollarrows.png"/>
+        	<file href="common/images/highslide/graphics/outlines/beveled.png"/>
+        	<file href="common/images/highslide/graphics/outlines/drop-shadow.png"/>
+        	<file href="common/images/highslide/graphics/outlines/glossy-dark.png"/>
+        	<file href="common/images/highslide/graphics/outlines/outer-glow.png"/>
+        	<file href="common/images/highslide/graphics/outlines/rounded-black.png"/>
+        	<file href="common/images/highslide/graphics/outlines/rounded-white.png"/>
+        	<file href="common/images/highslide/graphics/outlines/Outlines.psd"/>
+        	<file href="common/images/button_continue.jpg"/>
+        	<file href="common/images/button_donate.jpg"/>
+        	<file href="common/images/button_start.jpg"/>
+        	<file href="common/images/scholar_bar_chp.png"/>
+        	<file href="common/images/scholar_bar.png"/>
+        	<file href="common/images/logo_pdf.jpg"/>
+        	<file href="common/images/h2_trigger_open_close.gif"/>
+        	<file href="common/images/bookmark.gif"/>
+        	<file href="common/images/check.png"/>
+        	<file href="common/images/lightbulb.png"/>
+        	<file href="common/images/audio_file.gif"/>
+        	<file href="common/images/audio_only_slate.gif"/>
+        	<file href="common/images/video_file.gif"/>
+        	<file href="common/images/back-5.png"/>
+        	<file href="common/images/btn_next_resource.png"/>
+        	<file href="common/images/btn_previous_resource.png"/>
+        	<file href="common/images/close.png"/>
+        	<file href="common/images/inacessible.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/bottom-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/bottom-middle.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/bottom-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/middle-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/middle-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-bottom.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-top.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/top-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/top-middle.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/top-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/bottom-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/bottom-middle.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/bottom-right.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/middle-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/middle-right.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-bottom.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-right.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-top.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/top-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/top-middle.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/top-right.png"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.woff"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.ttf"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.svg"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.eot"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.woff"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.ttf"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.eot"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.svg"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.woff"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.ttf"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.svg"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.eot"/>
+        </resource>        
+  </resources>
+</manifest>

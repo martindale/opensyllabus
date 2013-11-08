@@ -1,0 +1,857 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest xmlns="http://www.imsglobal.org/xsd/imscp_v1p1"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+          xmlns:cwsp="http://www.dspace.org/xmlns/cwspace_imscp"
+          xmlns:ocw="http://ocw.mit.edu/xmlns/ocw_imscp"
+          xmlns:lom="http://ocw.mit.edu/xmlns/LOM"
+          identifier="urn_edu.mit.ocw_4-171-the-space-between-workshop-fall-2004"
+          version="2013-6-22T9:46:36"
+          cwsp:packageType="Course"
+          xml:base="4-171-fall-2004/"
+          xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 http://www.imsglobal.org/xsd/imscp_v1p1.xsd  http://www.adlnet.org/xsd/adlcp_rootv1p2 http://www.adlnet.org/xsd/adlcp_rootv1p2.xsd http://www.dspace.org/xmlns/cwspace_imscp http://www.dspace.org/xsd/cwspace_imscp/version10/cwspace_imscpv10.xsd http://ocw.mit.edu/xmlns/ocw_imscp http://ocw.mit.edu/xsd/ocw_imscp/version10/ocw_imscpv10.xsd http://ocw.mit.edu/xmlns/LOM http://ocw.mit.edu/xsd/LOM/lomv1.0/lomv1.0.xsd">
+   	<metadata>
+   		<schema>IMS Content</schema>
+        <schemaversion>1.1</schemaversion>
+        <cwsp:packageMetadata>
+            <cwsp:sourceSystem>OCW</cwsp:sourceSystem>
+            <cwsp:profile>CWSpace</cwsp:profile>
+            <cwsp:profileVersion>0.1</cwsp:profileVersion>
+        </cwsp:packageMetadata>
+        <lom:general uniqueElementName="general">
+            <lom:title uniqueElementName="title">
+				<lom:string language="en">The Space Between Workshop</lom:string>
+			</lom:title>
+			<lom:identifier>
+				<lom:catalog uniqueElementName="catalog">OCW Master Course Number</lom:catalog>
+		      	<lom:entry uniqueElementName="entry">4.171</lom:entry>
+			</lom:identifier>
+        </lom:general>
+        <lom:lifecycle uniqueElementName="lifeCycle">
+            <lom:version uniqueElementName="version">
+				<lom:string language="en">Fall 2004</lom:string>
+			</lom:version>
+            <lom:contribute>
+	            <lom:role>
+	                <lom:source uniqueElementName="source">OCW_LOMv1.0</lom:source>
+	                <lom:value uniqueElementName="value">Author</lom:value>
+	            </lom:role>
+	            <lom:entity>Wampler, Jan</lom:entity>
+	            <lom:date uniqueElementName="date">
+	                <lom:dateTime uniqueElementName="dateTime">2013-6-22</lom:dateTime>
+	            </lom:date>
+        	</lom:contribute>
+        </lom:lifecycle>
+        <lom:taxonPath>
+            <lom:source uniqueElementName="source">
+                <lom:string language="en">OCW Course Categories</lom:string>
+            </lom:source>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Fine Arts</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Architecture</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Architectural Design</lom:string>
+                </lom:entry>
+            </lom:taxon>
+        </lom:taxonPath>
+        <lom:taxonPath>
+            <lom:source uniqueElementName="source">
+                <lom:string language="en">OCW Course Categories</lom:string>
+            </lom:source>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Fine Arts</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Architecture</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Environmental Design</lom:string>
+                </lom:entry>
+            </lom:taxon>
+        </lom:taxonPath>        
+        <adlcp:location>contents/index.htm.xml</adlcp:location>
+    </metadata>
+    <organizations default="ocw_4-171-the-space-between-workshop-fall-2004">
+        <organization identifier="ocw_4-171-the-space-between-workshop-fall-2004">
+            <title>The Space Between Workshop</title>
+            <item identifier="i_4-171-the-space-between-workshop-fall-2004.CourseHome"
+                  identifierref="r_contents.index.htm"
+                  ocw:sectionTemplateType="CourseHomePage"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>The Space Between Workshop</title>
+				<item identifier="i_4-171-the-space-between-workshop-fall-2004.4-171f04.jpg"
+          identifierref="r_contents.4-171f04.jpg">
+				<title>4-171f04.jpg</title>
+				</item>
+				<item identifier="i_4-171-the-space-between-workshop-fall-2004.4-171f04-th.jpg"
+          identifierref="r_contents.4-171f04-th.jpg">
+				<title>4-171f04-th.jpg</title>
+				</item>
+			</item>
+            <item identifier="i_4-171-the-space-between-workshop-fall-2004.syllabus"
+                  identifierref="r_contents.syllabus.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Syllabus</title>
+				<item identifier="i_4-171-the-space-between-workshop-fall-2004.syllabus.space_between.pdf"
+          identifierref="r_contents.syllabus.space_between.pdf">
+				<title>space_between.pdf</title>
+				</item>
+				<item identifier="i_4-171-the-space-between-workshop-fall-2004.syllabus.explor_prototype.pdf"
+          identifierref="r_contents.syllabus.explor_prototype.pdf">
+				<title>explor_prototype.pdf</title>
+				</item>
+			</item>
+            <item identifier="i_4-171-the-space-between-workshop-fall-2004.calendar"
+                  identifierref="r_contents.calendar.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Calendar</title>
+			</item>
+            <item identifier="i_4-171-the-space-between-workshop-fall-2004.assignments"
+                  identifierref="r_contents.assignments.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Assignments</title>
+			</item>
+            <item identifier="i_4-171-the-space-between-workshop-fall-2004.projects"
+                  identifierref="r_contents.projects.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Projects</title>
+				<item identifier="i_4-171-the-space-between-workshop-fall-2004.projects.tam.pdf"
+          identifierref="r_contents.projects.tam.pdf">
+				<title>tam.pdf</title>
+				</item>
+				<item identifier="i_4-171-the-space-between-workshop-fall-2004.projects.baron.pdf"
+          identifierref="r_contents.projects.baron.pdf">
+				<title>baron.pdf</title>
+				</item>
+				<item identifier="i_4-171-the-space-between-workshop-fall-2004.projects.1.jpg"
+          identifierref="r_contents.projects.1.jpg">
+				<title>1.jpg</title>
+				</item>
+				<item identifier="i_4-171-the-space-between-workshop-fall-2004.projects.thumb_1.jpg"
+          identifierref="r_contents.projects.thumb_1.jpg">
+				<title>1.jpg</title>
+				</item>
+				<item identifier="i_4-171-the-space-between-workshop-fall-2004.projects.2.jpg"
+          identifierref="r_contents.projects.2.jpg">
+				<title>2.jpg</title>
+				</item>
+				<item identifier="i_4-171-the-space-between-workshop-fall-2004.projects.thumb_2.jpg"
+          identifierref="r_contents.projects.thumb_2.jpg">
+				<title>2.jpg</title>
+				</item>
+				<item identifier="i_4-171-the-space-between-workshop-fall-2004.projects.3.jpg"
+          identifierref="r_contents.projects.3.jpg">
+				<title>3.jpg</title>
+				</item>
+				<item identifier="i_4-171-the-space-between-workshop-fall-2004.projects.thumb_3.jpg"
+          identifierref="r_contents.projects.thumb_3.jpg">
+				<title>3.jpg</title>
+				</item>
+				<item identifier="i_4-171-the-space-between-workshop-fall-2004.projects.4.jpg"
+          identifierref="r_contents.projects.4.jpg">
+				<title>4.jpg</title>
+				</item>
+				<item identifier="i_4-171-the-space-between-workshop-fall-2004.projects.thumb_4.jpg"
+          identifierref="r_contents.projects.thumb_4.jpg">
+				<title>4.jpg</title>
+				</item>
+				<item identifier="i_4-171-the-space-between-workshop-fall-2004.projects.merritt-tam"
+          identifierref="r_contents.projects.merritt-tam.index.htm">
+				<title>Merritt Tam</title>
+				</item>
+				<item identifier="i_4-171-the-space-between-workshop-fall-2004.projects.projects.merritt-tam.1.jpg"
+          identifierref="r_contents.projects.merritt-tam.1.jpg">
+				<title>1.jpg</title>
+				</item>
+				<item identifier="i_4-171-the-space-between-workshop-fall-2004.projects.projects.merritt-tam.thumb_1.jpg"
+          identifierref="r_contents.projects.merritt-tam.thumb_1.jpg">
+				<title>1.jpg</title>
+				</item>
+				<item identifier="i_4-171-the-space-between-workshop-fall-2004.projects.projects.merritt-tam.2.jpg"
+          identifierref="r_contents.projects.merritt-tam.2.jpg">
+				<title>2.jpg</title>
+				</item>
+				<item identifier="i_4-171-the-space-between-workshop-fall-2004.projects.projects.merritt-tam.thumb_2.jpg"
+          identifierref="r_contents.projects.merritt-tam.thumb_2.jpg">
+				<title>2.jpg</title>
+				</item>
+				<item identifier="i_4-171-the-space-between-workshop-fall-2004.projects.projects.merritt-tam.3.jpg"
+          identifierref="r_contents.projects.merritt-tam.3.jpg">
+				<title>3.jpg</title>
+				</item>
+				<item identifier="i_4-171-the-space-between-workshop-fall-2004.projects.projects.merritt-tam.thumb_3.jpg"
+          identifierref="r_contents.projects.merritt-tam.thumb_3.jpg">
+				<title>3.jpg</title>
+				</item>
+				<item identifier="i_4-171-the-space-between-workshop-fall-2004.projects.projects.merritt-tam.4.jpg"
+          identifierref="r_contents.projects.merritt-tam.4.jpg">
+				<title>4.jpg</title>
+				</item>
+				<item identifier="i_4-171-the-space-between-workshop-fall-2004.projects.projects.merritt-tam.thumb_4.jpg"
+          identifierref="r_contents.projects.merritt-tam.thumb_4.jpg">
+				<title>4.jpg</title>
+				</item>
+				<item identifier="i_4-171-the-space-between-workshop-fall-2004.projects.jae-rhim-lee"
+          identifierref="r_contents.projects.jae-rhim-lee.index.htm">
+				<title>Jae Rhim Lee</title>
+				</item>
+				<item identifier="i_4-171-the-space-between-workshop-fall-2004.projects.projects.jae-rhim-lee.1.jpg"
+          identifierref="r_contents.projects.jae-rhim-lee.1.jpg">
+				<title>1.jpg</title>
+				</item>
+				<item identifier="i_4-171-the-space-between-workshop-fall-2004.projects.projects.jae-rhim-lee.thumb_1.jpg"
+          identifierref="r_contents.projects.jae-rhim-lee.thumb_1.jpg">
+				<title>1.jpg</title>
+				</item>
+				<item identifier="i_4-171-the-space-between-workshop-fall-2004.projects.projects.jae-rhim-lee.2.jpg"
+          identifierref="r_contents.projects.jae-rhim-lee.2.jpg">
+				<title>2.jpg</title>
+				</item>
+				<item identifier="i_4-171-the-space-between-workshop-fall-2004.projects.projects.jae-rhim-lee.thumb_2.jpg"
+          identifierref="r_contents.projects.jae-rhim-lee.thumb_2.jpg">
+				<title>2.jpg</title>
+				</item>
+				<item identifier="i_4-171-the-space-between-workshop-fall-2004.projects.projects.jae-rhim-lee.3.jpg"
+          identifierref="r_contents.projects.jae-rhim-lee.3.jpg">
+				<title>3.jpg</title>
+				</item>
+				<item identifier="i_4-171-the-space-between-workshop-fall-2004.projects.projects.jae-rhim-lee.thumb_3.jpg"
+          identifierref="r_contents.projects.jae-rhim-lee.thumb_3.jpg">
+				<title>3.jpg</title>
+				</item>
+			</item>
+            <item identifier="i_4-171-the-space-between-workshop-fall-2004.references"
+                  identifierref="r_contents.references.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>References</title>
+				<item identifier="i_4-171-the-space-between-workshop-fall-2004.references.1.jpg"
+          identifierref="r_contents.references.1.jpg">
+				<title>1.jpg</title>
+				</item>
+				<item identifier="i_4-171-the-space-between-workshop-fall-2004.references.thumb_1.jpg"
+          identifierref="r_contents.references.thumb_1.jpg">
+				<title>1.jpg</title>
+				</item>
+				<item identifier="i_4-171-the-space-between-workshop-fall-2004.references.2.jpg"
+          identifierref="r_contents.references.2.jpg">
+				<title>2.jpg</title>
+				</item>
+				<item identifier="i_4-171-the-space-between-workshop-fall-2004.references.thumb_2.jpg"
+          identifierref="r_contents.references.thumb_2.jpg">
+				<title>2.jpg</title>
+				</item>
+				<item identifier="i_4-171-the-space-between-workshop-fall-2004.references.3.jpg"
+          identifierref="r_contents.references.3.jpg">
+				<title>3.jpg</title>
+				</item>
+				<item identifier="i_4-171-the-space-between-workshop-fall-2004.references.thumb_3.jpg"
+          identifierref="r_contents.references.thumb_3.jpg">
+				<title>3.jpg</title>
+				</item>
+				<item identifier="i_4-171-the-space-between-workshop-fall-2004.references.4.jpg"
+          identifierref="r_contents.references.4.jpg">
+				<title>4.jpg</title>
+				</item>
+				<item identifier="i_4-171-the-space-between-workshop-fall-2004.references.thumb_4.jpg"
+          identifierref="r_contents.references.thumb_4.jpg">
+				<title>4.jpg</title>
+				</item>
+			</item>
+            <item identifier="i_terms"
+                  identifierref="r_common.terms.index.htm"
+                  ocw:sectionTemplateType="GlobalSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Legal Notices</title>
+			</item>
+            <item identifier="i_terms"
+                  identifierref="r_common.terms.index.htm"
+                  ocw:sectionTemplateType="GlobalSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Privacy Statement</title>
+			</item>
+            <item identifier="i_terms.trademarks"
+                  identifierref="r_common.terms.trademarks.index.htm"
+                  ocw:sectionTemplateType="GlobalSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Trademark Notices</title>
+			</item>
+        </organization>
+    </organizations>
+    <resources>
+        <resource identifier="r_contents.index.htm"
+                  type="webcontent"
+                  href="contents/index.htm">
+            <metadata>
+                <adlcp:location>contents/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/index.htm"/>
+            <dependency identifierref="webrenderrequirements.4-171-the-space-between-workshop-fall-2004"/>            
+        </resource>
+        <resource identifier="r_contents.references.3.jpg"
+                  type="other"
+                  href="contents/references/3.jpg">
+            <metadata>
+                <adlcp:location>contents/references/3.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/references/3.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.references.thumb_3.jpg"
+                  type="other"
+                  href="contents/references/thumb_3.jpg">
+            <metadata>
+                <adlcp:location>contents/references/thumb_3.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/references/thumb_3.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.index.htm"
+                  type="webcontent"
+                  href="contents/assignments/index.htm">
+            <metadata>
+                <adlcp:location>contents/assignments/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/index.htm"/>
+            <dependency identifierref="webrenderrequirements.4-171-the-space-between-workshop-fall-2004"/>            
+        </resource>
+        <resource identifier="r_contents.projects.merritt-tam.index.htm"
+                  type="webcontent"
+                  href="contents/projects/merritt-tam/index.htm">
+            <metadata>
+                <adlcp:location>contents/projects/merritt-tam/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/merritt-tam/index.htm"/>
+            <dependency identifierref="webrenderrequirements.4-171-the-space-between-workshop-fall-2004"/>            
+        </resource>
+        <resource identifier="r_contents.projects.3.jpg"
+                  type="other"
+                  href="contents/projects/3.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/3.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/3.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.thumb_3.jpg"
+                  type="other"
+                  href="contents/projects/thumb_3.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/thumb_3.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/thumb_3.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.syllabus.explor_prototype.pdf"
+                  type="other"
+                  href="contents/syllabus/explor_prototype.pdf">
+            <metadata>
+                <adlcp:location>contents/syllabus/explor_prototype.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/syllabus/explor_prototype.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.syllabus.index.htm"
+                  type="webcontent"
+                  href="contents/syllabus/index.htm">
+            <metadata>
+                <adlcp:location>contents/syllabus/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/syllabus/index.htm"/>
+            <dependency identifierref="webrenderrequirements.4-171-the-space-between-workshop-fall-2004"/>            
+        </resource>
+        <resource identifier="r_contents.references.1.jpg"
+                  type="other"
+                  href="contents/references/1.jpg">
+            <metadata>
+                <adlcp:location>contents/references/1.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/references/1.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.references.thumb_1.jpg"
+                  type="other"
+                  href="contents/references/thumb_1.jpg">
+            <metadata>
+                <adlcp:location>contents/references/thumb_1.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/references/thumb_1.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.tam.pdf"
+                  type="other"
+                  href="contents/projects/tam.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/tam.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/tam.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.calendar.index.htm"
+                  type="webcontent"
+                  href="contents/calendar/index.htm">
+            <metadata>
+                <adlcp:location>contents/calendar/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/calendar/index.htm"/>
+            <dependency identifierref="webrenderrequirements.4-171-the-space-between-workshop-fall-2004"/>            
+        </resource>
+        <resource identifier="r_contents.projects.baron.pdf"
+                  type="other"
+                  href="contents/projects/baron.pdf">
+            <metadata>
+                <adlcp:location>contents/projects/baron.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/baron.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.2.jpg"
+                  type="other"
+                  href="contents/projects/2.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/2.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/2.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.thumb_2.jpg"
+                  type="other"
+                  href="contents/projects/thumb_2.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/thumb_2.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/thumb_2.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.merritt-tam.4.jpg"
+                  type="other"
+                  href="contents/projects/merritt-tam/4.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/merritt-tam/4.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/merritt-tam/4.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.merritt-tam.thumb_4.jpg"
+                  type="other"
+                  href="contents/projects/merritt-tam/thumb_4.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/merritt-tam/thumb_4.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/merritt-tam/thumb_4.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.1.jpg"
+                  type="other"
+                  href="contents/projects/1.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/1.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/1.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.thumb_1.jpg"
+                  type="other"
+                  href="contents/projects/thumb_1.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/thumb_1.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/thumb_1.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.jae-rhim-lee.1.jpg"
+                  type="other"
+                  href="contents/projects/jae-rhim-lee/1.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/jae-rhim-lee/1.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/jae-rhim-lee/1.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.jae-rhim-lee.thumb_1.jpg"
+                  type="other"
+                  href="contents/projects/jae-rhim-lee/thumb_1.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/jae-rhim-lee/thumb_1.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/jae-rhim-lee/thumb_1.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.4-171f04-th.jpg"
+                  type="other"
+                  href="contents/4-171f04-th.jpg">
+            <metadata>
+                <adlcp:location>contents/4-171f04-th.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/4-171f04-th.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.references.4.jpg"
+                  type="other"
+                  href="contents/references/4.jpg">
+            <metadata>
+                <adlcp:location>contents/references/4.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/references/4.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.references.thumb_4.jpg"
+                  type="other"
+                  href="contents/references/thumb_4.jpg">
+            <metadata>
+                <adlcp:location>contents/references/thumb_4.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/references/thumb_4.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.merritt-tam.3.jpg"
+                  type="other"
+                  href="contents/projects/merritt-tam/3.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/merritt-tam/3.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/merritt-tam/3.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.merritt-tam.thumb_3.jpg"
+                  type="other"
+                  href="contents/projects/merritt-tam/thumb_3.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/merritt-tam/thumb_3.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/merritt-tam/thumb_3.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.4-171f04.jpg"
+                  type="other" href="contents/4-171f04.jpg">
+            <metadata>
+                <adlcp:location>contents/4-171f04.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/4-171f04.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.syllabus.space_between.pdf"
+                  type="other"
+                  href="contents/syllabus/space_between.pdf">
+            <metadata>
+                <adlcp:location>contents/syllabus/space_between.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/syllabus/space_between.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.4.jpg"
+                  type="other"
+                  href="contents/projects/4.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/4.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/4.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.thumb_4.jpg"
+                  type="other"
+                  href="contents/projects/thumb_4.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/thumb_4.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/thumb_4.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.index.htm"
+                  type="webcontent"
+                  href="contents/projects/index.htm">
+            <metadata>
+                <adlcp:location>contents/projects/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/index.htm"/>
+            <dependency identifierref="webrenderrequirements.4-171-the-space-between-workshop-fall-2004"/>            
+        </resource>
+        <resource identifier="r_contents.projects.merritt-tam.2.jpg"
+                  type="other"
+                  href="contents/projects/merritt-tam/2.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/merritt-tam/2.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/merritt-tam/2.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.merritt-tam.thumb_2.jpg"
+                  type="other"
+                  href="contents/projects/merritt-tam/thumb_2.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/merritt-tam/thumb_2.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/merritt-tam/thumb_2.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.merritt-tam.1.jpg"
+                  type="other"
+                  href="contents/projects/merritt-tam/1.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/merritt-tam/1.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/merritt-tam/1.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.merritt-tam.thumb_1.jpg"
+                  type="other"
+                  href="contents/projects/merritt-tam/thumb_1.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/merritt-tam/thumb_1.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/merritt-tam/thumb_1.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.jae-rhim-lee.index.htm"
+                  type="webcontent"
+                  href="contents/projects/jae-rhim-lee/index.htm">
+            <metadata>
+                <adlcp:location>contents/projects/jae-rhim-lee/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/jae-rhim-lee/index.htm"/>
+            <dependency identifierref="webrenderrequirements.4-171-the-space-between-workshop-fall-2004"/>            
+        </resource>
+        <resource identifier="r_contents.references.index.htm"
+                  type="webcontent"
+                  href="contents/references/index.htm">
+            <metadata>
+                <adlcp:location>contents/references/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/references/index.htm"/>
+            <dependency identifierref="webrenderrequirements.4-171-the-space-between-workshop-fall-2004"/>            
+        </resource>
+        <resource identifier="r_contents.references.2.jpg"
+                  type="other"
+                  href="contents/references/2.jpg">
+            <metadata>
+                <adlcp:location>contents/references/2.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/references/2.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.references.thumb_2.jpg"
+                  type="other"
+                  href="contents/references/thumb_2.jpg">
+            <metadata>
+                <adlcp:location>contents/references/thumb_2.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/references/thumb_2.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.jae-rhim-lee.2.jpg"
+                  type="other"
+                  href="contents/projects/jae-rhim-lee/2.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/jae-rhim-lee/2.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/jae-rhim-lee/2.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.jae-rhim-lee.thumb_2.jpg"
+                  type="other"
+                  href="contents/projects/jae-rhim-lee/thumb_2.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/jae-rhim-lee/thumb_2.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/jae-rhim-lee/thumb_2.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.jae-rhim-lee.3.jpg"
+                  type="other"
+                  href="contents/projects/jae-rhim-lee/3.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/jae-rhim-lee/3.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/jae-rhim-lee/3.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.projects.jae-rhim-lee.thumb_3.jpg"
+                  type="other"
+                  href="contents/projects/jae-rhim-lee/thumb_3.jpg">
+            <metadata>
+                <adlcp:location>contents/projects/jae-rhim-lee/thumb_3.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/projects/jae-rhim-lee/thumb_3.jpg"/>
+                        
+        </resource>        
+        <resource identifier="r_common.search.AdvancedSearch.htm"
+                  type="webcontent"
+                  href="common/search/AdvancedSearch.htm">
+            <file href="common/search/AdvancedSearch.htm"/>
+            <dependency identifierref="webrenderrequirements.4-171-the-space-between-workshop-fall-2004"/>            
+        </resource>
+        <resource identifier="r_common.jsp.feedback.htm"
+                  type="webcontent"
+                  href="common/jsp/feedback.htm">
+            <file href="common/jsp/feedback.htm"/>
+            <dependency identifierref="webrenderrequirements.4-171-the-space-between-workshop-fall-2004"/>            
+        </resource>
+        <resource identifier="r_common.terms.index.htm"
+                  type="webcontent"
+                  href="common/terms/index.htm">
+            <file href="common/terms/share.png"/>
+            <file href="common/terms/remix.png"/>
+            <file href="common/terms/by.png"/>
+            <file href="common/terms/nc.png"/>
+            <file href="common/terms/sa.png"/>
+            <file href="common/terms/deedheadyellow.png"/>
+            <file href="common/terms/freedomsheader.png"/>
+            <file href="common/terms/limitationsheader.png"/>
+            <file href="common/terms/deedfootyellow.png"/>
+            <dependency identifierref="webrenderrequirements.4-171-the-space-between-workshop-fall-2004"/>            
+        </resource>
+        <resource identifier="r_common.terms.trademarks.index.htm"
+                  type="webcontent"
+                  href="common/terms/trademarks/index.htm">
+            <file href="common/terms/trademarks/index.htm"/>
+            <dependency identifierref="webrenderrequirements.4-171-the-space-between-workshop-fall-2004"/>            
+        </resource>
+        <resource identifier="webrenderrequirements.4-171-the-space-between-workshop-fall-2004"
+                  type="webcontent">
+        	<file href="common/styles/base.css"/>
+        	<file href="common/styles/courses.css"/>
+        	<file href="common/styles/courses_new.css"/>
+        	<file href="common/styles/global.css"/>
+        	<file href="common/styles/grid.css"/>
+        	<file href="common/styles/highslide.css"/>
+        	<file href="common/styles/highslide-ie6.css"/>
+        	<file href="common/styles/jquery.bubblepopup.css"/>
+        	<file href="common/styles/jquery.jscrollpane.css"/>
+        	<file href="common/styles/jquery-ui.css"/>
+        	<file href="common/styles/menu.css"/>
+        	<file href="common/styles/scholar2.css"/>
+        	<file href="common/styles/media_tabs.css"/>
+        	<file href="common/scripts/bubble-popup-offline.js"/>
+        	<file href="common/scripts/common-utils-offline.js"/>
+        	<file href="common/scripts/highslide-with-gallery.js"/>
+        	<file href="common/scripts/jquery.bubblepopup.min.js"/>
+        	<file href="common/scripts/jquery.jscrollpane.min.js"/>
+        	<file href="common/scripts/jquery-ui.min.js"/>
+        	<file href="common/scripts/jQuizMe-uncompressed.js"/>
+        	<file href="common/scripts/ocw-offline.js"/>
+        	<file href="common/scripts/expandy.js"/>
+        	<file href="common/images/ocw_mast.png"/>
+        	<file href="common/images/button_subscribe.png"/>
+        	<file href="common/images/icon_fb.png"/>
+        	<file href="common/images/icon_tw.png"/>
+        	<file href="common/images/top-nav_home.png"/>
+        	<file href="common/images/button_search.png"/>
+        	<file href="common/images/bg_top.png"/>
+        	<file href="common/images/bg_social.png"/>
+        	<file href="common/images/bg_mega-courses.png"/>
+        	<file href="common/images/bg_center2.png"/>
+        	<file href="common/images/bg_course-nav_current.png"/>
+        	<file href="common/images/button_donate-now.png"/>
+        	<file href="common/images/logo_mit.png"/>
+        	<file href="common/images/logo_ocwc.gif"/>
+        	<file href="common/images/cc_by-nc-sa.png"/>
+        	<file href="common/images/logo_dow.png"/>
+        	<file href="common/images/logo_lockheed.png"/>
+        	<file href="common/images/logo_mathworks.png"/>
+        	<file href="common/images/logo_abinitio.png"/>
+        	<file href="common/images/bg_bottom.png"/>
+        	<file href="common/images/nav_arrow.png"/>
+        	<file href="common/images/black-arrow.gif"/>
+        	<file href="common/images/trans.gif"/>
+        	<file href="common/images/arrow-bullet.gif"/>
+        	<file href="common/images/apple-touch-icon.png"/>
+        	<file href="common/images/highslide/graphics/zoomin.cur"/>
+        	<file href="common/images/highslide/graphics/zoomout.cur"/>
+        	<file href="common/images/highslide/graphics/controlbar2.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar3.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar4.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar4-hover.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar-black-border.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar-white.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar-white-small.gif"/>
+        	<file href="common/images/highslide/graphics/fullexpand.gif"/>
+        	<file href="common/images/highslide/graphics/icon.gif"/>
+        	<file href="common/images/highslide/graphics/loader.gif"/>
+        	<file href="common/images/highslide/graphics/loader.white.gif"/>
+        	<file href="common/images/highslide/graphics/resize.gif"/>
+        	<file href="common/images/highslide/graphics/close.png"/>
+        	<file href="common/images/highslide/graphics/closeX.png"/>
+        	<file href="common/images/highslide/graphics/controlbar-text-buttons.png"/>
+        	<file href="common/images/highslide/graphics/geckodimmer.png"/>
+        	<file href="common/images/highslide/graphics/scrollarrows.png"/>
+        	<file href="common/images/highslide/graphics/outlines/beveled.png"/>
+        	<file href="common/images/highslide/graphics/outlines/drop-shadow.png"/>
+        	<file href="common/images/highslide/graphics/outlines/glossy-dark.png"/>
+        	<file href="common/images/highslide/graphics/outlines/outer-glow.png"/>
+        	<file href="common/images/highslide/graphics/outlines/rounded-black.png"/>
+        	<file href="common/images/highslide/graphics/outlines/rounded-white.png"/>
+        	<file href="common/images/highslide/graphics/outlines/Outlines.psd"/>
+        	<file href="common/images/button_continue.jpg"/>
+        	<file href="common/images/button_donate.jpg"/>
+        	<file href="common/images/button_start.jpg"/>
+        	<file href="common/images/scholar_bar_chp.png"/>
+        	<file href="common/images/scholar_bar.png"/>
+        	<file href="common/images/logo_pdf.jpg"/>
+        	<file href="common/images/h2_trigger_open_close.gif"/>
+        	<file href="common/images/bookmark.gif"/>
+        	<file href="common/images/check.png"/>
+        	<file href="common/images/lightbulb.png"/>
+        	<file href="common/images/audio_file.gif"/>
+        	<file href="common/images/audio_only_slate.gif"/>
+        	<file href="common/images/video_file.gif"/>
+        	<file href="common/images/back-5.png"/>
+        	<file href="common/images/btn_next_resource.png"/>
+        	<file href="common/images/btn_previous_resource.png"/>
+        	<file href="common/images/close.png"/>
+        	<file href="common/images/inacessible.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/bottom-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/bottom-middle.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/bottom-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/middle-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/middle-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-bottom.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-top.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/top-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/top-middle.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/top-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/bottom-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/bottom-middle.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/bottom-right.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/middle-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/middle-right.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-bottom.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-right.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-top.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/top-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/top-middle.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/top-right.png"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.woff"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.ttf"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.svg"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.eot"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.woff"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.ttf"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.eot"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.svg"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.woff"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.ttf"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.svg"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.eot"/>
+        </resource>        
+  </resources>
+</manifest>

@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest xmlns="http://www.imsglobal.org/xsd/imscp_v1p1"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+          xmlns:cwsp="http://www.dspace.org/xmlns/cwspace_imscp"
+          xmlns:ocw="http://ocw.mit.edu/xmlns/ocw_imscp"
+          xmlns:lom="http://ocw.mit.edu/xmlns/LOM"
+          identifier="urn_edu.mit.ocw_4-107-march-portfolio-seminar-fall-2003"
+          version="2013-6-22T9:30:35"
+          cwsp:packageType="Course"
+          xml:base="4-107-fall-2003/"
+          xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 http://www.imsglobal.org/xsd/imscp_v1p1.xsd  http://www.adlnet.org/xsd/adlcp_rootv1p2 http://www.adlnet.org/xsd/adlcp_rootv1p2.xsd http://www.dspace.org/xmlns/cwspace_imscp http://www.dspace.org/xsd/cwspace_imscp/version10/cwspace_imscpv10.xsd http://ocw.mit.edu/xmlns/ocw_imscp http://ocw.mit.edu/xsd/ocw_imscp/version10/ocw_imscpv10.xsd http://ocw.mit.edu/xmlns/LOM http://ocw.mit.edu/xsd/LOM/lomv1.0/lomv1.0.xsd">
+   	<metadata>
+   		<schema>IMS Content</schema>
+        <schemaversion>1.1</schemaversion>
+        <cwsp:packageMetadata>
+            <cwsp:sourceSystem>OCW</cwsp:sourceSystem>
+            <cwsp:profile>CWSpace</cwsp:profile>
+            <cwsp:profileVersion>0.1</cwsp:profileVersion>
+        </cwsp:packageMetadata>
+        <lom:general uniqueElementName="general">
+            <lom:title uniqueElementName="title">
+				<lom:string language="en">MArch Portfolio Seminar</lom:string>
+			</lom:title>
+			<lom:identifier>
+				<lom:catalog uniqueElementName="catalog">OCW Master Course Number</lom:catalog>
+		      	<lom:entry uniqueElementName="entry">4.107</lom:entry>
+			</lom:identifier>
+        </lom:general>
+        <lom:lifecycle uniqueElementName="lifeCycle">
+            <lom:version uniqueElementName="version">
+				<lom:string language="en">Fall 2003</lom:string>
+			</lom:version>
+            <lom:contribute>
+	            <lom:role>
+	                <lom:source uniqueElementName="source">OCW_LOMv1.0</lom:source>
+	                <lom:value uniqueElementName="value">Author</lom:value>
+	            </lom:role>
+	            <lom:entity>Jarzombek, Mark</lom:entity>
+	            <lom:date uniqueElementName="date">
+	                <lom:dateTime uniqueElementName="dateTime">2013-6-22</lom:dateTime>
+	            </lom:date>
+        	</lom:contribute>
+            <lom:contribute>
+	            <lom:role>
+	                <lom:source uniqueElementName="source">OCW_LOMv1.0</lom:source>
+	                <lom:value uniqueElementName="value">Author</lom:value>
+	            </lom:role>
+	            <lom:entity>Yoon, Meejin</lom:entity>
+	            <lom:date uniqueElementName="date">
+	                <lom:dateTime uniqueElementName="dateTime">2013-6-22</lom:dateTime>
+	            </lom:date>
+        	</lom:contribute>
+        </lom:lifecycle>
+        <lom:taxonPath>
+            <lom:source uniqueElementName="source">
+                <lom:string language="en">OCW Course Categories</lom:string>
+            </lom:source>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Fine Arts</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Architecture</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Architectural Design</lom:string>
+                </lom:entry>
+            </lom:taxon>
+        </lom:taxonPath>
+        <lom:taxonPath>
+            <lom:source uniqueElementName="source">
+                <lom:string language="en">OCW Course Categories</lom:string>
+            </lom:source>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Fine Arts</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Architecture</lom:string>
+                </lom:entry>
+            </lom:taxon>
+            <lom:taxon>
+                <lom:entry uniqueElementName="entry">
+                    <lom:string language="en">Architectural History and Criticism</lom:string>
+                </lom:entry>
+            </lom:taxon>
+        </lom:taxonPath>        
+        <adlcp:location>contents/index.htm.xml</adlcp:location>
+    </metadata>
+    <organizations default="ocw_4-107-march-portfolio-seminar-fall-2003">
+        <organization identifier="ocw_4-107-march-portfolio-seminar-fall-2003">
+            <title>MArch Portfolio Seminar</title>
+            <item identifier="i_4-107-march-portfolio-seminar-fall-2003.CourseHome"
+                  identifierref="r_contents.index.htm"
+                  ocw:sectionTemplateType="CourseHomePage"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>MArch Portfolio Seminar</title>
+				<item identifier="i_4-107-march-portfolio-seminar-fall-2003.4-107f03.jpg"
+          identifierref="r_contents.4-107f03.jpg">
+				<title>4-107f03.jpg</title>
+				</item>
+				<item identifier="i_4-107-march-portfolio-seminar-fall-2003.4-107f03-th.jpg"
+          identifierref="r_contents.4-107f03-th.jpg">
+				<title>4-107f03-th.jpg</title>
+				</item>
+			</item>
+            <item identifier="i_4-107-march-portfolio-seminar-fall-2003.syllabus"
+                  identifierref="r_contents.syllabus.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Syllabus</title>
+			</item>
+            <item identifier="i_4-107-march-portfolio-seminar-fall-2003.calendar"
+                  identifierref="r_contents.calendar.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Calendar</title>
+			</item>
+            <item identifier="i_4-107-march-portfolio-seminar-fall-2003.assignments"
+                  identifierref="r_contents.assignments.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Assignments</title>
+			</item>
+            <item identifier="i_4-107-march-portfolio-seminar-fall-2003.portfolios"
+                  identifierref="r_contents.portfolios.index.htm"
+                  ocw:sectionTemplateType="CourseSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Portfolios</title>
+				<item identifier="i_4-107-march-portfolio-seminar-fall-2003.portfolios.virginia_nolan.pdf"
+          identifierref="r_contents.portfolios.virginia_nolan.pdf">
+				<title>virginia_nolan.pdf</title>
+				</item>
+				<item identifier="i_4-107-march-portfolio-seminar-fall-2003.portfolios.jane_wu.pdf"
+          identifierref="r_contents.portfolios.jane_wu.pdf">
+				<title>jane_wu.pdf</title>
+				</item>
+				<item identifier="i_4-107-march-portfolio-seminar-fall-2003.portfolios.naomi_horowitz.pdf"
+          identifierref="r_contents.portfolios.naomi_horowitz.pdf">
+				<title>naomi_horowitz.pdf</title>
+				</item>
+				<item identifier="i_4-107-march-portfolio-seminar-fall-2003.portfolios.sawako_kaijima.pdf"
+          identifierref="r_contents.portfolios.sawako_kaijima.pdf">
+				<title>sawako_kaijima.pdf</title>
+				</item>
+				<item identifier="i_4-107-march-portfolio-seminar-fall-2003.portfolios.emily_gillmar.pdf"
+          identifierref="r_contents.portfolios.emily_gillmar.pdf">
+				<title>emily_gillmar.pdf</title>
+				</item>
+				<item identifier="i_4-107-march-portfolio-seminar-fall-2003.portfolios.jeremy_gates.pdf"
+          identifierref="r_contents.portfolios.jeremy_gates.pdf">
+				<title>jeremy_gates.pdf</title>
+				</item>
+				<item identifier="i_4-107-march-portfolio-seminar-fall-2003.portfolios.chris_maccarroll.pdf"
+          identifierref="r_contents.portfolios.chris_maccarroll.pdf">
+				<title>chris_maccarroll.pdf</title>
+				</item>
+				<item identifier="i_4-107-march-portfolio-seminar-fall-2003.portfolios.kwan_chan.pdf"
+          identifierref="r_contents.portfolios.kwan_chan.pdf">
+				<title>kwan_chan.pdf</title>
+				</item>
+				<item identifier="i_4-107-march-portfolio-seminar-fall-2003.portfolios.aaron_wittkamper.pdf"
+          identifierref="r_contents.portfolios.aaron_wittkamper.pdf">
+				<title>aaron_wittkamper.pdf</title>
+				</item>
+				<item identifier="i_4-107-march-portfolio-seminar-fall-2003.portfolios.carl_solander.pdf"
+          identifierref="r_contents.portfolios.carl_solander.pdf">
+				<title>carl_solander.pdf</title>
+				</item>
+				<item identifier="i_4-107-march-portfolio-seminar-fall-2003.portfolios.chris_becker.pdf"
+          identifierref="r_contents.portfolios.chris_becker.pdf">
+				<title>chris_becker.pdf</title>
+				</item>
+				<item identifier="i_4-107-march-portfolio-seminar-fall-2003.portfolios.chris_muskopf.pdf"
+          identifierref="r_contents.portfolios.chris_muskopf.pdf">
+				<title>chris_muskopf.pdf</title>
+				</item>
+				<item identifier="i_4-107-march-portfolio-seminar-fall-2003.portfolios.eric_orozco.pdf"
+          identifierref="r_contents.portfolios.eric_orozco.pdf">
+				<title>eric_orozco.pdf</title>
+				</item>
+				<item identifier="i_4-107-march-portfolio-seminar-fall-2003.portfolios.renata_filipovic.pdf"
+          identifierref="r_contents.portfolios.renata_filipovic.pdf">
+				<title>renata_filipovic.pdf</title>
+				</item>
+			</item>
+            <item identifier="i_terms"
+                  identifierref="r_common.terms.index.htm"
+                  ocw:sectionTemplateType="GlobalSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Legal Notices</title>
+			</item>
+            <item identifier="i_terms"
+                  identifierref="r_common.terms.index.htm"
+                  ocw:sectionTemplateType="GlobalSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Privacy Statement</title>
+			</item>
+            <item identifier="i_terms.trademarks"
+                  identifierref="r_common.terms.trademarks.index.htm"
+                  ocw:sectionTemplateType="GlobalSection"
+                  ocw:sectionTemplateVersion="2013-6-22">
+				<title>Trademark Notices</title>
+			</item>
+        </organization>
+    </organizations>
+    <resources>
+        <resource identifier="r_contents.portfolios.sawako_kaijima.pdf"
+                  type="other"
+                  href="contents/portfolios/sawako_kaijima.pdf">
+            <metadata>
+                <adlcp:location>contents/portfolios/sawako_kaijima.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/portfolios/sawako_kaijima.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.portfolios.eric_orozco.pdf"
+                  type="other"
+                  href="contents/portfolios/eric_orozco.pdf">
+            <metadata>
+                <adlcp:location>contents/portfolios/eric_orozco.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/portfolios/eric_orozco.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.portfolios.virginia_nolan.pdf"
+                  type="other"
+                  href="contents/portfolios/virginia_nolan.pdf">
+            <metadata>
+                <adlcp:location>contents/portfolios/virginia_nolan.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/portfolios/virginia_nolan.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.portfolios.carl_solander.pdf"
+                  type="other"
+                  href="contents/portfolios/carl_solander.pdf">
+            <metadata>
+                <adlcp:location>contents/portfolios/carl_solander.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/portfolios/carl_solander.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.portfolios.index.htm"
+                  type="webcontent"
+                  href="contents/portfolios/index.htm">
+            <metadata>
+                <adlcp:location>contents/portfolios/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/portfolios/index.htm"/>
+            <dependency identifierref="webrenderrequirements.4-107-march-portfolio-seminar-fall-2003"/>            
+        </resource>
+        <resource identifier="r_contents.portfolios.kwan_chan.pdf"
+                  type="other"
+                  href="contents/portfolios/kwan_chan.pdf">
+            <metadata>
+                <adlcp:location>contents/portfolios/kwan_chan.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/portfolios/kwan_chan.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.portfolios.aaron_wittkamper.pdf"
+                  type="other"
+                  href="contents/portfolios/aaron_wittkamper.pdf">
+            <metadata>
+                <adlcp:location>contents/portfolios/aaron_wittkamper.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/portfolios/aaron_wittkamper.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.portfolios.chris_becker.pdf"
+                  type="other"
+                  href="contents/portfolios/chris_becker.pdf">
+            <metadata>
+                <adlcp:location>contents/portfolios/chris_becker.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/portfolios/chris_becker.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.portfolios.emily_gillmar.pdf"
+                  type="other"
+                  href="contents/portfolios/emily_gillmar.pdf">
+            <metadata>
+                <adlcp:location>contents/portfolios/emily_gillmar.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/portfolios/emily_gillmar.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.index.htm"
+                  type="webcontent"
+                  href="contents/index.htm">
+            <metadata>
+                <adlcp:location>contents/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/index.htm"/>
+            <dependency identifierref="webrenderrequirements.4-107-march-portfolio-seminar-fall-2003"/>            
+        </resource>
+        <resource identifier="r_contents.calendar.index.htm"
+                  type="webcontent"
+                  href="contents/calendar/index.htm">
+            <metadata>
+                <adlcp:location>contents/calendar/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/calendar/index.htm"/>
+            <dependency identifierref="webrenderrequirements.4-107-march-portfolio-seminar-fall-2003"/>            
+        </resource>
+        <resource identifier="r_contents.portfolios.chris_muskopf.pdf"
+                  type="other"
+                  href="contents/portfolios/chris_muskopf.pdf">
+            <metadata>
+                <adlcp:location>contents/portfolios/chris_muskopf.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/portfolios/chris_muskopf.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.4-107f03.jpg"
+                  type="other" href="contents/4-107f03.jpg">
+            <metadata>
+                <adlcp:location>contents/4-107f03.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/4-107f03.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.portfolios.chris_maccarroll.pdf"
+                  type="other"
+                  href="contents/portfolios/chris_maccarroll.pdf">
+            <metadata>
+                <adlcp:location>contents/portfolios/chris_maccarroll.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/portfolios/chris_maccarroll.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.4-107f03-th.jpg"
+                  type="other"
+                  href="contents/4-107f03-th.jpg">
+            <metadata>
+                <adlcp:location>contents/4-107f03-th.jpg.xml</adlcp:location>
+            </metadata>
+            <file href="contents/4-107f03-th.jpg"/>
+                        
+        </resource>
+        <resource identifier="r_contents.assignments.index.htm"
+                  type="webcontent"
+                  href="contents/assignments/index.htm">
+            <metadata>
+                <adlcp:location>contents/assignments/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/assignments/index.htm"/>
+            <dependency identifierref="webrenderrequirements.4-107-march-portfolio-seminar-fall-2003"/>            
+        </resource>
+        <resource identifier="r_contents.syllabus.index.htm"
+                  type="webcontent"
+                  href="contents/syllabus/index.htm">
+            <metadata>
+                <adlcp:location>contents/syllabus/index.htm.xml</adlcp:location>
+            </metadata>
+            <file href="contents/syllabus/index.htm"/>
+            <dependency identifierref="webrenderrequirements.4-107-march-portfolio-seminar-fall-2003"/>            
+        </resource>
+        <resource identifier="r_contents.portfolios.jeremy_gates.pdf"
+                  type="other"
+                  href="contents/portfolios/jeremy_gates.pdf">
+            <metadata>
+                <adlcp:location>contents/portfolios/jeremy_gates.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/portfolios/jeremy_gates.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.portfolios.jane_wu.pdf"
+                  type="other"
+                  href="contents/portfolios/jane_wu.pdf">
+            <metadata>
+                <adlcp:location>contents/portfolios/jane_wu.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/portfolios/jane_wu.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.portfolios.naomi_horowitz.pdf"
+                  type="other"
+                  href="contents/portfolios/naomi_horowitz.pdf">
+            <metadata>
+                <adlcp:location>contents/portfolios/naomi_horowitz.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/portfolios/naomi_horowitz.pdf"/>
+                        
+        </resource>
+        <resource identifier="r_contents.portfolios.renata_filipovic.pdf"
+                  type="other"
+                  href="contents/portfolios/renata_filipovic.pdf">
+            <metadata>
+                <adlcp:location>contents/portfolios/renata_filipovic.pdf.xml</adlcp:location>
+            </metadata>
+            <file href="contents/portfolios/renata_filipovic.pdf"/>
+                        
+        </resource>        
+        <resource identifier="r_common.search.AdvancedSearch.htm"
+                  type="webcontent"
+                  href="common/search/AdvancedSearch.htm">
+            <file href="common/search/AdvancedSearch.htm"/>
+            <dependency identifierref="webrenderrequirements.4-107-march-portfolio-seminar-fall-2003"/>            
+        </resource>
+        <resource identifier="r_common.jsp.feedback.htm"
+                  type="webcontent"
+                  href="common/jsp/feedback.htm">
+            <file href="common/jsp/feedback.htm"/>
+            <dependency identifierref="webrenderrequirements.4-107-march-portfolio-seminar-fall-2003"/>            
+        </resource>
+        <resource identifier="r_common.terms.index.htm"
+                  type="webcontent"
+                  href="common/terms/index.htm">
+            <file href="common/terms/share.png"/>
+            <file href="common/terms/remix.png"/>
+            <file href="common/terms/by.png"/>
+            <file href="common/terms/nc.png"/>
+            <file href="common/terms/sa.png"/>
+            <file href="common/terms/deedheadyellow.png"/>
+            <file href="common/terms/freedomsheader.png"/>
+            <file href="common/terms/limitationsheader.png"/>
+            <file href="common/terms/deedfootyellow.png"/>
+            <dependency identifierref="webrenderrequirements.4-107-march-portfolio-seminar-fall-2003"/>            
+        </resource>
+        <resource identifier="r_common.terms.trademarks.index.htm"
+                  type="webcontent"
+                  href="common/terms/trademarks/index.htm">
+            <file href="common/terms/trademarks/index.htm"/>
+            <dependency identifierref="webrenderrequirements.4-107-march-portfolio-seminar-fall-2003"/>            
+        </resource>
+        <resource identifier="webrenderrequirements.4-107-march-portfolio-seminar-fall-2003"
+                  type="webcontent">
+        	<file href="common/styles/base.css"/>
+        	<file href="common/styles/courses.css"/>
+        	<file href="common/styles/courses_new.css"/>
+        	<file href="common/styles/global.css"/>
+        	<file href="common/styles/grid.css"/>
+        	<file href="common/styles/highslide.css"/>
+        	<file href="common/styles/highslide-ie6.css"/>
+        	<file href="common/styles/jquery.bubblepopup.css"/>
+        	<file href="common/styles/jquery.jscrollpane.css"/>
+        	<file href="common/styles/jquery-ui.css"/>
+        	<file href="common/styles/menu.css"/>
+        	<file href="common/styles/scholar2.css"/>
+        	<file href="common/styles/media_tabs.css"/>
+        	<file href="common/scripts/bubble-popup-offline.js"/>
+        	<file href="common/scripts/common-utils-offline.js"/>
+        	<file href="common/scripts/highslide-with-gallery.js"/>
+        	<file href="common/scripts/jquery.bubblepopup.min.js"/>
+        	<file href="common/scripts/jquery.jscrollpane.min.js"/>
+        	<file href="common/scripts/jquery-ui.min.js"/>
+        	<file href="common/scripts/jQuizMe-uncompressed.js"/>
+        	<file href="common/scripts/ocw-offline.js"/>
+        	<file href="common/scripts/expandy.js"/>
+        	<file href="common/images/ocw_mast.png"/>
+        	<file href="common/images/button_subscribe.png"/>
+        	<file href="common/images/icon_fb.png"/>
+        	<file href="common/images/icon_tw.png"/>
+        	<file href="common/images/top-nav_home.png"/>
+        	<file href="common/images/button_search.png"/>
+        	<file href="common/images/bg_top.png"/>
+        	<file href="common/images/bg_social.png"/>
+        	<file href="common/images/bg_mega-courses.png"/>
+        	<file href="common/images/bg_center2.png"/>
+        	<file href="common/images/bg_course-nav_current.png"/>
+        	<file href="common/images/button_donate-now.png"/>
+        	<file href="common/images/logo_mit.png"/>
+        	<file href="common/images/logo_ocwc.gif"/>
+        	<file href="common/images/cc_by-nc-sa.png"/>
+        	<file href="common/images/logo_dow.png"/>
+        	<file href="common/images/logo_lockheed.png"/>
+        	<file href="common/images/logo_mathworks.png"/>
+        	<file href="common/images/logo_abinitio.png"/>
+        	<file href="common/images/bg_bottom.png"/>
+        	<file href="common/images/nav_arrow.png"/>
+        	<file href="common/images/black-arrow.gif"/>
+        	<file href="common/images/trans.gif"/>
+        	<file href="common/images/arrow-bullet.gif"/>
+        	<file href="common/images/apple-touch-icon.png"/>
+        	<file href="common/images/highslide/graphics/zoomin.cur"/>
+        	<file href="common/images/highslide/graphics/zoomout.cur"/>
+        	<file href="common/images/highslide/graphics/controlbar2.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar3.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar4.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar4-hover.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar-black-border.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar-white.gif"/>
+        	<file href="common/images/highslide/graphics/controlbar-white-small.gif"/>
+        	<file href="common/images/highslide/graphics/fullexpand.gif"/>
+        	<file href="common/images/highslide/graphics/icon.gif"/>
+        	<file href="common/images/highslide/graphics/loader.gif"/>
+        	<file href="common/images/highslide/graphics/loader.white.gif"/>
+        	<file href="common/images/highslide/graphics/resize.gif"/>
+        	<file href="common/images/highslide/graphics/close.png"/>
+        	<file href="common/images/highslide/graphics/closeX.png"/>
+        	<file href="common/images/highslide/graphics/controlbar-text-buttons.png"/>
+        	<file href="common/images/highslide/graphics/geckodimmer.png"/>
+        	<file href="common/images/highslide/graphics/scrollarrows.png"/>
+        	<file href="common/images/highslide/graphics/outlines/beveled.png"/>
+        	<file href="common/images/highslide/graphics/outlines/drop-shadow.png"/>
+        	<file href="common/images/highslide/graphics/outlines/glossy-dark.png"/>
+        	<file href="common/images/highslide/graphics/outlines/outer-glow.png"/>
+        	<file href="common/images/highslide/graphics/outlines/rounded-black.png"/>
+        	<file href="common/images/highslide/graphics/outlines/rounded-white.png"/>
+        	<file href="common/images/highslide/graphics/outlines/Outlines.psd"/>
+        	<file href="common/images/button_continue.jpg"/>
+        	<file href="common/images/button_donate.jpg"/>
+        	<file href="common/images/button_start.jpg"/>
+        	<file href="common/images/scholar_bar_chp.png"/>
+        	<file href="common/images/scholar_bar.png"/>
+        	<file href="common/images/logo_pdf.jpg"/>
+        	<file href="common/images/h2_trigger_open_close.gif"/>
+        	<file href="common/images/bookmark.gif"/>
+        	<file href="common/images/check.png"/>
+        	<file href="common/images/lightbulb.png"/>
+        	<file href="common/images/audio_file.gif"/>
+        	<file href="common/images/audio_only_slate.gif"/>
+        	<file href="common/images/video_file.gif"/>
+        	<file href="common/images/back-5.png"/>
+        	<file href="common/images/btn_next_resource.png"/>
+        	<file href="common/images/btn_previous_resource.png"/>
+        	<file href="common/images/close.png"/>
+        	<file href="common/images/inacessible.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/bottom-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/bottom-middle.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/bottom-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/middle-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/middle-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-bottom.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/tail-top.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/top-left.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/top-middle.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/ie/top-right.gif"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/bottom-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/bottom-middle.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/bottom-right.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/middle-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/middle-right.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-bottom.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-right.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/tail-top.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/top-left.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/top-middle.png"/>
+        	<file href="common/images/jquerybubblepopup-theme/grey/top-right.png"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.woff"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.ttf"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.svg"/>
+        	<file href="common/webfonts/TitilliumText22L002-webfont.eot"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.woff"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.ttf"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.eot"/>
+        	<file href="common/webfonts/TitilliumText22L003-webfont.svg"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.woff"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.ttf"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.svg"/>
+        	<file href="common/webfonts/TitilliumText22L005-webfont.eot"/>
+        </resource>        
+  </resources>
+</manifest>
